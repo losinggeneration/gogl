@@ -33,11 +33,16 @@
 package gl21
 
 // #cgo darwin  LDFLAGS: -framework OpenGL
+// #cgo darwin  CFLAGS: -Iinclude
+// #cgo darwin  CFLAGS: -D__APPLE__
 // #cgo linux   LDFLAGS: -lGL
 // #cgo windows LDFLAGS: -lopengl32
 // 
 // #include <stdlib.h>
 // #if defined(__APPLE__)
+// #include <string.h>
+// #include <OpenGL/gl.h>
+// #include <gogl_defs.h>
 // // TODO: add context handling header
 // #elif defined(_WIN32)
 // #define WIN32_LEAN_AND_MEAN 1
@@ -180,7 +185,7 @@ package gl21
 // 
 // void* goglGetProcAddress(const char* name) { 
 // #ifdef __APPLE__
-// 	return NULL; // TODO: Add get proc addr for Mac.
+//  return darwinGetProcAddr(name);
 // #elif _WIN32
 // 	void* pf = wglGetProcAddress((LPCSTR)name);
 // 	if(pf) {
@@ -2638,15 +2643,15 @@ package gl21
 // 	ptrglBlendColor = goglGetProcAddress("glBlendColor");
 // 	if(ptrglBlendColor == NULL) return 1;
 // 	ptrglBlendEquation = goglGetProcAddress("glBlendEquation");
-// 	if(ptrglBlendEquation == NULL) return 1;
+// 	if(ptrglBlendEquation == NULL) return 2;
 // 	ptrglDrawRangeElements = goglGetProcAddress("glDrawRangeElements");
-// 	if(ptrglDrawRangeElements == NULL) return 1;
+// 	if(ptrglDrawRangeElements == NULL) return 3;
 // 	ptrglTexImage3D = goglGetProcAddress("glTexImage3D");
-// 	if(ptrglTexImage3D == NULL) return 1;
+// 	if(ptrglTexImage3D == NULL) return 4;
 // 	ptrglTexSubImage3D = goglGetProcAddress("glTexSubImage3D");
-// 	if(ptrglTexSubImage3D == NULL) return 1;
+// 	if(ptrglTexSubImage3D == NULL) return 5;
 // 	ptrglCopyTexSubImage3D = goglGetProcAddress("glCopyTexSubImage3D");
-// 	if(ptrglCopyTexSubImage3D == NULL) return 1;
+// 	if(ptrglCopyTexSubImage3D == NULL) return 6;
 // 	return 0;
 // }
 // int init_VERSION_1_3() {
@@ -3295,15 +3300,15 @@ package gl21
 // 	ptrglUniformMatrix2x3fv = goglGetProcAddress("glUniformMatrix2x3fv");
 // 	if(ptrglUniformMatrix2x3fv == NULL) return 1;
 // 	ptrglUniformMatrix3x2fv = goglGetProcAddress("glUniformMatrix3x2fv");
-// 	if(ptrglUniformMatrix3x2fv == NULL) return 1;
+// 	if(ptrglUniformMatrix3x2fv == NULL) return 2;
 // 	ptrglUniformMatrix2x4fv = goglGetProcAddress("glUniformMatrix2x4fv");
-// 	if(ptrglUniformMatrix2x4fv == NULL) return 1;
+// 	if(ptrglUniformMatrix2x4fv == NULL) return 3;
 // 	ptrglUniformMatrix4x2fv = goglGetProcAddress("glUniformMatrix4x2fv");
-// 	if(ptrglUniformMatrix4x2fv == NULL) return 1;
+// 	if(ptrglUniformMatrix4x2fv == NULL) return 4;
 // 	ptrglUniformMatrix3x4fv = goglGetProcAddress("glUniformMatrix3x4fv");
-// 	if(ptrglUniformMatrix3x4fv == NULL) return 1;
+// 	if(ptrglUniformMatrix3x4fv == NULL) return 5;
 // 	ptrglUniformMatrix4x3fv = goglGetProcAddress("glUniformMatrix4x3fv");
-// 	if(ptrglUniformMatrix4x3fv == NULL) return 1;
+// 	if(ptrglUniformMatrix4x3fv == NULL) return 6;
 // 	return 0;
 // }
 // int init_VERSION_2_0() {
@@ -7131,6 +7136,7 @@ func InitVersion12Deprecated() error {
 func InitVersion21() error {
 	var ret C.int
 	if ret = C.init_VERSION_2_1(); ret != 0 {
+    println("ret", ret)
 		return errors.New("unable to initialize VERSION_2_1")
 	}
 	return nil
