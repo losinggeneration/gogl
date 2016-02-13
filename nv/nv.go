@@ -1,145 +1,145 @@
 // Automatically generated OpenGL binding.
-// 
-// Categories in this package: 
-// 
+//
+// Categories in this package:
+//
 // NV_bindless_texture: http://www.opengl.org/registry/specs/NV/bindless_texture.txt
-// 
+//
 // NV_blend_square: http://www.opengl.org/registry/specs/NV/blend_square.txt
-// 
+//
 // NV_conditional_render: http://www.opengl.org/registry/specs/NV/conditional_render.txt
-// 
+//
 // NV_copy_depth_to_color: http://www.opengl.org/registry/specs/NV/copy_depth_to_color.txt
-// 
+//
 // NV_copy_image: http://www.opengl.org/registry/specs/NV/copy_image.txt
-// 
+//
 // NV_depth_buffer_float: http://www.opengl.org/registry/specs/NV/depth_buffer_float.txt
-// 
+//
 // NV_depth_clamp: http://www.opengl.org/registry/specs/NV/depth_clamp.txt
-// 
+//
 // NV_evaluators: http://www.opengl.org/registry/specs/NV/evaluators.txt
-// 
+//
 // NV_explicit_multisample: http://www.opengl.org/registry/specs/NV/explicit_multisample.txt
-// 
+//
 // NV_fence: http://www.opengl.org/registry/specs/NV/fence.txt
-// 
+//
 // NV_float_buffer: http://www.opengl.org/registry/specs/NV/float_buffer.txt
-// 
+//
 // NV_fog_distance: http://www.opengl.org/registry/specs/NV/fog_distance.txt
-// 
+//
 // NV_fragment_program: http://www.opengl.org/registry/specs/NV/fragment_program.txt
-// 
+//
 // NV_fragment_program2: http://www.opengl.org/registry/specs/NV/fragment_program2.txt
-// 
+//
 // NV_fragment_program4: http://www.opengl.org/registry/specs/NV/fragment_program4.txt
-// 
+//
 // NV_fragment_program_option: http://www.opengl.org/registry/specs/NV/fragment_program_option.txt
-// 
+//
 // NV_framebuffer_multisample_coverage: http://www.opengl.org/registry/specs/NV/framebuffer_multisample_coverage.txt
-// 
+//
 // NV_geometry_program4: http://www.opengl.org/registry/specs/NV/geometry_program4.txt
-// 
+//
 // NV_geometry_shader4: http://www.opengl.org/registry/specs/NV/geometry_shader4.txt
-// 
+//
 // NV_gpu_program4: http://www.opengl.org/registry/specs/NV/gpu_program4.txt
-// 
+//
 // NV_gpu_program5: http://www.opengl.org/registry/specs/NV/gpu_program5.txt
-// 
+//
 // NV_gpu_shader5: http://www.opengl.org/registry/specs/NV/gpu_shader5.txt
-// 
+//
 // NV_half_float: http://www.opengl.org/registry/specs/NV/half_float.txt
-// 
+//
 // NV_light_max_exponent: http://www.opengl.org/registry/specs/NV/light_max_exponent.txt
-// 
+//
 // NV_multisample_coverage: http://www.opengl.org/registry/specs/NV/multisample_coverage.txt
-// 
+//
 // NV_multisample_filter_hint: http://www.opengl.org/registry/specs/NV/multisample_filter_hint.txt
-// 
+//
 // NV_occlusion_query: http://www.opengl.org/registry/specs/NV/occlusion_query.txt
-// 
+//
 // NV_packed_depth_stencil: http://www.opengl.org/registry/specs/NV/packed_depth_stencil.txt
-// 
+//
 // NV_parameter_buffer_object: http://www.opengl.org/registry/specs/NV/parameter_buffer_object.txt
-// 
+//
 // NV_parameter_buffer_object2: http://www.opengl.org/registry/specs/NV/parameter_buffer_object2.txt
-// 
+//
 // NV_path_rendering: http://www.opengl.org/registry/specs/NV/path_rendering.txt
-// 
+//
 // NV_pixel_data_range: http://www.opengl.org/registry/specs/NV/pixel_data_range.txt
-// 
+//
 // NV_point_sprite: http://www.opengl.org/registry/specs/NV/point_sprite.txt
-// 
+//
 // NV_present_video: http://www.opengl.org/registry/specs/NV/present_video.txt
-// 
+//
 // NV_primitive_restart: http://www.opengl.org/registry/specs/NV/primitive_restart.txt
-// 
+//
 // NV_register_combiners: http://www.opengl.org/registry/specs/NV/register_combiners.txt
-// 
+//
 // NV_register_combiners2: http://www.opengl.org/registry/specs/NV/register_combiners2.txt
-// 
+//
 // NV_shader_atomic_float: http://www.opengl.org/registry/specs/NV/shader_atomic_float.txt
-// 
+//
 // NV_shader_buffer_load: http://www.opengl.org/registry/specs/NV/shader_buffer_load.txt
-// 
+//
 // NV_shader_buffer_store: http://www.opengl.org/registry/specs/NV/shader_buffer_store.txt
-// 
+//
 // NV_tessellation_program5: http://www.opengl.org/registry/specs/NV/tessellation_program5.txt
-// 
+//
 // NV_texgen_emboss: http://www.opengl.org/registry/specs/NV/texgen_emboss.txt
-// 
+//
 // NV_texgen_reflection: http://www.opengl.org/registry/specs/NV/texgen_reflection.txt
-// 
+//
 // NV_texture_barrier: http://www.opengl.org/registry/specs/NV/texture_barrier.txt
-// 
+//
 // NV_texture_compression_vtc: http://www.opengl.org/registry/specs/NV/texture_compression_vtc.txt
-// 
+//
 // NV_texture_env_combine4: http://www.opengl.org/registry/specs/NV/texture_env_combine4.txt
-// 
+//
 // NV_texture_expand_normal: http://www.opengl.org/registry/specs/NV/texture_expand_normal.txt
-// 
+//
 // NV_texture_multisample: http://www.opengl.org/registry/specs/NV/texture_multisample.txt
-// 
+//
 // NV_texture_rectangle: http://www.opengl.org/registry/specs/NV/texture_rectangle.txt
-// 
+//
 // NV_texture_shader: http://www.opengl.org/registry/specs/NV/texture_shader.txt
-// 
+//
 // NV_texture_shader2: http://www.opengl.org/registry/specs/NV/texture_shader2.txt
-// 
+//
 // NV_texture_shader3: http://www.opengl.org/registry/specs/NV/texture_shader3.txt
-// 
+//
 // NV_transform_feedback: http://www.opengl.org/registry/specs/NV/transform_feedback.txt
-// 
+//
 // NV_transform_feedback2: http://www.opengl.org/registry/specs/NV/transform_feedback2.txt
-// 
+//
 // NV_vdpau_interop: http://www.opengl.org/registry/specs/NV/vdpau_interop.txt
-// 
+//
 // NV_vertex_array_range: http://www.opengl.org/registry/specs/NV/vertex_array_range.txt
-// 
+//
 // NV_vertex_array_range2: http://www.opengl.org/registry/specs/NV/vertex_array_range2.txt
-// 
+//
 // NV_vertex_attrib_integer_64bit: http://www.opengl.org/registry/specs/NV/vertex_attrib_integer_64bit.txt
-// 
+//
 // NV_vertex_buffer_unified_memory: http://www.opengl.org/registry/specs/NV/vertex_buffer_unified_memory.txt
-// 
+//
 // NV_vertex_program: http://www.opengl.org/registry/specs/NV/vertex_program.txt
-// 
+//
 // NV_vertex_program1_1: http://www.opengl.org/registry/specs/NV/vertex_program1_1.txt
-// 
+//
 // NV_vertex_program2: http://www.opengl.org/registry/specs/NV/vertex_program2.txt
-// 
+//
 // NV_vertex_program2_option: http://www.opengl.org/registry/specs/NV/vertex_program2_option.txt
-// 
+//
 // NV_vertex_program3: http://www.opengl.org/registry/specs/NV/vertex_program3.txt
-// 
+//
 // NV_vertex_program4: http://www.opengl.org/registry/specs/NV/vertex_program4.txt
-// 
+//
 // NV_video_capture: http://www.opengl.org/registry/specs/NV/video_capture.txt
-// 
+//
 package nv
 
 // #cgo darwin  LDFLAGS: -framework OpenGL
 // #cgo linux   LDFLAGS: -lGL
 // #cgo windows LDFLAGS: -lopengl32
-// 
+//
 // #include <stdlib.h>
 // #if defined(__APPLE__)
 // #include <dlfcn.h>
@@ -150,7 +150,7 @@ package nv
 // #include <X11/Xlib.h>
 // #include <GL/glx.h>
 // #endif
-// 
+//
 // #ifndef APIENTRY
 // #define APIENTRY
 // #endif
@@ -160,7 +160,7 @@ package nv
 // #ifndef GLAPI
 // #define GLAPI extern
 // #endif
-// 
+//
 // typedef unsigned int GLenum;
 // typedef unsigned char GLboolean;
 // typedef unsigned int GLbitfield;
@@ -177,40 +177,40 @@ package nv
 // typedef double GLdouble;
 // typedef double GLclampd;
 // typedef void GLvoid;
-// 
+//
 // #include <stddef.h>
 // #ifndef GL_VERSION_2_0
 // /* GL type for program/shader text */
 // typedef char GLchar;
 // #endif
-// 
+//
 // #ifndef GL_VERSION_1_5
 // /* GL types for handling large vertex buffer objects */
 // typedef ptrdiff_t GLintptr;
 // typedef ptrdiff_t GLsizeiptr;
 // #endif
-// 
+//
 // #ifndef GL_ARB_vertex_buffer_object
 // /* GL types for handling large vertex buffer objects */
 // typedef ptrdiff_t GLintptrARB;
 // typedef ptrdiff_t GLsizeiptrARB;
 // #endif
-// 
+//
 // #ifndef GL_ARB_shader_objects
 // /* GL types for program/shader text and shader object handles */
 // typedef char GLcharARB;
 // typedef unsigned int GLhandleARB;
 // #endif
-// 
+//
 // /* GL type for "half" precision (s10e5) float data in host memory */
 // #ifndef GL_ARB_half_float_pixel
 // typedef unsigned short GLhalfARB;
 // #endif
-// 
+//
 // #ifndef GL_NV_half_float
 // typedef unsigned short GLhalfNV;
 // #endif
-// 
+//
 // #ifndef GLEXT_64_TYPES_DEFINED
 // /* This code block is duplicated in glxext.h, so must be protected */
 // #define GLEXT_64_TYPES_DEFINED
@@ -248,41 +248,41 @@ package nv
 // #include <inttypes.h>
 // #endif
 // #endif
-// 
+//
 // #ifndef GL_EXT_timer_query
 // typedef int64_t GLint64EXT;
 // typedef uint64_t GLuint64EXT;
 // #endif
-// 
+//
 // #ifndef GL_ARB_sync
 // typedef int64_t GLint64;
 // typedef uint64_t GLuint64;
 // typedef struct __GLsync *GLsync;
 // #endif
-// 
+//
 // #ifndef GL_ARB_cl_event
 // /* These incomplete types let us declare types compatible with OpenCL's cl_context and cl_event */
 // struct _cl_context;
 // struct _cl_event;
 // #endif
-// 
+//
 // #ifndef GL_ARB_debug_output
 // typedef void (APIENTRY *GLDEBUGPROCARB)(GLenum source,GLenum type,GLuint id,GLenum severity,GLsizei length,const GLchar *message,GLvoid *userParam);
 // #endif
-// 
+//
 // #ifndef GL_AMD_debug_output
 // typedef void (APIENTRY *GLDEBUGPROCAMD)(GLuint id,GLenum category,GLenum severity,GLsizei length,const GLchar *message,GLvoid *userParam);
 // #endif
-// 
+//
 // #ifndef GL_NV_vdpau_interop
 // typedef GLintptr GLvdpauSurfaceNV;
 // #endif
-// 
+//
 // #ifdef _WIN32
 // static HMODULE opengl32 = NULL;
 // #endif
-// 
-// static void* goglGetProcAddress(const char* name) { 
+//
+// static void* goglGetProcAddress(const char* name) {
 // #ifdef __APPLE__
 // 	return dlsym(RTLD_DEFAULT, name);
 // #elif _WIN32
@@ -298,7 +298,7 @@ package nv
 // 	return glXGetProcAddress((const GLubyte*)name);
 // #endif
 // }
-// 
+//
 // //  NV_bindless_texture
 // GLuint64 (APIENTRYP ptrglGetTextureHandleNV)(GLuint texture);
 // GLuint64 (APIENTRYP ptrglGetTextureSamplerHandleNV)(GLuint texture, GLuint sampler);
@@ -779,7 +779,7 @@ package nv
 // void (APIENTRYP ptrglVideoCaptureStreamParameterivNV)(GLuint video_capture_slot, GLuint stream, GLenum pname, GLint* params);
 // void (APIENTRYP ptrglVideoCaptureStreamParameterfvNV)(GLuint video_capture_slot, GLuint stream, GLenum pname, GLfloat* params);
 // void (APIENTRYP ptrglVideoCaptureStreamParameterdvNV)(GLuint video_capture_slot, GLuint stream, GLenum pname, GLdouble* params);
-// 
+//
 // //  NV_bindless_texture
 // GLuint64 goglGetTextureHandleNV(GLuint texture) {
 // 	return (*ptrglGetTextureHandleNV)(texture);
@@ -2088,7 +2088,7 @@ package nv
 // void goglVideoCaptureStreamParameterdvNV(GLuint video_capture_slot, GLuint stream, GLenum pname, GLdouble* params) {
 // 	(*ptrglVideoCaptureStreamParameterdvNV)(video_capture_slot, stream, pname, params);
 // }
-// 
+//
 // int init_NV_bindless_texture() {
 // 	ptrglGetTextureHandleNV = goglGetProcAddress("glGetTextureHandleNV");
 // 	if(ptrglGetTextureHandleNV == NULL) return 1;
@@ -3115,7 +3115,7 @@ package nv
 // 	if(ptrglVideoCaptureStreamParameterdvNV == NULL) return 1;
 // 	return 0;
 // }
-// 
+//
 import "C"
 import "unsafe"
 import "errors"
@@ -3146,867 +3146,919 @@ type (
 )
 
 // NV_bindless_texture
-const (
-)
+const ()
+
 // NV_blend_square
-const (
-)
+const ()
+
 // NV_conditional_render
 const (
 	QUERY_BY_REGION_NO_WAIT_NV = 0x8E16
-	QUERY_BY_REGION_WAIT_NV = 0x8E15
-	QUERY_NO_WAIT_NV = 0x8E14
-	QUERY_WAIT_NV = 0x8E13
+	QUERY_BY_REGION_WAIT_NV    = 0x8E15
+	QUERY_NO_WAIT_NV           = 0x8E14
+	QUERY_WAIT_NV              = 0x8E13
 )
+
 // NV_copy_depth_to_color
 const (
 	DEPTH_STENCIL_TO_BGRA_NV = 0x886F
 	DEPTH_STENCIL_TO_RGBA_NV = 0x886E
 )
+
 // NV_copy_image
-const (
-)
+const ()
+
 // NV_depth_buffer_float
 const (
-	DEPTH32F_STENCIL8_NV = 0x8DAC
-	DEPTH_BUFFER_FLOAT_MODE_NV = 0x8DAF
-	DEPTH_COMPONENT32F_NV = 0x8DAB
+	DEPTH32F_STENCIL8_NV              = 0x8DAC
+	DEPTH_BUFFER_FLOAT_MODE_NV        = 0x8DAF
+	DEPTH_COMPONENT32F_NV             = 0x8DAB
 	FLOAT_32_UNSIGNED_INT_24_8_REV_NV = 0x8DAD
 )
+
 // NV_depth_clamp
 const (
 	DEPTH_CLAMP_NV = 0x864F
 )
+
 // NV_evaluators
 const (
-	EVAL_2D_NV = 0x86C0
+	EVAL_2D_NV                      = 0x86C0
 	EVAL_FRACTIONAL_TESSELLATION_NV = 0x86C5
-	EVAL_TRIANGULAR_2D_NV = 0x86C1
-	EVAL_VERTEX_ATTRIB0_NV = 0x86C6
-	EVAL_VERTEX_ATTRIB10_NV = 0x86D0
-	EVAL_VERTEX_ATTRIB11_NV = 0x86D1
-	EVAL_VERTEX_ATTRIB12_NV = 0x86D2
-	EVAL_VERTEX_ATTRIB13_NV = 0x86D3
-	EVAL_VERTEX_ATTRIB14_NV = 0x86D4
-	EVAL_VERTEX_ATTRIB15_NV = 0x86D5
-	EVAL_VERTEX_ATTRIB1_NV = 0x86C7
-	EVAL_VERTEX_ATTRIB2_NV = 0x86C8
-	EVAL_VERTEX_ATTRIB3_NV = 0x86C9
-	EVAL_VERTEX_ATTRIB4_NV = 0x86CA
-	EVAL_VERTEX_ATTRIB5_NV = 0x86CB
-	EVAL_VERTEX_ATTRIB6_NV = 0x86CC
-	EVAL_VERTEX_ATTRIB7_NV = 0x86CD
-	EVAL_VERTEX_ATTRIB8_NV = 0x86CE
-	EVAL_VERTEX_ATTRIB9_NV = 0x86CF
-	MAP_ATTRIB_U_ORDER_NV = 0x86C3
-	MAP_ATTRIB_V_ORDER_NV = 0x86C4
-	MAP_TESSELLATION_NV = 0x86C2
-	MAX_MAP_TESSELLATION_NV = 0x86D6
-	MAX_RATIONAL_EVAL_ORDER_NV = 0x86D7
+	EVAL_TRIANGULAR_2D_NV           = 0x86C1
+	EVAL_VERTEX_ATTRIB0_NV          = 0x86C6
+	EVAL_VERTEX_ATTRIB10_NV         = 0x86D0
+	EVAL_VERTEX_ATTRIB11_NV         = 0x86D1
+	EVAL_VERTEX_ATTRIB12_NV         = 0x86D2
+	EVAL_VERTEX_ATTRIB13_NV         = 0x86D3
+	EVAL_VERTEX_ATTRIB14_NV         = 0x86D4
+	EVAL_VERTEX_ATTRIB15_NV         = 0x86D5
+	EVAL_VERTEX_ATTRIB1_NV          = 0x86C7
+	EVAL_VERTEX_ATTRIB2_NV          = 0x86C8
+	EVAL_VERTEX_ATTRIB3_NV          = 0x86C9
+	EVAL_VERTEX_ATTRIB4_NV          = 0x86CA
+	EVAL_VERTEX_ATTRIB5_NV          = 0x86CB
+	EVAL_VERTEX_ATTRIB6_NV          = 0x86CC
+	EVAL_VERTEX_ATTRIB7_NV          = 0x86CD
+	EVAL_VERTEX_ATTRIB8_NV          = 0x86CE
+	EVAL_VERTEX_ATTRIB9_NV          = 0x86CF
+	MAP_ATTRIB_U_ORDER_NV           = 0x86C3
+	MAP_ATTRIB_V_ORDER_NV           = 0x86C4
+	MAP_TESSELLATION_NV             = 0x86C2
+	MAX_MAP_TESSELLATION_NV         = 0x86D6
+	MAX_RATIONAL_EVAL_ORDER_NV      = 0x86D7
 )
+
 // NV_explicit_multisample
 const (
-	INT_SAMPLER_RENDERBUFFER_NV = 0x8E57
-	MAX_SAMPLE_MASK_WORDS_NV = 0x8E59
-	SAMPLER_RENDERBUFFER_NV = 0x8E56
-	SAMPLE_MASK_NV = 0x8E51
-	SAMPLE_MASK_VALUE_NV = 0x8E52
-	SAMPLE_POSITION_NV = 0x8E50
-	TEXTURE_BINDING_RENDERBUFFER_NV = 0x8E53
+	INT_SAMPLER_RENDERBUFFER_NV                = 0x8E57
+	MAX_SAMPLE_MASK_WORDS_NV                   = 0x8E59
+	SAMPLER_RENDERBUFFER_NV                    = 0x8E56
+	SAMPLE_MASK_NV                             = 0x8E51
+	SAMPLE_MASK_VALUE_NV                       = 0x8E52
+	SAMPLE_POSITION_NV                         = 0x8E50
+	TEXTURE_BINDING_RENDERBUFFER_NV            = 0x8E53
 	TEXTURE_RENDERBUFFER_DATA_STORE_BINDING_NV = 0x8E54
-	TEXTURE_RENDERBUFFER_NV = 0x8E55
-	UNSIGNED_INT_SAMPLER_RENDERBUFFER_NV = 0x8E58
+	TEXTURE_RENDERBUFFER_NV                    = 0x8E55
+	UNSIGNED_INT_SAMPLER_RENDERBUFFER_NV       = 0x8E58
 )
+
 // NV_fence
 const (
-	ALL_COMPLETED_NV = 0x84F2
+	ALL_COMPLETED_NV   = 0x84F2
 	FENCE_CONDITION_NV = 0x84F4
-	FENCE_STATUS_NV = 0x84F3
+	FENCE_STATUS_NV    = 0x84F3
 )
+
 // NV_float_buffer
 const (
-	FLOAT_CLEAR_COLOR_VALUE_NV = 0x888D
-	FLOAT_R16_NV = 0x8884
-	FLOAT_R32_NV = 0x8885
-	FLOAT_RG16_NV = 0x8886
-	FLOAT_RG32_NV = 0x8887
-	FLOAT_RGB16_NV = 0x8888
-	FLOAT_RGB32_NV = 0x8889
-	FLOAT_RGBA16_NV = 0x888A
-	FLOAT_RGBA32_NV = 0x888B
-	FLOAT_RGBA_MODE_NV = 0x888E
-	FLOAT_RGBA_NV = 0x8883
-	FLOAT_RGB_NV = 0x8882
-	FLOAT_RG_NV = 0x8881
-	FLOAT_R_NV = 0x8880
+	FLOAT_CLEAR_COLOR_VALUE_NV  = 0x888D
+	FLOAT_R16_NV                = 0x8884
+	FLOAT_R32_NV                = 0x8885
+	FLOAT_RG16_NV               = 0x8886
+	FLOAT_RG32_NV               = 0x8887
+	FLOAT_RGB16_NV              = 0x8888
+	FLOAT_RGB32_NV              = 0x8889
+	FLOAT_RGBA16_NV             = 0x888A
+	FLOAT_RGBA32_NV             = 0x888B
+	FLOAT_RGBA_MODE_NV          = 0x888E
+	FLOAT_RGBA_NV               = 0x8883
+	FLOAT_RGB_NV                = 0x8882
+	FLOAT_RG_NV                 = 0x8881
+	FLOAT_R_NV                  = 0x8880
 	TEXTURE_FLOAT_COMPONENTS_NV = 0x888C
 )
+
 // NV_fog_distance
 const (
 	EYE_PLANE_ABSOLUTE_NV = 0x855C
-	EYE_RADIAL_NV = 0x855B
-	FOG_DISTANCE_MODE_NV = 0x855A
+	EYE_RADIAL_NV         = 0x855B
+	FOG_DISTANCE_MODE_NV  = 0x855A
 )
+
 // NV_fragment_program
 const (
-	FRAGMENT_PROGRAM_BINDING_NV = 0x8873
-	FRAGMENT_PROGRAM_NV = 0x8870
+	FRAGMENT_PROGRAM_BINDING_NV              = 0x8873
+	FRAGMENT_PROGRAM_NV                      = 0x8870
 	MAX_FRAGMENT_PROGRAM_LOCAL_PARAMETERS_NV = 0x8868
-	MAX_TEXTURE_COORDS_NV = 0x8871
-	MAX_TEXTURE_IMAGE_UNITS_NV = 0x8872
-	PROGRAM_ERROR_STRING_NV = 0x8874
+	MAX_TEXTURE_COORDS_NV                    = 0x8871
+	MAX_TEXTURE_IMAGE_UNITS_NV               = 0x8872
+	PROGRAM_ERROR_STRING_NV                  = 0x8874
 )
+
 // NV_fragment_program2
 const (
-	MAX_PROGRAM_IF_DEPTH_NV = 0x88F6
+	MAX_PROGRAM_IF_DEPTH_NV   = 0x88F6
 	MAX_PROGRAM_LOOP_COUNT_NV = 0x88F8
 	MAX_PROGRAM_LOOP_DEPTH_NV = 0x88F7
 )
+
 // NV_fragment_program4
-const (
-)
+const ()
+
 // NV_fragment_program_option
-const (
-)
+const ()
+
 // NV_framebuffer_multisample_coverage
 const (
 	MAX_MULTISAMPLE_COVERAGE_MODES_NV = 0x8E11
-	MULTISAMPLE_COVERAGE_MODES_NV = 0x8E12
-	RENDERBUFFER_COLOR_SAMPLES_NV = 0x8E10
-	RENDERBUFFER_COVERAGE_SAMPLES_NV = 0x8CAB
+	MULTISAMPLE_COVERAGE_MODES_NV     = 0x8E12
+	RENDERBUFFER_COLOR_SAMPLES_NV     = 0x8E10
+	RENDERBUFFER_COVERAGE_SAMPLES_NV  = 0x8CAB
 )
+
 // NV_geometry_program4
 const (
-	FRAMEBUFFER_ATTACHMENT_LAYERED_EXT = 0x8DA7
+	FRAMEBUFFER_ATTACHMENT_LAYERED_EXT       = 0x8DA7
 	FRAMEBUFFER_ATTACHMENT_TEXTURE_LAYER_EXT = 0x8CD4
-	FRAMEBUFFER_INCOMPLETE_LAYER_COUNT_EXT = 0x8DA9
+	FRAMEBUFFER_INCOMPLETE_LAYER_COUNT_EXT   = 0x8DA9
 	FRAMEBUFFER_INCOMPLETE_LAYER_TARGETS_EXT = 0x8DA8
-	GEOMETRY_INPUT_TYPE_EXT = 0x8DDB
-	GEOMETRY_OUTPUT_TYPE_EXT = 0x8DDC
-	GEOMETRY_PROGRAM_NV = 0x8C26
-	GEOMETRY_VERTICES_OUT_EXT = 0x8DDA
-	LINES_ADJACENCY_EXT = 0x000A
-	LINE_STRIP_ADJACENCY_EXT = 0x000B
-	MAX_GEOMETRY_TEXTURE_IMAGE_UNITS_EXT = 0x8C29
-	MAX_PROGRAM_OUTPUT_VERTICES_NV = 0x8C27
-	MAX_PROGRAM_TOTAL_OUTPUT_COMPONENTS_NV = 0x8C28
-	PROGRAM_POINT_SIZE_EXT = 0x8642
-	TRIANGLES_ADJACENCY_EXT = 0x000C
-	TRIANGLE_STRIP_ADJACENCY_EXT = 0x000D
+	GEOMETRY_INPUT_TYPE_EXT                  = 0x8DDB
+	GEOMETRY_OUTPUT_TYPE_EXT                 = 0x8DDC
+	GEOMETRY_PROGRAM_NV                      = 0x8C26
+	GEOMETRY_VERTICES_OUT_EXT                = 0x8DDA
+	LINES_ADJACENCY_EXT                      = 0x000A
+	LINE_STRIP_ADJACENCY_EXT                 = 0x000B
+	MAX_GEOMETRY_TEXTURE_IMAGE_UNITS_EXT     = 0x8C29
+	MAX_PROGRAM_OUTPUT_VERTICES_NV           = 0x8C27
+	MAX_PROGRAM_TOTAL_OUTPUT_COMPONENTS_NV   = 0x8C28
+	PROGRAM_POINT_SIZE_EXT                   = 0x8642
+	TRIANGLES_ADJACENCY_EXT                  = 0x000C
+	TRIANGLE_STRIP_ADJACENCY_EXT             = 0x000D
 )
+
 // NV_geometry_shader4
-const (
-)
+const ()
+
 // NV_gpu_program4
 const (
 	MAX_PROGRAM_ATTRIB_COMPONENTS_NV = 0x8908
-	MAX_PROGRAM_GENERIC_ATTRIBS_NV = 0x8DA5
-	MAX_PROGRAM_GENERIC_RESULTS_NV = 0x8DA6
+	MAX_PROGRAM_GENERIC_ATTRIBS_NV   = 0x8DA5
+	MAX_PROGRAM_GENERIC_RESULTS_NV   = 0x8DA6
 	MAX_PROGRAM_RESULT_COMPONENTS_NV = 0x8909
-	MAX_PROGRAM_TEXEL_OFFSET_NV = 0x8905
-	MIN_PROGRAM_TEXEL_OFFSET_NV = 0x8904
-	PROGRAM_ATTRIB_COMPONENTS_NV = 0x8906
-	PROGRAM_RESULT_COMPONENTS_NV = 0x8907
+	MAX_PROGRAM_TEXEL_OFFSET_NV      = 0x8905
+	MIN_PROGRAM_TEXEL_OFFSET_NV      = 0x8904
+	PROGRAM_ATTRIB_COMPONENTS_NV     = 0x8906
+	PROGRAM_RESULT_COMPONENTS_NV     = 0x8907
 )
+
 // NV_gpu_program5
 const (
 	FRAGMENT_PROGRAM_INTERPOLATION_OFFSET_BITS_NV = 0x8E5D
-	MAX_FRAGMENT_INTERPOLATION_OFFSET_NV = 0x8E5C
-	MAX_GEOMETRY_PROGRAM_INVOCATIONS_NV = 0x8E5A
-	MAX_PROGRAM_SUBROUTINE_NUM_NV = 0x8F45
-	MAX_PROGRAM_SUBROUTINE_PARAMETERS_NV = 0x8F44
-	MAX_PROGRAM_TEXTURE_GATHER_OFFSET_NV = 0x8E5F
-	MIN_FRAGMENT_INTERPOLATION_OFFSET_NV = 0x8E5B
-	MIN_PROGRAM_TEXTURE_GATHER_OFFSET_NV = 0x8E5E
+	MAX_FRAGMENT_INTERPOLATION_OFFSET_NV          = 0x8E5C
+	MAX_GEOMETRY_PROGRAM_INVOCATIONS_NV           = 0x8E5A
+	MAX_PROGRAM_SUBROUTINE_NUM_NV                 = 0x8F45
+	MAX_PROGRAM_SUBROUTINE_PARAMETERS_NV          = 0x8F44
+	MAX_PROGRAM_TEXTURE_GATHER_OFFSET_NV          = 0x8E5F
+	MIN_FRAGMENT_INTERPOLATION_OFFSET_NV          = 0x8E5B
+	MIN_PROGRAM_TEXTURE_GATHER_OFFSET_NV          = 0x8E5E
 )
+
 // NV_gpu_shader5
 const (
-	FLOAT16_NV = 0x8FF8
-	FLOAT16_VEC2_NV = 0x8FF9
-	FLOAT16_VEC3_NV = 0x8FFA
-	FLOAT16_VEC4_NV = 0x8FFB
-	INT16_NV = 0x8FE4
-	INT16_VEC2_NV = 0x8FE5
-	INT16_VEC3_NV = 0x8FE6
-	INT16_VEC4_NV = 0x8FE7
-	INT64_VEC2_NV = 0x8FE9
-	INT64_VEC3_NV = 0x8FEA
-	INT64_VEC4_NV = 0x8FEB
-	INT8_NV = 0x8FE0
-	INT8_VEC2_NV = 0x8FE1
-	INT8_VEC3_NV = 0x8FE2
-	INT8_VEC4_NV = 0x8FE3
-	PATCHES = 0x000E
-	UNSIGNED_INT16_NV = 0x8FF0
+	FLOAT16_NV             = 0x8FF8
+	FLOAT16_VEC2_NV        = 0x8FF9
+	FLOAT16_VEC3_NV        = 0x8FFA
+	FLOAT16_VEC4_NV        = 0x8FFB
+	INT16_NV               = 0x8FE4
+	INT16_VEC2_NV          = 0x8FE5
+	INT16_VEC3_NV          = 0x8FE6
+	INT16_VEC4_NV          = 0x8FE7
+	INT64_VEC2_NV          = 0x8FE9
+	INT64_VEC3_NV          = 0x8FEA
+	INT64_VEC4_NV          = 0x8FEB
+	INT8_NV                = 0x8FE0
+	INT8_VEC2_NV           = 0x8FE1
+	INT8_VEC3_NV           = 0x8FE2
+	INT8_VEC4_NV           = 0x8FE3
+	PATCHES                = 0x000E
+	UNSIGNED_INT16_NV      = 0x8FF0
 	UNSIGNED_INT16_VEC2_NV = 0x8FF1
 	UNSIGNED_INT16_VEC3_NV = 0x8FF2
 	UNSIGNED_INT16_VEC4_NV = 0x8FF3
 	UNSIGNED_INT64_VEC2_NV = 0x8FF5
 	UNSIGNED_INT64_VEC3_NV = 0x8FF6
 	UNSIGNED_INT64_VEC4_NV = 0x8FF7
-	UNSIGNED_INT8_NV = 0x8FEC
-	UNSIGNED_INT8_VEC2_NV = 0x8FED
-	UNSIGNED_INT8_VEC3_NV = 0x8FEE
-	UNSIGNED_INT8_VEC4_NV = 0x8FEF
+	UNSIGNED_INT8_NV       = 0x8FEC
+	UNSIGNED_INT8_VEC2_NV  = 0x8FED
+	UNSIGNED_INT8_VEC3_NV  = 0x8FEE
+	UNSIGNED_INT8_VEC4_NV  = 0x8FEF
 )
+
 // NV_half_float
 const (
 	HALF_FLOAT_NV = 0x140B
 )
+
 // NV_light_max_exponent
 const (
-	MAX_SHININESS_NV = 0x8504
+	MAX_SHININESS_NV     = 0x8504
 	MAX_SPOT_EXPONENT_NV = 0x8505
 )
+
 // NV_multisample_coverage
 const (
-	COLOR_SAMPLES_NV = 0x8E20
+	COLOR_SAMPLES_NV    = 0x8E20
 	COVERAGE_SAMPLES_NV = 0x80A9
 )
+
 // NV_multisample_filter_hint
 const (
 	MULTISAMPLE_FILTER_HINT_NV = 0x8534
 )
+
 // NV_occlusion_query
 const (
 	CURRENT_OCCLUSION_QUERY_ID_NV = 0x8865
-	PIXEL_COUNTER_BITS_NV = 0x8864
-	PIXEL_COUNT_AVAILABLE_NV = 0x8867
-	PIXEL_COUNT_NV = 0x8866
+	PIXEL_COUNTER_BITS_NV         = 0x8864
+	PIXEL_COUNT_AVAILABLE_NV      = 0x8867
+	PIXEL_COUNT_NV                = 0x8866
 )
+
 // NV_packed_depth_stencil
 const (
-	DEPTH_STENCIL_NV = 0x84F9
+	DEPTH_STENCIL_NV     = 0x84F9
 	UNSIGNED_INT_24_8_NV = 0x84FA
 )
+
 // NV_parameter_buffer_object
 const (
-	FRAGMENT_PROGRAM_PARAMETER_BUFFER_NV = 0x8DA4
-	GEOMETRY_PROGRAM_PARAMETER_BUFFER_NV = 0x8DA3
+	FRAGMENT_PROGRAM_PARAMETER_BUFFER_NV     = 0x8DA4
+	GEOMETRY_PROGRAM_PARAMETER_BUFFER_NV     = 0x8DA3
 	MAX_PROGRAM_PARAMETER_BUFFER_BINDINGS_NV = 0x8DA0
-	MAX_PROGRAM_PARAMETER_BUFFER_SIZE_NV = 0x8DA1
-	VERTEX_PROGRAM_PARAMETER_BUFFER_NV = 0x8DA2
+	MAX_PROGRAM_PARAMETER_BUFFER_SIZE_NV     = 0x8DA1
+	VERTEX_PROGRAM_PARAMETER_BUFFER_NV       = 0x8DA2
 )
+
 // NV_parameter_buffer_object2
-const (
-)
+const ()
+
 // NV_path_rendering
 const (
-	ACCUM_ADJACENT_PAIRS_NV = 0x90AD
-	ADJACENT_PAIRS_NV = 0x90AE
-	AFFINE_2D_NV = 0x9092
-	AFFINE_3D_NV = 0x9094
-	ARC_TO_NV = 0xFE
-	BEVEL_NV = 0x90A6
-	BOLD_BIT_NV = 0x01
-	BOUNDING_BOX_NV = 0x908D
-	BOUNDING_BOX_OF_BOUNDING_BOXES_NV = 0x909C
-	CIRCULAR_CCW_ARC_TO_NV = 0xF8
-	CIRCULAR_CW_ARC_TO_NV = 0xFA
-	CIRCULAR_TANGENT_ARC_TO_NV = 0xFC
-	CLOSE_PATH_NV = 0x00
-	CONVEX_HULL_NV = 0x908B
-	COUNT_DOWN_NV = 0x9089
-	COUNT_UP_NV = 0x9088
-	CUBIC_CURVE_TO_NV = 0x0C
-	DUP_FIRST_CUBIC_CURVE_TO_NV = 0xF2
-	DUP_LAST_CUBIC_CURVE_TO_NV = 0xF4
-	FILE_NAME_NV = 0x9074
-	FIRST_TO_REST_NV = 0x90AF
-	FONT_ASCENDER_NV = 0x00200000
-	FONT_DESCENDER_NV = 0x00400000
-	FONT_HAS_KERNING_NV = 0x10000000
-	FONT_HEIGHT_NV = 0x00800000
-	FONT_MAX_ADVANCE_HEIGHT_NV = 0x02000000
-	FONT_MAX_ADVANCE_WIDTH_NV = 0x01000000
-	FONT_UNDERLINE_POSITION_NV = 0x04000000
-	FONT_UNDERLINE_THICKNESS_NV = 0x08000000
-	FONT_UNITS_PER_EM_NV = 0x00100000
-	FONT_X_MAX_BOUNDS_NV = 0x00040000
-	FONT_X_MIN_BOUNDS_NV = 0x00010000
-	FONT_Y_MAX_BOUNDS_NV = 0x00080000
-	FONT_Y_MIN_BOUNDS_NV = 0x00020000
-	GLYPH_HAS_KERNING_NV = 0x100
-	GLYPH_HEIGHT_BIT_NV = 0x02
+	ACCUM_ADJACENT_PAIRS_NV                 = 0x90AD
+	ADJACENT_PAIRS_NV                       = 0x90AE
+	AFFINE_2D_NV                            = 0x9092
+	AFFINE_3D_NV                            = 0x9094
+	ARC_TO_NV                               = 0xFE
+	BEVEL_NV                                = 0x90A6
+	BOLD_BIT_NV                             = 0x01
+	BOUNDING_BOX_NV                         = 0x908D
+	BOUNDING_BOX_OF_BOUNDING_BOXES_NV       = 0x909C
+	CIRCULAR_CCW_ARC_TO_NV                  = 0xF8
+	CIRCULAR_CW_ARC_TO_NV                   = 0xFA
+	CIRCULAR_TANGENT_ARC_TO_NV              = 0xFC
+	CLOSE_PATH_NV                           = 0x00
+	CONVEX_HULL_NV                          = 0x908B
+	COUNT_DOWN_NV                           = 0x9089
+	COUNT_UP_NV                             = 0x9088
+	CUBIC_CURVE_TO_NV                       = 0x0C
+	DUP_FIRST_CUBIC_CURVE_TO_NV             = 0xF2
+	DUP_LAST_CUBIC_CURVE_TO_NV              = 0xF4
+	FILE_NAME_NV                            = 0x9074
+	FIRST_TO_REST_NV                        = 0x90AF
+	FONT_ASCENDER_NV                        = 0x00200000
+	FONT_DESCENDER_NV                       = 0x00400000
+	FONT_HAS_KERNING_NV                     = 0x10000000
+	FONT_HEIGHT_NV                          = 0x00800000
+	FONT_MAX_ADVANCE_HEIGHT_NV              = 0x02000000
+	FONT_MAX_ADVANCE_WIDTH_NV               = 0x01000000
+	FONT_UNDERLINE_POSITION_NV              = 0x04000000
+	FONT_UNDERLINE_THICKNESS_NV             = 0x08000000
+	FONT_UNITS_PER_EM_NV                    = 0x00100000
+	FONT_X_MAX_BOUNDS_NV                    = 0x00040000
+	FONT_X_MIN_BOUNDS_NV                    = 0x00010000
+	FONT_Y_MAX_BOUNDS_NV                    = 0x00080000
+	FONT_Y_MIN_BOUNDS_NV                    = 0x00020000
+	GLYPH_HAS_KERNING_NV                    = 0x100
+	GLYPH_HEIGHT_BIT_NV                     = 0x02
 	GLYPH_HORIZONTAL_BEARING_ADVANCE_BIT_NV = 0x10
-	GLYPH_HORIZONTAL_BEARING_X_BIT_NV = 0x04
-	GLYPH_HORIZONTAL_BEARING_Y_BIT_NV = 0x08
-	GLYPH_VERTICAL_BEARING_ADVANCE_BIT_NV = 0x80
-	GLYPH_VERTICAL_BEARING_X_BIT_NV = 0x20
-	GLYPH_VERTICAL_BEARING_Y_BIT_NV = 0x40
-	GLYPH_WIDTH_BIT_NV = 0x01
-	HORIZONTAL_LINE_TO_NV = 0x06
-	ITALIC_BIT_NV = 0x02
-	LARGE_CCW_ARC_TO_NV = 0x16
-	LARGE_CW_ARC_TO_NV = 0x18
-	LINE_TO_NV = 0x04
-	MITER_REVERT_NV = 0x90A7
-	MITER_TRUNCATE_NV = 0x90A8
-	MOVE_TO_CONTINUES_NV = 0x90B6
-	MOVE_TO_NV = 0x02
-	MOVE_TO_RESETS_NV = 0x90B5
-	MULTI_HULLS_NV = 0x908C
-	PATH_CLIENT_LENGTH_NV = 0x907F
-	PATH_COMMAND_COUNT_NV = 0x909D
-	PATH_COMPUTED_LENGTH_NV = 0x90A0
-	PATH_COORD_COUNT_NV = 0x909E
-	PATH_COVER_DEPTH_FUNC_NV = 0x90BF
-	PATH_DASH_ARRAY_COUNT_NV = 0x909F
-	PATH_DASH_CAPS_NV = 0x907B
-	PATH_DASH_OFFSET_NV = 0x907E
-	PATH_DASH_OFFSET_RESET_NV = 0x90B4
-	PATH_END_CAPS_NV = 0x9076
-	PATH_ERROR_POSITION_NV = 0x90AB
-	PATH_FILL_BOUNDING_BOX_NV = 0x90A1
-	PATH_FILL_COVER_MODE_NV = 0x9082
-	PATH_FILL_MASK_NV = 0x9081
-	PATH_FILL_MODE_NV = 0x9080
-	PATH_FOG_GEN_MODE_NV = 0x90AC
-	PATH_FORMAT_PS_NV = 0x9071
-	PATH_FORMAT_SVG_NV = 0x9070
-	PATH_GEN_COEFF_NV = 0x90B1
-	PATH_GEN_COLOR_FORMAT_NV = 0x90B2
-	PATH_GEN_COMPONENTS_NV = 0x90B3
-	PATH_GEN_MODE_NV = 0x90B0
-	PATH_INITIAL_DASH_CAP_NV = 0x907C
-	PATH_INITIAL_END_CAP_NV = 0x9077
-	PATH_JOIN_STYLE_NV = 0x9079
-	PATH_MITER_LIMIT_NV = 0x907A
-	PATH_OBJECT_BOUNDING_BOX_NV = 0x908A
-	PATH_SAMPLE_QUALITY_NV = 0x9085
-	PATH_STENCIL_DEPTH_OFFSET_FACTOR_NV = 0x90BD
-	PATH_STENCIL_DEPTH_OFFSET_UNITS_NV = 0x90BE
-	PATH_STENCIL_FUNC_NV = 0x90B7
-	PATH_STENCIL_REF_NV = 0x90B8
-	PATH_STENCIL_VALUE_MASK_NV = 0x90B9
-	PATH_STROKE_BOUNDING_BOX_NV = 0x90A2
-	PATH_STROKE_BOUND_NV = 0x9086
-	PATH_STROKE_COVER_MODE_NV = 0x9083
-	PATH_STROKE_MASK_NV = 0x9084
-	PATH_STROKE_OVERSAMPLE_COUNT_NV = 0x9087
-	PATH_STROKE_WIDTH_NV = 0x9075
-	PATH_TERMINAL_DASH_CAP_NV = 0x907D
-	PATH_TERMINAL_END_CAP_NV = 0x9078
-	PROJECTIVE_2D_NV = 0x9093
-	PROJECTIVE_3D_NV = 0x9095
-	QUADRATIC_CURVE_TO_NV = 0x0A
-	RECT_NV = 0xF6
-	RELATIVE_ARC_TO_NV = 0xFF
-	RELATIVE_CUBIC_CURVE_TO_NV = 0x0D
-	RELATIVE_HORIZONTAL_LINE_TO_NV = 0x07
-	RELATIVE_LARGE_CCW_ARC_TO_NV = 0x17
-	RELATIVE_LARGE_CW_ARC_TO_NV = 0x19
-	RELATIVE_LINE_TO_NV = 0x05
-	RELATIVE_MOVE_TO_NV = 0x03
-	RELATIVE_QUADRATIC_CURVE_TO_NV = 0x0B
-	RELATIVE_SMALL_CCW_ARC_TO_NV = 0x13
-	RELATIVE_SMALL_CW_ARC_TO_NV = 0x15
-	RELATIVE_SMOOTH_CUBIC_CURVE_TO_NV = 0x11
-	RELATIVE_SMOOTH_QUADRATIC_CURVE_TO_NV = 0x0F
-	RELATIVE_VERTICAL_LINE_TO_NV = 0x09
-	RESTART_PATH_NV = 0xF0
-	ROUND_NV = 0x90A4
-	SKIP_MISSING_GLYPH_NV = 0x90A9
-	SMALL_CCW_ARC_TO_NV = 0x12
-	SMALL_CW_ARC_TO_NV = 0x14
-	SMOOTH_CUBIC_CURVE_TO_NV = 0x10
-	SMOOTH_QUADRATIC_CURVE_TO_NV = 0x0E
-	SQUARE_NV = 0x90A3
-	STANDARD_FONT_NAME_NV = 0x9072
-	SYSTEM_FONT_NAME_NV = 0x9073
-	TRANSLATE_2D_NV = 0x9090
-	TRANSLATE_3D_NV = 0x9091
-	TRANSLATE_X_NV = 0x908E
-	TRANSLATE_Y_NV = 0x908F
-	TRANSPOSE_AFFINE_2D_NV = 0x9096
-	TRANSPOSE_AFFINE_3D_NV = 0x9098
-	TRANSPOSE_PROJECTIVE_2D_NV = 0x9097
-	TRANSPOSE_PROJECTIVE_3D_NV = 0x9099
-	TRIANGULAR_NV = 0x90A5
-	USE_MISSING_GLYPH_NV = 0x90AA
-	UTF16_NV = 0x909B
-	UTF8_NV = 0x909A
-	VERTICAL_LINE_TO_NV = 0x08
+	GLYPH_HORIZONTAL_BEARING_X_BIT_NV       = 0x04
+	GLYPH_HORIZONTAL_BEARING_Y_BIT_NV       = 0x08
+	GLYPH_VERTICAL_BEARING_ADVANCE_BIT_NV   = 0x80
+	GLYPH_VERTICAL_BEARING_X_BIT_NV         = 0x20
+	GLYPH_VERTICAL_BEARING_Y_BIT_NV         = 0x40
+	GLYPH_WIDTH_BIT_NV                      = 0x01
+	HORIZONTAL_LINE_TO_NV                   = 0x06
+	ITALIC_BIT_NV                           = 0x02
+	LARGE_CCW_ARC_TO_NV                     = 0x16
+	LARGE_CW_ARC_TO_NV                      = 0x18
+	LINE_TO_NV                              = 0x04
+	MITER_REVERT_NV                         = 0x90A7
+	MITER_TRUNCATE_NV                       = 0x90A8
+	MOVE_TO_CONTINUES_NV                    = 0x90B6
+	MOVE_TO_NV                              = 0x02
+	MOVE_TO_RESETS_NV                       = 0x90B5
+	MULTI_HULLS_NV                          = 0x908C
+	PATH_CLIENT_LENGTH_NV                   = 0x907F
+	PATH_COMMAND_COUNT_NV                   = 0x909D
+	PATH_COMPUTED_LENGTH_NV                 = 0x90A0
+	PATH_COORD_COUNT_NV                     = 0x909E
+	PATH_COVER_DEPTH_FUNC_NV                = 0x90BF
+	PATH_DASH_ARRAY_COUNT_NV                = 0x909F
+	PATH_DASH_CAPS_NV                       = 0x907B
+	PATH_DASH_OFFSET_NV                     = 0x907E
+	PATH_DASH_OFFSET_RESET_NV               = 0x90B4
+	PATH_END_CAPS_NV                        = 0x9076
+	PATH_ERROR_POSITION_NV                  = 0x90AB
+	PATH_FILL_BOUNDING_BOX_NV               = 0x90A1
+	PATH_FILL_COVER_MODE_NV                 = 0x9082
+	PATH_FILL_MASK_NV                       = 0x9081
+	PATH_FILL_MODE_NV                       = 0x9080
+	PATH_FOG_GEN_MODE_NV                    = 0x90AC
+	PATH_FORMAT_PS_NV                       = 0x9071
+	PATH_FORMAT_SVG_NV                      = 0x9070
+	PATH_GEN_COEFF_NV                       = 0x90B1
+	PATH_GEN_COLOR_FORMAT_NV                = 0x90B2
+	PATH_GEN_COMPONENTS_NV                  = 0x90B3
+	PATH_GEN_MODE_NV                        = 0x90B0
+	PATH_INITIAL_DASH_CAP_NV                = 0x907C
+	PATH_INITIAL_END_CAP_NV                 = 0x9077
+	PATH_JOIN_STYLE_NV                      = 0x9079
+	PATH_MITER_LIMIT_NV                     = 0x907A
+	PATH_OBJECT_BOUNDING_BOX_NV             = 0x908A
+	PATH_SAMPLE_QUALITY_NV                  = 0x9085
+	PATH_STENCIL_DEPTH_OFFSET_FACTOR_NV     = 0x90BD
+	PATH_STENCIL_DEPTH_OFFSET_UNITS_NV      = 0x90BE
+	PATH_STENCIL_FUNC_NV                    = 0x90B7
+	PATH_STENCIL_REF_NV                     = 0x90B8
+	PATH_STENCIL_VALUE_MASK_NV              = 0x90B9
+	PATH_STROKE_BOUNDING_BOX_NV             = 0x90A2
+	PATH_STROKE_BOUND_NV                    = 0x9086
+	PATH_STROKE_COVER_MODE_NV               = 0x9083
+	PATH_STROKE_MASK_NV                     = 0x9084
+	PATH_STROKE_OVERSAMPLE_COUNT_NV         = 0x9087
+	PATH_STROKE_WIDTH_NV                    = 0x9075
+	PATH_TERMINAL_DASH_CAP_NV               = 0x907D
+	PATH_TERMINAL_END_CAP_NV                = 0x9078
+	PROJECTIVE_2D_NV                        = 0x9093
+	PROJECTIVE_3D_NV                        = 0x9095
+	QUADRATIC_CURVE_TO_NV                   = 0x0A
+	RECT_NV                                 = 0xF6
+	RELATIVE_ARC_TO_NV                      = 0xFF
+	RELATIVE_CUBIC_CURVE_TO_NV              = 0x0D
+	RELATIVE_HORIZONTAL_LINE_TO_NV          = 0x07
+	RELATIVE_LARGE_CCW_ARC_TO_NV            = 0x17
+	RELATIVE_LARGE_CW_ARC_TO_NV             = 0x19
+	RELATIVE_LINE_TO_NV                     = 0x05
+	RELATIVE_MOVE_TO_NV                     = 0x03
+	RELATIVE_QUADRATIC_CURVE_TO_NV          = 0x0B
+	RELATIVE_SMALL_CCW_ARC_TO_NV            = 0x13
+	RELATIVE_SMALL_CW_ARC_TO_NV             = 0x15
+	RELATIVE_SMOOTH_CUBIC_CURVE_TO_NV       = 0x11
+	RELATIVE_SMOOTH_QUADRATIC_CURVE_TO_NV   = 0x0F
+	RELATIVE_VERTICAL_LINE_TO_NV            = 0x09
+	RESTART_PATH_NV                         = 0xF0
+	ROUND_NV                                = 0x90A4
+	SKIP_MISSING_GLYPH_NV                   = 0x90A9
+	SMALL_CCW_ARC_TO_NV                     = 0x12
+	SMALL_CW_ARC_TO_NV                      = 0x14
+	SMOOTH_CUBIC_CURVE_TO_NV                = 0x10
+	SMOOTH_QUADRATIC_CURVE_TO_NV            = 0x0E
+	SQUARE_NV                               = 0x90A3
+	STANDARD_FONT_NAME_NV                   = 0x9072
+	SYSTEM_FONT_NAME_NV                     = 0x9073
+	TRANSLATE_2D_NV                         = 0x9090
+	TRANSLATE_3D_NV                         = 0x9091
+	TRANSLATE_X_NV                          = 0x908E
+	TRANSLATE_Y_NV                          = 0x908F
+	TRANSPOSE_AFFINE_2D_NV                  = 0x9096
+	TRANSPOSE_AFFINE_3D_NV                  = 0x9098
+	TRANSPOSE_PROJECTIVE_2D_NV              = 0x9097
+	TRANSPOSE_PROJECTIVE_3D_NV              = 0x9099
+	TRIANGULAR_NV                           = 0x90A5
+	USE_MISSING_GLYPH_NV                    = 0x90AA
+	UTF16_NV                                = 0x909B
+	UTF8_NV                                 = 0x909A
+	VERTICAL_LINE_TO_NV                     = 0x08
 )
+
 // NV_pixel_data_range
 const (
-	READ_PIXEL_DATA_RANGE_LENGTH_NV = 0x887B
-	READ_PIXEL_DATA_RANGE_NV = 0x8879
-	READ_PIXEL_DATA_RANGE_POINTER_NV = 0x887D
-	WRITE_PIXEL_DATA_RANGE_LENGTH_NV = 0x887A
-	WRITE_PIXEL_DATA_RANGE_NV = 0x8878
+	READ_PIXEL_DATA_RANGE_LENGTH_NV   = 0x887B
+	READ_PIXEL_DATA_RANGE_NV          = 0x8879
+	READ_PIXEL_DATA_RANGE_POINTER_NV  = 0x887D
+	WRITE_PIXEL_DATA_RANGE_LENGTH_NV  = 0x887A
+	WRITE_PIXEL_DATA_RANGE_NV         = 0x8878
 	WRITE_PIXEL_DATA_RANGE_POINTER_NV = 0x887C
 )
+
 // NV_point_sprite
 const (
-	COORD_REPLACE_NV = 0x8862
-	POINT_SPRITE_NV = 0x8861
+	COORD_REPLACE_NV       = 0x8862
+	POINT_SPRITE_NV        = 0x8861
 	POINT_SPRITE_R_MODE_NV = 0x8863
 )
+
 // NV_present_video
 const (
-	CURRENT_TIME_NV = 0x8E28
-	FIELDS_NV = 0x8E27
-	FRAME_NV = 0x8E26
+	CURRENT_TIME_NV     = 0x8E28
+	FIELDS_NV           = 0x8E27
+	FRAME_NV            = 0x8E26
 	NUM_FILL_STREAMS_NV = 0x8E29
 	PRESENT_DURATION_NV = 0x8E2B
-	PRESENT_TIME_NV = 0x8E2A
+	PRESENT_TIME_NV     = 0x8E2A
 )
+
 // NV_primitive_restart
 const (
 	PRIMITIVE_RESTART_INDEX_NV = 0x8559
-	PRIMITIVE_RESTART_NV = 0x8558
+	PRIMITIVE_RESTART_NV       = 0x8558
 )
+
 // NV_register_combiners
 const (
-	BIAS_BY_NEGATIVE_ONE_HALF_NV = 0x8541
-	COLOR_SUM_CLAMP_NV = 0x854F
-	COMBINER0_NV = 0x8550
-	COMBINER1_NV = 0x8551
-	COMBINER2_NV = 0x8552
-	COMBINER3_NV = 0x8553
-	COMBINER4_NV = 0x8554
-	COMBINER5_NV = 0x8555
-	COMBINER6_NV = 0x8556
-	COMBINER7_NV = 0x8557
-	COMBINER_AB_DOT_PRODUCT_NV = 0x8545
-	COMBINER_AB_OUTPUT_NV = 0x854A
-	COMBINER_BIAS_NV = 0x8549
-	COMBINER_CD_DOT_PRODUCT_NV = 0x8546
-	COMBINER_CD_OUTPUT_NV = 0x854B
-	COMBINER_COMPONENT_USAGE_NV = 0x8544
-	COMBINER_INPUT_NV = 0x8542
-	COMBINER_MAPPING_NV = 0x8543
-	COMBINER_MUX_SUM_NV = 0x8547
-	COMBINER_SCALE_NV = 0x8548
-	COMBINER_SUM_OUTPUT_NV = 0x854C
-	CONSTANT_COLOR0_NV = 0x852A
-	CONSTANT_COLOR1_NV = 0x852B
-	DISCARD_NV = 0x8530
-	EXPAND_NEGATE_NV = 0x8539
-	EXPAND_NORMAL_NV = 0x8538
-	E_TIMES_F_NV = 0x8531
-	HALF_BIAS_NEGATE_NV = 0x853B
-	HALF_BIAS_NORMAL_NV = 0x853A
-	MAX_GENERAL_COMBINERS_NV = 0x854D
-	NUM_GENERAL_COMBINERS_NV = 0x854E
-	PRIMARY_COLOR_NV = 0x852C
-	REGISTER_COMBINERS_NV = 0x8522
-	SCALE_BY_FOUR_NV = 0x853F
-	SCALE_BY_ONE_HALF_NV = 0x8540
-	SCALE_BY_TWO_NV = 0x853E
-	SECONDARY_COLOR_NV = 0x852D
-	SIGNED_IDENTITY_NV = 0x853C
-	SIGNED_NEGATE_NV = 0x853D
-	SPARE0_NV = 0x852E
+	BIAS_BY_NEGATIVE_ONE_HALF_NV   = 0x8541
+	COLOR_SUM_CLAMP_NV             = 0x854F
+	COMBINER0_NV                   = 0x8550
+	COMBINER1_NV                   = 0x8551
+	COMBINER2_NV                   = 0x8552
+	COMBINER3_NV                   = 0x8553
+	COMBINER4_NV                   = 0x8554
+	COMBINER5_NV                   = 0x8555
+	COMBINER6_NV                   = 0x8556
+	COMBINER7_NV                   = 0x8557
+	COMBINER_AB_DOT_PRODUCT_NV     = 0x8545
+	COMBINER_AB_OUTPUT_NV          = 0x854A
+	COMBINER_BIAS_NV               = 0x8549
+	COMBINER_CD_DOT_PRODUCT_NV     = 0x8546
+	COMBINER_CD_OUTPUT_NV          = 0x854B
+	COMBINER_COMPONENT_USAGE_NV    = 0x8544
+	COMBINER_INPUT_NV              = 0x8542
+	COMBINER_MAPPING_NV            = 0x8543
+	COMBINER_MUX_SUM_NV            = 0x8547
+	COMBINER_SCALE_NV              = 0x8548
+	COMBINER_SUM_OUTPUT_NV         = 0x854C
+	CONSTANT_COLOR0_NV             = 0x852A
+	CONSTANT_COLOR1_NV             = 0x852B
+	DISCARD_NV                     = 0x8530
+	EXPAND_NEGATE_NV               = 0x8539
+	EXPAND_NORMAL_NV               = 0x8538
+	E_TIMES_F_NV                   = 0x8531
+	HALF_BIAS_NEGATE_NV            = 0x853B
+	HALF_BIAS_NORMAL_NV            = 0x853A
+	MAX_GENERAL_COMBINERS_NV       = 0x854D
+	NUM_GENERAL_COMBINERS_NV       = 0x854E
+	PRIMARY_COLOR_NV               = 0x852C
+	REGISTER_COMBINERS_NV          = 0x8522
+	SCALE_BY_FOUR_NV               = 0x853F
+	SCALE_BY_ONE_HALF_NV           = 0x8540
+	SCALE_BY_TWO_NV                = 0x853E
+	SECONDARY_COLOR_NV             = 0x852D
+	SIGNED_IDENTITY_NV             = 0x853C
+	SIGNED_NEGATE_NV               = 0x853D
+	SPARE0_NV                      = 0x852E
 	SPARE0_PLUS_SECONDARY_COLOR_NV = 0x8532
-	SPARE1_NV = 0x852F
-	TEXTURE0_ARB = 0x84C0
-	TEXTURE1_ARB = 0x84C1
-	UNSIGNED_IDENTITY_NV = 0x8536
-	UNSIGNED_INVERT_NV = 0x8537
-	VARIABLE_A_NV = 0x8523
-	VARIABLE_B_NV = 0x8524
-	VARIABLE_C_NV = 0x8525
-	VARIABLE_D_NV = 0x8526
-	VARIABLE_E_NV = 0x8527
-	VARIABLE_F_NV = 0x8528
-	VARIABLE_G_NV = 0x8529
+	SPARE1_NV                      = 0x852F
+	TEXTURE0_ARB                   = 0x84C0
+	TEXTURE1_ARB                   = 0x84C1
+	UNSIGNED_IDENTITY_NV           = 0x8536
+	UNSIGNED_INVERT_NV             = 0x8537
+	VARIABLE_A_NV                  = 0x8523
+	VARIABLE_B_NV                  = 0x8524
+	VARIABLE_C_NV                  = 0x8525
+	VARIABLE_D_NV                  = 0x8526
+	VARIABLE_E_NV                  = 0x8527
+	VARIABLE_F_NV                  = 0x8528
+	VARIABLE_G_NV                  = 0x8529
 )
+
 // NV_register_combiners2
 const (
 	PER_STAGE_CONSTANTS_NV = 0x8535
 )
+
 // NV_shader_atomic_float
-const (
-)
+const ()
+
 // NV_shader_buffer_load
 const (
-	BUFFER_GPU_ADDRESS_NV = 0x8F1D
-	GPU_ADDRESS_NV = 0x8F34
+	BUFFER_GPU_ADDRESS_NV        = 0x8F1D
+	GPU_ADDRESS_NV               = 0x8F34
 	MAX_SHADER_BUFFER_ADDRESS_NV = 0x8F35
 )
+
 // NV_shader_buffer_store
 const (
-	READ_WRITE = 0x88BA
+	READ_WRITE                          = 0x88BA
 	SHADER_GLOBAL_ACCESS_BARRIER_BIT_NV = 0x00000010
-	WRITE_ONLY = 0x88B9
+	WRITE_ONLY                          = 0x88B9
 )
+
 // NV_tessellation_program5
 const (
-	MAX_PROGRAM_PATCH_ATTRIBS_NV = 0x86D8
-	TESS_CONTROL_PROGRAM_NV = 0x891E
-	TESS_CONTROL_PROGRAM_PARAMETER_BUFFER_NV = 0x8C74
-	TESS_EVALUATION_PROGRAM_NV = 0x891F
+	MAX_PROGRAM_PATCH_ATTRIBS_NV                = 0x86D8
+	TESS_CONTROL_PROGRAM_NV                     = 0x891E
+	TESS_CONTROL_PROGRAM_PARAMETER_BUFFER_NV    = 0x8C74
+	TESS_EVALUATION_PROGRAM_NV                  = 0x891F
 	TESS_EVALUATION_PROGRAM_PARAMETER_BUFFER_NV = 0x8C75
 )
+
 // NV_texgen_emboss
 const (
 	EMBOSS_CONSTANT_NV = 0x855E
-	EMBOSS_LIGHT_NV = 0x855D
-	EMBOSS_MAP_NV = 0x855F
+	EMBOSS_LIGHT_NV    = 0x855D
+	EMBOSS_MAP_NV      = 0x855F
 )
+
 // NV_texgen_reflection
 const (
-	NORMAL_MAP_NV = 0x8511
+	NORMAL_MAP_NV     = 0x8511
 	REFLECTION_MAP_NV = 0x8512
 )
+
 // NV_texture_barrier
-const (
-)
+const ()
+
 // NV_texture_compression_vtc
-const (
-)
+const ()
+
 // NV_texture_env_combine4
 const (
-	COMBINE4_NV = 0x8503
+	COMBINE4_NV       = 0x8503
 	OPERAND3_ALPHA_NV = 0x859B
-	OPERAND3_RGB_NV = 0x8593
-	SOURCE3_ALPHA_NV = 0x858B
-	SOURCE3_RGB_NV = 0x8583
+	OPERAND3_RGB_NV   = 0x8593
+	SOURCE3_ALPHA_NV  = 0x858B
+	SOURCE3_RGB_NV    = 0x8583
 )
+
 // NV_texture_expand_normal
 const (
 	TEXTURE_UNSIGNED_REMAP_MODE_NV = 0x888F
 )
+
 // NV_texture_multisample
 const (
-	TEXTURE_COLOR_SAMPLES_NV = 0x9046
+	TEXTURE_COLOR_SAMPLES_NV    = 0x9046
 	TEXTURE_COVERAGE_SAMPLES_NV = 0x9045
 )
+
 // NV_texture_rectangle
 const (
 	MAX_RECTANGLE_TEXTURE_SIZE_NV = 0x84F8
-	PROXY_TEXTURE_RECTANGLE_NV = 0x84F7
-	TEXTURE_BINDING_RECTANGLE_NV = 0x84F6
-	TEXTURE_RECTANGLE_NV = 0x84F5
+	PROXY_TEXTURE_RECTANGLE_NV    = 0x84F7
+	TEXTURE_BINDING_RECTANGLE_NV  = 0x84F6
+	TEXTURE_RECTANGLE_NV          = 0x84F5
 )
+
 // NV_texture_shader
 const (
-	CONST_EYE_NV = 0x86E5
-	CULL_FRAGMENT_NV = 0x86E7
-	CULL_MODES_NV = 0x86E0
-	DEPENDENT_AR_TEXTURE_2D_NV = 0x86E9
-	DEPENDENT_GB_TEXTURE_2D_NV = 0x86EA
+	CONST_EYE_NV                              = 0x86E5
+	CULL_FRAGMENT_NV                          = 0x86E7
+	CULL_MODES_NV                             = 0x86E0
+	DEPENDENT_AR_TEXTURE_2D_NV                = 0x86E9
+	DEPENDENT_GB_TEXTURE_2D_NV                = 0x86EA
 	DOT_PRODUCT_CONST_EYE_REFLECT_CUBE_MAP_NV = 0x86F3
-	DOT_PRODUCT_DEPTH_REPLACE_NV = 0x86ED
-	DOT_PRODUCT_DIFFUSE_CUBE_MAP_NV = 0x86F1
-	DOT_PRODUCT_NV = 0x86EC
-	DOT_PRODUCT_REFLECT_CUBE_MAP_NV = 0x86F2
-	DOT_PRODUCT_TEXTURE_2D_NV = 0x86EE
-	DOT_PRODUCT_TEXTURE_CUBE_MAP_NV = 0x86F0
-	DOT_PRODUCT_TEXTURE_RECTANGLE_NV = 0x864E
-	DSDT8_MAG8_INTENSITY8_NV = 0x870B
-	DSDT8_MAG8_NV = 0x870A
-	DSDT8_NV = 0x8709
-	DSDT_MAG_INTENSITY_NV = 0x86DC
-	DSDT_MAG_NV = 0x86F6
-	DSDT_MAG_VIB_NV = 0x86F7
-	DSDT_NV = 0x86F5
-	DS_BIAS_NV = 0x8716
-	DS_SCALE_NV = 0x8710
-	DT_BIAS_NV = 0x8717
-	DT_SCALE_NV = 0x8711
-	HILO16_NV = 0x86F8
-	HILO_NV = 0x86F4
-	HI_BIAS_NV = 0x8714
-	HI_SCALE_NV = 0x870E
-	LO_BIAS_NV = 0x8715
-	LO_SCALE_NV = 0x870F
-	MAGNITUDE_BIAS_NV = 0x8718
-	MAGNITUDE_SCALE_NV = 0x8712
-	OFFSET_TEXTURE_2D_BIAS_NV = 0x86E3
-	OFFSET_TEXTURE_2D_MATRIX_NV = 0x86E1
-	OFFSET_TEXTURE_2D_NV = 0x86E8
-	OFFSET_TEXTURE_2D_SCALE_NV = 0x86E2
-	OFFSET_TEXTURE_BIAS_NV = 0x86E3
-	OFFSET_TEXTURE_MATRIX_NV = 0x86E1
-	OFFSET_TEXTURE_RECTANGLE_NV = 0x864C
-	OFFSET_TEXTURE_RECTANGLE_SCALE_NV = 0x864D
-	OFFSET_TEXTURE_SCALE_NV = 0x86E2
-	PASS_THROUGH_NV = 0x86E6
-	PREVIOUS_TEXTURE_INPUT_NV = 0x86E4
-	RGBA_UNSIGNED_DOT_PRODUCT_MAPPING_NV = 0x86D9
-	SHADER_CONSISTENT_NV = 0x86DD
-	SHADER_OPERATION_NV = 0x86DF
-	SIGNED_ALPHA8_NV = 0x8706
-	SIGNED_ALPHA_NV = 0x8705
-	SIGNED_HILO16_NV = 0x86FA
-	SIGNED_HILO_NV = 0x86F9
-	SIGNED_INTENSITY8_NV = 0x8708
-	SIGNED_INTENSITY_NV = 0x8707
-	SIGNED_LUMINANCE8_ALPHA8_NV = 0x8704
-	SIGNED_LUMINANCE8_NV = 0x8702
-	SIGNED_LUMINANCE_ALPHA_NV = 0x8703
-	SIGNED_LUMINANCE_NV = 0x8701
-	SIGNED_RGB8_NV = 0x86FF
-	SIGNED_RGB8_UNSIGNED_ALPHA8_NV = 0x870D
-	SIGNED_RGBA8_NV = 0x86FC
-	SIGNED_RGBA_NV = 0x86FB
-	SIGNED_RGB_NV = 0x86FE
-	SIGNED_RGB_UNSIGNED_ALPHA_NV = 0x870C
-	TEXTURE_BORDER_VALUES_NV = 0x871A
-	TEXTURE_DS_SIZE_NV = 0x871D
-	TEXTURE_DT_SIZE_NV = 0x871E
-	TEXTURE_HI_SIZE_NV = 0x871B
-	TEXTURE_LO_SIZE_NV = 0x871C
-	TEXTURE_MAG_SIZE_NV = 0x871F
-	TEXTURE_SHADER_NV = 0x86DE
-	UNSIGNED_INT_8_8_S8_S8_REV_NV = 0x86DB
-	UNSIGNED_INT_S8_S8_8_8_NV = 0x86DA
-	VIBRANCE_BIAS_NV = 0x8719
-	VIBRANCE_SCALE_NV = 0x8713
+	DOT_PRODUCT_DEPTH_REPLACE_NV              = 0x86ED
+	DOT_PRODUCT_DIFFUSE_CUBE_MAP_NV           = 0x86F1
+	DOT_PRODUCT_NV                            = 0x86EC
+	DOT_PRODUCT_REFLECT_CUBE_MAP_NV           = 0x86F2
+	DOT_PRODUCT_TEXTURE_2D_NV                 = 0x86EE
+	DOT_PRODUCT_TEXTURE_CUBE_MAP_NV           = 0x86F0
+	DOT_PRODUCT_TEXTURE_RECTANGLE_NV          = 0x864E
+	DSDT8_MAG8_INTENSITY8_NV                  = 0x870B
+	DSDT8_MAG8_NV                             = 0x870A
+	DSDT8_NV                                  = 0x8709
+	DSDT_MAG_INTENSITY_NV                     = 0x86DC
+	DSDT_MAG_NV                               = 0x86F6
+	DSDT_MAG_VIB_NV                           = 0x86F7
+	DSDT_NV                                   = 0x86F5
+	DS_BIAS_NV                                = 0x8716
+	DS_SCALE_NV                               = 0x8710
+	DT_BIAS_NV                                = 0x8717
+	DT_SCALE_NV                               = 0x8711
+	HILO16_NV                                 = 0x86F8
+	HILO_NV                                   = 0x86F4
+	HI_BIAS_NV                                = 0x8714
+	HI_SCALE_NV                               = 0x870E
+	LO_BIAS_NV                                = 0x8715
+	LO_SCALE_NV                               = 0x870F
+	MAGNITUDE_BIAS_NV                         = 0x8718
+	MAGNITUDE_SCALE_NV                        = 0x8712
+	OFFSET_TEXTURE_2D_BIAS_NV                 = 0x86E3
+	OFFSET_TEXTURE_2D_MATRIX_NV               = 0x86E1
+	OFFSET_TEXTURE_2D_NV                      = 0x86E8
+	OFFSET_TEXTURE_2D_SCALE_NV                = 0x86E2
+	OFFSET_TEXTURE_BIAS_NV                    = 0x86E3
+	OFFSET_TEXTURE_MATRIX_NV                  = 0x86E1
+	OFFSET_TEXTURE_RECTANGLE_NV               = 0x864C
+	OFFSET_TEXTURE_RECTANGLE_SCALE_NV         = 0x864D
+	OFFSET_TEXTURE_SCALE_NV                   = 0x86E2
+	PASS_THROUGH_NV                           = 0x86E6
+	PREVIOUS_TEXTURE_INPUT_NV                 = 0x86E4
+	RGBA_UNSIGNED_DOT_PRODUCT_MAPPING_NV      = 0x86D9
+	SHADER_CONSISTENT_NV                      = 0x86DD
+	SHADER_OPERATION_NV                       = 0x86DF
+	SIGNED_ALPHA8_NV                          = 0x8706
+	SIGNED_ALPHA_NV                           = 0x8705
+	SIGNED_HILO16_NV                          = 0x86FA
+	SIGNED_HILO_NV                            = 0x86F9
+	SIGNED_INTENSITY8_NV                      = 0x8708
+	SIGNED_INTENSITY_NV                       = 0x8707
+	SIGNED_LUMINANCE8_ALPHA8_NV               = 0x8704
+	SIGNED_LUMINANCE8_NV                      = 0x8702
+	SIGNED_LUMINANCE_ALPHA_NV                 = 0x8703
+	SIGNED_LUMINANCE_NV                       = 0x8701
+	SIGNED_RGB8_NV                            = 0x86FF
+	SIGNED_RGB8_UNSIGNED_ALPHA8_NV            = 0x870D
+	SIGNED_RGBA8_NV                           = 0x86FC
+	SIGNED_RGBA_NV                            = 0x86FB
+	SIGNED_RGB_NV                             = 0x86FE
+	SIGNED_RGB_UNSIGNED_ALPHA_NV              = 0x870C
+	TEXTURE_BORDER_VALUES_NV                  = 0x871A
+	TEXTURE_DS_SIZE_NV                        = 0x871D
+	TEXTURE_DT_SIZE_NV                        = 0x871E
+	TEXTURE_HI_SIZE_NV                        = 0x871B
+	TEXTURE_LO_SIZE_NV                        = 0x871C
+	TEXTURE_MAG_SIZE_NV                       = 0x871F
+	TEXTURE_SHADER_NV                         = 0x86DE
+	UNSIGNED_INT_8_8_S8_S8_REV_NV             = 0x86DB
+	UNSIGNED_INT_S8_S8_8_8_NV                 = 0x86DA
+	VIBRANCE_BIAS_NV                          = 0x8719
+	VIBRANCE_SCALE_NV                         = 0x8713
 )
+
 // NV_texture_shader2
 const (
 	DOT_PRODUCT_TEXTURE_3D_NV = 0x86EF
 )
+
 // NV_texture_shader3
 const (
-	DEPENDENT_HILO_TEXTURE_2D_NV = 0x8858
-	DEPENDENT_RGB_TEXTURE_3D_NV = 0x8859
-	DEPENDENT_RGB_TEXTURE_CUBE_MAP_NV = 0x885A
-	DOT_PRODUCT_AFFINE_DEPTH_REPLACE_NV = 0x885D
-	DOT_PRODUCT_PASS_THROUGH_NV = 0x885B
-	DOT_PRODUCT_TEXTURE_1D_NV = 0x885C
-	FORCE_BLUE_TO_ONE_NV = 0x8860
-	HILO8_NV = 0x885E
-	OFFSET_HILO_PROJECTIVE_TEXTURE_2D_NV = 0x8856
-	OFFSET_HILO_PROJECTIVE_TEXTURE_RECTANGLE_NV = 0x8857
-	OFFSET_HILO_TEXTURE_2D_NV = 0x8854
-	OFFSET_HILO_TEXTURE_RECTANGLE_NV = 0x8855
-	OFFSET_PROJECTIVE_TEXTURE_2D_NV = 0x8850
-	OFFSET_PROJECTIVE_TEXTURE_2D_SCALE_NV = 0x8851
-	OFFSET_PROJECTIVE_TEXTURE_RECTANGLE_NV = 0x8852
+	DEPENDENT_HILO_TEXTURE_2D_NV                 = 0x8858
+	DEPENDENT_RGB_TEXTURE_3D_NV                  = 0x8859
+	DEPENDENT_RGB_TEXTURE_CUBE_MAP_NV            = 0x885A
+	DOT_PRODUCT_AFFINE_DEPTH_REPLACE_NV          = 0x885D
+	DOT_PRODUCT_PASS_THROUGH_NV                  = 0x885B
+	DOT_PRODUCT_TEXTURE_1D_NV                    = 0x885C
+	FORCE_BLUE_TO_ONE_NV                         = 0x8860
+	HILO8_NV                                     = 0x885E
+	OFFSET_HILO_PROJECTIVE_TEXTURE_2D_NV         = 0x8856
+	OFFSET_HILO_PROJECTIVE_TEXTURE_RECTANGLE_NV  = 0x8857
+	OFFSET_HILO_TEXTURE_2D_NV                    = 0x8854
+	OFFSET_HILO_TEXTURE_RECTANGLE_NV             = 0x8855
+	OFFSET_PROJECTIVE_TEXTURE_2D_NV              = 0x8850
+	OFFSET_PROJECTIVE_TEXTURE_2D_SCALE_NV        = 0x8851
+	OFFSET_PROJECTIVE_TEXTURE_RECTANGLE_NV       = 0x8852
 	OFFSET_PROJECTIVE_TEXTURE_RECTANGLE_SCALE_NV = 0x8853
-	SIGNED_HILO8_NV = 0x885F
+	SIGNED_HILO8_NV                              = 0x885F
 )
+
 // NV_transform_feedback
 const (
-	ACTIVE_VARYINGS_NV = 0x8C81
-	ACTIVE_VARYING_MAX_LENGTH_NV = 0x8C82
-	BACK_PRIMARY_COLOR_NV = 0x8C77
-	BACK_SECONDARY_COLOR_NV = 0x8C78
-	CLIP_DISTANCE_NV = 0x8C7A
-	GENERIC_ATTRIB_NV = 0x8C7D
-	INTERLEAVED_ATTRIBS_NV = 0x8C8C
-	LAYER_NV = 0x8DAA
+	ACTIVE_VARYINGS_NV                               = 0x8C81
+	ACTIVE_VARYING_MAX_LENGTH_NV                     = 0x8C82
+	BACK_PRIMARY_COLOR_NV                            = 0x8C77
+	BACK_SECONDARY_COLOR_NV                          = 0x8C78
+	CLIP_DISTANCE_NV                                 = 0x8C7A
+	GENERIC_ATTRIB_NV                                = 0x8C7D
+	INTERLEAVED_ATTRIBS_NV                           = 0x8C8C
+	LAYER_NV                                         = 0x8DAA
 	MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS_NV = 0x8C8A
-	MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS_NV = 0x8C8B
-	MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS_NV = 0x8C80
-	NEXT_BUFFER_NV = -2
-	PRIMITIVES_GENERATED_NV = 0x8C87
-	PRIMITIVE_ID_NV = 0x8C7C
-	RASTERIZER_DISCARD_NV = 0x8C89
-	SEPARATE_ATTRIBS_NV = 0x8C8D
-	SKIP_COMPONENTS1_NV = -6
-	SKIP_COMPONENTS2_NV = -5
-	SKIP_COMPONENTS3_NV = -4
-	SKIP_COMPONENTS4_NV = -3
-	TEXTURE_COORD_NV = 0x8C79
-	TRANSFORM_FEEDBACK_ATTRIBS_NV = 0x8C7E
-	TRANSFORM_FEEDBACK_BUFFER_BINDING_NV = 0x8C8F
-	TRANSFORM_FEEDBACK_BUFFER_MODE_NV = 0x8C7F
-	TRANSFORM_FEEDBACK_BUFFER_NV = 0x8C8E
-	TRANSFORM_FEEDBACK_BUFFER_SIZE_NV = 0x8C85
-	TRANSFORM_FEEDBACK_BUFFER_START_NV = 0x8C84
-	TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN_NV = 0x8C88
-	TRANSFORM_FEEDBACK_RECORD_NV = 0x8C86
-	TRANSFORM_FEEDBACK_VARYINGS_NV = 0x8C83
-	VERTEX_ID_NV = 0x8C7B
+	MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS_NV       = 0x8C8B
+	MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS_NV    = 0x8C80
+	NEXT_BUFFER_NV                                   = -2
+	PRIMITIVES_GENERATED_NV                          = 0x8C87
+	PRIMITIVE_ID_NV                                  = 0x8C7C
+	RASTERIZER_DISCARD_NV                            = 0x8C89
+	SEPARATE_ATTRIBS_NV                              = 0x8C8D
+	SKIP_COMPONENTS1_NV                              = -6
+	SKIP_COMPONENTS2_NV                              = -5
+	SKIP_COMPONENTS3_NV                              = -4
+	SKIP_COMPONENTS4_NV                              = -3
+	TEXTURE_COORD_NV                                 = 0x8C79
+	TRANSFORM_FEEDBACK_ATTRIBS_NV                    = 0x8C7E
+	TRANSFORM_FEEDBACK_BUFFER_BINDING_NV             = 0x8C8F
+	TRANSFORM_FEEDBACK_BUFFER_MODE_NV                = 0x8C7F
+	TRANSFORM_FEEDBACK_BUFFER_NV                     = 0x8C8E
+	TRANSFORM_FEEDBACK_BUFFER_SIZE_NV                = 0x8C85
+	TRANSFORM_FEEDBACK_BUFFER_START_NV               = 0x8C84
+	TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN_NV         = 0x8C88
+	TRANSFORM_FEEDBACK_RECORD_NV                     = 0x8C86
+	TRANSFORM_FEEDBACK_VARYINGS_NV                   = 0x8C83
+	VERTEX_ID_NV                                     = 0x8C7B
 )
+
 // NV_transform_feedback2
 const (
-	TRANSFORM_FEEDBACK_BINDING_NV = 0x8E25
+	TRANSFORM_FEEDBACK_BINDING_NV       = 0x8E25
 	TRANSFORM_FEEDBACK_BUFFER_ACTIVE_NV = 0x8E24
 	TRANSFORM_FEEDBACK_BUFFER_PAUSED_NV = 0x8E23
-	TRANSFORM_FEEDBACK_NV = 0x8E22
+	TRANSFORM_FEEDBACK_NV               = 0x8E22
 )
+
 // NV_vdpau_interop
 const (
-	SURFACE_MAPPED_NV = 0x8700
+	SURFACE_MAPPED_NV     = 0x8700
 	SURFACE_REGISTERED_NV = 0x86FD
-	SURFACE_STATE_NV = 0x86EB
-	WRITE_DISCARD_NV = 0x88BE
+	SURFACE_STATE_NV      = 0x86EB
+	WRITE_DISCARD_NV      = 0x88BE
 )
+
 // NV_vertex_array_range
 const (
 	MAX_VERTEX_ARRAY_RANGE_ELEMENT_NV = 0x8520
-	VERTEX_ARRAY_RANGE_LENGTH_NV = 0x851E
-	VERTEX_ARRAY_RANGE_NV = 0x851D
-	VERTEX_ARRAY_RANGE_POINTER_NV = 0x8521
-	VERTEX_ARRAY_RANGE_VALID_NV = 0x851F
+	VERTEX_ARRAY_RANGE_LENGTH_NV      = 0x851E
+	VERTEX_ARRAY_RANGE_NV             = 0x851D
+	VERTEX_ARRAY_RANGE_POINTER_NV     = 0x8521
+	VERTEX_ARRAY_RANGE_VALID_NV       = 0x851F
 )
+
 // NV_vertex_array_range2
 const (
 	VERTEX_ARRAY_RANGE_WITHOUT_FLUSH_NV = 0x8533
 )
+
 // NV_vertex_attrib_integer_64bit
-const (
-)
+const ()
+
 // NV_vertex_buffer_unified_memory
 const (
-	COLOR_ARRAY_ADDRESS_NV = 0x8F23
-	COLOR_ARRAY_LENGTH_NV = 0x8F2D
-	DRAW_INDIRECT_ADDRESS_NV = 0x8F41
-	DRAW_INDIRECT_LENGTH_NV = 0x8F42
-	DRAW_INDIRECT_UNIFIED_NV = 0x8F40
-	EDGE_FLAG_ARRAY_ADDRESS_NV = 0x8F26
-	EDGE_FLAG_ARRAY_LENGTH_NV = 0x8F30
-	ELEMENT_ARRAY_ADDRESS_NV = 0x8F29
-	ELEMENT_ARRAY_LENGTH_NV = 0x8F33
-	ELEMENT_ARRAY_UNIFIED_NV = 0x8F1F
-	FOG_COORD_ARRAY_ADDRESS_NV = 0x8F28
-	FOG_COORD_ARRAY_LENGTH_NV = 0x8F32
-	INDEX_ARRAY_ADDRESS_NV = 0x8F24
-	INDEX_ARRAY_LENGTH_NV = 0x8F2E
-	NORMAL_ARRAY_ADDRESS_NV = 0x8F22
-	NORMAL_ARRAY_LENGTH_NV = 0x8F2C
+	COLOR_ARRAY_ADDRESS_NV           = 0x8F23
+	COLOR_ARRAY_LENGTH_NV            = 0x8F2D
+	DRAW_INDIRECT_ADDRESS_NV         = 0x8F41
+	DRAW_INDIRECT_LENGTH_NV          = 0x8F42
+	DRAW_INDIRECT_UNIFIED_NV         = 0x8F40
+	EDGE_FLAG_ARRAY_ADDRESS_NV       = 0x8F26
+	EDGE_FLAG_ARRAY_LENGTH_NV        = 0x8F30
+	ELEMENT_ARRAY_ADDRESS_NV         = 0x8F29
+	ELEMENT_ARRAY_LENGTH_NV          = 0x8F33
+	ELEMENT_ARRAY_UNIFIED_NV         = 0x8F1F
+	FOG_COORD_ARRAY_ADDRESS_NV       = 0x8F28
+	FOG_COORD_ARRAY_LENGTH_NV        = 0x8F32
+	INDEX_ARRAY_ADDRESS_NV           = 0x8F24
+	INDEX_ARRAY_LENGTH_NV            = 0x8F2E
+	NORMAL_ARRAY_ADDRESS_NV          = 0x8F22
+	NORMAL_ARRAY_LENGTH_NV           = 0x8F2C
 	SECONDARY_COLOR_ARRAY_ADDRESS_NV = 0x8F27
-	SECONDARY_COLOR_ARRAY_LENGTH_NV = 0x8F31
-	TEXTURE_COORD_ARRAY_ADDRESS_NV = 0x8F25
-	TEXTURE_COORD_ARRAY_LENGTH_NV = 0x8F2F
-	VERTEX_ARRAY_ADDRESS_NV = 0x8F21
-	VERTEX_ARRAY_LENGTH_NV = 0x8F2B
-	VERTEX_ATTRIB_ARRAY_ADDRESS_NV = 0x8F20
-	VERTEX_ATTRIB_ARRAY_LENGTH_NV = 0x8F2A
-	VERTEX_ATTRIB_ARRAY_UNIFIED_NV = 0x8F1E
+	SECONDARY_COLOR_ARRAY_LENGTH_NV  = 0x8F31
+	TEXTURE_COORD_ARRAY_ADDRESS_NV   = 0x8F25
+	TEXTURE_COORD_ARRAY_LENGTH_NV    = 0x8F2F
+	VERTEX_ARRAY_ADDRESS_NV          = 0x8F21
+	VERTEX_ARRAY_LENGTH_NV           = 0x8F2B
+	VERTEX_ATTRIB_ARRAY_ADDRESS_NV   = 0x8F20
+	VERTEX_ATTRIB_ARRAY_LENGTH_NV    = 0x8F2A
+	VERTEX_ATTRIB_ARRAY_UNIFIED_NV   = 0x8F1E
 )
+
 // NV_vertex_program
 const (
-	ATTRIB_ARRAY_POINTER_NV = 0x8645
-	ATTRIB_ARRAY_SIZE_NV = 0x8623
-	ATTRIB_ARRAY_STRIDE_NV = 0x8624
-	ATTRIB_ARRAY_TYPE_NV = 0x8625
-	CURRENT_ATTRIB_NV = 0x8626
-	CURRENT_MATRIX_NV = 0x8641
-	CURRENT_MATRIX_STACK_DEPTH_NV = 0x8640
-	IDENTITY_NV = 0x862A
-	INVERSE_NV = 0x862B
-	INVERSE_TRANSPOSE_NV = 0x862D
-	MAP1_VERTEX_ATTRIB0_4_NV = 0x8660
-	MAP1_VERTEX_ATTRIB10_4_NV = 0x866A
-	MAP1_VERTEX_ATTRIB11_4_NV = 0x866B
-	MAP1_VERTEX_ATTRIB12_4_NV = 0x866C
-	MAP1_VERTEX_ATTRIB13_4_NV = 0x866D
-	MAP1_VERTEX_ATTRIB14_4_NV = 0x866E
-	MAP1_VERTEX_ATTRIB15_4_NV = 0x866F
-	MAP1_VERTEX_ATTRIB1_4_NV = 0x8661
-	MAP1_VERTEX_ATTRIB2_4_NV = 0x8662
-	MAP1_VERTEX_ATTRIB3_4_NV = 0x8663
-	MAP1_VERTEX_ATTRIB4_4_NV = 0x8664
-	MAP1_VERTEX_ATTRIB5_4_NV = 0x8665
-	MAP1_VERTEX_ATTRIB6_4_NV = 0x8666
-	MAP1_VERTEX_ATTRIB7_4_NV = 0x8667
-	MAP1_VERTEX_ATTRIB8_4_NV = 0x8668
-	MAP1_VERTEX_ATTRIB9_4_NV = 0x8669
-	MAP2_VERTEX_ATTRIB0_4_NV = 0x8670
-	MAP2_VERTEX_ATTRIB10_4_NV = 0x867A
-	MAP2_VERTEX_ATTRIB11_4_NV = 0x867B
-	MAP2_VERTEX_ATTRIB12_4_NV = 0x867C
-	MAP2_VERTEX_ATTRIB13_4_NV = 0x867D
-	MAP2_VERTEX_ATTRIB14_4_NV = 0x867E
-	MAP2_VERTEX_ATTRIB15_4_NV = 0x867F
-	MAP2_VERTEX_ATTRIB1_4_NV = 0x8671
-	MAP2_VERTEX_ATTRIB2_4_NV = 0x8672
-	MAP2_VERTEX_ATTRIB3_4_NV = 0x8673
-	MAP2_VERTEX_ATTRIB4_4_NV = 0x8674
-	MAP2_VERTEX_ATTRIB5_4_NV = 0x8675
-	MAP2_VERTEX_ATTRIB6_4_NV = 0x8676
-	MAP2_VERTEX_ATTRIB7_4_NV = 0x8677
-	MAP2_VERTEX_ATTRIB8_4_NV = 0x8678
-	MAP2_VERTEX_ATTRIB9_4_NV = 0x8679
-	MATRIX0_NV = 0x8630
-	MATRIX1_NV = 0x8631
-	MATRIX2_NV = 0x8632
-	MATRIX3_NV = 0x8633
-	MATRIX4_NV = 0x8634
-	MATRIX5_NV = 0x8635
-	MATRIX6_NV = 0x8636
-	MATRIX7_NV = 0x8637
-	MAX_TRACK_MATRICES_NV = 0x862F
+	ATTRIB_ARRAY_POINTER_NV         = 0x8645
+	ATTRIB_ARRAY_SIZE_NV            = 0x8623
+	ATTRIB_ARRAY_STRIDE_NV          = 0x8624
+	ATTRIB_ARRAY_TYPE_NV            = 0x8625
+	CURRENT_ATTRIB_NV               = 0x8626
+	CURRENT_MATRIX_NV               = 0x8641
+	CURRENT_MATRIX_STACK_DEPTH_NV   = 0x8640
+	IDENTITY_NV                     = 0x862A
+	INVERSE_NV                      = 0x862B
+	INVERSE_TRANSPOSE_NV            = 0x862D
+	MAP1_VERTEX_ATTRIB0_4_NV        = 0x8660
+	MAP1_VERTEX_ATTRIB10_4_NV       = 0x866A
+	MAP1_VERTEX_ATTRIB11_4_NV       = 0x866B
+	MAP1_VERTEX_ATTRIB12_4_NV       = 0x866C
+	MAP1_VERTEX_ATTRIB13_4_NV       = 0x866D
+	MAP1_VERTEX_ATTRIB14_4_NV       = 0x866E
+	MAP1_VERTEX_ATTRIB15_4_NV       = 0x866F
+	MAP1_VERTEX_ATTRIB1_4_NV        = 0x8661
+	MAP1_VERTEX_ATTRIB2_4_NV        = 0x8662
+	MAP1_VERTEX_ATTRIB3_4_NV        = 0x8663
+	MAP1_VERTEX_ATTRIB4_4_NV        = 0x8664
+	MAP1_VERTEX_ATTRIB5_4_NV        = 0x8665
+	MAP1_VERTEX_ATTRIB6_4_NV        = 0x8666
+	MAP1_VERTEX_ATTRIB7_4_NV        = 0x8667
+	MAP1_VERTEX_ATTRIB8_4_NV        = 0x8668
+	MAP1_VERTEX_ATTRIB9_4_NV        = 0x8669
+	MAP2_VERTEX_ATTRIB0_4_NV        = 0x8670
+	MAP2_VERTEX_ATTRIB10_4_NV       = 0x867A
+	MAP2_VERTEX_ATTRIB11_4_NV       = 0x867B
+	MAP2_VERTEX_ATTRIB12_4_NV       = 0x867C
+	MAP2_VERTEX_ATTRIB13_4_NV       = 0x867D
+	MAP2_VERTEX_ATTRIB14_4_NV       = 0x867E
+	MAP2_VERTEX_ATTRIB15_4_NV       = 0x867F
+	MAP2_VERTEX_ATTRIB1_4_NV        = 0x8671
+	MAP2_VERTEX_ATTRIB2_4_NV        = 0x8672
+	MAP2_VERTEX_ATTRIB3_4_NV        = 0x8673
+	MAP2_VERTEX_ATTRIB4_4_NV        = 0x8674
+	MAP2_VERTEX_ATTRIB5_4_NV        = 0x8675
+	MAP2_VERTEX_ATTRIB6_4_NV        = 0x8676
+	MAP2_VERTEX_ATTRIB7_4_NV        = 0x8677
+	MAP2_VERTEX_ATTRIB8_4_NV        = 0x8678
+	MAP2_VERTEX_ATTRIB9_4_NV        = 0x8679
+	MATRIX0_NV                      = 0x8630
+	MATRIX1_NV                      = 0x8631
+	MATRIX2_NV                      = 0x8632
+	MATRIX3_NV                      = 0x8633
+	MATRIX4_NV                      = 0x8634
+	MATRIX5_NV                      = 0x8635
+	MATRIX6_NV                      = 0x8636
+	MATRIX7_NV                      = 0x8637
+	MAX_TRACK_MATRICES_NV           = 0x862F
 	MAX_TRACK_MATRIX_STACK_DEPTH_NV = 0x862E
-	MODELVIEW_PROJECTION_NV = 0x8629
-	PROGRAM_ERROR_POSITION_NV = 0x864B
-	PROGRAM_LENGTH_NV = 0x8627
-	PROGRAM_PARAMETER_NV = 0x8644
-	PROGRAM_RESIDENT_NV = 0x8647
-	PROGRAM_STRING_NV = 0x8628
-	PROGRAM_TARGET_NV = 0x8646
-	TRACK_MATRIX_NV = 0x8648
-	TRACK_MATRIX_TRANSFORM_NV = 0x8649
-	TRANSPOSE_NV = 0x862C
-	VERTEX_ATTRIB_ARRAY0_NV = 0x8650
-	VERTEX_ATTRIB_ARRAY10_NV = 0x865A
-	VERTEX_ATTRIB_ARRAY11_NV = 0x865B
-	VERTEX_ATTRIB_ARRAY12_NV = 0x865C
-	VERTEX_ATTRIB_ARRAY13_NV = 0x865D
-	VERTEX_ATTRIB_ARRAY14_NV = 0x865E
-	VERTEX_ATTRIB_ARRAY15_NV = 0x865F
-	VERTEX_ATTRIB_ARRAY1_NV = 0x8651
-	VERTEX_ATTRIB_ARRAY2_NV = 0x8652
-	VERTEX_ATTRIB_ARRAY3_NV = 0x8653
-	VERTEX_ATTRIB_ARRAY4_NV = 0x8654
-	VERTEX_ATTRIB_ARRAY5_NV = 0x8655
-	VERTEX_ATTRIB_ARRAY6_NV = 0x8656
-	VERTEX_ATTRIB_ARRAY7_NV = 0x8657
-	VERTEX_ATTRIB_ARRAY8_NV = 0x8658
-	VERTEX_ATTRIB_ARRAY9_NV = 0x8659
-	VERTEX_PROGRAM_BINDING_NV = 0x864A
-	VERTEX_PROGRAM_NV = 0x8620
-	VERTEX_PROGRAM_POINT_SIZE_NV = 0x8642
-	VERTEX_PROGRAM_TWO_SIDE_NV = 0x8643
-	VERTEX_STATE_PROGRAM_NV = 0x8621
+	MODELVIEW_PROJECTION_NV         = 0x8629
+	PROGRAM_ERROR_POSITION_NV       = 0x864B
+	PROGRAM_LENGTH_NV               = 0x8627
+	PROGRAM_PARAMETER_NV            = 0x8644
+	PROGRAM_RESIDENT_NV             = 0x8647
+	PROGRAM_STRING_NV               = 0x8628
+	PROGRAM_TARGET_NV               = 0x8646
+	TRACK_MATRIX_NV                 = 0x8648
+	TRACK_MATRIX_TRANSFORM_NV       = 0x8649
+	TRANSPOSE_NV                    = 0x862C
+	VERTEX_ATTRIB_ARRAY0_NV         = 0x8650
+	VERTEX_ATTRIB_ARRAY10_NV        = 0x865A
+	VERTEX_ATTRIB_ARRAY11_NV        = 0x865B
+	VERTEX_ATTRIB_ARRAY12_NV        = 0x865C
+	VERTEX_ATTRIB_ARRAY13_NV        = 0x865D
+	VERTEX_ATTRIB_ARRAY14_NV        = 0x865E
+	VERTEX_ATTRIB_ARRAY15_NV        = 0x865F
+	VERTEX_ATTRIB_ARRAY1_NV         = 0x8651
+	VERTEX_ATTRIB_ARRAY2_NV         = 0x8652
+	VERTEX_ATTRIB_ARRAY3_NV         = 0x8653
+	VERTEX_ATTRIB_ARRAY4_NV         = 0x8654
+	VERTEX_ATTRIB_ARRAY5_NV         = 0x8655
+	VERTEX_ATTRIB_ARRAY6_NV         = 0x8656
+	VERTEX_ATTRIB_ARRAY7_NV         = 0x8657
+	VERTEX_ATTRIB_ARRAY8_NV         = 0x8658
+	VERTEX_ATTRIB_ARRAY9_NV         = 0x8659
+	VERTEX_PROGRAM_BINDING_NV       = 0x864A
+	VERTEX_PROGRAM_NV               = 0x8620
+	VERTEX_PROGRAM_POINT_SIZE_NV    = 0x8642
+	VERTEX_PROGRAM_TWO_SIDE_NV      = 0x8643
+	VERTEX_STATE_PROGRAM_NV         = 0x8621
 )
+
 // NV_vertex_program1_1
-const (
-)
+const ()
+
 // NV_vertex_program2
-const (
-)
+const ()
+
 // NV_vertex_program2_option
-const (
-)
+const ()
+
 // NV_vertex_program3
 const (
 	MAX_VERTEX_TEXTURE_IMAGE_UNITS_ARB = 0x8B4C
 )
+
 // NV_vertex_program4
 const (
 	VERTEX_ATTRIB_ARRAY_INTEGER_NV = 0x88FD
 )
+
 // NV_video_capture
 const (
-	FAILURE_NV = 0x9030
-	FIELD_LOWER_NV = 0x9023
-	FIELD_UPPER_NV = 0x9022
-	LAST_VIDEO_CAPTURE_STATUS_NV = 0x9027
-	NEXT_VIDEO_CAPTURE_BUFFER_STATUS_NV = 0x9025
-	NUM_VIDEO_CAPTURE_STREAMS_NV = 0x9024
-	PARTIAL_SUCCESS_NV = 0x902E
-	SUCCESS_NV = 0x902F
-	VIDEO_BUFFER_BINDING_NV = 0x9021
-	VIDEO_BUFFER_INTERNAL_FORMAT_NV = 0x902D
-	VIDEO_BUFFER_NV = 0x9020
-	VIDEO_BUFFER_PITCH_NV = 0x9028
-	VIDEO_CAPTURE_FIELD_LOWER_HEIGHT_NV = 0x903B
-	VIDEO_CAPTURE_FIELD_UPPER_HEIGHT_NV = 0x903A
-	VIDEO_CAPTURE_FRAME_HEIGHT_NV = 0x9039
-	VIDEO_CAPTURE_FRAME_WIDTH_NV = 0x9038
-	VIDEO_CAPTURE_SURFACE_ORIGIN_NV = 0x903C
-	VIDEO_CAPTURE_TO_422_SUPPORTED_NV = 0x9026
-	VIDEO_COLOR_CONVERSION_MATRIX_NV = 0x9029
-	VIDEO_COLOR_CONVERSION_MAX_NV = 0x902A
-	VIDEO_COLOR_CONVERSION_MIN_NV = 0x902B
-	VIDEO_COLOR_CONVERSION_OFFSET_NV = 0x902C
-	YCBAYCR8A_4224_NV = 0x9032
-	YCBYCR8_422_NV = 0x9031
+	FAILURE_NV                               = 0x9030
+	FIELD_LOWER_NV                           = 0x9023
+	FIELD_UPPER_NV                           = 0x9022
+	LAST_VIDEO_CAPTURE_STATUS_NV             = 0x9027
+	NEXT_VIDEO_CAPTURE_BUFFER_STATUS_NV      = 0x9025
+	NUM_VIDEO_CAPTURE_STREAMS_NV             = 0x9024
+	PARTIAL_SUCCESS_NV                       = 0x902E
+	SUCCESS_NV                               = 0x902F
+	VIDEO_BUFFER_BINDING_NV                  = 0x9021
+	VIDEO_BUFFER_INTERNAL_FORMAT_NV          = 0x902D
+	VIDEO_BUFFER_NV                          = 0x9020
+	VIDEO_BUFFER_PITCH_NV                    = 0x9028
+	VIDEO_CAPTURE_FIELD_LOWER_HEIGHT_NV      = 0x903B
+	VIDEO_CAPTURE_FIELD_UPPER_HEIGHT_NV      = 0x903A
+	VIDEO_CAPTURE_FRAME_HEIGHT_NV            = 0x9039
+	VIDEO_CAPTURE_FRAME_WIDTH_NV             = 0x9038
+	VIDEO_CAPTURE_SURFACE_ORIGIN_NV          = 0x903C
+	VIDEO_CAPTURE_TO_422_SUPPORTED_NV        = 0x9026
+	VIDEO_COLOR_CONVERSION_MATRIX_NV         = 0x9029
+	VIDEO_COLOR_CONVERSION_MAX_NV            = 0x902A
+	VIDEO_COLOR_CONVERSION_MIN_NV            = 0x902B
+	VIDEO_COLOR_CONVERSION_OFFSET_NV         = 0x902C
+	YCBAYCR8A_4224_NV                        = 0x9032
+	YCBYCR8_422_NV                           = 0x9031
 	Z4Y12Z4CB12Z4A12Z4Y12Z4CR12Z4A12_4224_NV = 0x9036
-	Z4Y12Z4CB12Z4CR12_444_NV = 0x9037
-	Z4Y12Z4CB12Z4Y12Z4CR12_422_NV = 0x9035
+	Z4Y12Z4CB12Z4CR12_444_NV                 = 0x9037
+	Z4Y12Z4CB12Z4Y12Z4CR12_422_NV            = 0x9035
 	Z6Y10Z6CB10Z6A10Z6Y10Z6CR10Z6A10_4224_NV = 0x9034
-	Z6Y10Z6CB10Z6Y10Z6CR10_422_NV = 0x9033
+	Z6Y10Z6CB10Z6Y10Z6CR10_422_NV            = 0x9033
 )
+
 // NV_bindless_texture
 
 func GetTextureHandleNV(texture Uint) Uint64 {
@@ -4015,31 +4067,31 @@ func GetTextureHandleNV(texture Uint) Uint64 {
 func GetTextureSamplerHandleNV(texture Uint, sampler Uint) Uint64 {
 	return (Uint64)(C.goglGetTextureSamplerHandleNV((C.GLuint)(texture), (C.GLuint)(sampler)))
 }
-func MakeTextureHandleResidentNV(handle Uint64)  {
+func MakeTextureHandleResidentNV(handle Uint64) {
 	C.goglMakeTextureHandleResidentNV((C.GLuint64)(handle))
 }
-func MakeTextureHandleNonResidentNV(handle Uint64)  {
+func MakeTextureHandleNonResidentNV(handle Uint64) {
 	C.goglMakeTextureHandleNonResidentNV((C.GLuint64)(handle))
 }
 func GetImageHandleNV(texture Uint, level Int, layered Boolean, layer Int, format Enum) Uint64 {
 	return (Uint64)(C.goglGetImageHandleNV((C.GLuint)(texture), (C.GLint)(level), (C.GLboolean)(layered), (C.GLint)(layer), (C.GLenum)(format)))
 }
-func MakeImageHandleResidentNV(handle Uint64, access Enum)  {
+func MakeImageHandleResidentNV(handle Uint64, access Enum) {
 	C.goglMakeImageHandleResidentNV((C.GLuint64)(handle), (C.GLenum)(access))
 }
-func MakeImageHandleNonResidentNV(handle Uint64)  {
+func MakeImageHandleNonResidentNV(handle Uint64) {
 	C.goglMakeImageHandleNonResidentNV((C.GLuint64)(handle))
 }
-func UniformHandleui64NV(location Int, value Uint64)  {
+func UniformHandleui64NV(location Int, value Uint64) {
 	C.goglUniformHandleui64NV((C.GLint)(location), (C.GLuint64)(value))
 }
-func UniformHandleui64vNV(location Int, count Sizei, value *Uint64)  {
+func UniformHandleui64vNV(location Int, count Sizei, value *Uint64) {
 	C.goglUniformHandleui64vNV((C.GLint)(location), (C.GLsizei)(count), (*C.GLuint64)(value))
 }
-func ProgramUniformHandleui64NV(program Uint, location Int, value Uint64)  {
+func ProgramUniformHandleui64NV(program Uint, location Int, value Uint64) {
 	C.goglProgramUniformHandleui64NV((C.GLuint)(program), (C.GLint)(location), (C.GLuint64)(value))
 }
-func ProgramUniformHandleui64vNV(program Uint, location Int, count Sizei, values *Uint64)  {
+func ProgramUniformHandleui64vNV(program Uint, location Int, count Sizei, values *Uint64) {
 	C.goglProgramUniformHandleui64vNV((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLuint64)(values))
 }
 func IsTextureHandleResidentNV(handle Uint64) Boolean {
@@ -4048,82 +4100,88 @@ func IsTextureHandleResidentNV(handle Uint64) Boolean {
 func IsImageHandleResidentNV(handle Uint64) Boolean {
 	return (Boolean)(C.goglIsImageHandleResidentNV((C.GLuint64)(handle)))
 }
+
 // NV_blend_square
 
 // NV_conditional_render
 
-func BeginConditionalRenderNV(id Uint, mode Enum)  {
+func BeginConditionalRenderNV(id Uint, mode Enum) {
 	C.goglBeginConditionalRenderNV((C.GLuint)(id), (C.GLenum)(mode))
 }
-func EndConditionalRenderNV()  {
+func EndConditionalRenderNV() {
 	C.goglEndConditionalRenderNV()
 }
+
 // NV_copy_depth_to_color
 
 // NV_copy_image
 
-func CopyImageSubDataNV(srcName Uint, srcTarget Enum, srcLevel Int, srcX Int, srcY Int, srcZ Int, dstName Uint, dstTarget Enum, dstLevel Int, dstX Int, dstY Int, dstZ Int, width Sizei, height Sizei, depth Sizei)  {
+func CopyImageSubDataNV(srcName Uint, srcTarget Enum, srcLevel Int, srcX Int, srcY Int, srcZ Int, dstName Uint, dstTarget Enum, dstLevel Int, dstX Int, dstY Int, dstZ Int, width Sizei, height Sizei, depth Sizei) {
 	C.goglCopyImageSubDataNV((C.GLuint)(srcName), (C.GLenum)(srcTarget), (C.GLint)(srcLevel), (C.GLint)(srcX), (C.GLint)(srcY), (C.GLint)(srcZ), (C.GLuint)(dstName), (C.GLenum)(dstTarget), (C.GLint)(dstLevel), (C.GLint)(dstX), (C.GLint)(dstY), (C.GLint)(dstZ), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLsizei)(depth))
 }
+
 // NV_depth_buffer_float
 
-func DepthRangedNV(zNear Double, zFar Double)  {
+func DepthRangedNV(zNear Double, zFar Double) {
 	C.goglDepthRangedNV((C.GLdouble)(zNear), (C.GLdouble)(zFar))
 }
-func ClearDepthdNV(depth Double)  {
+func ClearDepthdNV(depth Double) {
 	C.goglClearDepthdNV((C.GLdouble)(depth))
 }
-func DepthBoundsdNV(zmin Double, zmax Double)  {
+func DepthBoundsdNV(zmin Double, zmax Double) {
 	C.goglDepthBoundsdNV((C.GLdouble)(zmin), (C.GLdouble)(zmax))
 }
+
 // NV_depth_clamp
 
 // NV_evaluators
 
-func MapControlPointsNV(target Enum, index Uint, type_ Enum, ustride Sizei, vstride Sizei, uorder Int, vorder Int, packed Boolean, points Pointer)  {
+func MapControlPointsNV(target Enum, index Uint, type_ Enum, ustride Sizei, vstride Sizei, uorder Int, vorder Int, packed Boolean, points Pointer) {
 	C.goglMapControlPointsNV((C.GLenum)(target), (C.GLuint)(index), (C.GLenum)(type_), (C.GLsizei)(ustride), (C.GLsizei)(vstride), (C.GLint)(uorder), (C.GLint)(vorder), (C.GLboolean)(packed), (unsafe.Pointer)(points))
 }
-func MapParameterivNV(target Enum, pname Enum, params *Int)  {
+func MapParameterivNV(target Enum, pname Enum, params *Int) {
 	C.goglMapParameterivNV((C.GLenum)(target), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func MapParameterfvNV(target Enum, pname Enum, params *Float)  {
+func MapParameterfvNV(target Enum, pname Enum, params *Float) {
 	C.goglMapParameterfvNV((C.GLenum)(target), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func GetMapControlPointsNV(target Enum, index Uint, type_ Enum, ustride Sizei, vstride Sizei, packed Boolean, points Pointer)  {
+func GetMapControlPointsNV(target Enum, index Uint, type_ Enum, ustride Sizei, vstride Sizei, packed Boolean, points Pointer) {
 	C.goglGetMapControlPointsNV((C.GLenum)(target), (C.GLuint)(index), (C.GLenum)(type_), (C.GLsizei)(ustride), (C.GLsizei)(vstride), (C.GLboolean)(packed), (unsafe.Pointer)(points))
 }
-func GetMapParameterivNV(target Enum, pname Enum, params *Int)  {
+func GetMapParameterivNV(target Enum, pname Enum, params *Int) {
 	C.goglGetMapParameterivNV((C.GLenum)(target), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetMapParameterfvNV(target Enum, pname Enum, params *Float)  {
+func GetMapParameterfvNV(target Enum, pname Enum, params *Float) {
 	C.goglGetMapParameterfvNV((C.GLenum)(target), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func GetMapAttribParameterivNV(target Enum, index Uint, pname Enum, params *Int)  {
+func GetMapAttribParameterivNV(target Enum, index Uint, pname Enum, params *Int) {
 	C.goglGetMapAttribParameterivNV((C.GLenum)(target), (C.GLuint)(index), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetMapAttribParameterfvNV(target Enum, index Uint, pname Enum, params *Float)  {
+func GetMapAttribParameterfvNV(target Enum, index Uint, pname Enum, params *Float) {
 	C.goglGetMapAttribParameterfvNV((C.GLenum)(target), (C.GLuint)(index), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func EvalMapsNV(target Enum, mode Enum)  {
+func EvalMapsNV(target Enum, mode Enum) {
 	C.goglEvalMapsNV((C.GLenum)(target), (C.GLenum)(mode))
 }
+
 // NV_explicit_multisample
 
-func GetMultisamplefvNV(pname Enum, index Uint, val *Float)  {
+func GetMultisamplefvNV(pname Enum, index Uint, val *Float) {
 	C.goglGetMultisamplefvNV((C.GLenum)(pname), (C.GLuint)(index), (*C.GLfloat)(val))
 }
-func SampleMaskIndexedNV(index Uint, mask Bitfield)  {
+func SampleMaskIndexedNV(index Uint, mask Bitfield) {
 	C.goglSampleMaskIndexedNV((C.GLuint)(index), (C.GLbitfield)(mask))
 }
-func TexRenderbufferNV(target Enum, renderbuffer Uint)  {
+func TexRenderbufferNV(target Enum, renderbuffer Uint) {
 	C.goglTexRenderbufferNV((C.GLenum)(target), (C.GLuint)(renderbuffer))
 }
+
 // NV_fence
 
-func DeleteFencesNV(n Sizei, fences *Uint)  {
+func DeleteFencesNV(n Sizei, fences *Uint) {
 	C.goglDeleteFencesNV((C.GLsizei)(n), (*C.GLuint)(fences))
 }
-func GenFencesNV(n Sizei, fences *Uint)  {
+func GenFencesNV(n Sizei, fences *Uint) {
 	C.goglGenFencesNV((C.GLsizei)(n), (*C.GLuint)(fences))
 }
 func IsFenceNV(fence Uint) Boolean {
@@ -4132,39 +4190,41 @@ func IsFenceNV(fence Uint) Boolean {
 func TestFenceNV(fence Uint) Boolean {
 	return (Boolean)(C.goglTestFenceNV((C.GLuint)(fence)))
 }
-func GetFenceivNV(fence Uint, pname Enum, params *Int)  {
+func GetFenceivNV(fence Uint, pname Enum, params *Int) {
 	C.goglGetFenceivNV((C.GLuint)(fence), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func FinishFenceNV(fence Uint)  {
+func FinishFenceNV(fence Uint) {
 	C.goglFinishFenceNV((C.GLuint)(fence))
 }
-func SetFenceNV(fence Uint, condition Enum)  {
+func SetFenceNV(fence Uint, condition Enum) {
 	C.goglSetFenceNV((C.GLuint)(fence), (C.GLenum)(condition))
 }
+
 // NV_float_buffer
 
 // NV_fog_distance
 
 // NV_fragment_program
 
-func ProgramNamedParameter4fNV(id Uint, len Sizei, name *Ubyte, x Float, y Float, z Float, w Float)  {
+func ProgramNamedParameter4fNV(id Uint, len Sizei, name *Ubyte, x Float, y Float, z Float, w Float) {
 	C.goglProgramNamedParameter4fNV((C.GLuint)(id), (C.GLsizei)(len), (*C.GLubyte)(name), (C.GLfloat)(x), (C.GLfloat)(y), (C.GLfloat)(z), (C.GLfloat)(w))
 }
-func ProgramNamedParameter4dNV(id Uint, len Sizei, name *Ubyte, x Double, y Double, z Double, w Double)  {
+func ProgramNamedParameter4dNV(id Uint, len Sizei, name *Ubyte, x Double, y Double, z Double, w Double) {
 	C.goglProgramNamedParameter4dNV((C.GLuint)(id), (C.GLsizei)(len), (*C.GLubyte)(name), (C.GLdouble)(x), (C.GLdouble)(y), (C.GLdouble)(z), (C.GLdouble)(w))
 }
-func ProgramNamedParameter4fvNV(id Uint, len Sizei, name *Ubyte, v *Float)  {
+func ProgramNamedParameter4fvNV(id Uint, len Sizei, name *Ubyte, v *Float) {
 	C.goglProgramNamedParameter4fvNV((C.GLuint)(id), (C.GLsizei)(len), (*C.GLubyte)(name), (*C.GLfloat)(v))
 }
-func ProgramNamedParameter4dvNV(id Uint, len Sizei, name *Ubyte, v *Double)  {
+func ProgramNamedParameter4dvNV(id Uint, len Sizei, name *Ubyte, v *Double) {
 	C.goglProgramNamedParameter4dvNV((C.GLuint)(id), (C.GLsizei)(len), (*C.GLubyte)(name), (*C.GLdouble)(v))
 }
-func GetProgramNamedParameterfvNV(id Uint, len Sizei, name *Ubyte, params *Float)  {
+func GetProgramNamedParameterfvNV(id Uint, len Sizei, name *Ubyte, params *Float) {
 	C.goglGetProgramNamedParameterfvNV((C.GLuint)(id), (C.GLsizei)(len), (*C.GLubyte)(name), (*C.GLfloat)(params))
 }
-func GetProgramNamedParameterdvNV(id Uint, len Sizei, name *Ubyte, params *Double)  {
+func GetProgramNamedParameterdvNV(id Uint, len Sizei, name *Ubyte, params *Double) {
 	C.goglGetProgramNamedParameterdvNV((C.GLuint)(id), (C.GLsizei)(len), (*C.GLubyte)(name), (*C.GLdouble)(params))
 }
+
 // NV_fragment_program2
 
 // NV_fragment_program4
@@ -4173,324 +4233,330 @@ func GetProgramNamedParameterdvNV(id Uint, len Sizei, name *Ubyte, params *Doubl
 
 // NV_framebuffer_multisample_coverage
 
-func RenderbufferStorageMultisampleCoverageNV(target Enum, coverageSamples Sizei, colorSamples Sizei, internalformat Enum, width Sizei, height Sizei)  {
+func RenderbufferStorageMultisampleCoverageNV(target Enum, coverageSamples Sizei, colorSamples Sizei, internalformat Enum, width Sizei, height Sizei) {
 	C.goglRenderbufferStorageMultisampleCoverageNV((C.GLenum)(target), (C.GLsizei)(coverageSamples), (C.GLsizei)(colorSamples), (C.GLenum)(internalformat), (C.GLsizei)(width), (C.GLsizei)(height))
 }
+
 // NV_geometry_program4
 
-func ProgramVertexLimitNV(target Enum, limit Int)  {
+func ProgramVertexLimitNV(target Enum, limit Int) {
 	C.goglProgramVertexLimitNV((C.GLenum)(target), (C.GLint)(limit))
 }
-func FramebufferTextureEXT(target Enum, attachment Enum, texture Uint, level Int)  {
+func FramebufferTextureEXT(target Enum, attachment Enum, texture Uint, level Int) {
 	C.goglFramebufferTextureEXT((C.GLenum)(target), (C.GLenum)(attachment), (C.GLuint)(texture), (C.GLint)(level))
 }
-func FramebufferTextureLayerEXT(target Enum, attachment Enum, texture Uint, level Int, layer Int)  {
+func FramebufferTextureLayerEXT(target Enum, attachment Enum, texture Uint, level Int, layer Int) {
 	C.goglFramebufferTextureLayerEXT((C.GLenum)(target), (C.GLenum)(attachment), (C.GLuint)(texture), (C.GLint)(level), (C.GLint)(layer))
 }
-func FramebufferTextureFaceEXT(target Enum, attachment Enum, texture Uint, level Int, face Enum)  {
+func FramebufferTextureFaceEXT(target Enum, attachment Enum, texture Uint, level Int, face Enum) {
 	C.goglFramebufferTextureFaceEXT((C.GLenum)(target), (C.GLenum)(attachment), (C.GLuint)(texture), (C.GLint)(level), (C.GLenum)(face))
 }
+
 // NV_geometry_shader4
 
 // NV_gpu_program4
 
-func ProgramLocalParameterI4iNV(target Enum, index Uint, x Int, y Int, z Int, w Int)  {
+func ProgramLocalParameterI4iNV(target Enum, index Uint, x Int, y Int, z Int, w Int) {
 	C.goglProgramLocalParameterI4iNV((C.GLenum)(target), (C.GLuint)(index), (C.GLint)(x), (C.GLint)(y), (C.GLint)(z), (C.GLint)(w))
 }
-func ProgramLocalParameterI4ivNV(target Enum, index Uint, params *Int)  {
+func ProgramLocalParameterI4ivNV(target Enum, index Uint, params *Int) {
 	C.goglProgramLocalParameterI4ivNV((C.GLenum)(target), (C.GLuint)(index), (*C.GLint)(params))
 }
-func ProgramLocalParametersI4ivNV(target Enum, index Uint, count Sizei, params *Int)  {
+func ProgramLocalParametersI4ivNV(target Enum, index Uint, count Sizei, params *Int) {
 	C.goglProgramLocalParametersI4ivNV((C.GLenum)(target), (C.GLuint)(index), (C.GLsizei)(count), (*C.GLint)(params))
 }
-func ProgramLocalParameterI4uiNV(target Enum, index Uint, x Uint, y Uint, z Uint, w Uint)  {
+func ProgramLocalParameterI4uiNV(target Enum, index Uint, x Uint, y Uint, z Uint, w Uint) {
 	C.goglProgramLocalParameterI4uiNV((C.GLenum)(target), (C.GLuint)(index), (C.GLuint)(x), (C.GLuint)(y), (C.GLuint)(z), (C.GLuint)(w))
 }
-func ProgramLocalParameterI4uivNV(target Enum, index Uint, params *Uint)  {
+func ProgramLocalParameterI4uivNV(target Enum, index Uint, params *Uint) {
 	C.goglProgramLocalParameterI4uivNV((C.GLenum)(target), (C.GLuint)(index), (*C.GLuint)(params))
 }
-func ProgramLocalParametersI4uivNV(target Enum, index Uint, count Sizei, params *Uint)  {
+func ProgramLocalParametersI4uivNV(target Enum, index Uint, count Sizei, params *Uint) {
 	C.goglProgramLocalParametersI4uivNV((C.GLenum)(target), (C.GLuint)(index), (C.GLsizei)(count), (*C.GLuint)(params))
 }
-func ProgramEnvParameterI4iNV(target Enum, index Uint, x Int, y Int, z Int, w Int)  {
+func ProgramEnvParameterI4iNV(target Enum, index Uint, x Int, y Int, z Int, w Int) {
 	C.goglProgramEnvParameterI4iNV((C.GLenum)(target), (C.GLuint)(index), (C.GLint)(x), (C.GLint)(y), (C.GLint)(z), (C.GLint)(w))
 }
-func ProgramEnvParameterI4ivNV(target Enum, index Uint, params *Int)  {
+func ProgramEnvParameterI4ivNV(target Enum, index Uint, params *Int) {
 	C.goglProgramEnvParameterI4ivNV((C.GLenum)(target), (C.GLuint)(index), (*C.GLint)(params))
 }
-func ProgramEnvParametersI4ivNV(target Enum, index Uint, count Sizei, params *Int)  {
+func ProgramEnvParametersI4ivNV(target Enum, index Uint, count Sizei, params *Int) {
 	C.goglProgramEnvParametersI4ivNV((C.GLenum)(target), (C.GLuint)(index), (C.GLsizei)(count), (*C.GLint)(params))
 }
-func ProgramEnvParameterI4uiNV(target Enum, index Uint, x Uint, y Uint, z Uint, w Uint)  {
+func ProgramEnvParameterI4uiNV(target Enum, index Uint, x Uint, y Uint, z Uint, w Uint) {
 	C.goglProgramEnvParameterI4uiNV((C.GLenum)(target), (C.GLuint)(index), (C.GLuint)(x), (C.GLuint)(y), (C.GLuint)(z), (C.GLuint)(w))
 }
-func ProgramEnvParameterI4uivNV(target Enum, index Uint, params *Uint)  {
+func ProgramEnvParameterI4uivNV(target Enum, index Uint, params *Uint) {
 	C.goglProgramEnvParameterI4uivNV((C.GLenum)(target), (C.GLuint)(index), (*C.GLuint)(params))
 }
-func ProgramEnvParametersI4uivNV(target Enum, index Uint, count Sizei, params *Uint)  {
+func ProgramEnvParametersI4uivNV(target Enum, index Uint, count Sizei, params *Uint) {
 	C.goglProgramEnvParametersI4uivNV((C.GLenum)(target), (C.GLuint)(index), (C.GLsizei)(count), (*C.GLuint)(params))
 }
-func GetProgramLocalParameterIivNV(target Enum, index Uint, params *Int)  {
+func GetProgramLocalParameterIivNV(target Enum, index Uint, params *Int) {
 	C.goglGetProgramLocalParameterIivNV((C.GLenum)(target), (C.GLuint)(index), (*C.GLint)(params))
 }
-func GetProgramLocalParameterIuivNV(target Enum, index Uint, params *Uint)  {
+func GetProgramLocalParameterIuivNV(target Enum, index Uint, params *Uint) {
 	C.goglGetProgramLocalParameterIuivNV((C.GLenum)(target), (C.GLuint)(index), (*C.GLuint)(params))
 }
-func GetProgramEnvParameterIivNV(target Enum, index Uint, params *Int)  {
+func GetProgramEnvParameterIivNV(target Enum, index Uint, params *Int) {
 	C.goglGetProgramEnvParameterIivNV((C.GLenum)(target), (C.GLuint)(index), (*C.GLint)(params))
 }
-func GetProgramEnvParameterIuivNV(target Enum, index Uint, params *Uint)  {
+func GetProgramEnvParameterIuivNV(target Enum, index Uint, params *Uint) {
 	C.goglGetProgramEnvParameterIuivNV((C.GLenum)(target), (C.GLuint)(index), (*C.GLuint)(params))
 }
+
 // NV_gpu_program5
 
-func ProgramSubroutineParametersuivNV(target Enum, count Sizei, params *Uint)  {
+func ProgramSubroutineParametersuivNV(target Enum, count Sizei, params *Uint) {
 	C.goglProgramSubroutineParametersuivNV((C.GLenum)(target), (C.GLsizei)(count), (*C.GLuint)(params))
 }
-func GetProgramSubroutineParameteruivNV(target Enum, index Uint, param *Uint)  {
+func GetProgramSubroutineParameteruivNV(target Enum, index Uint, param *Uint) {
 	C.goglGetProgramSubroutineParameteruivNV((C.GLenum)(target), (C.GLuint)(index), (*C.GLuint)(param))
 }
+
 // NV_gpu_shader5
 
-func Uniform1i64NV(location Int, x Int64)  {
+func Uniform1i64NV(location Int, x Int64) {
 	C.goglUniform1i64NV((C.GLint)(location), (C.GLint64EXT)(x))
 }
-func Uniform2i64NV(location Int, x Int64, y Int64)  {
+func Uniform2i64NV(location Int, x Int64, y Int64) {
 	C.goglUniform2i64NV((C.GLint)(location), (C.GLint64EXT)(x), (C.GLint64EXT)(y))
 }
-func Uniform3i64NV(location Int, x Int64, y Int64, z Int64)  {
+func Uniform3i64NV(location Int, x Int64, y Int64, z Int64) {
 	C.goglUniform3i64NV((C.GLint)(location), (C.GLint64EXT)(x), (C.GLint64EXT)(y), (C.GLint64EXT)(z))
 }
-func Uniform4i64NV(location Int, x Int64, y Int64, z Int64, w Int64)  {
+func Uniform4i64NV(location Int, x Int64, y Int64, z Int64, w Int64) {
 	C.goglUniform4i64NV((C.GLint)(location), (C.GLint64EXT)(x), (C.GLint64EXT)(y), (C.GLint64EXT)(z), (C.GLint64EXT)(w))
 }
-func Uniform1i64vNV(location Int, count Sizei, value *Int64)  {
+func Uniform1i64vNV(location Int, count Sizei, value *Int64) {
 	C.goglUniform1i64vNV((C.GLint)(location), (C.GLsizei)(count), (*C.GLint64EXT)(value))
 }
-func Uniform2i64vNV(location Int, count Sizei, value *Int64)  {
+func Uniform2i64vNV(location Int, count Sizei, value *Int64) {
 	C.goglUniform2i64vNV((C.GLint)(location), (C.GLsizei)(count), (*C.GLint64EXT)(value))
 }
-func Uniform3i64vNV(location Int, count Sizei, value *Int64)  {
+func Uniform3i64vNV(location Int, count Sizei, value *Int64) {
 	C.goglUniform3i64vNV((C.GLint)(location), (C.GLsizei)(count), (*C.GLint64EXT)(value))
 }
-func Uniform4i64vNV(location Int, count Sizei, value *Int64)  {
+func Uniform4i64vNV(location Int, count Sizei, value *Int64) {
 	C.goglUniform4i64vNV((C.GLint)(location), (C.GLsizei)(count), (*C.GLint64EXT)(value))
 }
-func Uniform1ui64NV(location Int, x Uint64)  {
+func Uniform1ui64NV(location Int, x Uint64) {
 	C.goglUniform1ui64NV((C.GLint)(location), (C.GLuint64EXT)(x))
 }
-func Uniform2ui64NV(location Int, x Uint64, y Uint64)  {
+func Uniform2ui64NV(location Int, x Uint64, y Uint64) {
 	C.goglUniform2ui64NV((C.GLint)(location), (C.GLuint64EXT)(x), (C.GLuint64EXT)(y))
 }
-func Uniform3ui64NV(location Int, x Uint64, y Uint64, z Uint64)  {
+func Uniform3ui64NV(location Int, x Uint64, y Uint64, z Uint64) {
 	C.goglUniform3ui64NV((C.GLint)(location), (C.GLuint64EXT)(x), (C.GLuint64EXT)(y), (C.GLuint64EXT)(z))
 }
-func Uniform4ui64NV(location Int, x Uint64, y Uint64, z Uint64, w Uint64)  {
+func Uniform4ui64NV(location Int, x Uint64, y Uint64, z Uint64, w Uint64) {
 	C.goglUniform4ui64NV((C.GLint)(location), (C.GLuint64EXT)(x), (C.GLuint64EXT)(y), (C.GLuint64EXT)(z), (C.GLuint64EXT)(w))
 }
-func Uniform1ui64vNV(location Int, count Sizei, value *Uint64)  {
+func Uniform1ui64vNV(location Int, count Sizei, value *Uint64) {
 	C.goglUniform1ui64vNV((C.GLint)(location), (C.GLsizei)(count), (*C.GLuint64EXT)(value))
 }
-func Uniform2ui64vNV(location Int, count Sizei, value *Uint64)  {
+func Uniform2ui64vNV(location Int, count Sizei, value *Uint64) {
 	C.goglUniform2ui64vNV((C.GLint)(location), (C.GLsizei)(count), (*C.GLuint64EXT)(value))
 }
-func Uniform3ui64vNV(location Int, count Sizei, value *Uint64)  {
+func Uniform3ui64vNV(location Int, count Sizei, value *Uint64) {
 	C.goglUniform3ui64vNV((C.GLint)(location), (C.GLsizei)(count), (*C.GLuint64EXT)(value))
 }
-func Uniform4ui64vNV(location Int, count Sizei, value *Uint64)  {
+func Uniform4ui64vNV(location Int, count Sizei, value *Uint64) {
 	C.goglUniform4ui64vNV((C.GLint)(location), (C.GLsizei)(count), (*C.GLuint64EXT)(value))
 }
-func GetUniformi64vNV(program Uint, location Int, params *Int64)  {
+func GetUniformi64vNV(program Uint, location Int, params *Int64) {
 	C.goglGetUniformi64vNV((C.GLuint)(program), (C.GLint)(location), (*C.GLint64EXT)(params))
 }
-func ProgramUniform1i64NV(program Uint, location Int, x Int64)  {
+func ProgramUniform1i64NV(program Uint, location Int, x Int64) {
 	C.goglProgramUniform1i64NV((C.GLuint)(program), (C.GLint)(location), (C.GLint64EXT)(x))
 }
-func ProgramUniform2i64NV(program Uint, location Int, x Int64, y Int64)  {
+func ProgramUniform2i64NV(program Uint, location Int, x Int64, y Int64) {
 	C.goglProgramUniform2i64NV((C.GLuint)(program), (C.GLint)(location), (C.GLint64EXT)(x), (C.GLint64EXT)(y))
 }
-func ProgramUniform3i64NV(program Uint, location Int, x Int64, y Int64, z Int64)  {
+func ProgramUniform3i64NV(program Uint, location Int, x Int64, y Int64, z Int64) {
 	C.goglProgramUniform3i64NV((C.GLuint)(program), (C.GLint)(location), (C.GLint64EXT)(x), (C.GLint64EXT)(y), (C.GLint64EXT)(z))
 }
-func ProgramUniform4i64NV(program Uint, location Int, x Int64, y Int64, z Int64, w Int64)  {
+func ProgramUniform4i64NV(program Uint, location Int, x Int64, y Int64, z Int64, w Int64) {
 	C.goglProgramUniform4i64NV((C.GLuint)(program), (C.GLint)(location), (C.GLint64EXT)(x), (C.GLint64EXT)(y), (C.GLint64EXT)(z), (C.GLint64EXT)(w))
 }
-func ProgramUniform1i64vNV(program Uint, location Int, count Sizei, value *Int64)  {
+func ProgramUniform1i64vNV(program Uint, location Int, count Sizei, value *Int64) {
 	C.goglProgramUniform1i64vNV((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLint64EXT)(value))
 }
-func ProgramUniform2i64vNV(program Uint, location Int, count Sizei, value *Int64)  {
+func ProgramUniform2i64vNV(program Uint, location Int, count Sizei, value *Int64) {
 	C.goglProgramUniform2i64vNV((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLint64EXT)(value))
 }
-func ProgramUniform3i64vNV(program Uint, location Int, count Sizei, value *Int64)  {
+func ProgramUniform3i64vNV(program Uint, location Int, count Sizei, value *Int64) {
 	C.goglProgramUniform3i64vNV((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLint64EXT)(value))
 }
-func ProgramUniform4i64vNV(program Uint, location Int, count Sizei, value *Int64)  {
+func ProgramUniform4i64vNV(program Uint, location Int, count Sizei, value *Int64) {
 	C.goglProgramUniform4i64vNV((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLint64EXT)(value))
 }
-func ProgramUniform1ui64NV(program Uint, location Int, x Uint64)  {
+func ProgramUniform1ui64NV(program Uint, location Int, x Uint64) {
 	C.goglProgramUniform1ui64NV((C.GLuint)(program), (C.GLint)(location), (C.GLuint64EXT)(x))
 }
-func ProgramUniform2ui64NV(program Uint, location Int, x Uint64, y Uint64)  {
+func ProgramUniform2ui64NV(program Uint, location Int, x Uint64, y Uint64) {
 	C.goglProgramUniform2ui64NV((C.GLuint)(program), (C.GLint)(location), (C.GLuint64EXT)(x), (C.GLuint64EXT)(y))
 }
-func ProgramUniform3ui64NV(program Uint, location Int, x Uint64, y Uint64, z Uint64)  {
+func ProgramUniform3ui64NV(program Uint, location Int, x Uint64, y Uint64, z Uint64) {
 	C.goglProgramUniform3ui64NV((C.GLuint)(program), (C.GLint)(location), (C.GLuint64EXT)(x), (C.GLuint64EXT)(y), (C.GLuint64EXT)(z))
 }
-func ProgramUniform4ui64NV(program Uint, location Int, x Uint64, y Uint64, z Uint64, w Uint64)  {
+func ProgramUniform4ui64NV(program Uint, location Int, x Uint64, y Uint64, z Uint64, w Uint64) {
 	C.goglProgramUniform4ui64NV((C.GLuint)(program), (C.GLint)(location), (C.GLuint64EXT)(x), (C.GLuint64EXT)(y), (C.GLuint64EXT)(z), (C.GLuint64EXT)(w))
 }
-func ProgramUniform1ui64vNV(program Uint, location Int, count Sizei, value *Uint64)  {
+func ProgramUniform1ui64vNV(program Uint, location Int, count Sizei, value *Uint64) {
 	C.goglProgramUniform1ui64vNV((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLuint64EXT)(value))
 }
-func ProgramUniform2ui64vNV(program Uint, location Int, count Sizei, value *Uint64)  {
+func ProgramUniform2ui64vNV(program Uint, location Int, count Sizei, value *Uint64) {
 	C.goglProgramUniform2ui64vNV((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLuint64EXT)(value))
 }
-func ProgramUniform3ui64vNV(program Uint, location Int, count Sizei, value *Uint64)  {
+func ProgramUniform3ui64vNV(program Uint, location Int, count Sizei, value *Uint64) {
 	C.goglProgramUniform3ui64vNV((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLuint64EXT)(value))
 }
-func ProgramUniform4ui64vNV(program Uint, location Int, count Sizei, value *Uint64)  {
+func ProgramUniform4ui64vNV(program Uint, location Int, count Sizei, value *Uint64) {
 	C.goglProgramUniform4ui64vNV((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLuint64EXT)(value))
 }
+
 // NV_half_float
 
-func Vertex2hNV(x Half, y Half)  {
+func Vertex2hNV(x Half, y Half) {
 	C.goglVertex2hNV((C.GLhalfNV)(x), (C.GLhalfNV)(y))
 }
-func Vertex2hvNV(v *Half)  {
+func Vertex2hvNV(v *Half) {
 	C.goglVertex2hvNV((*C.GLhalfNV)(v))
 }
-func Vertex3hNV(x Half, y Half, z Half)  {
+func Vertex3hNV(x Half, y Half, z Half) {
 	C.goglVertex3hNV((C.GLhalfNV)(x), (C.GLhalfNV)(y), (C.GLhalfNV)(z))
 }
-func Vertex3hvNV(v *Half)  {
+func Vertex3hvNV(v *Half) {
 	C.goglVertex3hvNV((*C.GLhalfNV)(v))
 }
-func Vertex4hNV(x Half, y Half, z Half, w Half)  {
+func Vertex4hNV(x Half, y Half, z Half, w Half) {
 	C.goglVertex4hNV((C.GLhalfNV)(x), (C.GLhalfNV)(y), (C.GLhalfNV)(z), (C.GLhalfNV)(w))
 }
-func Vertex4hvNV(v *Half)  {
+func Vertex4hvNV(v *Half) {
 	C.goglVertex4hvNV((*C.GLhalfNV)(v))
 }
-func Normal3hNV(nx Half, ny Half, nz Half)  {
+func Normal3hNV(nx Half, ny Half, nz Half) {
 	C.goglNormal3hNV((C.GLhalfNV)(nx), (C.GLhalfNV)(ny), (C.GLhalfNV)(nz))
 }
-func Normal3hvNV(v *Half)  {
+func Normal3hvNV(v *Half) {
 	C.goglNormal3hvNV((*C.GLhalfNV)(v))
 }
-func Color3hNV(red Half, green Half, blue Half)  {
+func Color3hNV(red Half, green Half, blue Half) {
 	C.goglColor3hNV((C.GLhalfNV)(red), (C.GLhalfNV)(green), (C.GLhalfNV)(blue))
 }
-func Color3hvNV(v *Half)  {
+func Color3hvNV(v *Half) {
 	C.goglColor3hvNV((*C.GLhalfNV)(v))
 }
-func Color4hNV(red Half, green Half, blue Half, alpha Half)  {
+func Color4hNV(red Half, green Half, blue Half, alpha Half) {
 	C.goglColor4hNV((C.GLhalfNV)(red), (C.GLhalfNV)(green), (C.GLhalfNV)(blue), (C.GLhalfNV)(alpha))
 }
-func Color4hvNV(v *Half)  {
+func Color4hvNV(v *Half) {
 	C.goglColor4hvNV((*C.GLhalfNV)(v))
 }
-func TexCoord1hNV(s Half)  {
+func TexCoord1hNV(s Half) {
 	C.goglTexCoord1hNV((C.GLhalfNV)(s))
 }
-func TexCoord1hvNV(v *Half)  {
+func TexCoord1hvNV(v *Half) {
 	C.goglTexCoord1hvNV((*C.GLhalfNV)(v))
 }
-func TexCoord2hNV(s Half, t Half)  {
+func TexCoord2hNV(s Half, t Half) {
 	C.goglTexCoord2hNV((C.GLhalfNV)(s), (C.GLhalfNV)(t))
 }
-func TexCoord2hvNV(v *Half)  {
+func TexCoord2hvNV(v *Half) {
 	C.goglTexCoord2hvNV((*C.GLhalfNV)(v))
 }
-func TexCoord3hNV(s Half, t Half, r Half)  {
+func TexCoord3hNV(s Half, t Half, r Half) {
 	C.goglTexCoord3hNV((C.GLhalfNV)(s), (C.GLhalfNV)(t), (C.GLhalfNV)(r))
 }
-func TexCoord3hvNV(v *Half)  {
+func TexCoord3hvNV(v *Half) {
 	C.goglTexCoord3hvNV((*C.GLhalfNV)(v))
 }
-func TexCoord4hNV(s Half, t Half, r Half, q Half)  {
+func TexCoord4hNV(s Half, t Half, r Half, q Half) {
 	C.goglTexCoord4hNV((C.GLhalfNV)(s), (C.GLhalfNV)(t), (C.GLhalfNV)(r), (C.GLhalfNV)(q))
 }
-func TexCoord4hvNV(v *Half)  {
+func TexCoord4hvNV(v *Half) {
 	C.goglTexCoord4hvNV((*C.GLhalfNV)(v))
 }
-func MultiTexCoord1hNV(target Enum, s Half)  {
+func MultiTexCoord1hNV(target Enum, s Half) {
 	C.goglMultiTexCoord1hNV((C.GLenum)(target), (C.GLhalfNV)(s))
 }
-func MultiTexCoord1hvNV(target Enum, v *Half)  {
+func MultiTexCoord1hvNV(target Enum, v *Half) {
 	C.goglMultiTexCoord1hvNV((C.GLenum)(target), (*C.GLhalfNV)(v))
 }
-func MultiTexCoord2hNV(target Enum, s Half, t Half)  {
+func MultiTexCoord2hNV(target Enum, s Half, t Half) {
 	C.goglMultiTexCoord2hNV((C.GLenum)(target), (C.GLhalfNV)(s), (C.GLhalfNV)(t))
 }
-func MultiTexCoord2hvNV(target Enum, v *Half)  {
+func MultiTexCoord2hvNV(target Enum, v *Half) {
 	C.goglMultiTexCoord2hvNV((C.GLenum)(target), (*C.GLhalfNV)(v))
 }
-func MultiTexCoord3hNV(target Enum, s Half, t Half, r Half)  {
+func MultiTexCoord3hNV(target Enum, s Half, t Half, r Half) {
 	C.goglMultiTexCoord3hNV((C.GLenum)(target), (C.GLhalfNV)(s), (C.GLhalfNV)(t), (C.GLhalfNV)(r))
 }
-func MultiTexCoord3hvNV(target Enum, v *Half)  {
+func MultiTexCoord3hvNV(target Enum, v *Half) {
 	C.goglMultiTexCoord3hvNV((C.GLenum)(target), (*C.GLhalfNV)(v))
 }
-func MultiTexCoord4hNV(target Enum, s Half, t Half, r Half, q Half)  {
+func MultiTexCoord4hNV(target Enum, s Half, t Half, r Half, q Half) {
 	C.goglMultiTexCoord4hNV((C.GLenum)(target), (C.GLhalfNV)(s), (C.GLhalfNV)(t), (C.GLhalfNV)(r), (C.GLhalfNV)(q))
 }
-func MultiTexCoord4hvNV(target Enum, v *Half)  {
+func MultiTexCoord4hvNV(target Enum, v *Half) {
 	C.goglMultiTexCoord4hvNV((C.GLenum)(target), (*C.GLhalfNV)(v))
 }
-func FogCoordhNV(fog Half)  {
+func FogCoordhNV(fog Half) {
 	C.goglFogCoordhNV((C.GLhalfNV)(fog))
 }
-func FogCoordhvNV(fog *Half)  {
+func FogCoordhvNV(fog *Half) {
 	C.goglFogCoordhvNV((*C.GLhalfNV)(fog))
 }
-func SecondaryColor3hNV(red Half, green Half, blue Half)  {
+func SecondaryColor3hNV(red Half, green Half, blue Half) {
 	C.goglSecondaryColor3hNV((C.GLhalfNV)(red), (C.GLhalfNV)(green), (C.GLhalfNV)(blue))
 }
-func SecondaryColor3hvNV(v *Half)  {
+func SecondaryColor3hvNV(v *Half) {
 	C.goglSecondaryColor3hvNV((*C.GLhalfNV)(v))
 }
-func VertexWeighthNV(weight Half)  {
+func VertexWeighthNV(weight Half) {
 	C.goglVertexWeighthNV((C.GLhalfNV)(weight))
 }
-func VertexWeighthvNV(weight *Half)  {
+func VertexWeighthvNV(weight *Half) {
 	C.goglVertexWeighthvNV((*C.GLhalfNV)(weight))
 }
-func VertexAttrib1hNV(index Uint, x Half)  {
+func VertexAttrib1hNV(index Uint, x Half) {
 	C.goglVertexAttrib1hNV((C.GLuint)(index), (C.GLhalfNV)(x))
 }
-func VertexAttrib1hvNV(index Uint, v *Half)  {
+func VertexAttrib1hvNV(index Uint, v *Half) {
 	C.goglVertexAttrib1hvNV((C.GLuint)(index), (*C.GLhalfNV)(v))
 }
-func VertexAttrib2hNV(index Uint, x Half, y Half)  {
+func VertexAttrib2hNV(index Uint, x Half, y Half) {
 	C.goglVertexAttrib2hNV((C.GLuint)(index), (C.GLhalfNV)(x), (C.GLhalfNV)(y))
 }
-func VertexAttrib2hvNV(index Uint, v *Half)  {
+func VertexAttrib2hvNV(index Uint, v *Half) {
 	C.goglVertexAttrib2hvNV((C.GLuint)(index), (*C.GLhalfNV)(v))
 }
-func VertexAttrib3hNV(index Uint, x Half, y Half, z Half)  {
+func VertexAttrib3hNV(index Uint, x Half, y Half, z Half) {
 	C.goglVertexAttrib3hNV((C.GLuint)(index), (C.GLhalfNV)(x), (C.GLhalfNV)(y), (C.GLhalfNV)(z))
 }
-func VertexAttrib3hvNV(index Uint, v *Half)  {
+func VertexAttrib3hvNV(index Uint, v *Half) {
 	C.goglVertexAttrib3hvNV((C.GLuint)(index), (*C.GLhalfNV)(v))
 }
-func VertexAttrib4hNV(index Uint, x Half, y Half, z Half, w Half)  {
+func VertexAttrib4hNV(index Uint, x Half, y Half, z Half, w Half) {
 	C.goglVertexAttrib4hNV((C.GLuint)(index), (C.GLhalfNV)(x), (C.GLhalfNV)(y), (C.GLhalfNV)(z), (C.GLhalfNV)(w))
 }
-func VertexAttrib4hvNV(index Uint, v *Half)  {
+func VertexAttrib4hvNV(index Uint, v *Half) {
 	C.goglVertexAttrib4hvNV((C.GLuint)(index), (*C.GLhalfNV)(v))
 }
-func VertexAttribs1hvNV(index Uint, n Sizei, v *Half)  {
+func VertexAttribs1hvNV(index Uint, n Sizei, v *Half) {
 	C.goglVertexAttribs1hvNV((C.GLuint)(index), (C.GLsizei)(n), (*C.GLhalfNV)(v))
 }
-func VertexAttribs2hvNV(index Uint, n Sizei, v *Half)  {
+func VertexAttribs2hvNV(index Uint, n Sizei, v *Half) {
 	C.goglVertexAttribs2hvNV((C.GLuint)(index), (C.GLsizei)(n), (*C.GLhalfNV)(v))
 }
-func VertexAttribs3hvNV(index Uint, n Sizei, v *Half)  {
+func VertexAttribs3hvNV(index Uint, n Sizei, v *Half) {
 	C.goglVertexAttribs3hvNV((C.GLuint)(index), (C.GLsizei)(n), (*C.GLhalfNV)(v))
 }
-func VertexAttribs4hvNV(index Uint, n Sizei, v *Half)  {
+func VertexAttribs4hvNV(index Uint, n Sizei, v *Half) {
 	C.goglVertexAttribs4hvNV((C.GLuint)(index), (C.GLsizei)(n), (*C.GLhalfNV)(v))
 }
+
 // NV_light_max_exponent
 
 // NV_multisample_coverage
@@ -4499,40 +4565,42 @@ func VertexAttribs4hvNV(index Uint, n Sizei, v *Half)  {
 
 // NV_occlusion_query
 
-func GenOcclusionQueriesNV(n Sizei, ids *Uint)  {
+func GenOcclusionQueriesNV(n Sizei, ids *Uint) {
 	C.goglGenOcclusionQueriesNV((C.GLsizei)(n), (*C.GLuint)(ids))
 }
-func DeleteOcclusionQueriesNV(n Sizei, ids *Uint)  {
+func DeleteOcclusionQueriesNV(n Sizei, ids *Uint) {
 	C.goglDeleteOcclusionQueriesNV((C.GLsizei)(n), (*C.GLuint)(ids))
 }
 func IsOcclusionQueryNV(id Uint) Boolean {
 	return (Boolean)(C.goglIsOcclusionQueryNV((C.GLuint)(id)))
 }
-func BeginOcclusionQueryNV(id Uint)  {
+func BeginOcclusionQueryNV(id Uint) {
 	C.goglBeginOcclusionQueryNV((C.GLuint)(id))
 }
-func EndOcclusionQueryNV()  {
+func EndOcclusionQueryNV() {
 	C.goglEndOcclusionQueryNV()
 }
-func GetOcclusionQueryivNV(id Uint, pname Enum, params *Int)  {
+func GetOcclusionQueryivNV(id Uint, pname Enum, params *Int) {
 	C.goglGetOcclusionQueryivNV((C.GLuint)(id), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetOcclusionQueryuivNV(id Uint, pname Enum, params *Uint)  {
+func GetOcclusionQueryuivNV(id Uint, pname Enum, params *Uint) {
 	C.goglGetOcclusionQueryuivNV((C.GLuint)(id), (C.GLenum)(pname), (*C.GLuint)(params))
 }
+
 // NV_packed_depth_stencil
 
 // NV_parameter_buffer_object
 
-func ProgramBufferParametersfvNV(target Enum, buffer Uint, index Uint, count Sizei, params *Float)  {
+func ProgramBufferParametersfvNV(target Enum, buffer Uint, index Uint, count Sizei, params *Float) {
 	C.goglProgramBufferParametersfvNV((C.GLenum)(target), (C.GLuint)(buffer), (C.GLuint)(index), (C.GLsizei)(count), (*C.GLfloat)(params))
 }
-func ProgramBufferParametersIivNV(target Enum, buffer Uint, index Uint, count Sizei, params *Int)  {
+func ProgramBufferParametersIivNV(target Enum, buffer Uint, index Uint, count Sizei, params *Int) {
 	C.goglProgramBufferParametersIivNV((C.GLenum)(target), (C.GLuint)(buffer), (C.GLuint)(index), (C.GLsizei)(count), (*C.GLint)(params))
 }
-func ProgramBufferParametersIuivNV(target Enum, buffer Uint, index Uint, count Sizei, params *Uint)  {
+func ProgramBufferParametersIuivNV(target Enum, buffer Uint, index Uint, count Sizei, params *Uint) {
 	C.goglProgramBufferParametersIuivNV((C.GLenum)(target), (C.GLuint)(buffer), (C.GLuint)(index), (C.GLsizei)(count), (*C.GLuint)(params))
 }
+
 // NV_parameter_buffer_object2
 
 // NV_path_rendering
@@ -4540,136 +4608,136 @@ func ProgramBufferParametersIuivNV(target Enum, buffer Uint, index Uint, count S
 func GenPathsNV(range_ Sizei) Uint {
 	return (Uint)(C.goglGenPathsNV((C.GLsizei)(range_)))
 }
-func DeletePathsNV(path Uint, range_ Sizei)  {
+func DeletePathsNV(path Uint, range_ Sizei) {
 	C.goglDeletePathsNV((C.GLuint)(path), (C.GLsizei)(range_))
 }
 func IsPathNV(path Uint) Boolean {
 	return (Boolean)(C.goglIsPathNV((C.GLuint)(path)))
 }
-func PathCommandsNV(path Uint, numCommands Sizei, commands *Ubyte, numCoords Sizei, coordType Enum, coords Pointer)  {
+func PathCommandsNV(path Uint, numCommands Sizei, commands *Ubyte, numCoords Sizei, coordType Enum, coords Pointer) {
 	C.goglPathCommandsNV((C.GLuint)(path), (C.GLsizei)(numCommands), (*C.GLubyte)(commands), (C.GLsizei)(numCoords), (C.GLenum)(coordType), (unsafe.Pointer)(coords))
 }
-func PathCoordsNV(path Uint, numCoords Sizei, coordType Enum, coords Pointer)  {
+func PathCoordsNV(path Uint, numCoords Sizei, coordType Enum, coords Pointer) {
 	C.goglPathCoordsNV((C.GLuint)(path), (C.GLsizei)(numCoords), (C.GLenum)(coordType), (unsafe.Pointer)(coords))
 }
-func PathSubCommandsNV(path Uint, commandStart Sizei, commandsToDelete Sizei, numCommands Sizei, commands *Ubyte, numCoords Sizei, coordType Enum, coords Pointer)  {
+func PathSubCommandsNV(path Uint, commandStart Sizei, commandsToDelete Sizei, numCommands Sizei, commands *Ubyte, numCoords Sizei, coordType Enum, coords Pointer) {
 	C.goglPathSubCommandsNV((C.GLuint)(path), (C.GLsizei)(commandStart), (C.GLsizei)(commandsToDelete), (C.GLsizei)(numCommands), (*C.GLubyte)(commands), (C.GLsizei)(numCoords), (C.GLenum)(coordType), (unsafe.Pointer)(coords))
 }
-func PathSubCoordsNV(path Uint, coordStart Sizei, numCoords Sizei, coordType Enum, coords Pointer)  {
+func PathSubCoordsNV(path Uint, coordStart Sizei, numCoords Sizei, coordType Enum, coords Pointer) {
 	C.goglPathSubCoordsNV((C.GLuint)(path), (C.GLsizei)(coordStart), (C.GLsizei)(numCoords), (C.GLenum)(coordType), (unsafe.Pointer)(coords))
 }
-func PathStringNV(path Uint, format Enum, length Sizei, pathString Pointer)  {
+func PathStringNV(path Uint, format Enum, length Sizei, pathString Pointer) {
 	C.goglPathStringNV((C.GLuint)(path), (C.GLenum)(format), (C.GLsizei)(length), (unsafe.Pointer)(pathString))
 }
-func PathGlyphsNV(firstPathName Uint, fontTarget Enum, fontName Pointer, fontStyle Bitfield, numGlyphs Sizei, type_ Enum, charcodes Pointer, handleMissingGlyphs Enum, pathParameterTemplate Uint, emScale Float)  {
+func PathGlyphsNV(firstPathName Uint, fontTarget Enum, fontName Pointer, fontStyle Bitfield, numGlyphs Sizei, type_ Enum, charcodes Pointer, handleMissingGlyphs Enum, pathParameterTemplate Uint, emScale Float) {
 	C.goglPathGlyphsNV((C.GLuint)(firstPathName), (C.GLenum)(fontTarget), (unsafe.Pointer)(fontName), (C.GLbitfield)(fontStyle), (C.GLsizei)(numGlyphs), (C.GLenum)(type_), (unsafe.Pointer)(charcodes), (C.GLenum)(handleMissingGlyphs), (C.GLuint)(pathParameterTemplate), (C.GLfloat)(emScale))
 }
-func PathGlyphRangeNV(firstPathName Uint, fontTarget Enum, fontName Pointer, fontStyle Bitfield, firstGlyph Uint, numGlyphs Sizei, handleMissingGlyphs Enum, pathParameterTemplate Uint, emScale Float)  {
+func PathGlyphRangeNV(firstPathName Uint, fontTarget Enum, fontName Pointer, fontStyle Bitfield, firstGlyph Uint, numGlyphs Sizei, handleMissingGlyphs Enum, pathParameterTemplate Uint, emScale Float) {
 	C.goglPathGlyphRangeNV((C.GLuint)(firstPathName), (C.GLenum)(fontTarget), (unsafe.Pointer)(fontName), (C.GLbitfield)(fontStyle), (C.GLuint)(firstGlyph), (C.GLsizei)(numGlyphs), (C.GLenum)(handleMissingGlyphs), (C.GLuint)(pathParameterTemplate), (C.GLfloat)(emScale))
 }
-func WeightPathsNV(resultPath Uint, numPaths Sizei, paths *Uint, weights *Float)  {
+func WeightPathsNV(resultPath Uint, numPaths Sizei, paths *Uint, weights *Float) {
 	C.goglWeightPathsNV((C.GLuint)(resultPath), (C.GLsizei)(numPaths), (*C.GLuint)(paths), (*C.GLfloat)(weights))
 }
-func CopyPathNV(resultPath Uint, srcPath Uint)  {
+func CopyPathNV(resultPath Uint, srcPath Uint) {
 	C.goglCopyPathNV((C.GLuint)(resultPath), (C.GLuint)(srcPath))
 }
-func InterpolatePathsNV(resultPath Uint, pathA Uint, pathB Uint, weight Float)  {
+func InterpolatePathsNV(resultPath Uint, pathA Uint, pathB Uint, weight Float) {
 	C.goglInterpolatePathsNV((C.GLuint)(resultPath), (C.GLuint)(pathA), (C.GLuint)(pathB), (C.GLfloat)(weight))
 }
-func TransformPathNV(resultPath Uint, srcPath Uint, transformType Enum, transformValues *Float)  {
+func TransformPathNV(resultPath Uint, srcPath Uint, transformType Enum, transformValues *Float) {
 	C.goglTransformPathNV((C.GLuint)(resultPath), (C.GLuint)(srcPath), (C.GLenum)(transformType), (*C.GLfloat)(transformValues))
 }
-func PathParameterivNV(path Uint, pname Enum, value *Int)  {
+func PathParameterivNV(path Uint, pname Enum, value *Int) {
 	C.goglPathParameterivNV((C.GLuint)(path), (C.GLenum)(pname), (*C.GLint)(value))
 }
-func PathParameteriNV(path Uint, pname Enum, value Int)  {
+func PathParameteriNV(path Uint, pname Enum, value Int) {
 	C.goglPathParameteriNV((C.GLuint)(path), (C.GLenum)(pname), (C.GLint)(value))
 }
-func PathParameterfvNV(path Uint, pname Enum, value *Float)  {
+func PathParameterfvNV(path Uint, pname Enum, value *Float) {
 	C.goglPathParameterfvNV((C.GLuint)(path), (C.GLenum)(pname), (*C.GLfloat)(value))
 }
-func PathParameterfNV(path Uint, pname Enum, value Float)  {
+func PathParameterfNV(path Uint, pname Enum, value Float) {
 	C.goglPathParameterfNV((C.GLuint)(path), (C.GLenum)(pname), (C.GLfloat)(value))
 }
-func PathDashArrayNV(path Uint, dashCount Sizei, dashArray *Float)  {
+func PathDashArrayNV(path Uint, dashCount Sizei, dashArray *Float) {
 	C.goglPathDashArrayNV((C.GLuint)(path), (C.GLsizei)(dashCount), (*C.GLfloat)(dashArray))
 }
-func PathStencilFuncNV(func_ Enum, ref Int, mask Uint)  {
+func PathStencilFuncNV(func_ Enum, ref Int, mask Uint) {
 	C.goglPathStencilFuncNV((C.GLenum)(func_), (C.GLint)(ref), (C.GLuint)(mask))
 }
-func PathStencilDepthOffsetNV(factor Float, units Float)  {
+func PathStencilDepthOffsetNV(factor Float, units Float) {
 	C.goglPathStencilDepthOffsetNV((C.GLfloat)(factor), (C.GLfloat)(units))
 }
-func StencilFillPathNV(path Uint, fillMode Enum, mask Uint)  {
+func StencilFillPathNV(path Uint, fillMode Enum, mask Uint) {
 	C.goglStencilFillPathNV((C.GLuint)(path), (C.GLenum)(fillMode), (C.GLuint)(mask))
 }
-func StencilStrokePathNV(path Uint, reference Int, mask Uint)  {
+func StencilStrokePathNV(path Uint, reference Int, mask Uint) {
 	C.goglStencilStrokePathNV((C.GLuint)(path), (C.GLint)(reference), (C.GLuint)(mask))
 }
-func StencilFillPathInstancedNV(numPaths Sizei, pathNameType Enum, paths Pointer, pathBase Uint, fillMode Enum, mask Uint, transformType Enum, transformValues *Float)  {
+func StencilFillPathInstancedNV(numPaths Sizei, pathNameType Enum, paths Pointer, pathBase Uint, fillMode Enum, mask Uint, transformType Enum, transformValues *Float) {
 	C.goglStencilFillPathInstancedNV((C.GLsizei)(numPaths), (C.GLenum)(pathNameType), (unsafe.Pointer)(paths), (C.GLuint)(pathBase), (C.GLenum)(fillMode), (C.GLuint)(mask), (C.GLenum)(transformType), (*C.GLfloat)(transformValues))
 }
-func StencilStrokePathInstancedNV(numPaths Sizei, pathNameType Enum, paths Pointer, pathBase Uint, reference Int, mask Uint, transformType Enum, transformValues *Float)  {
+func StencilStrokePathInstancedNV(numPaths Sizei, pathNameType Enum, paths Pointer, pathBase Uint, reference Int, mask Uint, transformType Enum, transformValues *Float) {
 	C.goglStencilStrokePathInstancedNV((C.GLsizei)(numPaths), (C.GLenum)(pathNameType), (unsafe.Pointer)(paths), (C.GLuint)(pathBase), (C.GLint)(reference), (C.GLuint)(mask), (C.GLenum)(transformType), (*C.GLfloat)(transformValues))
 }
-func PathCoverDepthFuncNV(func_ Enum)  {
+func PathCoverDepthFuncNV(func_ Enum) {
 	C.goglPathCoverDepthFuncNV((C.GLenum)(func_))
 }
-func PathColorGenNV(color Enum, genMode Enum, colorFormat Enum, coeffs *Float)  {
+func PathColorGenNV(color Enum, genMode Enum, colorFormat Enum, coeffs *Float) {
 	C.goglPathColorGenNV((C.GLenum)(color), (C.GLenum)(genMode), (C.GLenum)(colorFormat), (*C.GLfloat)(coeffs))
 }
-func PathTexGenNV(texCoordSet Enum, genMode Enum, components Int, coeffs *Float)  {
+func PathTexGenNV(texCoordSet Enum, genMode Enum, components Int, coeffs *Float) {
 	C.goglPathTexGenNV((C.GLenum)(texCoordSet), (C.GLenum)(genMode), (C.GLint)(components), (*C.GLfloat)(coeffs))
 }
-func PathFogGenNV(genMode Enum)  {
+func PathFogGenNV(genMode Enum) {
 	C.goglPathFogGenNV((C.GLenum)(genMode))
 }
-func CoverFillPathNV(path Uint, coverMode Enum)  {
+func CoverFillPathNV(path Uint, coverMode Enum) {
 	C.goglCoverFillPathNV((C.GLuint)(path), (C.GLenum)(coverMode))
 }
-func CoverStrokePathNV(path Uint, coverMode Enum)  {
+func CoverStrokePathNV(path Uint, coverMode Enum) {
 	C.goglCoverStrokePathNV((C.GLuint)(path), (C.GLenum)(coverMode))
 }
-func CoverFillPathInstancedNV(numPaths Sizei, pathNameType Enum, paths Pointer, pathBase Uint, coverMode Enum, transformType Enum, transformValues *Float)  {
+func CoverFillPathInstancedNV(numPaths Sizei, pathNameType Enum, paths Pointer, pathBase Uint, coverMode Enum, transformType Enum, transformValues *Float) {
 	C.goglCoverFillPathInstancedNV((C.GLsizei)(numPaths), (C.GLenum)(pathNameType), (unsafe.Pointer)(paths), (C.GLuint)(pathBase), (C.GLenum)(coverMode), (C.GLenum)(transformType), (*C.GLfloat)(transformValues))
 }
-func CoverStrokePathInstancedNV(numPaths Sizei, pathNameType Enum, paths Pointer, pathBase Uint, coverMode Enum, transformType Enum, transformValues *Float)  {
+func CoverStrokePathInstancedNV(numPaths Sizei, pathNameType Enum, paths Pointer, pathBase Uint, coverMode Enum, transformType Enum, transformValues *Float) {
 	C.goglCoverStrokePathInstancedNV((C.GLsizei)(numPaths), (C.GLenum)(pathNameType), (unsafe.Pointer)(paths), (C.GLuint)(pathBase), (C.GLenum)(coverMode), (C.GLenum)(transformType), (*C.GLfloat)(transformValues))
 }
-func GetPathParameterivNV(path Uint, pname Enum, value *Int)  {
+func GetPathParameterivNV(path Uint, pname Enum, value *Int) {
 	C.goglGetPathParameterivNV((C.GLuint)(path), (C.GLenum)(pname), (*C.GLint)(value))
 }
-func GetPathParameterfvNV(path Uint, pname Enum, value *Float)  {
+func GetPathParameterfvNV(path Uint, pname Enum, value *Float) {
 	C.goglGetPathParameterfvNV((C.GLuint)(path), (C.GLenum)(pname), (*C.GLfloat)(value))
 }
-func GetPathCommandsNV(path Uint, commands *Ubyte)  {
+func GetPathCommandsNV(path Uint, commands *Ubyte) {
 	C.goglGetPathCommandsNV((C.GLuint)(path), (*C.GLubyte)(commands))
 }
-func GetPathCoordsNV(path Uint, coords *Float)  {
+func GetPathCoordsNV(path Uint, coords *Float) {
 	C.goglGetPathCoordsNV((C.GLuint)(path), (*C.GLfloat)(coords))
 }
-func GetPathDashArrayNV(path Uint, dashArray *Float)  {
+func GetPathDashArrayNV(path Uint, dashArray *Float) {
 	C.goglGetPathDashArrayNV((C.GLuint)(path), (*C.GLfloat)(dashArray))
 }
-func GetPathMetricsNV(metricQueryMask Bitfield, numPaths Sizei, pathNameType Enum, paths Pointer, pathBase Uint, stride Sizei, metrics *Float)  {
+func GetPathMetricsNV(metricQueryMask Bitfield, numPaths Sizei, pathNameType Enum, paths Pointer, pathBase Uint, stride Sizei, metrics *Float) {
 	C.goglGetPathMetricsNV((C.GLbitfield)(metricQueryMask), (C.GLsizei)(numPaths), (C.GLenum)(pathNameType), (unsafe.Pointer)(paths), (C.GLuint)(pathBase), (C.GLsizei)(stride), (*C.GLfloat)(metrics))
 }
-func GetPathMetricRangeNV(metricQueryMask Bitfield, firstPathName Uint, numPaths Sizei, stride Sizei, metrics *Float)  {
+func GetPathMetricRangeNV(metricQueryMask Bitfield, firstPathName Uint, numPaths Sizei, stride Sizei, metrics *Float) {
 	C.goglGetPathMetricRangeNV((C.GLbitfield)(metricQueryMask), (C.GLuint)(firstPathName), (C.GLsizei)(numPaths), (C.GLsizei)(stride), (*C.GLfloat)(metrics))
 }
-func GetPathSpacingNV(pathListMode Enum, numPaths Sizei, pathNameType Enum, paths Pointer, pathBase Uint, advanceScale Float, kerningScale Float, transformType Enum, returnedSpacing *Float)  {
+func GetPathSpacingNV(pathListMode Enum, numPaths Sizei, pathNameType Enum, paths Pointer, pathBase Uint, advanceScale Float, kerningScale Float, transformType Enum, returnedSpacing *Float) {
 	C.goglGetPathSpacingNV((C.GLenum)(pathListMode), (C.GLsizei)(numPaths), (C.GLenum)(pathNameType), (unsafe.Pointer)(paths), (C.GLuint)(pathBase), (C.GLfloat)(advanceScale), (C.GLfloat)(kerningScale), (C.GLenum)(transformType), (*C.GLfloat)(returnedSpacing))
 }
-func GetPathColorGenivNV(color Enum, pname Enum, value *Int)  {
+func GetPathColorGenivNV(color Enum, pname Enum, value *Int) {
 	C.goglGetPathColorGenivNV((C.GLenum)(color), (C.GLenum)(pname), (*C.GLint)(value))
 }
-func GetPathColorGenfvNV(color Enum, pname Enum, value *Float)  {
+func GetPathColorGenfvNV(color Enum, pname Enum, value *Float) {
 	C.goglGetPathColorGenfvNV((C.GLenum)(color), (C.GLenum)(pname), (*C.GLfloat)(value))
 }
-func GetPathTexGenivNV(texCoordSet Enum, pname Enum, value *Int)  {
+func GetPathTexGenivNV(texCoordSet Enum, pname Enum, value *Int) {
 	C.goglGetPathTexGenivNV((C.GLenum)(texCoordSet), (C.GLenum)(pname), (*C.GLint)(value))
 }
-func GetPathTexGenfvNV(texCoordSet Enum, pname Enum, value *Float)  {
+func GetPathTexGenfvNV(texCoordSet Enum, pname Enum, value *Float) {
 	C.goglGetPathTexGenfvNV((C.GLenum)(texCoordSet), (C.GLenum)(pname), (*C.GLfloat)(value))
 }
 func IsPointInFillPathNV(path Uint, mask Uint, x Float, y Float) Boolean {
@@ -4684,145 +4752,153 @@ func GetPathLengthNV(path Uint, startSegment Sizei, numSegments Sizei) Float {
 func PointAlongPathNV(path Uint, startSegment Sizei, numSegments Sizei, distance Float, x *Float, y *Float, tangentX *Float, tangentY *Float) Boolean {
 	return (Boolean)(C.goglPointAlongPathNV((C.GLuint)(path), (C.GLsizei)(startSegment), (C.GLsizei)(numSegments), (C.GLfloat)(distance), (*C.GLfloat)(x), (*C.GLfloat)(y), (*C.GLfloat)(tangentX), (*C.GLfloat)(tangentY)))
 }
+
 // NV_pixel_data_range
 
-func PixelDataRangeNV(target Enum, length Sizei, pointer Pointer)  {
+func PixelDataRangeNV(target Enum, length Sizei, pointer Pointer) {
 	C.goglPixelDataRangeNV((C.GLenum)(target), (C.GLsizei)(length), (unsafe.Pointer)(pointer))
 }
-func FlushPixelDataRangeNV(target Enum)  {
+func FlushPixelDataRangeNV(target Enum) {
 	C.goglFlushPixelDataRangeNV((C.GLenum)(target))
 }
+
 // NV_point_sprite
 
-func PointParameteriNV(pname Enum, param Int)  {
+func PointParameteriNV(pname Enum, param Int) {
 	C.goglPointParameteriNV((C.GLenum)(pname), (C.GLint)(param))
 }
-func PointParameterivNV(pname Enum, params *Int)  {
+func PointParameterivNV(pname Enum, params *Int) {
 	C.goglPointParameterivNV((C.GLenum)(pname), (*C.GLint)(params))
 }
+
 // NV_present_video
 
-func PresentFrameKeyedNV(video_slot Uint, minPresentTime Uint64, beginPresentTimeId Uint, presentDurationId Uint, type_ Enum, target0 Enum, fill0 Uint, key0 Uint, target1 Enum, fill1 Uint, key1 Uint)  {
+func PresentFrameKeyedNV(video_slot Uint, minPresentTime Uint64, beginPresentTimeId Uint, presentDurationId Uint, type_ Enum, target0 Enum, fill0 Uint, key0 Uint, target1 Enum, fill1 Uint, key1 Uint) {
 	C.goglPresentFrameKeyedNV((C.GLuint)(video_slot), (C.GLuint64EXT)(minPresentTime), (C.GLuint)(beginPresentTimeId), (C.GLuint)(presentDurationId), (C.GLenum)(type_), (C.GLenum)(target0), (C.GLuint)(fill0), (C.GLuint)(key0), (C.GLenum)(target1), (C.GLuint)(fill1), (C.GLuint)(key1))
 }
-func PresentFrameDualFillNV(video_slot Uint, minPresentTime Uint64, beginPresentTimeId Uint, presentDurationId Uint, type_ Enum, target0 Enum, fill0 Uint, target1 Enum, fill1 Uint, target2 Enum, fill2 Uint, target3 Enum, fill3 Uint)  {
+func PresentFrameDualFillNV(video_slot Uint, minPresentTime Uint64, beginPresentTimeId Uint, presentDurationId Uint, type_ Enum, target0 Enum, fill0 Uint, target1 Enum, fill1 Uint, target2 Enum, fill2 Uint, target3 Enum, fill3 Uint) {
 	C.goglPresentFrameDualFillNV((C.GLuint)(video_slot), (C.GLuint64EXT)(minPresentTime), (C.GLuint)(beginPresentTimeId), (C.GLuint)(presentDurationId), (C.GLenum)(type_), (C.GLenum)(target0), (C.GLuint)(fill0), (C.GLenum)(target1), (C.GLuint)(fill1), (C.GLenum)(target2), (C.GLuint)(fill2), (C.GLenum)(target3), (C.GLuint)(fill3))
 }
-func GetVideoivNV(video_slot Uint, pname Enum, params *Int)  {
+func GetVideoivNV(video_slot Uint, pname Enum, params *Int) {
 	C.goglGetVideoivNV((C.GLuint)(video_slot), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetVideouivNV(video_slot Uint, pname Enum, params *Uint)  {
+func GetVideouivNV(video_slot Uint, pname Enum, params *Uint) {
 	C.goglGetVideouivNV((C.GLuint)(video_slot), (C.GLenum)(pname), (*C.GLuint)(params))
 }
-func GetVideoi64vNV(video_slot Uint, pname Enum, params *Int64)  {
+func GetVideoi64vNV(video_slot Uint, pname Enum, params *Int64) {
 	C.goglGetVideoi64vNV((C.GLuint)(video_slot), (C.GLenum)(pname), (*C.GLint64EXT)(params))
 }
-func GetVideoui64vNV(video_slot Uint, pname Enum, params *Uint64)  {
+func GetVideoui64vNV(video_slot Uint, pname Enum, params *Uint64) {
 	C.goglGetVideoui64vNV((C.GLuint)(video_slot), (C.GLenum)(pname), (*C.GLuint64EXT)(params))
 }
+
 // NV_primitive_restart
 
-func PrimitiveRestartNV()  {
+func PrimitiveRestartNV() {
 	C.goglPrimitiveRestartNV()
 }
-func PrimitiveRestartIndexNV(index Uint)  {
+func PrimitiveRestartIndexNV(index Uint) {
 	C.goglPrimitiveRestartIndexNV((C.GLuint)(index))
 }
+
 // NV_register_combiners
 
-func CombinerParameterfvNV(pname Enum, params *Float)  {
+func CombinerParameterfvNV(pname Enum, params *Float) {
 	C.goglCombinerParameterfvNV((C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func CombinerParameterfNV(pname Enum, param Float)  {
+func CombinerParameterfNV(pname Enum, param Float) {
 	C.goglCombinerParameterfNV((C.GLenum)(pname), (C.GLfloat)(param))
 }
-func CombinerParameterivNV(pname Enum, params *Int)  {
+func CombinerParameterivNV(pname Enum, params *Int) {
 	C.goglCombinerParameterivNV((C.GLenum)(pname), (*C.GLint)(params))
 }
-func CombinerParameteriNV(pname Enum, param Int)  {
+func CombinerParameteriNV(pname Enum, param Int) {
 	C.goglCombinerParameteriNV((C.GLenum)(pname), (C.GLint)(param))
 }
-func CombinerInputNV(stage Enum, portion Enum, variable Enum, input Enum, mapping Enum, componentUsage Enum)  {
+func CombinerInputNV(stage Enum, portion Enum, variable Enum, input Enum, mapping Enum, componentUsage Enum) {
 	C.goglCombinerInputNV((C.GLenum)(stage), (C.GLenum)(portion), (C.GLenum)(variable), (C.GLenum)(input), (C.GLenum)(mapping), (C.GLenum)(componentUsage))
 }
-func CombinerOutputNV(stage Enum, portion Enum, abOutput Enum, cdOutput Enum, sumOutput Enum, scale Enum, bias Enum, abDotProduct Boolean, cdDotProduct Boolean, muxSum Boolean)  {
+func CombinerOutputNV(stage Enum, portion Enum, abOutput Enum, cdOutput Enum, sumOutput Enum, scale Enum, bias Enum, abDotProduct Boolean, cdDotProduct Boolean, muxSum Boolean) {
 	C.goglCombinerOutputNV((C.GLenum)(stage), (C.GLenum)(portion), (C.GLenum)(abOutput), (C.GLenum)(cdOutput), (C.GLenum)(sumOutput), (C.GLenum)(scale), (C.GLenum)(bias), (C.GLboolean)(abDotProduct), (C.GLboolean)(cdDotProduct), (C.GLboolean)(muxSum))
 }
-func FinalCombinerInputNV(variable Enum, input Enum, mapping Enum, componentUsage Enum)  {
+func FinalCombinerInputNV(variable Enum, input Enum, mapping Enum, componentUsage Enum) {
 	C.goglFinalCombinerInputNV((C.GLenum)(variable), (C.GLenum)(input), (C.GLenum)(mapping), (C.GLenum)(componentUsage))
 }
-func GetCombinerInputParameterfvNV(stage Enum, portion Enum, variable Enum, pname Enum, params *Float)  {
+func GetCombinerInputParameterfvNV(stage Enum, portion Enum, variable Enum, pname Enum, params *Float) {
 	C.goglGetCombinerInputParameterfvNV((C.GLenum)(stage), (C.GLenum)(portion), (C.GLenum)(variable), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func GetCombinerInputParameterivNV(stage Enum, portion Enum, variable Enum, pname Enum, params *Int)  {
+func GetCombinerInputParameterivNV(stage Enum, portion Enum, variable Enum, pname Enum, params *Int) {
 	C.goglGetCombinerInputParameterivNV((C.GLenum)(stage), (C.GLenum)(portion), (C.GLenum)(variable), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetCombinerOutputParameterfvNV(stage Enum, portion Enum, pname Enum, params *Float)  {
+func GetCombinerOutputParameterfvNV(stage Enum, portion Enum, pname Enum, params *Float) {
 	C.goglGetCombinerOutputParameterfvNV((C.GLenum)(stage), (C.GLenum)(portion), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func GetCombinerOutputParameterivNV(stage Enum, portion Enum, pname Enum, params *Int)  {
+func GetCombinerOutputParameterivNV(stage Enum, portion Enum, pname Enum, params *Int) {
 	C.goglGetCombinerOutputParameterivNV((C.GLenum)(stage), (C.GLenum)(portion), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetFinalCombinerInputParameterfvNV(variable Enum, pname Enum, params *Float)  {
+func GetFinalCombinerInputParameterfvNV(variable Enum, pname Enum, params *Float) {
 	C.goglGetFinalCombinerInputParameterfvNV((C.GLenum)(variable), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func GetFinalCombinerInputParameterivNV(variable Enum, pname Enum, params *Int)  {
+func GetFinalCombinerInputParameterivNV(variable Enum, pname Enum, params *Int) {
 	C.goglGetFinalCombinerInputParameterivNV((C.GLenum)(variable), (C.GLenum)(pname), (*C.GLint)(params))
 }
+
 // NV_register_combiners2
 
-func CombinerStageParameterfvNV(stage Enum, pname Enum, params *Float)  {
+func CombinerStageParameterfvNV(stage Enum, pname Enum, params *Float) {
 	C.goglCombinerStageParameterfvNV((C.GLenum)(stage), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func GetCombinerStageParameterfvNV(stage Enum, pname Enum, params *Float)  {
+func GetCombinerStageParameterfvNV(stage Enum, pname Enum, params *Float) {
 	C.goglGetCombinerStageParameterfvNV((C.GLenum)(stage), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
+
 // NV_shader_atomic_float
 
 // NV_shader_buffer_load
 
-func MakeBufferResidentNV(target Enum, access Enum)  {
+func MakeBufferResidentNV(target Enum, access Enum) {
 	C.goglMakeBufferResidentNV((C.GLenum)(target), (C.GLenum)(access))
 }
-func MakeBufferNonResidentNV(target Enum)  {
+func MakeBufferNonResidentNV(target Enum) {
 	C.goglMakeBufferNonResidentNV((C.GLenum)(target))
 }
 func IsBufferResidentNV(target Enum) Boolean {
 	return (Boolean)(C.goglIsBufferResidentNV((C.GLenum)(target)))
 }
-func MakeNamedBufferResidentNV(buffer Uint, access Enum)  {
+func MakeNamedBufferResidentNV(buffer Uint, access Enum) {
 	C.goglMakeNamedBufferResidentNV((C.GLuint)(buffer), (C.GLenum)(access))
 }
-func MakeNamedBufferNonResidentNV(buffer Uint)  {
+func MakeNamedBufferNonResidentNV(buffer Uint) {
 	C.goglMakeNamedBufferNonResidentNV((C.GLuint)(buffer))
 }
 func IsNamedBufferResidentNV(buffer Uint) Boolean {
 	return (Boolean)(C.goglIsNamedBufferResidentNV((C.GLuint)(buffer)))
 }
-func GetBufferParameterui64vNV(target Enum, pname Enum, params *Uint64)  {
+func GetBufferParameterui64vNV(target Enum, pname Enum, params *Uint64) {
 	C.goglGetBufferParameterui64vNV((C.GLenum)(target), (C.GLenum)(pname), (*C.GLuint64EXT)(params))
 }
-func GetNamedBufferParameterui64vNV(buffer Uint, pname Enum, params *Uint64)  {
+func GetNamedBufferParameterui64vNV(buffer Uint, pname Enum, params *Uint64) {
 	C.goglGetNamedBufferParameterui64vNV((C.GLuint)(buffer), (C.GLenum)(pname), (*C.GLuint64EXT)(params))
 }
-func GetIntegerui64vNV(value Enum, result *Uint64)  {
+func GetIntegerui64vNV(value Enum, result *Uint64) {
 	C.goglGetIntegerui64vNV((C.GLenum)(value), (*C.GLuint64EXT)(result))
 }
-func Uniformui64NV(location Int, value Uint64)  {
+func Uniformui64NV(location Int, value Uint64) {
 	C.goglUniformui64NV((C.GLint)(location), (C.GLuint64EXT)(value))
 }
-func Uniformui64vNV(location Int, count Sizei, value *Uint64)  {
+func Uniformui64vNV(location Int, count Sizei, value *Uint64) {
 	C.goglUniformui64vNV((C.GLint)(location), (C.GLsizei)(count), (*C.GLuint64EXT)(value))
 }
-func GetUniformui64vNV(program Uint, location Int, params *Uint64)  {
+func GetUniformui64vNV(program Uint, location Int, params *Uint64) {
 	C.goglGetUniformui64vNV((C.GLuint)(program), (C.GLint)(location), (*C.GLuint64EXT)(params))
 }
-func ProgramUniformui64NV(program Uint, location Int, value Uint64)  {
+func ProgramUniformui64NV(program Uint, location Int, value Uint64) {
 	C.goglProgramUniformui64NV((C.GLuint)(program), (C.GLint)(location), (C.GLuint64EXT)(value))
 }
-func ProgramUniformui64vNV(program Uint, location Int, count Sizei, value *Uint64)  {
+func ProgramUniformui64vNV(program Uint, location Int, count Sizei, value *Uint64) {
 	C.goglProgramUniformui64vNV((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLuint64EXT)(value))
 }
+
 // NV_shader_buffer_store
 
 // NV_tessellation_program5
@@ -4833,9 +4909,10 @@ func ProgramUniformui64vNV(program Uint, location Int, count Sizei, value *Uint6
 
 // NV_texture_barrier
 
-func TextureBarrierNV()  {
+func TextureBarrierNV() {
 	C.goglTextureBarrierNV()
 }
+
 // NV_texture_compression_vtc
 
 // NV_texture_env_combine4
@@ -4844,24 +4921,25 @@ func TextureBarrierNV()  {
 
 // NV_texture_multisample
 
-func TexImage2DMultisampleCoverageNV(target Enum, coverageSamples Sizei, colorSamples Sizei, internalFormat Int, width Sizei, height Sizei, fixedSampleLocations Boolean)  {
+func TexImage2DMultisampleCoverageNV(target Enum, coverageSamples Sizei, colorSamples Sizei, internalFormat Int, width Sizei, height Sizei, fixedSampleLocations Boolean) {
 	C.goglTexImage2DMultisampleCoverageNV((C.GLenum)(target), (C.GLsizei)(coverageSamples), (C.GLsizei)(colorSamples), (C.GLint)(internalFormat), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLboolean)(fixedSampleLocations))
 }
-func TexImage3DMultisampleCoverageNV(target Enum, coverageSamples Sizei, colorSamples Sizei, internalFormat Int, width Sizei, height Sizei, depth Sizei, fixedSampleLocations Boolean)  {
+func TexImage3DMultisampleCoverageNV(target Enum, coverageSamples Sizei, colorSamples Sizei, internalFormat Int, width Sizei, height Sizei, depth Sizei, fixedSampleLocations Boolean) {
 	C.goglTexImage3DMultisampleCoverageNV((C.GLenum)(target), (C.GLsizei)(coverageSamples), (C.GLsizei)(colorSamples), (C.GLint)(internalFormat), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLsizei)(depth), (C.GLboolean)(fixedSampleLocations))
 }
-func TextureImage2DMultisampleNV(texture Uint, target Enum, samples Sizei, internalFormat Int, width Sizei, height Sizei, fixedSampleLocations Boolean)  {
+func TextureImage2DMultisampleNV(texture Uint, target Enum, samples Sizei, internalFormat Int, width Sizei, height Sizei, fixedSampleLocations Boolean) {
 	C.goglTextureImage2DMultisampleNV((C.GLuint)(texture), (C.GLenum)(target), (C.GLsizei)(samples), (C.GLint)(internalFormat), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLboolean)(fixedSampleLocations))
 }
-func TextureImage3DMultisampleNV(texture Uint, target Enum, samples Sizei, internalFormat Int, width Sizei, height Sizei, depth Sizei, fixedSampleLocations Boolean)  {
+func TextureImage3DMultisampleNV(texture Uint, target Enum, samples Sizei, internalFormat Int, width Sizei, height Sizei, depth Sizei, fixedSampleLocations Boolean) {
 	C.goglTextureImage3DMultisampleNV((C.GLuint)(texture), (C.GLenum)(target), (C.GLsizei)(samples), (C.GLint)(internalFormat), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLsizei)(depth), (C.GLboolean)(fixedSampleLocations))
 }
-func TextureImage2DMultisampleCoverageNV(texture Uint, target Enum, coverageSamples Sizei, colorSamples Sizei, internalFormat Int, width Sizei, height Sizei, fixedSampleLocations Boolean)  {
+func TextureImage2DMultisampleCoverageNV(texture Uint, target Enum, coverageSamples Sizei, colorSamples Sizei, internalFormat Int, width Sizei, height Sizei, fixedSampleLocations Boolean) {
 	C.goglTextureImage2DMultisampleCoverageNV((C.GLuint)(texture), (C.GLenum)(target), (C.GLsizei)(coverageSamples), (C.GLsizei)(colorSamples), (C.GLint)(internalFormat), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLboolean)(fixedSampleLocations))
 }
-func TextureImage3DMultisampleCoverageNV(texture Uint, target Enum, coverageSamples Sizei, colorSamples Sizei, internalFormat Int, width Sizei, height Sizei, depth Sizei, fixedSampleLocations Boolean)  {
+func TextureImage3DMultisampleCoverageNV(texture Uint, target Enum, coverageSamples Sizei, colorSamples Sizei, internalFormat Int, width Sizei, height Sizei, depth Sizei, fixedSampleLocations Boolean) {
 	C.goglTextureImage3DMultisampleCoverageNV((C.GLuint)(texture), (C.GLenum)(target), (C.GLsizei)(coverageSamples), (C.GLsizei)(colorSamples), (C.GLint)(internalFormat), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLsizei)(depth), (C.GLboolean)(fixedSampleLocations))
 }
+
 // NV_texture_rectangle
 
 // NV_texture_shader
@@ -4872,71 +4950,73 @@ func TextureImage3DMultisampleCoverageNV(texture Uint, target Enum, coverageSamp
 
 // NV_transform_feedback
 
-func BeginTransformFeedbackNV(primitiveMode Enum)  {
+func BeginTransformFeedbackNV(primitiveMode Enum) {
 	C.goglBeginTransformFeedbackNV((C.GLenum)(primitiveMode))
 }
-func EndTransformFeedbackNV()  {
+func EndTransformFeedbackNV() {
 	C.goglEndTransformFeedbackNV()
 }
-func TransformFeedbackAttribsNV(count Sizei, attribs *Int, bufferMode Enum)  {
+func TransformFeedbackAttribsNV(count Sizei, attribs *Int, bufferMode Enum) {
 	C.goglTransformFeedbackAttribsNV((C.GLsizei)(count), (*C.GLint)(attribs), (C.GLenum)(bufferMode))
 }
-func BindBufferRangeNV(target Enum, index Uint, buffer Uint, offset Intptr, size Sizeiptr)  {
+func BindBufferRangeNV(target Enum, index Uint, buffer Uint, offset Intptr, size Sizeiptr) {
 	C.goglBindBufferRangeNV((C.GLenum)(target), (C.GLuint)(index), (C.GLuint)(buffer), (C.GLintptr)(offset), (C.GLsizeiptr)(size))
 }
-func BindBufferOffsetNV(target Enum, index Uint, buffer Uint, offset Intptr)  {
+func BindBufferOffsetNV(target Enum, index Uint, buffer Uint, offset Intptr) {
 	C.goglBindBufferOffsetNV((C.GLenum)(target), (C.GLuint)(index), (C.GLuint)(buffer), (C.GLintptr)(offset))
 }
-func BindBufferBaseNV(target Enum, index Uint, buffer Uint)  {
+func BindBufferBaseNV(target Enum, index Uint, buffer Uint) {
 	C.goglBindBufferBaseNV((C.GLenum)(target), (C.GLuint)(index), (C.GLuint)(buffer))
 }
-func TransformFeedbackVaryingsNV(program Uint, count Sizei, locations *Int, bufferMode Enum)  {
+func TransformFeedbackVaryingsNV(program Uint, count Sizei, locations *Int, bufferMode Enum) {
 	C.goglTransformFeedbackVaryingsNV((C.GLuint)(program), (C.GLsizei)(count), (*C.GLint)(locations), (C.GLenum)(bufferMode))
 }
-func ActiveVaryingNV(program Uint, name *Char)  {
+func ActiveVaryingNV(program Uint, name *Char) {
 	C.goglActiveVaryingNV((C.GLuint)(program), (*C.GLchar)(name))
 }
 func GetVaryingLocationNV(program Uint, name *Char) Int {
 	return (Int)(C.goglGetVaryingLocationNV((C.GLuint)(program), (*C.GLchar)(name)))
 }
-func GetActiveVaryingNV(program Uint, index Uint, bufSize Sizei, length *Sizei, size *Sizei, type_ *Enum, name *Char)  {
+func GetActiveVaryingNV(program Uint, index Uint, bufSize Sizei, length *Sizei, size *Sizei, type_ *Enum, name *Char) {
 	C.goglGetActiveVaryingNV((C.GLuint)(program), (C.GLuint)(index), (C.GLsizei)(bufSize), (*C.GLsizei)(length), (*C.GLsizei)(size), (*C.GLenum)(type_), (*C.GLchar)(name))
 }
-func GetTransformFeedbackVaryingNV(program Uint, index Uint, location *Int)  {
+func GetTransformFeedbackVaryingNV(program Uint, index Uint, location *Int) {
 	C.goglGetTransformFeedbackVaryingNV((C.GLuint)(program), (C.GLuint)(index), (*C.GLint)(location))
 }
-func TransformFeedbackStreamAttribsNV(count Sizei, attribs *Int, nbuffers Sizei, bufstreams *Int, bufferMode Enum)  {
+func TransformFeedbackStreamAttribsNV(count Sizei, attribs *Int, nbuffers Sizei, bufstreams *Int, bufferMode Enum) {
 	C.goglTransformFeedbackStreamAttribsNV((C.GLsizei)(count), (*C.GLint)(attribs), (C.GLsizei)(nbuffers), (*C.GLint)(bufstreams), (C.GLenum)(bufferMode))
 }
+
 // NV_transform_feedback2
 
-func BindTransformFeedbackNV(target Enum, id Uint)  {
+func BindTransformFeedbackNV(target Enum, id Uint) {
 	C.goglBindTransformFeedbackNV((C.GLenum)(target), (C.GLuint)(id))
 }
-func DeleteTransformFeedbacksNV(n Sizei, ids *Uint)  {
+func DeleteTransformFeedbacksNV(n Sizei, ids *Uint) {
 	C.goglDeleteTransformFeedbacksNV((C.GLsizei)(n), (*C.GLuint)(ids))
 }
-func GenTransformFeedbacksNV(n Sizei, ids *Uint)  {
+func GenTransformFeedbacksNV(n Sizei, ids *Uint) {
 	C.goglGenTransformFeedbacksNV((C.GLsizei)(n), (*C.GLuint)(ids))
 }
 func IsTransformFeedbackNV(id Uint) Boolean {
 	return (Boolean)(C.goglIsTransformFeedbackNV((C.GLuint)(id)))
 }
-func PauseTransformFeedbackNV()  {
+func PauseTransformFeedbackNV() {
 	C.goglPauseTransformFeedbackNV()
 }
-func ResumeTransformFeedbackNV()  {
+func ResumeTransformFeedbackNV() {
 	C.goglResumeTransformFeedbackNV()
 }
-func DrawTransformFeedbackNV(mode Enum, id Uint)  {
+func DrawTransformFeedbackNV(mode Enum, id Uint) {
 	C.goglDrawTransformFeedbackNV((C.GLenum)(mode), (C.GLuint)(id))
 }
+
 // NV_vdpau_interop
 
-func VDPAUInitNV(vdpDevice Pointer, getProcAddress Pointer)  {
+func VDPAUInitNV(vdpDevice Pointer, getProcAddress Pointer) {
 	C.goglVDPAUInitNV((unsafe.Pointer)(vdpDevice), (unsafe.Pointer)(getProcAddress))
 }
-func VDPAUFiniNV()  {
+func VDPAUFiniNV() {
 	C.goglVDPAUFiniNV()
 }
 func VDPAURegisterVideoSurfaceNV(vdpSurface Pointer, target Enum, numTextureNames Sizei, textureNames *Uint) Intptr {
@@ -4945,325 +5025,330 @@ func VDPAURegisterVideoSurfaceNV(vdpSurface Pointer, target Enum, numTextureName
 func VDPAURegisterOutputSurfaceNV(vdpSurface Pointer, target Enum, numTextureNames Sizei, textureNames *Uint) Intptr {
 	return (Intptr)(C.goglVDPAURegisterOutputSurfaceNV((unsafe.Pointer)(vdpSurface), (C.GLenum)(target), (C.GLsizei)(numTextureNames), (*C.GLuint)(textureNames)))
 }
-func VDPAUIsSurfaceNV(surface Intptr)  {
+func VDPAUIsSurfaceNV(surface Intptr) {
 	C.goglVDPAUIsSurfaceNV((C.GLvdpauSurfaceNV)(surface))
 }
-func VDPAUUnregisterSurfaceNV(surface Intptr)  {
+func VDPAUUnregisterSurfaceNV(surface Intptr) {
 	C.goglVDPAUUnregisterSurfaceNV((C.GLvdpauSurfaceNV)(surface))
 }
-func VDPAUGetSurfaceivNV(surface Intptr, pname Enum, bufSize Sizei, length *Sizei, values *Int)  {
+func VDPAUGetSurfaceivNV(surface Intptr, pname Enum, bufSize Sizei, length *Sizei, values *Int) {
 	C.goglVDPAUGetSurfaceivNV((C.GLvdpauSurfaceNV)(surface), (C.GLenum)(pname), (C.GLsizei)(bufSize), (*C.GLsizei)(length), (*C.GLint)(values))
 }
-func VDPAUSurfaceAccessNV(surface Intptr, access Enum)  {
+func VDPAUSurfaceAccessNV(surface Intptr, access Enum) {
 	C.goglVDPAUSurfaceAccessNV((C.GLvdpauSurfaceNV)(surface), (C.GLenum)(access))
 }
-func VDPAUMapSurfacesNV(numSurfaces Sizei, surfaces *Intptr)  {
+func VDPAUMapSurfacesNV(numSurfaces Sizei, surfaces *Intptr) {
 	C.goglVDPAUMapSurfacesNV((C.GLsizei)(numSurfaces), (*C.GLvdpauSurfaceNV)(surfaces))
 }
-func VDPAUUnmapSurfacesNV(numSurface Sizei, surfaces *Intptr)  {
+func VDPAUUnmapSurfacesNV(numSurface Sizei, surfaces *Intptr) {
 	C.goglVDPAUUnmapSurfacesNV((C.GLsizei)(numSurface), (*C.GLvdpauSurfaceNV)(surfaces))
 }
+
 // NV_vertex_array_range
 
-func FlushVertexArrayRangeNV()  {
+func FlushVertexArrayRangeNV() {
 	C.goglFlushVertexArrayRangeNV()
 }
-func VertexArrayRangeNV(length Sizei, pointer Pointer)  {
+func VertexArrayRangeNV(length Sizei, pointer Pointer) {
 	C.goglVertexArrayRangeNV((C.GLsizei)(length), (unsafe.Pointer)(pointer))
 }
+
 // NV_vertex_array_range2
 
 // NV_vertex_attrib_integer_64bit
 
-func VertexAttribL1i64NV(index Uint, x Int64)  {
+func VertexAttribL1i64NV(index Uint, x Int64) {
 	C.goglVertexAttribL1i64NV((C.GLuint)(index), (C.GLint64EXT)(x))
 }
-func VertexAttribL2i64NV(index Uint, x Int64, y Int64)  {
+func VertexAttribL2i64NV(index Uint, x Int64, y Int64) {
 	C.goglVertexAttribL2i64NV((C.GLuint)(index), (C.GLint64EXT)(x), (C.GLint64EXT)(y))
 }
-func VertexAttribL3i64NV(index Uint, x Int64, y Int64, z Int64)  {
+func VertexAttribL3i64NV(index Uint, x Int64, y Int64, z Int64) {
 	C.goglVertexAttribL3i64NV((C.GLuint)(index), (C.GLint64EXT)(x), (C.GLint64EXT)(y), (C.GLint64EXT)(z))
 }
-func VertexAttribL4i64NV(index Uint, x Int64, y Int64, z Int64, w Int64)  {
+func VertexAttribL4i64NV(index Uint, x Int64, y Int64, z Int64, w Int64) {
 	C.goglVertexAttribL4i64NV((C.GLuint)(index), (C.GLint64EXT)(x), (C.GLint64EXT)(y), (C.GLint64EXT)(z), (C.GLint64EXT)(w))
 }
-func VertexAttribL1i64vNV(index Uint, v *Int64)  {
+func VertexAttribL1i64vNV(index Uint, v *Int64) {
 	C.goglVertexAttribL1i64vNV((C.GLuint)(index), (*C.GLint64EXT)(v))
 }
-func VertexAttribL2i64vNV(index Uint, v *Int64)  {
+func VertexAttribL2i64vNV(index Uint, v *Int64) {
 	C.goglVertexAttribL2i64vNV((C.GLuint)(index), (*C.GLint64EXT)(v))
 }
-func VertexAttribL3i64vNV(index Uint, v *Int64)  {
+func VertexAttribL3i64vNV(index Uint, v *Int64) {
 	C.goglVertexAttribL3i64vNV((C.GLuint)(index), (*C.GLint64EXT)(v))
 }
-func VertexAttribL4i64vNV(index Uint, v *Int64)  {
+func VertexAttribL4i64vNV(index Uint, v *Int64) {
 	C.goglVertexAttribL4i64vNV((C.GLuint)(index), (*C.GLint64EXT)(v))
 }
-func VertexAttribL1ui64NV(index Uint, x Uint64)  {
+func VertexAttribL1ui64NV(index Uint, x Uint64) {
 	C.goglVertexAttribL1ui64NV((C.GLuint)(index), (C.GLuint64EXT)(x))
 }
-func VertexAttribL2ui64NV(index Uint, x Uint64, y Uint64)  {
+func VertexAttribL2ui64NV(index Uint, x Uint64, y Uint64) {
 	C.goglVertexAttribL2ui64NV((C.GLuint)(index), (C.GLuint64EXT)(x), (C.GLuint64EXT)(y))
 }
-func VertexAttribL3ui64NV(index Uint, x Uint64, y Uint64, z Uint64)  {
+func VertexAttribL3ui64NV(index Uint, x Uint64, y Uint64, z Uint64) {
 	C.goglVertexAttribL3ui64NV((C.GLuint)(index), (C.GLuint64EXT)(x), (C.GLuint64EXT)(y), (C.GLuint64EXT)(z))
 }
-func VertexAttribL4ui64NV(index Uint, x Uint64, y Uint64, z Uint64, w Uint64)  {
+func VertexAttribL4ui64NV(index Uint, x Uint64, y Uint64, z Uint64, w Uint64) {
 	C.goglVertexAttribL4ui64NV((C.GLuint)(index), (C.GLuint64EXT)(x), (C.GLuint64EXT)(y), (C.GLuint64EXT)(z), (C.GLuint64EXT)(w))
 }
-func VertexAttribL1ui64vNV(index Uint, v *Uint64)  {
+func VertexAttribL1ui64vNV(index Uint, v *Uint64) {
 	C.goglVertexAttribL1ui64vNV((C.GLuint)(index), (*C.GLuint64EXT)(v))
 }
-func VertexAttribL2ui64vNV(index Uint, v *Uint64)  {
+func VertexAttribL2ui64vNV(index Uint, v *Uint64) {
 	C.goglVertexAttribL2ui64vNV((C.GLuint)(index), (*C.GLuint64EXT)(v))
 }
-func VertexAttribL3ui64vNV(index Uint, v *Uint64)  {
+func VertexAttribL3ui64vNV(index Uint, v *Uint64) {
 	C.goglVertexAttribL3ui64vNV((C.GLuint)(index), (*C.GLuint64EXT)(v))
 }
-func VertexAttribL4ui64vNV(index Uint, v *Uint64)  {
+func VertexAttribL4ui64vNV(index Uint, v *Uint64) {
 	C.goglVertexAttribL4ui64vNV((C.GLuint)(index), (*C.GLuint64EXT)(v))
 }
-func GetVertexAttribLi64vNV(index Uint, pname Enum, params *Int64)  {
+func GetVertexAttribLi64vNV(index Uint, pname Enum, params *Int64) {
 	C.goglGetVertexAttribLi64vNV((C.GLuint)(index), (C.GLenum)(pname), (*C.GLint64EXT)(params))
 }
-func GetVertexAttribLui64vNV(index Uint, pname Enum, params *Uint64)  {
+func GetVertexAttribLui64vNV(index Uint, pname Enum, params *Uint64) {
 	C.goglGetVertexAttribLui64vNV((C.GLuint)(index), (C.GLenum)(pname), (*C.GLuint64EXT)(params))
 }
-func VertexAttribLFormatNV(index Uint, size Int, type_ Enum, stride Sizei)  {
+func VertexAttribLFormatNV(index Uint, size Int, type_ Enum, stride Sizei) {
 	C.goglVertexAttribLFormatNV((C.GLuint)(index), (C.GLint)(size), (C.GLenum)(type_), (C.GLsizei)(stride))
 }
+
 // NV_vertex_buffer_unified_memory
 
-func BufferAddressRangeNV(pname Enum, index Uint, address Uint64, length Sizeiptr)  {
+func BufferAddressRangeNV(pname Enum, index Uint, address Uint64, length Sizeiptr) {
 	C.goglBufferAddressRangeNV((C.GLenum)(pname), (C.GLuint)(index), (C.GLuint64EXT)(address), (C.GLsizeiptr)(length))
 }
-func VertexFormatNV(size Int, type_ Enum, stride Sizei)  {
+func VertexFormatNV(size Int, type_ Enum, stride Sizei) {
 	C.goglVertexFormatNV((C.GLint)(size), (C.GLenum)(type_), (C.GLsizei)(stride))
 }
-func NormalFormatNV(type_ Enum, stride Sizei)  {
+func NormalFormatNV(type_ Enum, stride Sizei) {
 	C.goglNormalFormatNV((C.GLenum)(type_), (C.GLsizei)(stride))
 }
-func ColorFormatNV(size Int, type_ Enum, stride Sizei)  {
+func ColorFormatNV(size Int, type_ Enum, stride Sizei) {
 	C.goglColorFormatNV((C.GLint)(size), (C.GLenum)(type_), (C.GLsizei)(stride))
 }
-func IndexFormatNV(type_ Enum, stride Sizei)  {
+func IndexFormatNV(type_ Enum, stride Sizei) {
 	C.goglIndexFormatNV((C.GLenum)(type_), (C.GLsizei)(stride))
 }
-func TexCoordFormatNV(size Int, type_ Enum, stride Sizei)  {
+func TexCoordFormatNV(size Int, type_ Enum, stride Sizei) {
 	C.goglTexCoordFormatNV((C.GLint)(size), (C.GLenum)(type_), (C.GLsizei)(stride))
 }
-func EdgeFlagFormatNV(stride Sizei)  {
+func EdgeFlagFormatNV(stride Sizei) {
 	C.goglEdgeFlagFormatNV((C.GLsizei)(stride))
 }
-func SecondaryColorFormatNV(size Int, type_ Enum, stride Sizei)  {
+func SecondaryColorFormatNV(size Int, type_ Enum, stride Sizei) {
 	C.goglSecondaryColorFormatNV((C.GLint)(size), (C.GLenum)(type_), (C.GLsizei)(stride))
 }
-func FogCoordFormatNV(type_ Enum, stride Sizei)  {
+func FogCoordFormatNV(type_ Enum, stride Sizei) {
 	C.goglFogCoordFormatNV((C.GLenum)(type_), (C.GLsizei)(stride))
 }
-func VertexAttribFormatNV(index Uint, size Int, type_ Enum, normalized Boolean, stride Sizei)  {
+func VertexAttribFormatNV(index Uint, size Int, type_ Enum, normalized Boolean, stride Sizei) {
 	C.goglVertexAttribFormatNV((C.GLuint)(index), (C.GLint)(size), (C.GLenum)(type_), (C.GLboolean)(normalized), (C.GLsizei)(stride))
 }
-func VertexAttribIFormatNV(index Uint, size Int, type_ Enum, stride Sizei)  {
+func VertexAttribIFormatNV(index Uint, size Int, type_ Enum, stride Sizei) {
 	C.goglVertexAttribIFormatNV((C.GLuint)(index), (C.GLint)(size), (C.GLenum)(type_), (C.GLsizei)(stride))
 }
-func GetIntegerui64i_vNV(value Enum, index Uint, result *Uint64)  {
+func GetIntegerui64i_vNV(value Enum, index Uint, result *Uint64) {
 	C.goglGetIntegerui64i_vNV((C.GLenum)(value), (C.GLuint)(index), (*C.GLuint64EXT)(result))
 }
+
 // NV_vertex_program
 
 func AreProgramsResidentNV(n Sizei, programs *Uint, residences *Boolean) Boolean {
 	return (Boolean)(C.goglAreProgramsResidentNV((C.GLsizei)(n), (*C.GLuint)(programs), (*C.GLboolean)(residences)))
 }
-func BindProgramNV(target Enum, id Uint)  {
+func BindProgramNV(target Enum, id Uint) {
 	C.goglBindProgramNV((C.GLenum)(target), (C.GLuint)(id))
 }
-func DeleteProgramsNV(n Sizei, programs *Uint)  {
+func DeleteProgramsNV(n Sizei, programs *Uint) {
 	C.goglDeleteProgramsNV((C.GLsizei)(n), (*C.GLuint)(programs))
 }
-func ExecuteProgramNV(target Enum, id Uint, params *Float)  {
+func ExecuteProgramNV(target Enum, id Uint, params *Float) {
 	C.goglExecuteProgramNV((C.GLenum)(target), (C.GLuint)(id), (*C.GLfloat)(params))
 }
-func GenProgramsNV(n Sizei, programs *Uint)  {
+func GenProgramsNV(n Sizei, programs *Uint) {
 	C.goglGenProgramsNV((C.GLsizei)(n), (*C.GLuint)(programs))
 }
-func GetProgramParameterdvNV(target Enum, index Uint, pname Enum, params *Double)  {
+func GetProgramParameterdvNV(target Enum, index Uint, pname Enum, params *Double) {
 	C.goglGetProgramParameterdvNV((C.GLenum)(target), (C.GLuint)(index), (C.GLenum)(pname), (*C.GLdouble)(params))
 }
-func GetProgramParameterfvNV(target Enum, index Uint, pname Enum, params *Float)  {
+func GetProgramParameterfvNV(target Enum, index Uint, pname Enum, params *Float) {
 	C.goglGetProgramParameterfvNV((C.GLenum)(target), (C.GLuint)(index), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func GetProgramivNV(id Uint, pname Enum, params *Int)  {
+func GetProgramivNV(id Uint, pname Enum, params *Int) {
 	C.goglGetProgramivNV((C.GLuint)(id), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetProgramStringNV(id Uint, pname Enum, program *Ubyte)  {
+func GetProgramStringNV(id Uint, pname Enum, program *Ubyte) {
 	C.goglGetProgramStringNV((C.GLuint)(id), (C.GLenum)(pname), (*C.GLubyte)(program))
 }
-func GetTrackMatrixivNV(target Enum, address Uint, pname Enum, params *Int)  {
+func GetTrackMatrixivNV(target Enum, address Uint, pname Enum, params *Int) {
 	C.goglGetTrackMatrixivNV((C.GLenum)(target), (C.GLuint)(address), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetVertexAttribdvNV(index Uint, pname Enum, params *Double)  {
+func GetVertexAttribdvNV(index Uint, pname Enum, params *Double) {
 	C.goglGetVertexAttribdvNV((C.GLuint)(index), (C.GLenum)(pname), (*C.GLdouble)(params))
 }
-func GetVertexAttribfvNV(index Uint, pname Enum, params *Float)  {
+func GetVertexAttribfvNV(index Uint, pname Enum, params *Float) {
 	C.goglGetVertexAttribfvNV((C.GLuint)(index), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func GetVertexAttribivNV(index Uint, pname Enum, params *Int)  {
+func GetVertexAttribivNV(index Uint, pname Enum, params *Int) {
 	C.goglGetVertexAttribivNV((C.GLuint)(index), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetVertexAttribPointervNV(index Uint, pname Enum, pointer *Pointer)  {
+func GetVertexAttribPointervNV(index Uint, pname Enum, pointer *Pointer) {
 	C.goglGetVertexAttribPointervNV((C.GLuint)(index), (C.GLenum)(pname), (*unsafe.Pointer)(pointer))
 }
 func IsProgramNV(id Uint) Boolean {
 	return (Boolean)(C.goglIsProgramNV((C.GLuint)(id)))
 }
-func LoadProgramNV(target Enum, id Uint, len Sizei, program *Ubyte)  {
+func LoadProgramNV(target Enum, id Uint, len Sizei, program *Ubyte) {
 	C.goglLoadProgramNV((C.GLenum)(target), (C.GLuint)(id), (C.GLsizei)(len), (*C.GLubyte)(program))
 }
-func ProgramParameter4dNV(target Enum, index Uint, x Double, y Double, z Double, w Double)  {
+func ProgramParameter4dNV(target Enum, index Uint, x Double, y Double, z Double, w Double) {
 	C.goglProgramParameter4dNV((C.GLenum)(target), (C.GLuint)(index), (C.GLdouble)(x), (C.GLdouble)(y), (C.GLdouble)(z), (C.GLdouble)(w))
 }
-func ProgramParameter4dvNV(target Enum, index Uint, v *Double)  {
+func ProgramParameter4dvNV(target Enum, index Uint, v *Double) {
 	C.goglProgramParameter4dvNV((C.GLenum)(target), (C.GLuint)(index), (*C.GLdouble)(v))
 }
-func ProgramParameter4fNV(target Enum, index Uint, x Float, y Float, z Float, w Float)  {
+func ProgramParameter4fNV(target Enum, index Uint, x Float, y Float, z Float, w Float) {
 	C.goglProgramParameter4fNV((C.GLenum)(target), (C.GLuint)(index), (C.GLfloat)(x), (C.GLfloat)(y), (C.GLfloat)(z), (C.GLfloat)(w))
 }
-func ProgramParameter4fvNV(target Enum, index Uint, v *Float)  {
+func ProgramParameter4fvNV(target Enum, index Uint, v *Float) {
 	C.goglProgramParameter4fvNV((C.GLenum)(target), (C.GLuint)(index), (*C.GLfloat)(v))
 }
-func ProgramParameters4dvNV(target Enum, index Uint, count Sizei, v *Double)  {
+func ProgramParameters4dvNV(target Enum, index Uint, count Sizei, v *Double) {
 	C.goglProgramParameters4dvNV((C.GLenum)(target), (C.GLuint)(index), (C.GLsizei)(count), (*C.GLdouble)(v))
 }
-func ProgramParameters4fvNV(target Enum, index Uint, count Sizei, v *Float)  {
+func ProgramParameters4fvNV(target Enum, index Uint, count Sizei, v *Float) {
 	C.goglProgramParameters4fvNV((C.GLenum)(target), (C.GLuint)(index), (C.GLsizei)(count), (*C.GLfloat)(v))
 }
-func RequestResidentProgramsNV(n Sizei, programs *Uint)  {
+func RequestResidentProgramsNV(n Sizei, programs *Uint) {
 	C.goglRequestResidentProgramsNV((C.GLsizei)(n), (*C.GLuint)(programs))
 }
-func TrackMatrixNV(target Enum, address Uint, matrix Enum, transform Enum)  {
+func TrackMatrixNV(target Enum, address Uint, matrix Enum, transform Enum) {
 	C.goglTrackMatrixNV((C.GLenum)(target), (C.GLuint)(address), (C.GLenum)(matrix), (C.GLenum)(transform))
 }
-func VertexAttribPointerNV(index Uint, fsize Int, type_ Enum, stride Sizei, pointer Pointer)  {
+func VertexAttribPointerNV(index Uint, fsize Int, type_ Enum, stride Sizei, pointer Pointer) {
 	C.goglVertexAttribPointerNV((C.GLuint)(index), (C.GLint)(fsize), (C.GLenum)(type_), (C.GLsizei)(stride), (unsafe.Pointer)(pointer))
 }
-func VertexAttrib1dNV(index Uint, x Double)  {
+func VertexAttrib1dNV(index Uint, x Double) {
 	C.goglVertexAttrib1dNV((C.GLuint)(index), (C.GLdouble)(x))
 }
-func VertexAttrib1dvNV(index Uint, v *Double)  {
+func VertexAttrib1dvNV(index Uint, v *Double) {
 	C.goglVertexAttrib1dvNV((C.GLuint)(index), (*C.GLdouble)(v))
 }
-func VertexAttrib1fNV(index Uint, x Float)  {
+func VertexAttrib1fNV(index Uint, x Float) {
 	C.goglVertexAttrib1fNV((C.GLuint)(index), (C.GLfloat)(x))
 }
-func VertexAttrib1fvNV(index Uint, v *Float)  {
+func VertexAttrib1fvNV(index Uint, v *Float) {
 	C.goglVertexAttrib1fvNV((C.GLuint)(index), (*C.GLfloat)(v))
 }
-func VertexAttrib1sNV(index Uint, x Short)  {
+func VertexAttrib1sNV(index Uint, x Short) {
 	C.goglVertexAttrib1sNV((C.GLuint)(index), (C.GLshort)(x))
 }
-func VertexAttrib1svNV(index Uint, v *Short)  {
+func VertexAttrib1svNV(index Uint, v *Short) {
 	C.goglVertexAttrib1svNV((C.GLuint)(index), (*C.GLshort)(v))
 }
-func VertexAttrib2dNV(index Uint, x Double, y Double)  {
+func VertexAttrib2dNV(index Uint, x Double, y Double) {
 	C.goglVertexAttrib2dNV((C.GLuint)(index), (C.GLdouble)(x), (C.GLdouble)(y))
 }
-func VertexAttrib2dvNV(index Uint, v *Double)  {
+func VertexAttrib2dvNV(index Uint, v *Double) {
 	C.goglVertexAttrib2dvNV((C.GLuint)(index), (*C.GLdouble)(v))
 }
-func VertexAttrib2fNV(index Uint, x Float, y Float)  {
+func VertexAttrib2fNV(index Uint, x Float, y Float) {
 	C.goglVertexAttrib2fNV((C.GLuint)(index), (C.GLfloat)(x), (C.GLfloat)(y))
 }
-func VertexAttrib2fvNV(index Uint, v *Float)  {
+func VertexAttrib2fvNV(index Uint, v *Float) {
 	C.goglVertexAttrib2fvNV((C.GLuint)(index), (*C.GLfloat)(v))
 }
-func VertexAttrib2sNV(index Uint, x Short, y Short)  {
+func VertexAttrib2sNV(index Uint, x Short, y Short) {
 	C.goglVertexAttrib2sNV((C.GLuint)(index), (C.GLshort)(x), (C.GLshort)(y))
 }
-func VertexAttrib2svNV(index Uint, v *Short)  {
+func VertexAttrib2svNV(index Uint, v *Short) {
 	C.goglVertexAttrib2svNV((C.GLuint)(index), (*C.GLshort)(v))
 }
-func VertexAttrib3dNV(index Uint, x Double, y Double, z Double)  {
+func VertexAttrib3dNV(index Uint, x Double, y Double, z Double) {
 	C.goglVertexAttrib3dNV((C.GLuint)(index), (C.GLdouble)(x), (C.GLdouble)(y), (C.GLdouble)(z))
 }
-func VertexAttrib3dvNV(index Uint, v *Double)  {
+func VertexAttrib3dvNV(index Uint, v *Double) {
 	C.goglVertexAttrib3dvNV((C.GLuint)(index), (*C.GLdouble)(v))
 }
-func VertexAttrib3fNV(index Uint, x Float, y Float, z Float)  {
+func VertexAttrib3fNV(index Uint, x Float, y Float, z Float) {
 	C.goglVertexAttrib3fNV((C.GLuint)(index), (C.GLfloat)(x), (C.GLfloat)(y), (C.GLfloat)(z))
 }
-func VertexAttrib3fvNV(index Uint, v *Float)  {
+func VertexAttrib3fvNV(index Uint, v *Float) {
 	C.goglVertexAttrib3fvNV((C.GLuint)(index), (*C.GLfloat)(v))
 }
-func VertexAttrib3sNV(index Uint, x Short, y Short, z Short)  {
+func VertexAttrib3sNV(index Uint, x Short, y Short, z Short) {
 	C.goglVertexAttrib3sNV((C.GLuint)(index), (C.GLshort)(x), (C.GLshort)(y), (C.GLshort)(z))
 }
-func VertexAttrib3svNV(index Uint, v *Short)  {
+func VertexAttrib3svNV(index Uint, v *Short) {
 	C.goglVertexAttrib3svNV((C.GLuint)(index), (*C.GLshort)(v))
 }
-func VertexAttrib4dNV(index Uint, x Double, y Double, z Double, w Double)  {
+func VertexAttrib4dNV(index Uint, x Double, y Double, z Double, w Double) {
 	C.goglVertexAttrib4dNV((C.GLuint)(index), (C.GLdouble)(x), (C.GLdouble)(y), (C.GLdouble)(z), (C.GLdouble)(w))
 }
-func VertexAttrib4dvNV(index Uint, v *Double)  {
+func VertexAttrib4dvNV(index Uint, v *Double) {
 	C.goglVertexAttrib4dvNV((C.GLuint)(index), (*C.GLdouble)(v))
 }
-func VertexAttrib4fNV(index Uint, x Float, y Float, z Float, w Float)  {
+func VertexAttrib4fNV(index Uint, x Float, y Float, z Float, w Float) {
 	C.goglVertexAttrib4fNV((C.GLuint)(index), (C.GLfloat)(x), (C.GLfloat)(y), (C.GLfloat)(z), (C.GLfloat)(w))
 }
-func VertexAttrib4fvNV(index Uint, v *Float)  {
+func VertexAttrib4fvNV(index Uint, v *Float) {
 	C.goglVertexAttrib4fvNV((C.GLuint)(index), (*C.GLfloat)(v))
 }
-func VertexAttrib4sNV(index Uint, x Short, y Short, z Short, w Short)  {
+func VertexAttrib4sNV(index Uint, x Short, y Short, z Short, w Short) {
 	C.goglVertexAttrib4sNV((C.GLuint)(index), (C.GLshort)(x), (C.GLshort)(y), (C.GLshort)(z), (C.GLshort)(w))
 }
-func VertexAttrib4svNV(index Uint, v *Short)  {
+func VertexAttrib4svNV(index Uint, v *Short) {
 	C.goglVertexAttrib4svNV((C.GLuint)(index), (*C.GLshort)(v))
 }
-func VertexAttrib4ubNV(index Uint, x Ubyte, y Ubyte, z Ubyte, w Ubyte)  {
+func VertexAttrib4ubNV(index Uint, x Ubyte, y Ubyte, z Ubyte, w Ubyte) {
 	C.goglVertexAttrib4ubNV((C.GLuint)(index), (C.GLubyte)(x), (C.GLubyte)(y), (C.GLubyte)(z), (C.GLubyte)(w))
 }
-func VertexAttrib4ubvNV(index Uint, v *Ubyte)  {
+func VertexAttrib4ubvNV(index Uint, v *Ubyte) {
 	C.goglVertexAttrib4ubvNV((C.GLuint)(index), (*C.GLubyte)(v))
 }
-func VertexAttribs1dvNV(index Uint, count Sizei, v *Double)  {
+func VertexAttribs1dvNV(index Uint, count Sizei, v *Double) {
 	C.goglVertexAttribs1dvNV((C.GLuint)(index), (C.GLsizei)(count), (*C.GLdouble)(v))
 }
-func VertexAttribs1fvNV(index Uint, count Sizei, v *Float)  {
+func VertexAttribs1fvNV(index Uint, count Sizei, v *Float) {
 	C.goglVertexAttribs1fvNV((C.GLuint)(index), (C.GLsizei)(count), (*C.GLfloat)(v))
 }
-func VertexAttribs1svNV(index Uint, count Sizei, v *Short)  {
+func VertexAttribs1svNV(index Uint, count Sizei, v *Short) {
 	C.goglVertexAttribs1svNV((C.GLuint)(index), (C.GLsizei)(count), (*C.GLshort)(v))
 }
-func VertexAttribs2dvNV(index Uint, count Sizei, v *Double)  {
+func VertexAttribs2dvNV(index Uint, count Sizei, v *Double) {
 	C.goglVertexAttribs2dvNV((C.GLuint)(index), (C.GLsizei)(count), (*C.GLdouble)(v))
 }
-func VertexAttribs2fvNV(index Uint, count Sizei, v *Float)  {
+func VertexAttribs2fvNV(index Uint, count Sizei, v *Float) {
 	C.goglVertexAttribs2fvNV((C.GLuint)(index), (C.GLsizei)(count), (*C.GLfloat)(v))
 }
-func VertexAttribs2svNV(index Uint, count Sizei, v *Short)  {
+func VertexAttribs2svNV(index Uint, count Sizei, v *Short) {
 	C.goglVertexAttribs2svNV((C.GLuint)(index), (C.GLsizei)(count), (*C.GLshort)(v))
 }
-func VertexAttribs3dvNV(index Uint, count Sizei, v *Double)  {
+func VertexAttribs3dvNV(index Uint, count Sizei, v *Double) {
 	C.goglVertexAttribs3dvNV((C.GLuint)(index), (C.GLsizei)(count), (*C.GLdouble)(v))
 }
-func VertexAttribs3fvNV(index Uint, count Sizei, v *Float)  {
+func VertexAttribs3fvNV(index Uint, count Sizei, v *Float) {
 	C.goglVertexAttribs3fvNV((C.GLuint)(index), (C.GLsizei)(count), (*C.GLfloat)(v))
 }
-func VertexAttribs3svNV(index Uint, count Sizei, v *Short)  {
+func VertexAttribs3svNV(index Uint, count Sizei, v *Short) {
 	C.goglVertexAttribs3svNV((C.GLuint)(index), (C.GLsizei)(count), (*C.GLshort)(v))
 }
-func VertexAttribs4dvNV(index Uint, count Sizei, v *Double)  {
+func VertexAttribs4dvNV(index Uint, count Sizei, v *Double) {
 	C.goglVertexAttribs4dvNV((C.GLuint)(index), (C.GLsizei)(count), (*C.GLdouble)(v))
 }
-func VertexAttribs4fvNV(index Uint, count Sizei, v *Float)  {
+func VertexAttribs4fvNV(index Uint, count Sizei, v *Float) {
 	C.goglVertexAttribs4fvNV((C.GLuint)(index), (C.GLsizei)(count), (*C.GLfloat)(v))
 }
-func VertexAttribs4svNV(index Uint, count Sizei, v *Short)  {
+func VertexAttribs4svNV(index Uint, count Sizei, v *Short) {
 	C.goglVertexAttribs4svNV((C.GLuint)(index), (C.GLsizei)(count), (*C.GLshort)(v))
 }
-func VertexAttribs4ubvNV(index Uint, count Sizei, v *Ubyte)  {
+func VertexAttribs4ubvNV(index Uint, count Sizei, v *Ubyte) {
 	C.goglVertexAttribs4ubvNV((C.GLuint)(index), (C.GLsizei)(count), (*C.GLubyte)(v))
 }
+
 // NV_vertex_program1_1
 
 // NV_vertex_program2
@@ -5274,111 +5359,112 @@ func VertexAttribs4ubvNV(index Uint, count Sizei, v *Ubyte)  {
 
 // NV_vertex_program4
 
-func VertexAttribI1iEXT(index Uint, x Int)  {
+func VertexAttribI1iEXT(index Uint, x Int) {
 	C.goglVertexAttribI1iEXT((C.GLuint)(index), (C.GLint)(x))
 }
-func VertexAttribI2iEXT(index Uint, x Int, y Int)  {
+func VertexAttribI2iEXT(index Uint, x Int, y Int) {
 	C.goglVertexAttribI2iEXT((C.GLuint)(index), (C.GLint)(x), (C.GLint)(y))
 }
-func VertexAttribI3iEXT(index Uint, x Int, y Int, z Int)  {
+func VertexAttribI3iEXT(index Uint, x Int, y Int, z Int) {
 	C.goglVertexAttribI3iEXT((C.GLuint)(index), (C.GLint)(x), (C.GLint)(y), (C.GLint)(z))
 }
-func VertexAttribI4iEXT(index Uint, x Int, y Int, z Int, w Int)  {
+func VertexAttribI4iEXT(index Uint, x Int, y Int, z Int, w Int) {
 	C.goglVertexAttribI4iEXT((C.GLuint)(index), (C.GLint)(x), (C.GLint)(y), (C.GLint)(z), (C.GLint)(w))
 }
-func VertexAttribI1uiEXT(index Uint, x Uint)  {
+func VertexAttribI1uiEXT(index Uint, x Uint) {
 	C.goglVertexAttribI1uiEXT((C.GLuint)(index), (C.GLuint)(x))
 }
-func VertexAttribI2uiEXT(index Uint, x Uint, y Uint)  {
+func VertexAttribI2uiEXT(index Uint, x Uint, y Uint) {
 	C.goglVertexAttribI2uiEXT((C.GLuint)(index), (C.GLuint)(x), (C.GLuint)(y))
 }
-func VertexAttribI3uiEXT(index Uint, x Uint, y Uint, z Uint)  {
+func VertexAttribI3uiEXT(index Uint, x Uint, y Uint, z Uint) {
 	C.goglVertexAttribI3uiEXT((C.GLuint)(index), (C.GLuint)(x), (C.GLuint)(y), (C.GLuint)(z))
 }
-func VertexAttribI4uiEXT(index Uint, x Uint, y Uint, z Uint, w Uint)  {
+func VertexAttribI4uiEXT(index Uint, x Uint, y Uint, z Uint, w Uint) {
 	C.goglVertexAttribI4uiEXT((C.GLuint)(index), (C.GLuint)(x), (C.GLuint)(y), (C.GLuint)(z), (C.GLuint)(w))
 }
-func VertexAttribI1ivEXT(index Uint, v *Int)  {
+func VertexAttribI1ivEXT(index Uint, v *Int) {
 	C.goglVertexAttribI1ivEXT((C.GLuint)(index), (*C.GLint)(v))
 }
-func VertexAttribI2ivEXT(index Uint, v *Int)  {
+func VertexAttribI2ivEXT(index Uint, v *Int) {
 	C.goglVertexAttribI2ivEXT((C.GLuint)(index), (*C.GLint)(v))
 }
-func VertexAttribI3ivEXT(index Uint, v *Int)  {
+func VertexAttribI3ivEXT(index Uint, v *Int) {
 	C.goglVertexAttribI3ivEXT((C.GLuint)(index), (*C.GLint)(v))
 }
-func VertexAttribI4ivEXT(index Uint, v *Int)  {
+func VertexAttribI4ivEXT(index Uint, v *Int) {
 	C.goglVertexAttribI4ivEXT((C.GLuint)(index), (*C.GLint)(v))
 }
-func VertexAttribI1uivEXT(index Uint, v *Uint)  {
+func VertexAttribI1uivEXT(index Uint, v *Uint) {
 	C.goglVertexAttribI1uivEXT((C.GLuint)(index), (*C.GLuint)(v))
 }
-func VertexAttribI2uivEXT(index Uint, v *Uint)  {
+func VertexAttribI2uivEXT(index Uint, v *Uint) {
 	C.goglVertexAttribI2uivEXT((C.GLuint)(index), (*C.GLuint)(v))
 }
-func VertexAttribI3uivEXT(index Uint, v *Uint)  {
+func VertexAttribI3uivEXT(index Uint, v *Uint) {
 	C.goglVertexAttribI3uivEXT((C.GLuint)(index), (*C.GLuint)(v))
 }
-func VertexAttribI4uivEXT(index Uint, v *Uint)  {
+func VertexAttribI4uivEXT(index Uint, v *Uint) {
 	C.goglVertexAttribI4uivEXT((C.GLuint)(index), (*C.GLuint)(v))
 }
-func VertexAttribI4bvEXT(index Uint, v *Byte)  {
+func VertexAttribI4bvEXT(index Uint, v *Byte) {
 	C.goglVertexAttribI4bvEXT((C.GLuint)(index), (*C.GLbyte)(v))
 }
-func VertexAttribI4svEXT(index Uint, v *Short)  {
+func VertexAttribI4svEXT(index Uint, v *Short) {
 	C.goglVertexAttribI4svEXT((C.GLuint)(index), (*C.GLshort)(v))
 }
-func VertexAttribI4ubvEXT(index Uint, v *Ubyte)  {
+func VertexAttribI4ubvEXT(index Uint, v *Ubyte) {
 	C.goglVertexAttribI4ubvEXT((C.GLuint)(index), (*C.GLubyte)(v))
 }
-func VertexAttribI4usvEXT(index Uint, v *Ushort)  {
+func VertexAttribI4usvEXT(index Uint, v *Ushort) {
 	C.goglVertexAttribI4usvEXT((C.GLuint)(index), (*C.GLushort)(v))
 }
-func VertexAttribIPointerEXT(index Uint, size Int, type_ Enum, stride Sizei, pointer Pointer)  {
+func VertexAttribIPointerEXT(index Uint, size Int, type_ Enum, stride Sizei, pointer Pointer) {
 	C.goglVertexAttribIPointerEXT((C.GLuint)(index), (C.GLint)(size), (C.GLenum)(type_), (C.GLsizei)(stride), (unsafe.Pointer)(pointer))
 }
-func GetVertexAttribIivEXT(index Uint, pname Enum, params *Int)  {
+func GetVertexAttribIivEXT(index Uint, pname Enum, params *Int) {
 	C.goglGetVertexAttribIivEXT((C.GLuint)(index), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetVertexAttribIuivEXT(index Uint, pname Enum, params *Uint)  {
+func GetVertexAttribIuivEXT(index Uint, pname Enum, params *Uint) {
 	C.goglGetVertexAttribIuivEXT((C.GLuint)(index), (C.GLenum)(pname), (*C.GLuint)(params))
 }
+
 // NV_video_capture
 
-func BeginVideoCaptureNV(video_capture_slot Uint)  {
+func BeginVideoCaptureNV(video_capture_slot Uint) {
 	C.goglBeginVideoCaptureNV((C.GLuint)(video_capture_slot))
 }
-func BindVideoCaptureStreamBufferNV(video_capture_slot Uint, stream Uint, frame_region Enum, offset Intptr)  {
+func BindVideoCaptureStreamBufferNV(video_capture_slot Uint, stream Uint, frame_region Enum, offset Intptr) {
 	C.goglBindVideoCaptureStreamBufferNV((C.GLuint)(video_capture_slot), (C.GLuint)(stream), (C.GLenum)(frame_region), (C.GLintptrARB)(offset))
 }
-func BindVideoCaptureStreamTextureNV(video_capture_slot Uint, stream Uint, frame_region Enum, target Enum, texture Uint)  {
+func BindVideoCaptureStreamTextureNV(video_capture_slot Uint, stream Uint, frame_region Enum, target Enum, texture Uint) {
 	C.goglBindVideoCaptureStreamTextureNV((C.GLuint)(video_capture_slot), (C.GLuint)(stream), (C.GLenum)(frame_region), (C.GLenum)(target), (C.GLuint)(texture))
 }
-func EndVideoCaptureNV(video_capture_slot Uint)  {
+func EndVideoCaptureNV(video_capture_slot Uint) {
 	C.goglEndVideoCaptureNV((C.GLuint)(video_capture_slot))
 }
-func GetVideoCaptureivNV(video_capture_slot Uint, pname Enum, params *Int)  {
+func GetVideoCaptureivNV(video_capture_slot Uint, pname Enum, params *Int) {
 	C.goglGetVideoCaptureivNV((C.GLuint)(video_capture_slot), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetVideoCaptureStreamivNV(video_capture_slot Uint, stream Uint, pname Enum, params *Int)  {
+func GetVideoCaptureStreamivNV(video_capture_slot Uint, stream Uint, pname Enum, params *Int) {
 	C.goglGetVideoCaptureStreamivNV((C.GLuint)(video_capture_slot), (C.GLuint)(stream), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetVideoCaptureStreamfvNV(video_capture_slot Uint, stream Uint, pname Enum, params *Float)  {
+func GetVideoCaptureStreamfvNV(video_capture_slot Uint, stream Uint, pname Enum, params *Float) {
 	C.goglGetVideoCaptureStreamfvNV((C.GLuint)(video_capture_slot), (C.GLuint)(stream), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func GetVideoCaptureStreamdvNV(video_capture_slot Uint, stream Uint, pname Enum, params *Double)  {
+func GetVideoCaptureStreamdvNV(video_capture_slot Uint, stream Uint, pname Enum, params *Double) {
 	C.goglGetVideoCaptureStreamdvNV((C.GLuint)(video_capture_slot), (C.GLuint)(stream), (C.GLenum)(pname), (*C.GLdouble)(params))
 }
 func VideoCaptureNV(video_capture_slot Uint, sequence_num *Uint, capture_time *Uint64) Enum {
 	return (Enum)(C.goglVideoCaptureNV((C.GLuint)(video_capture_slot), (*C.GLuint)(sequence_num), (*C.GLuint64EXT)(capture_time)))
 }
-func VideoCaptureStreamParameterivNV(video_capture_slot Uint, stream Uint, pname Enum, params *Int)  {
+func VideoCaptureStreamParameterivNV(video_capture_slot Uint, stream Uint, pname Enum, params *Int) {
 	C.goglVideoCaptureStreamParameterivNV((C.GLuint)(video_capture_slot), (C.GLuint)(stream), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func VideoCaptureStreamParameterfvNV(video_capture_slot Uint, stream Uint, pname Enum, params *Float)  {
+func VideoCaptureStreamParameterfvNV(video_capture_slot Uint, stream Uint, pname Enum, params *Float) {
 	C.goglVideoCaptureStreamParameterfvNV((C.GLuint)(video_capture_slot), (C.GLuint)(stream), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func VideoCaptureStreamParameterdvNV(video_capture_slot Uint, stream Uint, pname Enum, params *Double)  {
+func VideoCaptureStreamParameterdvNV(video_capture_slot Uint, stream Uint, pname Enum, params *Double) {
 	C.goglVideoCaptureStreamParameterdvNV((C.GLuint)(video_capture_slot), (C.GLuint)(stream), (C.GLenum)(pname), (*C.GLdouble)(params))
 }
 func InitNvBindlessTexture() error {
@@ -5843,4 +5929,5 @@ func InitNvVideoCapture() error {
 	}
 	return nil
 }
+
 // EOF

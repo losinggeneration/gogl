@@ -86,5 +86,5 @@ func TestReadFunctions(t *testing.T) {
 	f2.Offset = "168"
 	checkFunc(f2, f, t)
 
-	// TODO: add more tests: flags, categories ...	
+	// TODO: add more tests: flags, categories ...
 }

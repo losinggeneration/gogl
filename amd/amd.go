@@ -1,49 +1,49 @@
 // Automatically generated OpenGL binding.
-// 
-// Categories in this package: 
-// 
+//
+// Categories in this package:
+//
 // AMD_blend_minmax_factor: http://www.opengl.org/registry/specs/AMD/blend_minmax_factor.txt
-// 
+//
 // AMD_conservative_depth: http://www.opengl.org/registry/specs/AMD/conservative_depth.txt
-// 
+//
 // AMD_debug_output: http://www.opengl.org/registry/specs/AMD/debug_output.txt
-// 
+//
 // AMD_depth_clamp_separate: http://www.opengl.org/registry/specs/AMD/depth_clamp_separate.txt
-// 
+//
 // AMD_draw_buffers_blend: http://www.opengl.org/registry/specs/AMD/draw_buffers_blend.txt
-// 
+//
 // AMD_multi_draw_indirect: http://www.opengl.org/registry/specs/AMD/multi_draw_indirect.txt
-// 
+//
 // AMD_name_gen_delete: http://www.opengl.org/registry/specs/AMD/name_gen_delete.txt
-// 
+//
 // AMD_performance_monitor: http://www.opengl.org/registry/specs/AMD/performance_monitor.txt
-// 
+//
 // AMD_pinned_memory: http://www.opengl.org/registry/specs/AMD/pinned_memory.txt
-// 
+//
 // AMD_sample_positions: http://www.opengl.org/registry/specs/AMD/sample_positions.txt
-// 
+//
 // AMD_seamless_cubemap_per_texture: http://www.opengl.org/registry/specs/AMD/seamless_cubemap_per_texture.txt
-// 
+//
 // AMD_shader_stencil_export: http://www.opengl.org/registry/specs/AMD/shader_stencil_export.txt
-// 
+//
 // AMD_stencil_operation_extended: http://www.opengl.org/registry/specs/AMD/stencil_operation_extended.txt
-// 
+//
 // AMD_texture_texture4: http://www.opengl.org/registry/specs/AMD/texture_texture4.txt
-// 
+//
 // AMD_transform_feedback3_lines_triangles: http://www.opengl.org/registry/specs/AMD/transform_feedback3_lines_triangles.txt
-// 
+//
 // AMD_vertex_shader_layer: http://www.opengl.org/registry/specs/AMD/vertex_shader_layer.txt
-// 
+//
 // AMD_vertex_shader_tessellator: http://www.opengl.org/registry/specs/AMD/vertex_shader_tessellator.txt
-// 
+//
 // AMD_vertex_shader_viewport_index: http://www.opengl.org/registry/specs/AMD/vertex_shader_viewport_index.txt
-// 
+//
 package amd
 
 // #cgo darwin  LDFLAGS: -framework OpenGL
 // #cgo linux   LDFLAGS: -lGL
 // #cgo windows LDFLAGS: -lopengl32
-// 
+//
 // #include <stdlib.h>
 // #if defined(__APPLE__)
 // #include <dlfcn.h>
@@ -54,7 +54,7 @@ package amd
 // #include <X11/Xlib.h>
 // #include <GL/glx.h>
 // #endif
-// 
+//
 // #ifndef APIENTRY
 // #define APIENTRY
 // #endif
@@ -64,7 +64,7 @@ package amd
 // #ifndef GLAPI
 // #define GLAPI extern
 // #endif
-// 
+//
 // typedef unsigned int GLenum;
 // typedef unsigned char GLboolean;
 // typedef unsigned int GLbitfield;
@@ -81,40 +81,40 @@ package amd
 // typedef double GLdouble;
 // typedef double GLclampd;
 // typedef void GLvoid;
-// 
+//
 // #include <stddef.h>
 // #ifndef GL_VERSION_2_0
 // /* GL type for program/shader text */
 // typedef char GLchar;
 // #endif
-// 
+//
 // #ifndef GL_VERSION_1_5
 // /* GL types for handling large vertex buffer objects */
 // typedef ptrdiff_t GLintptr;
 // typedef ptrdiff_t GLsizeiptr;
 // #endif
-// 
+//
 // #ifndef GL_ARB_vertex_buffer_object
 // /* GL types for handling large vertex buffer objects */
 // typedef ptrdiff_t GLintptrARB;
 // typedef ptrdiff_t GLsizeiptrARB;
 // #endif
-// 
+//
 // #ifndef GL_ARB_shader_objects
 // /* GL types for program/shader text and shader object handles */
 // typedef char GLcharARB;
 // typedef unsigned int GLhandleARB;
 // #endif
-// 
+//
 // /* GL type for "half" precision (s10e5) float data in host memory */
 // #ifndef GL_ARB_half_float_pixel
 // typedef unsigned short GLhalfARB;
 // #endif
-// 
+//
 // #ifndef GL_NV_half_float
 // typedef unsigned short GLhalfNV;
 // #endif
-// 
+//
 // #ifndef GLEXT_64_TYPES_DEFINED
 // /* This code block is duplicated in glxext.h, so must be protected */
 // #define GLEXT_64_TYPES_DEFINED
@@ -152,41 +152,41 @@ package amd
 // #include <inttypes.h>
 // #endif
 // #endif
-// 
+//
 // #ifndef GL_EXT_timer_query
 // typedef int64_t GLint64EXT;
 // typedef uint64_t GLuint64EXT;
 // #endif
-// 
+//
 // #ifndef GL_ARB_sync
 // typedef int64_t GLint64;
 // typedef uint64_t GLuint64;
 // typedef struct __GLsync *GLsync;
 // #endif
-// 
+//
 // #ifndef GL_ARB_cl_event
 // /* These incomplete types let us declare types compatible with OpenCL's cl_context and cl_event */
 // struct _cl_context;
 // struct _cl_event;
 // #endif
-// 
+//
 // #ifndef GL_ARB_debug_output
 // typedef void (APIENTRY *GLDEBUGPROCARB)(GLenum source,GLenum type,GLuint id,GLenum severity,GLsizei length,const GLchar *message,GLvoid *userParam);
 // #endif
-// 
+//
 // #ifndef GL_AMD_debug_output
 // typedef void (APIENTRY *GLDEBUGPROCAMD)(GLuint id,GLenum category,GLenum severity,GLsizei length,const GLchar *message,GLvoid *userParam);
 // #endif
-// 
+//
 // #ifndef GL_NV_vdpau_interop
 // typedef GLintptr GLvdpauSurfaceNV;
 // #endif
-// 
+//
 // #ifdef _WIN32
 // static HMODULE opengl32 = NULL;
 // #endif
-// 
-// static void* goglGetProcAddress(const char* name) { 
+//
+// static void* goglGetProcAddress(const char* name) {
 // #ifdef __APPLE__
 // 	return dlsym(RTLD_DEFAULT, name);
 // #elif _WIN32
@@ -202,7 +202,7 @@ package amd
 // 	return glXGetProcAddress((const GLubyte*)name);
 // #endif
 // }
-// 
+//
 // //  AMD_blend_minmax_factor
 // //  AMD_conservative_depth
 // //  AMD_debug_output
@@ -249,7 +249,7 @@ package amd
 // void (APIENTRYP ptrglTessellationFactorAMD)(GLfloat factor);
 // void (APIENTRYP ptrglTessellationModeAMD)(GLenum mode);
 // //  AMD_vertex_shader_viewport_index
-// 
+//
 // //  AMD_blend_minmax_factor
 // //  AMD_conservative_depth
 // //  AMD_debug_output
@@ -352,7 +352,7 @@ package amd
 // 	(*ptrglTessellationModeAMD)(mode);
 // }
 // //  AMD_vertex_shader_viewport_index
-// 
+//
 // int init_AMD_blend_minmax_factor() {
 // 	return 0;
 // }
@@ -463,7 +463,7 @@ package amd
 // int init_AMD_vertex_shader_viewport_index() {
 // 	return 0;
 // }
-// 
+//
 import "C"
 import "unsafe"
 import "errors"
@@ -498,202 +498,218 @@ const (
 	FACTOR_MAX_AMD = 0x901D
 	FACTOR_MIN_AMD = 0x901C
 )
+
 // AMD_conservative_depth
-const (
-)
+const ()
+
 // AMD_debug_output
 const (
-	DEBUG_CATEGORY_API_ERROR_AMD = 0x9149
-	DEBUG_CATEGORY_APPLICATION_AMD = 0x914F
-	DEBUG_CATEGORY_DEPRECATION_AMD = 0x914B
-	DEBUG_CATEGORY_OTHER_AMD = 0x9150
-	DEBUG_CATEGORY_PERFORMANCE_AMD = 0x914D
-	DEBUG_CATEGORY_SHADER_COMPILER_AMD = 0x914E
+	DEBUG_CATEGORY_API_ERROR_AMD          = 0x9149
+	DEBUG_CATEGORY_APPLICATION_AMD        = 0x914F
+	DEBUG_CATEGORY_DEPRECATION_AMD        = 0x914B
+	DEBUG_CATEGORY_OTHER_AMD              = 0x9150
+	DEBUG_CATEGORY_PERFORMANCE_AMD        = 0x914D
+	DEBUG_CATEGORY_SHADER_COMPILER_AMD    = 0x914E
 	DEBUG_CATEGORY_UNDEFINED_BEHAVIOR_AMD = 0x914C
-	DEBUG_CATEGORY_WINDOW_SYSTEM_AMD = 0x914A
-	DEBUG_LOGGED_MESSAGES_AMD = 0x9145
-	DEBUG_SEVERITY_HIGH_AMD = 0x9146
-	DEBUG_SEVERITY_LOW_AMD = 0x9148
-	DEBUG_SEVERITY_MEDIUM_AMD = 0x9147
-	MAX_DEBUG_LOGGED_MESSAGES_AMD = 0x9144
-	MAX_DEBUG_MESSAGE_LENGTH_AMD = 0x9143
+	DEBUG_CATEGORY_WINDOW_SYSTEM_AMD      = 0x914A
+	DEBUG_LOGGED_MESSAGES_AMD             = 0x9145
+	DEBUG_SEVERITY_HIGH_AMD               = 0x9146
+	DEBUG_SEVERITY_LOW_AMD                = 0x9148
+	DEBUG_SEVERITY_MEDIUM_AMD             = 0x9147
+	MAX_DEBUG_LOGGED_MESSAGES_AMD         = 0x9144
+	MAX_DEBUG_MESSAGE_LENGTH_AMD          = 0x9143
 )
+
 // AMD_depth_clamp_separate
 const (
-	DEPTH_CLAMP_FAR_AMD = 0x901F
+	DEPTH_CLAMP_FAR_AMD  = 0x901F
 	DEPTH_CLAMP_NEAR_AMD = 0x901E
 )
+
 // AMD_draw_buffers_blend
-const (
-)
+const ()
+
 // AMD_multi_draw_indirect
-const (
-)
+const ()
+
 // AMD_name_gen_delete
 const (
-	DATA_BUFFER_AMD = 0x9151
+	DATA_BUFFER_AMD         = 0x9151
 	PERFORMANCE_MONITOR_AMD = 0x9152
-	QUERY_OBJECT_AMD = 0x9153
-	SAMPLER_OBJECT_AMD = 0x9155
+	QUERY_OBJECT_AMD        = 0x9153
+	SAMPLER_OBJECT_AMD      = 0x9155
 	VERTEX_ARRAY_OBJECT_AMD = 0x9154
 )
+
 // AMD_performance_monitor
 const (
-	COUNTER_RANGE_AMD = 0x8BC1
-	COUNTER_TYPE_AMD = 0x8BC0
-	PERCENTAGE_AMD = 0x8BC3
-	PERFMON_RESULT_AMD = 0x8BC6
+	COUNTER_RANGE_AMD            = 0x8BC1
+	COUNTER_TYPE_AMD             = 0x8BC0
+	PERCENTAGE_AMD               = 0x8BC3
+	PERFMON_RESULT_AMD           = 0x8BC6
 	PERFMON_RESULT_AVAILABLE_AMD = 0x8BC4
-	PERFMON_RESULT_SIZE_AMD = 0x8BC5
-	UNSIGNED_INT64_AMD = 0x8BC2
+	PERFMON_RESULT_SIZE_AMD      = 0x8BC5
+	UNSIGNED_INT64_AMD           = 0x8BC2
 )
+
 // AMD_pinned_memory
 const (
 	EXTERNAL_VIRTUAL_MEMORY_BUFFER_AMD = 0x9160
 )
+
 // AMD_sample_positions
 const (
 	SUBSAMPLE_DISTANCE_AMD = 0x883F
 )
+
 // AMD_seamless_cubemap_per_texture
-const (
-)
+const ()
+
 // AMD_shader_stencil_export
-const (
-)
+const ()
+
 // AMD_stencil_operation_extended
 const (
-	REPLACE_VALUE_AMD = 0x874B
-	SET_AMD = 0x874A
+	REPLACE_VALUE_AMD         = 0x874B
+	SET_AMD                   = 0x874A
 	STENCIL_BACK_OP_VALUE_AMD = 0x874D
-	STENCIL_OP_VALUE_AMD = 0x874C
+	STENCIL_OP_VALUE_AMD      = 0x874C
 )
+
 // AMD_texture_texture4
-const (
-)
+const ()
+
 // AMD_transform_feedback3_lines_triangles
-const (
-)
+const ()
+
 // AMD_vertex_shader_layer
-const (
-)
+const ()
+
 // AMD_vertex_shader_tessellator
 const (
-	CONTINUOUS_AMD = 0x9007
-	DISCRETE_AMD = 0x9006
-	INT_SAMPLER_BUFFER_AMD = 0x9002
-	SAMPLER_BUFFER_AMD = 0x9001
-	TESSELLATION_FACTOR_AMD = 0x9005
-	TESSELLATION_MODE_AMD = 0x9004
+	CONTINUOUS_AMD                  = 0x9007
+	DISCRETE_AMD                    = 0x9006
+	INT_SAMPLER_BUFFER_AMD          = 0x9002
+	SAMPLER_BUFFER_AMD              = 0x9001
+	TESSELLATION_FACTOR_AMD         = 0x9005
+	TESSELLATION_MODE_AMD           = 0x9004
 	UNSIGNED_INT_SAMPLER_BUFFER_AMD = 0x9003
 )
+
 // AMD_vertex_shader_viewport_index
-const (
-)
+const ()
+
 // AMD_blend_minmax_factor
 
 // AMD_conservative_depth
 
 // AMD_debug_output
 
-func DebugMessageEnableAMD(category Enum, severity Enum, count Sizei, ids *Uint, enabled Boolean)  {
+func DebugMessageEnableAMD(category Enum, severity Enum, count Sizei, ids *Uint, enabled Boolean) {
 	C.goglDebugMessageEnableAMD((C.GLenum)(category), (C.GLenum)(severity), (C.GLsizei)(count), (*C.GLuint)(ids), (C.GLboolean)(enabled))
 }
-func DebugMessageInsertAMD(category Enum, severity Enum, id Uint, length Sizei, buf *Char)  {
+func DebugMessageInsertAMD(category Enum, severity Enum, id Uint, length Sizei, buf *Char) {
 	C.goglDebugMessageInsertAMD((C.GLenum)(category), (C.GLenum)(severity), (C.GLuint)(id), (C.GLsizei)(length), (*C.GLchar)(buf))
 }
-func DebugMessageCallbackAMD(callback Pointer, userParam Pointer)  {
+func DebugMessageCallbackAMD(callback Pointer, userParam Pointer) {
 	C.goglDebugMessageCallbackAMD((*[0]byte)(callback), (unsafe.Pointer)(userParam))
 }
 func GetDebugMessageLogAMD(count Uint, bufsize Sizei, categories *Enum, severities *Uint, ids *Uint, lengths *Sizei, message *Char) Uint {
 	return (Uint)(C.goglGetDebugMessageLogAMD((C.GLuint)(count), (C.GLsizei)(bufsize), (*C.GLenum)(categories), (*C.GLuint)(severities), (*C.GLuint)(ids), (*C.GLsizei)(lengths), (*C.GLchar)(message)))
 }
+
 // AMD_depth_clamp_separate
 
 // AMD_draw_buffers_blend
 
-func BlendFuncIndexedAMD(buf Uint, src Enum, dst Enum)  {
+func BlendFuncIndexedAMD(buf Uint, src Enum, dst Enum) {
 	C.goglBlendFuncIndexedAMD((C.GLuint)(buf), (C.GLenum)(src), (C.GLenum)(dst))
 }
-func BlendFuncSeparateIndexedAMD(buf Uint, srcRGB Enum, dstRGB Enum, srcAlpha Enum, dstAlpha Enum)  {
+func BlendFuncSeparateIndexedAMD(buf Uint, srcRGB Enum, dstRGB Enum, srcAlpha Enum, dstAlpha Enum) {
 	C.goglBlendFuncSeparateIndexedAMD((C.GLuint)(buf), (C.GLenum)(srcRGB), (C.GLenum)(dstRGB), (C.GLenum)(srcAlpha), (C.GLenum)(dstAlpha))
 }
-func BlendEquationIndexedAMD(buf Uint, mode Enum)  {
+func BlendEquationIndexedAMD(buf Uint, mode Enum) {
 	C.goglBlendEquationIndexedAMD((C.GLuint)(buf), (C.GLenum)(mode))
 }
-func BlendEquationSeparateIndexedAMD(buf Uint, modeRGB Enum, modeAlpha Enum)  {
+func BlendEquationSeparateIndexedAMD(buf Uint, modeRGB Enum, modeAlpha Enum) {
 	C.goglBlendEquationSeparateIndexedAMD((C.GLuint)(buf), (C.GLenum)(modeRGB), (C.GLenum)(modeAlpha))
 }
+
 // AMD_multi_draw_indirect
 
-func MultiDrawArraysIndirectAMD(mode Enum, indirect Pointer, primcount Sizei, stride Sizei)  {
+func MultiDrawArraysIndirectAMD(mode Enum, indirect Pointer, primcount Sizei, stride Sizei) {
 	C.goglMultiDrawArraysIndirectAMD((C.GLenum)(mode), (unsafe.Pointer)(indirect), (C.GLsizei)(primcount), (C.GLsizei)(stride))
 }
-func MultiDrawElementsIndirectAMD(mode Enum, type_ Enum, indirect Pointer, primcount Sizei, stride Sizei)  {
+func MultiDrawElementsIndirectAMD(mode Enum, type_ Enum, indirect Pointer, primcount Sizei, stride Sizei) {
 	C.goglMultiDrawElementsIndirectAMD((C.GLenum)(mode), (C.GLenum)(type_), (unsafe.Pointer)(indirect), (C.GLsizei)(primcount), (C.GLsizei)(stride))
 }
+
 // AMD_name_gen_delete
 
-func GenNamesAMD(identifier Enum, num Uint, names *Uint)  {
+func GenNamesAMD(identifier Enum, num Uint, names *Uint) {
 	C.goglGenNamesAMD((C.GLenum)(identifier), (C.GLuint)(num), (*C.GLuint)(names))
 }
-func DeleteNamesAMD(identifier Enum, num Uint, names *Uint)  {
+func DeleteNamesAMD(identifier Enum, num Uint, names *Uint) {
 	C.goglDeleteNamesAMD((C.GLenum)(identifier), (C.GLuint)(num), (*C.GLuint)(names))
 }
 func IsNameAMD(identifier Enum, name Uint) Boolean {
 	return (Boolean)(C.goglIsNameAMD((C.GLenum)(identifier), (C.GLuint)(name)))
 }
+
 // AMD_performance_monitor
 
-func GetPerfMonitorGroupsAMD(numGroups *Int, groupsSize Sizei, groups *Uint)  {
+func GetPerfMonitorGroupsAMD(numGroups *Int, groupsSize Sizei, groups *Uint) {
 	C.goglGetPerfMonitorGroupsAMD((*C.GLint)(numGroups), (C.GLsizei)(groupsSize), (*C.GLuint)(groups))
 }
-func GetPerfMonitorCountersAMD(group Uint, numCounters *Int, maxActiveCounters *Int, counterSize Sizei, counters *Uint)  {
+func GetPerfMonitorCountersAMD(group Uint, numCounters *Int, maxActiveCounters *Int, counterSize Sizei, counters *Uint) {
 	C.goglGetPerfMonitorCountersAMD((C.GLuint)(group), (*C.GLint)(numCounters), (*C.GLint)(maxActiveCounters), (C.GLsizei)(counterSize), (*C.GLuint)(counters))
 }
-func GetPerfMonitorGroupStringAMD(group Uint, bufSize Sizei, length *Sizei, groupString *Char)  {
+func GetPerfMonitorGroupStringAMD(group Uint, bufSize Sizei, length *Sizei, groupString *Char) {
 	C.goglGetPerfMonitorGroupStringAMD((C.GLuint)(group), (C.GLsizei)(bufSize), (*C.GLsizei)(length), (*C.GLchar)(groupString))
 }
-func GetPerfMonitorCounterStringAMD(group Uint, counter Uint, bufSize Sizei, length *Sizei, counterString *Char)  {
+func GetPerfMonitorCounterStringAMD(group Uint, counter Uint, bufSize Sizei, length *Sizei, counterString *Char) {
 	C.goglGetPerfMonitorCounterStringAMD((C.GLuint)(group), (C.GLuint)(counter), (C.GLsizei)(bufSize), (*C.GLsizei)(length), (*C.GLchar)(counterString))
 }
-func GetPerfMonitorCounterInfoAMD(group Uint, counter Uint, pname Enum, data Pointer)  {
+func GetPerfMonitorCounterInfoAMD(group Uint, counter Uint, pname Enum, data Pointer) {
 	C.goglGetPerfMonitorCounterInfoAMD((C.GLuint)(group), (C.GLuint)(counter), (C.GLenum)(pname), (unsafe.Pointer)(data))
 }
-func GenPerfMonitorsAMD(n Sizei, monitors *Uint)  {
+func GenPerfMonitorsAMD(n Sizei, monitors *Uint) {
 	C.goglGenPerfMonitorsAMD((C.GLsizei)(n), (*C.GLuint)(monitors))
 }
-func DeletePerfMonitorsAMD(n Sizei, monitors *Uint)  {
+func DeletePerfMonitorsAMD(n Sizei, monitors *Uint) {
 	C.goglDeletePerfMonitorsAMD((C.GLsizei)(n), (*C.GLuint)(monitors))
 }
-func SelectPerfMonitorCountersAMD(monitor Uint, enable Boolean, group Uint, numCounters Int, counterList *Uint)  {
+func SelectPerfMonitorCountersAMD(monitor Uint, enable Boolean, group Uint, numCounters Int, counterList *Uint) {
 	C.goglSelectPerfMonitorCountersAMD((C.GLuint)(monitor), (C.GLboolean)(enable), (C.GLuint)(group), (C.GLint)(numCounters), (*C.GLuint)(counterList))
 }
-func BeginPerfMonitorAMD(monitor Uint)  {
+func BeginPerfMonitorAMD(monitor Uint) {
 	C.goglBeginPerfMonitorAMD((C.GLuint)(monitor))
 }
-func EndPerfMonitorAMD(monitor Uint)  {
+func EndPerfMonitorAMD(monitor Uint) {
 	C.goglEndPerfMonitorAMD((C.GLuint)(monitor))
 }
-func GetPerfMonitorCounterDataAMD(monitor Uint, pname Enum, dataSize Sizei, data *Uint, bytesWritten *Int)  {
+func GetPerfMonitorCounterDataAMD(monitor Uint, pname Enum, dataSize Sizei, data *Uint, bytesWritten *Int) {
 	C.goglGetPerfMonitorCounterDataAMD((C.GLuint)(monitor), (C.GLenum)(pname), (C.GLsizei)(dataSize), (*C.GLuint)(data), (*C.GLint)(bytesWritten))
 }
+
 // AMD_pinned_memory
 
 // AMD_sample_positions
 
-func SetMultisamplefvAMD(pname Enum, index Uint, val *Float)  {
+func SetMultisamplefvAMD(pname Enum, index Uint, val *Float) {
 	C.goglSetMultisamplefvAMD((C.GLenum)(pname), (C.GLuint)(index), (*C.GLfloat)(val))
 }
+
 // AMD_seamless_cubemap_per_texture
 
 // AMD_shader_stencil_export
 
 // AMD_stencil_operation_extended
 
-func StencilOpValueAMD(face Enum, value Uint)  {
+func StencilOpValueAMD(face Enum, value Uint) {
 	C.goglStencilOpValueAMD((C.GLenum)(face), (C.GLuint)(value))
 }
+
 // AMD_texture_texture4
 
 // AMD_transform_feedback3_lines_triangles
@@ -702,12 +718,13 @@ func StencilOpValueAMD(face Enum, value Uint)  {
 
 // AMD_vertex_shader_tessellator
 
-func TessellationFactorAMD(factor Float)  {
+func TessellationFactorAMD(factor Float) {
 	C.goglTessellationFactorAMD((C.GLfloat)(factor))
 }
-func TessellationModeAMD(mode Enum)  {
+func TessellationModeAMD(mode Enum) {
 	C.goglTessellationModeAMD((C.GLenum)(mode))
 }
+
 // AMD_vertex_shader_viewport_index
 
 func InitAmdBlendMinmaxFactor() error {
@@ -836,4 +853,5 @@ func InitAmdVertexShaderViewportIndex() error {
 	}
 	return nil
 }
+
 // EOF

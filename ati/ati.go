@@ -1,45 +1,45 @@
 // Automatically generated OpenGL binding.
-// 
-// Categories in this package: 
-// 
+//
+// Categories in this package:
+//
 // ATI_draw_buffers: http://www.opengl.org/registry/specs/ATI/draw_buffers.txt
-// 
+//
 // ATI_element_array: http://www.opengl.org/registry/specs/ATI/element_array.txt
-// 
+//
 // ATI_envmap_bumpmap: http://www.opengl.org/registry/specs/ATI/envmap_bumpmap.txt
-// 
+//
 // ATI_fragment_shader: http://www.opengl.org/registry/specs/ATI/fragment_shader.txt
-// 
+//
 // ATI_map_object_buffer: http://www.opengl.org/registry/specs/ATI/map_object_buffer.txt
-// 
+//
 // ATI_meminfo: http://www.opengl.org/registry/specs/ATI/meminfo.txt
-// 
+//
 // ATI_pixel_format_float: http://www.opengl.org/registry/specs/ATI/pixel_format_float.txt
-// 
+//
 // ATI_pn_triangles: http://www.opengl.org/registry/specs/ATI/pn_triangles.txt
-// 
+//
 // ATI_separate_stencil: http://www.opengl.org/registry/specs/ATI/separate_stencil.txt
-// 
+//
 // ATI_text_fragment_shader: http://www.opengl.org/registry/specs/ATI/text_fragment_shader.txt
-// 
+//
 // ATI_texture_env_combine3: http://www.opengl.org/registry/specs/ATI/texture_env_combine3.txt
-// 
+//
 // ATI_texture_float: http://www.opengl.org/registry/specs/ATI/texture_float.txt
-// 
+//
 // ATI_texture_mirror_once: http://www.opengl.org/registry/specs/ATI/texture_mirror_once.txt
-// 
+//
 // ATI_vertex_array_object: http://www.opengl.org/registry/specs/ATI/vertex_array_object.txt
-// 
+//
 // ATI_vertex_attrib_array_object: http://www.opengl.org/registry/specs/ATI/vertex_attrib_array_object.txt
-// 
+//
 // ATI_vertex_streams: http://www.opengl.org/registry/specs/ATI/vertex_streams.txt
-// 
+//
 package ati
 
 // #cgo darwin  LDFLAGS: -framework OpenGL
 // #cgo linux   LDFLAGS: -lGL
 // #cgo windows LDFLAGS: -lopengl32
-// 
+//
 // #include <stdlib.h>
 // #if defined(__APPLE__)
 // #include <dlfcn.h>
@@ -50,7 +50,7 @@ package ati
 // #include <X11/Xlib.h>
 // #include <GL/glx.h>
 // #endif
-// 
+//
 // #ifndef APIENTRY
 // #define APIENTRY
 // #endif
@@ -60,7 +60,7 @@ package ati
 // #ifndef GLAPI
 // #define GLAPI extern
 // #endif
-// 
+//
 // typedef unsigned int GLenum;
 // typedef unsigned char GLboolean;
 // typedef unsigned int GLbitfield;
@@ -77,40 +77,40 @@ package ati
 // typedef double GLdouble;
 // typedef double GLclampd;
 // typedef void GLvoid;
-// 
+//
 // #include <stddef.h>
 // #ifndef GL_VERSION_2_0
 // /* GL type for program/shader text */
 // typedef char GLchar;
 // #endif
-// 
+//
 // #ifndef GL_VERSION_1_5
 // /* GL types for handling large vertex buffer objects */
 // typedef ptrdiff_t GLintptr;
 // typedef ptrdiff_t GLsizeiptr;
 // #endif
-// 
+//
 // #ifndef GL_ARB_vertex_buffer_object
 // /* GL types for handling large vertex buffer objects */
 // typedef ptrdiff_t GLintptrARB;
 // typedef ptrdiff_t GLsizeiptrARB;
 // #endif
-// 
+//
 // #ifndef GL_ARB_shader_objects
 // /* GL types for program/shader text and shader object handles */
 // typedef char GLcharARB;
 // typedef unsigned int GLhandleARB;
 // #endif
-// 
+//
 // /* GL type for "half" precision (s10e5) float data in host memory */
 // #ifndef GL_ARB_half_float_pixel
 // typedef unsigned short GLhalfARB;
 // #endif
-// 
+//
 // #ifndef GL_NV_half_float
 // typedef unsigned short GLhalfNV;
 // #endif
-// 
+//
 // #ifndef GLEXT_64_TYPES_DEFINED
 // /* This code block is duplicated in glxext.h, so must be protected */
 // #define GLEXT_64_TYPES_DEFINED
@@ -148,41 +148,41 @@ package ati
 // #include <inttypes.h>
 // #endif
 // #endif
-// 
+//
 // #ifndef GL_EXT_timer_query
 // typedef int64_t GLint64EXT;
 // typedef uint64_t GLuint64EXT;
 // #endif
-// 
+//
 // #ifndef GL_ARB_sync
 // typedef int64_t GLint64;
 // typedef uint64_t GLuint64;
 // typedef struct __GLsync *GLsync;
 // #endif
-// 
+//
 // #ifndef GL_ARB_cl_event
 // /* These incomplete types let us declare types compatible with OpenCL's cl_context and cl_event */
 // struct _cl_context;
 // struct _cl_event;
 // #endif
-// 
+//
 // #ifndef GL_ARB_debug_output
 // typedef void (APIENTRY *GLDEBUGPROCARB)(GLenum source,GLenum type,GLuint id,GLenum severity,GLsizei length,const GLchar *message,GLvoid *userParam);
 // #endif
-// 
+//
 // #ifndef GL_AMD_debug_output
 // typedef void (APIENTRY *GLDEBUGPROCAMD)(GLuint id,GLenum category,GLenum severity,GLsizei length,const GLchar *message,GLvoid *userParam);
 // #endif
-// 
+//
 // #ifndef GL_NV_vdpau_interop
 // typedef GLintptr GLvdpauSurfaceNV;
 // #endif
-// 
+//
 // #ifdef _WIN32
 // static HMODULE opengl32 = NULL;
 // #endif
-// 
-// static void* goglGetProcAddress(const char* name) { 
+//
+// static void* goglGetProcAddress(const char* name) {
 // #ifdef __APPLE__
 // 	return dlsym(RTLD_DEFAULT, name);
 // #elif _WIN32
@@ -198,7 +198,7 @@ package ati
 // 	return glXGetProcAddress((const GLubyte*)name);
 // #endif
 // }
-// 
+//
 // //  ATI_draw_buffers
 // void (APIENTRYP ptrglDrawBuffersATI)(GLsizei n, GLenum* bufs);
 // //  ATI_element_array
@@ -303,7 +303,7 @@ package ati
 // void (APIENTRYP ptrglClientActiveVertexStreamATI)(GLenum stream);
 // void (APIENTRYP ptrglVertexBlendEnviATI)(GLenum pname, GLint param);
 // void (APIENTRYP ptrglVertexBlendEnvfATI)(GLenum pname, GLfloat param);
-// 
+//
 // //  ATI_draw_buffers
 // void goglDrawBuffersATI(GLsizei n, GLenum* bufs) {
 // 	(*ptrglDrawBuffersATI)(n, bufs);
@@ -584,7 +584,7 @@ package ati
 // void goglVertexBlendEnvfATI(GLenum pname, GLfloat param) {
 // 	(*ptrglVertexBlendEnvfATI)(pname, param);
 // }
-// 
+//
 // int init_ATI_draw_buffers() {
 // 	ptrglDrawBuffersATI = goglGetProcAddress("glDrawBuffersATI");
 // 	if(ptrglDrawBuffersATI == NULL) return 1;
@@ -809,7 +809,7 @@ package ati
 // 	if(ptrglVertexBlendEnvfATI == NULL) return 1;
 // 	return 0;
 // }
-// 
+//
 import "C"
 import "unsafe"
 import "errors"
@@ -841,340 +841,361 @@ type (
 
 // ATI_draw_buffers
 const (
-	DRAW_BUFFER0_ATI = 0x8825
-	DRAW_BUFFER10_ATI = 0x882F
-	DRAW_BUFFER11_ATI = 0x8830
-	DRAW_BUFFER12_ATI = 0x8831
-	DRAW_BUFFER13_ATI = 0x8832
-	DRAW_BUFFER14_ATI = 0x8833
-	DRAW_BUFFER15_ATI = 0x8834
-	DRAW_BUFFER1_ATI = 0x8826
-	DRAW_BUFFER2_ATI = 0x8827
-	DRAW_BUFFER3_ATI = 0x8828
-	DRAW_BUFFER4_ATI = 0x8829
-	DRAW_BUFFER5_ATI = 0x882A
-	DRAW_BUFFER6_ATI = 0x882B
-	DRAW_BUFFER7_ATI = 0x882C
-	DRAW_BUFFER8_ATI = 0x882D
-	DRAW_BUFFER9_ATI = 0x882E
+	DRAW_BUFFER0_ATI     = 0x8825
+	DRAW_BUFFER10_ATI    = 0x882F
+	DRAW_BUFFER11_ATI    = 0x8830
+	DRAW_BUFFER12_ATI    = 0x8831
+	DRAW_BUFFER13_ATI    = 0x8832
+	DRAW_BUFFER14_ATI    = 0x8833
+	DRAW_BUFFER15_ATI    = 0x8834
+	DRAW_BUFFER1_ATI     = 0x8826
+	DRAW_BUFFER2_ATI     = 0x8827
+	DRAW_BUFFER3_ATI     = 0x8828
+	DRAW_BUFFER4_ATI     = 0x8829
+	DRAW_BUFFER5_ATI     = 0x882A
+	DRAW_BUFFER6_ATI     = 0x882B
+	DRAW_BUFFER7_ATI     = 0x882C
+	DRAW_BUFFER8_ATI     = 0x882D
+	DRAW_BUFFER9_ATI     = 0x882E
 	MAX_DRAW_BUFFERS_ATI = 0x8824
 )
+
 // ATI_element_array
 const (
-	ELEMENT_ARRAY_ATI = 0x8768
+	ELEMENT_ARRAY_ATI         = 0x8768
 	ELEMENT_ARRAY_POINTER_ATI = 0x876A
-	ELEMENT_ARRAY_TYPE_ATI = 0x8769
+	ELEMENT_ARRAY_TYPE_ATI    = 0x8769
 )
+
 // ATI_envmap_bumpmap
 const (
-	BUMP_ENVMAP_ATI = 0x877B
-	BUMP_NUM_TEX_UNITS_ATI = 0x8777
-	BUMP_ROT_MATRIX_ATI = 0x8775
+	BUMP_ENVMAP_ATI          = 0x877B
+	BUMP_NUM_TEX_UNITS_ATI   = 0x8777
+	BUMP_ROT_MATRIX_ATI      = 0x8775
 	BUMP_ROT_MATRIX_SIZE_ATI = 0x8776
-	BUMP_TARGET_ATI = 0x877C
-	BUMP_TEX_UNITS_ATI = 0x8778
-	DU8DV8_ATI = 0x877A
-	DUDV_ATI = 0x8779
+	BUMP_TARGET_ATI          = 0x877C
+	BUMP_TEX_UNITS_ATI       = 0x8778
+	DU8DV8_ATI               = 0x877A
+	DUDV_ATI                 = 0x8779
 )
+
 // ATI_fragment_shader
 const (
-	X2X_BIT_ATI = 0x00000001
-	X4X_BIT_ATI = 0x00000002
-	X8X_BIT_ATI = 0x00000004
-	ADD_ATI = 0x8963
-	BIAS_BIT_ATI = 0x00000008
-	BLUE_BIT_ATI = 0x00000004
-	CND0_ATI = 0x896B
-	CND_ATI = 0x896A
-	COLOR_ALPHA_PAIRING_ATI = 0x8975
-	COMP_BIT_ATI = 0x00000002
-	CON_0_ATI = 0x8941
-	CON_10_ATI = 0x894B
-	CON_11_ATI = 0x894C
-	CON_12_ATI = 0x894D
-	CON_13_ATI = 0x894E
-	CON_14_ATI = 0x894F
-	CON_15_ATI = 0x8950
-	CON_16_ATI = 0x8951
-	CON_17_ATI = 0x8952
-	CON_18_ATI = 0x8953
-	CON_19_ATI = 0x8954
-	CON_1_ATI = 0x8942
-	CON_20_ATI = 0x8955
-	CON_21_ATI = 0x8956
-	CON_22_ATI = 0x8957
-	CON_23_ATI = 0x8958
-	CON_24_ATI = 0x8959
-	CON_25_ATI = 0x895A
-	CON_26_ATI = 0x895B
-	CON_27_ATI = 0x895C
-	CON_28_ATI = 0x895D
-	CON_29_ATI = 0x895E
-	CON_2_ATI = 0x8943
-	CON_30_ATI = 0x895F
-	CON_31_ATI = 0x8960
-	CON_3_ATI = 0x8944
-	CON_4_ATI = 0x8945
-	CON_5_ATI = 0x8946
-	CON_6_ATI = 0x8947
-	CON_7_ATI = 0x8948
-	CON_8_ATI = 0x8949
-	CON_9_ATI = 0x894A
-	DOT2_ADD_ATI = 0x896C
-	DOT3_ATI = 0x8966
-	DOT4_ATI = 0x8967
-	EIGHTH_BIT_ATI = 0x00000020
-	FRAGMENT_SHADER_ATI = 0x8920
-	GREEN_BIT_ATI = 0x00000002
-	HALF_BIT_ATI = 0x00000008
-	LERP_ATI = 0x8969
-	MAD_ATI = 0x8968
-	MOV_ATI = 0x8961
-	MUL_ATI = 0x8964
-	NEGATE_BIT_ATI = 0x00000004
-	NUM_FRAGMENT_CONSTANTS_ATI = 0x896F
-	NUM_FRAGMENT_REGISTERS_ATI = 0x896E
+	X2X_BIT_ATI                           = 0x00000001
+	X4X_BIT_ATI                           = 0x00000002
+	X8X_BIT_ATI                           = 0x00000004
+	ADD_ATI                               = 0x8963
+	BIAS_BIT_ATI                          = 0x00000008
+	BLUE_BIT_ATI                          = 0x00000004
+	CND0_ATI                              = 0x896B
+	CND_ATI                               = 0x896A
+	COLOR_ALPHA_PAIRING_ATI               = 0x8975
+	COMP_BIT_ATI                          = 0x00000002
+	CON_0_ATI                             = 0x8941
+	CON_10_ATI                            = 0x894B
+	CON_11_ATI                            = 0x894C
+	CON_12_ATI                            = 0x894D
+	CON_13_ATI                            = 0x894E
+	CON_14_ATI                            = 0x894F
+	CON_15_ATI                            = 0x8950
+	CON_16_ATI                            = 0x8951
+	CON_17_ATI                            = 0x8952
+	CON_18_ATI                            = 0x8953
+	CON_19_ATI                            = 0x8954
+	CON_1_ATI                             = 0x8942
+	CON_20_ATI                            = 0x8955
+	CON_21_ATI                            = 0x8956
+	CON_22_ATI                            = 0x8957
+	CON_23_ATI                            = 0x8958
+	CON_24_ATI                            = 0x8959
+	CON_25_ATI                            = 0x895A
+	CON_26_ATI                            = 0x895B
+	CON_27_ATI                            = 0x895C
+	CON_28_ATI                            = 0x895D
+	CON_29_ATI                            = 0x895E
+	CON_2_ATI                             = 0x8943
+	CON_30_ATI                            = 0x895F
+	CON_31_ATI                            = 0x8960
+	CON_3_ATI                             = 0x8944
+	CON_4_ATI                             = 0x8945
+	CON_5_ATI                             = 0x8946
+	CON_6_ATI                             = 0x8947
+	CON_7_ATI                             = 0x8948
+	CON_8_ATI                             = 0x8949
+	CON_9_ATI                             = 0x894A
+	DOT2_ADD_ATI                          = 0x896C
+	DOT3_ATI                              = 0x8966
+	DOT4_ATI                              = 0x8967
+	EIGHTH_BIT_ATI                        = 0x00000020
+	FRAGMENT_SHADER_ATI                   = 0x8920
+	GREEN_BIT_ATI                         = 0x00000002
+	HALF_BIT_ATI                          = 0x00000008
+	LERP_ATI                              = 0x8969
+	MAD_ATI                               = 0x8968
+	MOV_ATI                               = 0x8961
+	MUL_ATI                               = 0x8964
+	NEGATE_BIT_ATI                        = 0x00000004
+	NUM_FRAGMENT_CONSTANTS_ATI            = 0x896F
+	NUM_FRAGMENT_REGISTERS_ATI            = 0x896E
 	NUM_INPUT_INTERPOLATOR_COMPONENTS_ATI = 0x8973
-	NUM_INSTRUCTIONS_PER_PASS_ATI = 0x8971
-	NUM_INSTRUCTIONS_TOTAL_ATI = 0x8972
-	NUM_LOOPBACK_COMPONENTS_ATI = 0x8974
-	NUM_PASSES_ATI = 0x8970
-	QUARTER_BIT_ATI = 0x00000010
-	RED_BIT_ATI = 0x00000001
-	REG_0_ATI = 0x8921
-	REG_10_ATI = 0x892B
-	REG_11_ATI = 0x892C
-	REG_12_ATI = 0x892D
-	REG_13_ATI = 0x892E
-	REG_14_ATI = 0x892F
-	REG_15_ATI = 0x8930
-	REG_16_ATI = 0x8931
-	REG_17_ATI = 0x8932
-	REG_18_ATI = 0x8933
-	REG_19_ATI = 0x8934
-	REG_1_ATI = 0x8922
-	REG_20_ATI = 0x8935
-	REG_21_ATI = 0x8936
-	REG_22_ATI = 0x8937
-	REG_23_ATI = 0x8938
-	REG_24_ATI = 0x8939
-	REG_25_ATI = 0x893A
-	REG_26_ATI = 0x893B
-	REG_27_ATI = 0x893C
-	REG_28_ATI = 0x893D
-	REG_29_ATI = 0x893E
-	REG_2_ATI = 0x8923
-	REG_30_ATI = 0x893F
-	REG_31_ATI = 0x8940
-	REG_3_ATI = 0x8924
-	REG_4_ATI = 0x8925
-	REG_5_ATI = 0x8926
-	REG_6_ATI = 0x8927
-	REG_7_ATI = 0x8928
-	REG_8_ATI = 0x8929
-	REG_9_ATI = 0x892A
-	SATURATE_BIT_ATI = 0x00000040
-	SECONDARY_INTERPOLATOR_ATI = 0x896D
-	SUB_ATI = 0x8965
-	SWIZZLE_STQ_ATI = 0x8977
-	SWIZZLE_STQ_DQ_ATI = 0x8979
-	SWIZZLE_STRQ_ATI = 0x897A
-	SWIZZLE_STRQ_DQ_ATI = 0x897B
-	SWIZZLE_STR_ATI = 0x8976
-	SWIZZLE_STR_DR_ATI = 0x8978
+	NUM_INSTRUCTIONS_PER_PASS_ATI         = 0x8971
+	NUM_INSTRUCTIONS_TOTAL_ATI            = 0x8972
+	NUM_LOOPBACK_COMPONENTS_ATI           = 0x8974
+	NUM_PASSES_ATI                        = 0x8970
+	QUARTER_BIT_ATI                       = 0x00000010
+	RED_BIT_ATI                           = 0x00000001
+	REG_0_ATI                             = 0x8921
+	REG_10_ATI                            = 0x892B
+	REG_11_ATI                            = 0x892C
+	REG_12_ATI                            = 0x892D
+	REG_13_ATI                            = 0x892E
+	REG_14_ATI                            = 0x892F
+	REG_15_ATI                            = 0x8930
+	REG_16_ATI                            = 0x8931
+	REG_17_ATI                            = 0x8932
+	REG_18_ATI                            = 0x8933
+	REG_19_ATI                            = 0x8934
+	REG_1_ATI                             = 0x8922
+	REG_20_ATI                            = 0x8935
+	REG_21_ATI                            = 0x8936
+	REG_22_ATI                            = 0x8937
+	REG_23_ATI                            = 0x8938
+	REG_24_ATI                            = 0x8939
+	REG_25_ATI                            = 0x893A
+	REG_26_ATI                            = 0x893B
+	REG_27_ATI                            = 0x893C
+	REG_28_ATI                            = 0x893D
+	REG_29_ATI                            = 0x893E
+	REG_2_ATI                             = 0x8923
+	REG_30_ATI                            = 0x893F
+	REG_31_ATI                            = 0x8940
+	REG_3_ATI                             = 0x8924
+	REG_4_ATI                             = 0x8925
+	REG_5_ATI                             = 0x8926
+	REG_6_ATI                             = 0x8927
+	REG_7_ATI                             = 0x8928
+	REG_8_ATI                             = 0x8929
+	REG_9_ATI                             = 0x892A
+	SATURATE_BIT_ATI                      = 0x00000040
+	SECONDARY_INTERPOLATOR_ATI            = 0x896D
+	SUB_ATI                               = 0x8965
+	SWIZZLE_STQ_ATI                       = 0x8977
+	SWIZZLE_STQ_DQ_ATI                    = 0x8979
+	SWIZZLE_STRQ_ATI                      = 0x897A
+	SWIZZLE_STRQ_DQ_ATI                   = 0x897B
+	SWIZZLE_STR_ATI                       = 0x8976
+	SWIZZLE_STR_DR_ATI                    = 0x8978
 )
+
 // ATI_map_object_buffer
-const (
-)
+const ()
+
 // ATI_meminfo
 const (
 	RENDERBUFFER_FREE_MEMORY_ATI = 0x87FD
-	TEXTURE_FREE_MEMORY_ATI = 0x87FC
-	VBO_FREE_MEMORY_ATI = 0x87FB
+	TEXTURE_FREE_MEMORY_ATI      = 0x87FC
+	VBO_FREE_MEMORY_ATI          = 0x87FB
 )
+
 // ATI_pixel_format_float
 const (
 	COLOR_CLEAR_UNCLAMPED_VALUE_ATI = 0x8835
-	RGBA_FLOAT_MODE_ATI = 0x8820
+	RGBA_FLOAT_MODE_ATI             = 0x8820
 )
+
 // ATI_pn_triangles
 const (
 	MAX_PN_TRIANGLES_TESSELATION_LEVEL_ATI = 0x87F1
-	PN_TRIANGLES_ATI = 0x87F0
-	PN_TRIANGLES_NORMAL_MODE_ATI = 0x87F3
-	PN_TRIANGLES_NORMAL_MODE_LINEAR_ATI = 0x87F7
+	PN_TRIANGLES_ATI                       = 0x87F0
+	PN_TRIANGLES_NORMAL_MODE_ATI           = 0x87F3
+	PN_TRIANGLES_NORMAL_MODE_LINEAR_ATI    = 0x87F7
 	PN_TRIANGLES_NORMAL_MODE_QUADRATIC_ATI = 0x87F8
-	PN_TRIANGLES_POINT_MODE_ATI = 0x87F2
-	PN_TRIANGLES_POINT_MODE_CUBIC_ATI = 0x87F6
-	PN_TRIANGLES_POINT_MODE_LINEAR_ATI = 0x87F5
-	PN_TRIANGLES_TESSELATION_LEVEL_ATI = 0x87F4
+	PN_TRIANGLES_POINT_MODE_ATI            = 0x87F2
+	PN_TRIANGLES_POINT_MODE_CUBIC_ATI      = 0x87F6
+	PN_TRIANGLES_POINT_MODE_LINEAR_ATI     = 0x87F5
+	PN_TRIANGLES_TESSELATION_LEVEL_ATI     = 0x87F4
 )
+
 // ATI_separate_stencil
 const (
-	STENCIL_BACK_FAIL_ATI = 0x8801
-	STENCIL_BACK_FUNC_ATI = 0x8800
+	STENCIL_BACK_FAIL_ATI            = 0x8801
+	STENCIL_BACK_FUNC_ATI            = 0x8800
 	STENCIL_BACK_PASS_DEPTH_FAIL_ATI = 0x8802
 	STENCIL_BACK_PASS_DEPTH_PASS_ATI = 0x8803
 )
+
 // ATI_text_fragment_shader
 const (
 	TEXT_FRAGMENT_SHADER_ATI = 0x8200
 )
+
 // ATI_texture_env_combine3
 const (
-	MODULATE_ADD_ATI = 0x8744
+	MODULATE_ADD_ATI        = 0x8744
 	MODULATE_SIGNED_ADD_ATI = 0x8745
-	MODULATE_SUBTRACT_ATI = 0x8746
+	MODULATE_SUBTRACT_ATI   = 0x8746
 )
+
 // ATI_texture_float
 const (
-	ALPHA_FLOAT16_ATI = 0x881C
-	ALPHA_FLOAT32_ATI = 0x8816
-	INTENSITY_FLOAT16_ATI = 0x881D
-	INTENSITY_FLOAT32_ATI = 0x8817
+	ALPHA_FLOAT16_ATI           = 0x881C
+	ALPHA_FLOAT32_ATI           = 0x8816
+	INTENSITY_FLOAT16_ATI       = 0x881D
+	INTENSITY_FLOAT32_ATI       = 0x8817
 	LUMINANCE_ALPHA_FLOAT16_ATI = 0x881F
 	LUMINANCE_ALPHA_FLOAT32_ATI = 0x8819
-	LUMINANCE_FLOAT16_ATI = 0x881E
-	LUMINANCE_FLOAT32_ATI = 0x8818
-	RGBA_FLOAT16_ATI = 0x881A
-	RGBA_FLOAT32_ATI = 0x8814
-	RGB_FLOAT16_ATI = 0x881B
-	RGB_FLOAT32_ATI = 0x8815
+	LUMINANCE_FLOAT16_ATI       = 0x881E
+	LUMINANCE_FLOAT32_ATI       = 0x8818
+	RGBA_FLOAT16_ATI            = 0x881A
+	RGBA_FLOAT32_ATI            = 0x8814
+	RGB_FLOAT16_ATI             = 0x881B
+	RGB_FLOAT32_ATI             = 0x8815
 )
+
 // ATI_texture_mirror_once
 const (
-	MIRROR_CLAMP_ATI = 0x8742
+	MIRROR_CLAMP_ATI         = 0x8742
 	MIRROR_CLAMP_TO_EDGE_ATI = 0x8743
 )
+
 // ATI_vertex_array_object
 const (
 	ARRAY_OBJECT_BUFFER_ATI = 0x8766
 	ARRAY_OBJECT_OFFSET_ATI = 0x8767
-	DISCARD_ATI = 0x8763
-	DYNAMIC_ATI = 0x8761
-	OBJECT_BUFFER_SIZE_ATI = 0x8764
+	DISCARD_ATI             = 0x8763
+	DYNAMIC_ATI             = 0x8761
+	OBJECT_BUFFER_SIZE_ATI  = 0x8764
 	OBJECT_BUFFER_USAGE_ATI = 0x8765
-	PRESERVE_ATI = 0x8762
-	STATIC_ATI = 0x8760
+	PRESERVE_ATI            = 0x8762
+	STATIC_ATI              = 0x8760
 )
+
 // ATI_vertex_attrib_array_object
-const (
-)
+const ()
+
 // ATI_vertex_streams
 const (
 	MAX_VERTEX_STREAMS_ATI = 0x876B
-	VERTEX_SOURCE_ATI = 0x8774
-	VERTEX_STREAM0_ATI = 0x876C
-	VERTEX_STREAM1_ATI = 0x876D
-	VERTEX_STREAM2_ATI = 0x876E
-	VERTEX_STREAM3_ATI = 0x876F
-	VERTEX_STREAM4_ATI = 0x8770
-	VERTEX_STREAM5_ATI = 0x8771
-	VERTEX_STREAM6_ATI = 0x8772
-	VERTEX_STREAM7_ATI = 0x8773
+	VERTEX_SOURCE_ATI      = 0x8774
+	VERTEX_STREAM0_ATI     = 0x876C
+	VERTEX_STREAM1_ATI     = 0x876D
+	VERTEX_STREAM2_ATI     = 0x876E
+	VERTEX_STREAM3_ATI     = 0x876F
+	VERTEX_STREAM4_ATI     = 0x8770
+	VERTEX_STREAM5_ATI     = 0x8771
+	VERTEX_STREAM6_ATI     = 0x8772
+	VERTEX_STREAM7_ATI     = 0x8773
 )
+
 // ATI_draw_buffers
 
-func DrawBuffersATI(n Sizei, bufs *Enum)  {
+func DrawBuffersATI(n Sizei, bufs *Enum) {
 	C.goglDrawBuffersATI((C.GLsizei)(n), (*C.GLenum)(bufs))
 }
+
 // ATI_element_array
 
-func ElementPointerATI(type_ Enum, pointer Pointer)  {
+func ElementPointerATI(type_ Enum, pointer Pointer) {
 	C.goglElementPointerATI((C.GLenum)(type_), (unsafe.Pointer)(pointer))
 }
-func DrawElementArrayATI(mode Enum, count Sizei)  {
+func DrawElementArrayATI(mode Enum, count Sizei) {
 	C.goglDrawElementArrayATI((C.GLenum)(mode), (C.GLsizei)(count))
 }
-func DrawRangeElementArrayATI(mode Enum, start Uint, end Uint, count Sizei)  {
+func DrawRangeElementArrayATI(mode Enum, start Uint, end Uint, count Sizei) {
 	C.goglDrawRangeElementArrayATI((C.GLenum)(mode), (C.GLuint)(start), (C.GLuint)(end), (C.GLsizei)(count))
 }
+
 // ATI_envmap_bumpmap
 
-func TexBumpParameterivATI(pname Enum, param *Int)  {
+func TexBumpParameterivATI(pname Enum, param *Int) {
 	C.goglTexBumpParameterivATI((C.GLenum)(pname), (*C.GLint)(param))
 }
-func TexBumpParameterfvATI(pname Enum, param *Float)  {
+func TexBumpParameterfvATI(pname Enum, param *Float) {
 	C.goglTexBumpParameterfvATI((C.GLenum)(pname), (*C.GLfloat)(param))
 }
-func GetTexBumpParameterivATI(pname Enum, param *Int)  {
+func GetTexBumpParameterivATI(pname Enum, param *Int) {
 	C.goglGetTexBumpParameterivATI((C.GLenum)(pname), (*C.GLint)(param))
 }
-func GetTexBumpParameterfvATI(pname Enum, param *Float)  {
+func GetTexBumpParameterfvATI(pname Enum, param *Float) {
 	C.goglGetTexBumpParameterfvATI((C.GLenum)(pname), (*C.GLfloat)(param))
 }
+
 // ATI_fragment_shader
 
 func GenFragmentShadersATI(range_ Uint) Uint {
 	return (Uint)(C.goglGenFragmentShadersATI((C.GLuint)(range_)))
 }
-func BindFragmentShaderATI(id Uint)  {
+func BindFragmentShaderATI(id Uint) {
 	C.goglBindFragmentShaderATI((C.GLuint)(id))
 }
-func DeleteFragmentShaderATI(id Uint)  {
+func DeleteFragmentShaderATI(id Uint) {
 	C.goglDeleteFragmentShaderATI((C.GLuint)(id))
 }
-func BeginFragmentShaderATI()  {
+func BeginFragmentShaderATI() {
 	C.goglBeginFragmentShaderATI()
 }
-func EndFragmentShaderATI()  {
+func EndFragmentShaderATI() {
 	C.goglEndFragmentShaderATI()
 }
-func PassTexCoordATI(dst Uint, coord Uint, swizzle Enum)  {
+func PassTexCoordATI(dst Uint, coord Uint, swizzle Enum) {
 	C.goglPassTexCoordATI((C.GLuint)(dst), (C.GLuint)(coord), (C.GLenum)(swizzle))
 }
-func SampleMapATI(dst Uint, interp Uint, swizzle Enum)  {
+func SampleMapATI(dst Uint, interp Uint, swizzle Enum) {
 	C.goglSampleMapATI((C.GLuint)(dst), (C.GLuint)(interp), (C.GLenum)(swizzle))
 }
-func ColorFragmentOp1ATI(op Enum, dst Uint, dstMask Uint, dstMod Uint, arg1 Uint, arg1Rep Uint, arg1Mod Uint)  {
+func ColorFragmentOp1ATI(op Enum, dst Uint, dstMask Uint, dstMod Uint, arg1 Uint, arg1Rep Uint, arg1Mod Uint) {
 	C.goglColorFragmentOp1ATI((C.GLenum)(op), (C.GLuint)(dst), (C.GLuint)(dstMask), (C.GLuint)(dstMod), (C.GLuint)(arg1), (C.GLuint)(arg1Rep), (C.GLuint)(arg1Mod))
 }
-func ColorFragmentOp2ATI(op Enum, dst Uint, dstMask Uint, dstMod Uint, arg1 Uint, arg1Rep Uint, arg1Mod Uint, arg2 Uint, arg2Rep Uint, arg2Mod Uint)  {
+func ColorFragmentOp2ATI(op Enum, dst Uint, dstMask Uint, dstMod Uint, arg1 Uint, arg1Rep Uint, arg1Mod Uint, arg2 Uint, arg2Rep Uint, arg2Mod Uint) {
 	C.goglColorFragmentOp2ATI((C.GLenum)(op), (C.GLuint)(dst), (C.GLuint)(dstMask), (C.GLuint)(dstMod), (C.GLuint)(arg1), (C.GLuint)(arg1Rep), (C.GLuint)(arg1Mod), (C.GLuint)(arg2), (C.GLuint)(arg2Rep), (C.GLuint)(arg2Mod))
 }
-func ColorFragmentOp3ATI(op Enum, dst Uint, dstMask Uint, dstMod Uint, arg1 Uint, arg1Rep Uint, arg1Mod Uint, arg2 Uint, arg2Rep Uint, arg2Mod Uint, arg3 Uint, arg3Rep Uint, arg3Mod Uint)  {
+func ColorFragmentOp3ATI(op Enum, dst Uint, dstMask Uint, dstMod Uint, arg1 Uint, arg1Rep Uint, arg1Mod Uint, arg2 Uint, arg2Rep Uint, arg2Mod Uint, arg3 Uint, arg3Rep Uint, arg3Mod Uint) {
 	C.goglColorFragmentOp3ATI((C.GLenum)(op), (C.GLuint)(dst), (C.GLuint)(dstMask), (C.GLuint)(dstMod), (C.GLuint)(arg1), (C.GLuint)(arg1Rep), (C.GLuint)(arg1Mod), (C.GLuint)(arg2), (C.GLuint)(arg2Rep), (C.GLuint)(arg2Mod), (C.GLuint)(arg3), (C.GLuint)(arg3Rep), (C.GLuint)(arg3Mod))
 }
-func AlphaFragmentOp1ATI(op Enum, dst Uint, dstMod Uint, arg1 Uint, arg1Rep Uint, arg1Mod Uint)  {
+func AlphaFragmentOp1ATI(op Enum, dst Uint, dstMod Uint, arg1 Uint, arg1Rep Uint, arg1Mod Uint) {
 	C.goglAlphaFragmentOp1ATI((C.GLenum)(op), (C.GLuint)(dst), (C.GLuint)(dstMod), (C.GLuint)(arg1), (C.GLuint)(arg1Rep), (C.GLuint)(arg1Mod))
 }
-func AlphaFragmentOp2ATI(op Enum, dst Uint, dstMod Uint, arg1 Uint, arg1Rep Uint, arg1Mod Uint, arg2 Uint, arg2Rep Uint, arg2Mod Uint)  {
+func AlphaFragmentOp2ATI(op Enum, dst Uint, dstMod Uint, arg1 Uint, arg1Rep Uint, arg1Mod Uint, arg2 Uint, arg2Rep Uint, arg2Mod Uint) {
 	C.goglAlphaFragmentOp2ATI((C.GLenum)(op), (C.GLuint)(dst), (C.GLuint)(dstMod), (C.GLuint)(arg1), (C.GLuint)(arg1Rep), (C.GLuint)(arg1Mod), (C.GLuint)(arg2), (C.GLuint)(arg2Rep), (C.GLuint)(arg2Mod))
 }
-func AlphaFragmentOp3ATI(op Enum, dst Uint, dstMod Uint, arg1 Uint, arg1Rep Uint, arg1Mod Uint, arg2 Uint, arg2Rep Uint, arg2Mod Uint, arg3 Uint, arg3Rep Uint, arg3Mod Uint)  {
+func AlphaFragmentOp3ATI(op Enum, dst Uint, dstMod Uint, arg1 Uint, arg1Rep Uint, arg1Mod Uint, arg2 Uint, arg2Rep Uint, arg2Mod Uint, arg3 Uint, arg3Rep Uint, arg3Mod Uint) {
 	C.goglAlphaFragmentOp3ATI((C.GLenum)(op), (C.GLuint)(dst), (C.GLuint)(dstMod), (C.GLuint)(arg1), (C.GLuint)(arg1Rep), (C.GLuint)(arg1Mod), (C.GLuint)(arg2), (C.GLuint)(arg2Rep), (C.GLuint)(arg2Mod), (C.GLuint)(arg3), (C.GLuint)(arg3Rep), (C.GLuint)(arg3Mod))
 }
-func SetFragmentShaderConstantATI(dst Uint, value *Float)  {
+func SetFragmentShaderConstantATI(dst Uint, value *Float) {
 	C.goglSetFragmentShaderConstantATI((C.GLuint)(dst), (*C.GLfloat)(value))
 }
+
 // ATI_map_object_buffer
 
 func MapObjectBufferATI(buffer Uint) Pointer {
 	return (Pointer)(C.goglMapObjectBufferATI((C.GLuint)(buffer)))
 }
-func UnmapObjectBufferATI(buffer Uint)  {
+func UnmapObjectBufferATI(buffer Uint) {
 	C.goglUnmapObjectBufferATI((C.GLuint)(buffer))
 }
+
 // ATI_meminfo
 
 // ATI_pixel_format_float
 
 // ATI_pn_triangles
 
-func PNTrianglesiATI(pname Enum, param Int)  {
+func PNTrianglesiATI(pname Enum, param Int) {
 	C.goglPNTrianglesiATI((C.GLenum)(pname), (C.GLint)(param))
 }
-func PNTrianglesfATI(pname Enum, param Float)  {
+func PNTrianglesfATI(pname Enum, param Float) {
 	C.goglPNTrianglesfATI((C.GLenum)(pname), (C.GLfloat)(param))
 }
+
 // ATI_separate_stencil
 
-func StencilOpSeparateATI(face Enum, sfail Enum, dpfail Enum, dppass Enum)  {
+func StencilOpSeparateATI(face Enum, sfail Enum, dpfail Enum, dppass Enum) {
 	C.goglStencilOpSeparateATI((C.GLenum)(face), (C.GLenum)(sfail), (C.GLenum)(dpfail), (C.GLenum)(dppass))
 }
-func StencilFuncSeparateATI(frontfunc Enum, backfunc Enum, ref Int, mask Uint)  {
+func StencilFuncSeparateATI(frontfunc Enum, backfunc Enum, ref Int, mask Uint) {
 	C.goglStencilFuncSeparateATI((C.GLenum)(frontfunc), (C.GLenum)(backfunc), (C.GLint)(ref), (C.GLuint)(mask))
 }
+
 // ATI_text_fragment_shader
 
 // ATI_texture_env_combine3
@@ -1191,182 +1212,184 @@ func NewObjectBufferATI(size Sizei, pointer Pointer, usage Enum) Uint {
 func IsObjectBufferATI(buffer Uint) Boolean {
 	return (Boolean)(C.goglIsObjectBufferATI((C.GLuint)(buffer)))
 }
-func UpdateObjectBufferATI(buffer Uint, offset Uint, size Sizei, pointer Pointer, preserve Enum)  {
+func UpdateObjectBufferATI(buffer Uint, offset Uint, size Sizei, pointer Pointer, preserve Enum) {
 	C.goglUpdateObjectBufferATI((C.GLuint)(buffer), (C.GLuint)(offset), (C.GLsizei)(size), (unsafe.Pointer)(pointer), (C.GLenum)(preserve))
 }
-func GetObjectBufferfvATI(buffer Uint, pname Enum, params *Float)  {
+func GetObjectBufferfvATI(buffer Uint, pname Enum, params *Float) {
 	C.goglGetObjectBufferfvATI((C.GLuint)(buffer), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func GetObjectBufferivATI(buffer Uint, pname Enum, params *Int)  {
+func GetObjectBufferivATI(buffer Uint, pname Enum, params *Int) {
 	C.goglGetObjectBufferivATI((C.GLuint)(buffer), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func FreeObjectBufferATI(buffer Uint)  {
+func FreeObjectBufferATI(buffer Uint) {
 	C.goglFreeObjectBufferATI((C.GLuint)(buffer))
 }
-func ArrayObjectATI(array Enum, size Int, type_ Enum, stride Sizei, buffer Uint, offset Uint)  {
+func ArrayObjectATI(array Enum, size Int, type_ Enum, stride Sizei, buffer Uint, offset Uint) {
 	C.goglArrayObjectATI((C.GLenum)(array), (C.GLint)(size), (C.GLenum)(type_), (C.GLsizei)(stride), (C.GLuint)(buffer), (C.GLuint)(offset))
 }
-func GetArrayObjectfvATI(array Enum, pname Enum, params *Float)  {
+func GetArrayObjectfvATI(array Enum, pname Enum, params *Float) {
 	C.goglGetArrayObjectfvATI((C.GLenum)(array), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func GetArrayObjectivATI(array Enum, pname Enum, params *Int)  {
+func GetArrayObjectivATI(array Enum, pname Enum, params *Int) {
 	C.goglGetArrayObjectivATI((C.GLenum)(array), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func VariantArrayObjectATI(id Uint, type_ Enum, stride Sizei, buffer Uint, offset Uint)  {
+func VariantArrayObjectATI(id Uint, type_ Enum, stride Sizei, buffer Uint, offset Uint) {
 	C.goglVariantArrayObjectATI((C.GLuint)(id), (C.GLenum)(type_), (C.GLsizei)(stride), (C.GLuint)(buffer), (C.GLuint)(offset))
 }
-func GetVariantArrayObjectfvATI(id Uint, pname Enum, params *Float)  {
+func GetVariantArrayObjectfvATI(id Uint, pname Enum, params *Float) {
 	C.goglGetVariantArrayObjectfvATI((C.GLuint)(id), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func GetVariantArrayObjectivATI(id Uint, pname Enum, params *Int)  {
+func GetVariantArrayObjectivATI(id Uint, pname Enum, params *Int) {
 	C.goglGetVariantArrayObjectivATI((C.GLuint)(id), (C.GLenum)(pname), (*C.GLint)(params))
 }
+
 // ATI_vertex_attrib_array_object
 
-func VertexAttribArrayObjectATI(index Uint, size Int, type_ Enum, normalized Boolean, stride Sizei, buffer Uint, offset Uint)  {
+func VertexAttribArrayObjectATI(index Uint, size Int, type_ Enum, normalized Boolean, stride Sizei, buffer Uint, offset Uint) {
 	C.goglVertexAttribArrayObjectATI((C.GLuint)(index), (C.GLint)(size), (C.GLenum)(type_), (C.GLboolean)(normalized), (C.GLsizei)(stride), (C.GLuint)(buffer), (C.GLuint)(offset))
 }
-func GetVertexAttribArrayObjectfvATI(index Uint, pname Enum, params *Float)  {
+func GetVertexAttribArrayObjectfvATI(index Uint, pname Enum, params *Float) {
 	C.goglGetVertexAttribArrayObjectfvATI((C.GLuint)(index), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func GetVertexAttribArrayObjectivATI(index Uint, pname Enum, params *Int)  {
+func GetVertexAttribArrayObjectivATI(index Uint, pname Enum, params *Int) {
 	C.goglGetVertexAttribArrayObjectivATI((C.GLuint)(index), (C.GLenum)(pname), (*C.GLint)(params))
 }
+
 // ATI_vertex_streams
 
-func VertexStream1sATI(stream Enum, x Short)  {
+func VertexStream1sATI(stream Enum, x Short) {
 	C.goglVertexStream1sATI((C.GLenum)(stream), (C.GLshort)(x))
 }
-func VertexStream1svATI(stream Enum, coords *Short)  {
+func VertexStream1svATI(stream Enum, coords *Short) {
 	C.goglVertexStream1svATI((C.GLenum)(stream), (*C.GLshort)(coords))
 }
-func VertexStream1iATI(stream Enum, x Int)  {
+func VertexStream1iATI(stream Enum, x Int) {
 	C.goglVertexStream1iATI((C.GLenum)(stream), (C.GLint)(x))
 }
-func VertexStream1ivATI(stream Enum, coords *Int)  {
+func VertexStream1ivATI(stream Enum, coords *Int) {
 	C.goglVertexStream1ivATI((C.GLenum)(stream), (*C.GLint)(coords))
 }
-func VertexStream1fATI(stream Enum, x Float)  {
+func VertexStream1fATI(stream Enum, x Float) {
 	C.goglVertexStream1fATI((C.GLenum)(stream), (C.GLfloat)(x))
 }
-func VertexStream1fvATI(stream Enum, coords *Float)  {
+func VertexStream1fvATI(stream Enum, coords *Float) {
 	C.goglVertexStream1fvATI((C.GLenum)(stream), (*C.GLfloat)(coords))
 }
-func VertexStream1dATI(stream Enum, x Double)  {
+func VertexStream1dATI(stream Enum, x Double) {
 	C.goglVertexStream1dATI((C.GLenum)(stream), (C.GLdouble)(x))
 }
-func VertexStream1dvATI(stream Enum, coords *Double)  {
+func VertexStream1dvATI(stream Enum, coords *Double) {
 	C.goglVertexStream1dvATI((C.GLenum)(stream), (*C.GLdouble)(coords))
 }
-func VertexStream2sATI(stream Enum, x Short, y Short)  {
+func VertexStream2sATI(stream Enum, x Short, y Short) {
 	C.goglVertexStream2sATI((C.GLenum)(stream), (C.GLshort)(x), (C.GLshort)(y))
 }
-func VertexStream2svATI(stream Enum, coords *Short)  {
+func VertexStream2svATI(stream Enum, coords *Short) {
 	C.goglVertexStream2svATI((C.GLenum)(stream), (*C.GLshort)(coords))
 }
-func VertexStream2iATI(stream Enum, x Int, y Int)  {
+func VertexStream2iATI(stream Enum, x Int, y Int) {
 	C.goglVertexStream2iATI((C.GLenum)(stream), (C.GLint)(x), (C.GLint)(y))
 }
-func VertexStream2ivATI(stream Enum, coords *Int)  {
+func VertexStream2ivATI(stream Enum, coords *Int) {
 	C.goglVertexStream2ivATI((C.GLenum)(stream), (*C.GLint)(coords))
 }
-func VertexStream2fATI(stream Enum, x Float, y Float)  {
+func VertexStream2fATI(stream Enum, x Float, y Float) {
 	C.goglVertexStream2fATI((C.GLenum)(stream), (C.GLfloat)(x), (C.GLfloat)(y))
 }
-func VertexStream2fvATI(stream Enum, coords *Float)  {
+func VertexStream2fvATI(stream Enum, coords *Float) {
 	C.goglVertexStream2fvATI((C.GLenum)(stream), (*C.GLfloat)(coords))
 }
-func VertexStream2dATI(stream Enum, x Double, y Double)  {
+func VertexStream2dATI(stream Enum, x Double, y Double) {
 	C.goglVertexStream2dATI((C.GLenum)(stream), (C.GLdouble)(x), (C.GLdouble)(y))
 }
-func VertexStream2dvATI(stream Enum, coords *Double)  {
+func VertexStream2dvATI(stream Enum, coords *Double) {
 	C.goglVertexStream2dvATI((C.GLenum)(stream), (*C.GLdouble)(coords))
 }
-func VertexStream3sATI(stream Enum, x Short, y Short, z Short)  {
+func VertexStream3sATI(stream Enum, x Short, y Short, z Short) {
 	C.goglVertexStream3sATI((C.GLenum)(stream), (C.GLshort)(x), (C.GLshort)(y), (C.GLshort)(z))
 }
-func VertexStream3svATI(stream Enum, coords *Short)  {
+func VertexStream3svATI(stream Enum, coords *Short) {
 	C.goglVertexStream3svATI((C.GLenum)(stream), (*C.GLshort)(coords))
 }
-func VertexStream3iATI(stream Enum, x Int, y Int, z Int)  {
+func VertexStream3iATI(stream Enum, x Int, y Int, z Int) {
 	C.goglVertexStream3iATI((C.GLenum)(stream), (C.GLint)(x), (C.GLint)(y), (C.GLint)(z))
 }
-func VertexStream3ivATI(stream Enum, coords *Int)  {
+func VertexStream3ivATI(stream Enum, coords *Int) {
 	C.goglVertexStream3ivATI((C.GLenum)(stream), (*C.GLint)(coords))
 }
-func VertexStream3fATI(stream Enum, x Float, y Float, z Float)  {
+func VertexStream3fATI(stream Enum, x Float, y Float, z Float) {
 	C.goglVertexStream3fATI((C.GLenum)(stream), (C.GLfloat)(x), (C.GLfloat)(y), (C.GLfloat)(z))
 }
-func VertexStream3fvATI(stream Enum, coords *Float)  {
+func VertexStream3fvATI(stream Enum, coords *Float) {
 	C.goglVertexStream3fvATI((C.GLenum)(stream), (*C.GLfloat)(coords))
 }
-func VertexStream3dATI(stream Enum, x Double, y Double, z Double)  {
+func VertexStream3dATI(stream Enum, x Double, y Double, z Double) {
 	C.goglVertexStream3dATI((C.GLenum)(stream), (C.GLdouble)(x), (C.GLdouble)(y), (C.GLdouble)(z))
 }
-func VertexStream3dvATI(stream Enum, coords *Double)  {
+func VertexStream3dvATI(stream Enum, coords *Double) {
 	C.goglVertexStream3dvATI((C.GLenum)(stream), (*C.GLdouble)(coords))
 }
-func VertexStream4sATI(stream Enum, x Short, y Short, z Short, w Short)  {
+func VertexStream4sATI(stream Enum, x Short, y Short, z Short, w Short) {
 	C.goglVertexStream4sATI((C.GLenum)(stream), (C.GLshort)(x), (C.GLshort)(y), (C.GLshort)(z), (C.GLshort)(w))
 }
-func VertexStream4svATI(stream Enum, coords *Short)  {
+func VertexStream4svATI(stream Enum, coords *Short) {
 	C.goglVertexStream4svATI((C.GLenum)(stream), (*C.GLshort)(coords))
 }
-func VertexStream4iATI(stream Enum, x Int, y Int, z Int, w Int)  {
+func VertexStream4iATI(stream Enum, x Int, y Int, z Int, w Int) {
 	C.goglVertexStream4iATI((C.GLenum)(stream), (C.GLint)(x), (C.GLint)(y), (C.GLint)(z), (C.GLint)(w))
 }
-func VertexStream4ivATI(stream Enum, coords *Int)  {
+func VertexStream4ivATI(stream Enum, coords *Int) {
 	C.goglVertexStream4ivATI((C.GLenum)(stream), (*C.GLint)(coords))
 }
-func VertexStream4fATI(stream Enum, x Float, y Float, z Float, w Float)  {
+func VertexStream4fATI(stream Enum, x Float, y Float, z Float, w Float) {
 	C.goglVertexStream4fATI((C.GLenum)(stream), (C.GLfloat)(x), (C.GLfloat)(y), (C.GLfloat)(z), (C.GLfloat)(w))
 }
-func VertexStream4fvATI(stream Enum, coords *Float)  {
+func VertexStream4fvATI(stream Enum, coords *Float) {
 	C.goglVertexStream4fvATI((C.GLenum)(stream), (*C.GLfloat)(coords))
 }
-func VertexStream4dATI(stream Enum, x Double, y Double, z Double, w Double)  {
+func VertexStream4dATI(stream Enum, x Double, y Double, z Double, w Double) {
 	C.goglVertexStream4dATI((C.GLenum)(stream), (C.GLdouble)(x), (C.GLdouble)(y), (C.GLdouble)(z), (C.GLdouble)(w))
 }
-func VertexStream4dvATI(stream Enum, coords *Double)  {
+func VertexStream4dvATI(stream Enum, coords *Double) {
 	C.goglVertexStream4dvATI((C.GLenum)(stream), (*C.GLdouble)(coords))
 }
-func NormalStream3bATI(stream Enum, nx Byte, ny Byte, nz Byte)  {
+func NormalStream3bATI(stream Enum, nx Byte, ny Byte, nz Byte) {
 	C.goglNormalStream3bATI((C.GLenum)(stream), (C.GLbyte)(nx), (C.GLbyte)(ny), (C.GLbyte)(nz))
 }
-func NormalStream3bvATI(stream Enum, coords *Byte)  {
+func NormalStream3bvATI(stream Enum, coords *Byte) {
 	C.goglNormalStream3bvATI((C.GLenum)(stream), (*C.GLbyte)(coords))
 }
-func NormalStream3sATI(stream Enum, nx Short, ny Short, nz Short)  {
+func NormalStream3sATI(stream Enum, nx Short, ny Short, nz Short) {
 	C.goglNormalStream3sATI((C.GLenum)(stream), (C.GLshort)(nx), (C.GLshort)(ny), (C.GLshort)(nz))
 }
-func NormalStream3svATI(stream Enum, coords *Short)  {
+func NormalStream3svATI(stream Enum, coords *Short) {
 	C.goglNormalStream3svATI((C.GLenum)(stream), (*C.GLshort)(coords))
 }
-func NormalStream3iATI(stream Enum, nx Int, ny Int, nz Int)  {
+func NormalStream3iATI(stream Enum, nx Int, ny Int, nz Int) {
 	C.goglNormalStream3iATI((C.GLenum)(stream), (C.GLint)(nx), (C.GLint)(ny), (C.GLint)(nz))
 }
-func NormalStream3ivATI(stream Enum, coords *Int)  {
+func NormalStream3ivATI(stream Enum, coords *Int) {
 	C.goglNormalStream3ivATI((C.GLenum)(stream), (*C.GLint)(coords))
 }
-func NormalStream3fATI(stream Enum, nx Float, ny Float, nz Float)  {
+func NormalStream3fATI(stream Enum, nx Float, ny Float, nz Float) {
 	C.goglNormalStream3fATI((C.GLenum)(stream), (C.GLfloat)(nx), (C.GLfloat)(ny), (C.GLfloat)(nz))
 }
-func NormalStream3fvATI(stream Enum, coords *Float)  {
+func NormalStream3fvATI(stream Enum, coords *Float) {
 	C.goglNormalStream3fvATI((C.GLenum)(stream), (*C.GLfloat)(coords))
 }
-func NormalStream3dATI(stream Enum, nx Double, ny Double, nz Double)  {
+func NormalStream3dATI(stream Enum, nx Double, ny Double, nz Double) {
 	C.goglNormalStream3dATI((C.GLenum)(stream), (C.GLdouble)(nx), (C.GLdouble)(ny), (C.GLdouble)(nz))
 }
-func NormalStream3dvATI(stream Enum, coords *Double)  {
+func NormalStream3dvATI(stream Enum, coords *Double) {
 	C.goglNormalStream3dvATI((C.GLenum)(stream), (*C.GLdouble)(coords))
 }
-func ClientActiveVertexStreamATI(stream Enum)  {
+func ClientActiveVertexStreamATI(stream Enum) {
 	C.goglClientActiveVertexStreamATI((C.GLenum)(stream))
 }
-func VertexBlendEnviATI(pname Enum, param Int)  {
+func VertexBlendEnviATI(pname Enum, param Int) {
 	C.goglVertexBlendEnviATI((C.GLenum)(pname), (C.GLint)(param))
 }
-func VertexBlendEnvfATI(pname Enum, param Float)  {
+func VertexBlendEnvfATI(pname Enum, param Float) {
 	C.goglVertexBlendEnvfATI((C.GLenum)(pname), (C.GLfloat)(param))
 }
 func InitAtiDrawBuffers() error {
@@ -1481,4 +1504,5 @@ func InitAtiVertexStreams() error {
 	}
 	return nil
 }
+
 // EOF

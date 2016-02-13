@@ -122,7 +122,6 @@ func main() {
 	}
 	var err error
 
-
 	err = generatePackages(
 		OpenGLEnumExtSpecFile,
 		[]string{OpenGLSpecFile},

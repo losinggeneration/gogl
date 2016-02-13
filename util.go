@@ -425,7 +425,6 @@ func CTypeToGoType(cType string, out bool, mod ParamModifier) (goType, cgoType s
 		cgoType = "*C.char"
 		return
 
-	
 	}
 	// standard cases for primitive data types:
 	switch cType {
@@ -478,14 +477,14 @@ func CTypeToGoType(cType string, out bool, mod ParamModifier) (goType, cgoType s
 	case "GLclampd":
 		goType = "Clampd"
 		cgoType = "C.GLclampd"
-	//  
+	//
 	case "GLchar":
 		goType = "Char"
 		cgoType = "C.GLchar"
 	case "GLcharARB":
 		goType = "Char"
 		cgoType = "C.GLcharARB"
-	// 
+	//
 	case "GLintptr":
 		goType = "Intptr"
 		cgoType = "C.GLintptr"
@@ -498,7 +497,7 @@ func CTypeToGoType(cType string, out bool, mod ParamModifier) (goType, cgoType s
 	case "GLsizeiptrARB":
 		goType = "Sizeiptr"
 		cgoType = "C.GLsizeiptrARB"
-	// 
+	//
 	case "GLint64":
 		goType = "Int64"
 		cgoType = "C.GLint64"

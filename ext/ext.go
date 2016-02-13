@@ -1,193 +1,193 @@
 // Automatically generated OpenGL binding.
-// 
-// Categories in this package: 
-// 
+//
+// Categories in this package:
+//
 // EXT_422_pixels: http://www.opengl.org/registry/specs/EXT/422_pixels.txt
-// 
+//
 // EXT_abgr: http://www.opengl.org/registry/specs/EXT/abgr.txt
-// 
+//
 // EXT_bgra: http://www.opengl.org/registry/specs/EXT/bgra.txt
-// 
+//
 // EXT_bindable_uniform: http://www.opengl.org/registry/specs/EXT/bindable_uniform.txt
-// 
+//
 // EXT_blend_color: http://www.opengl.org/registry/specs/EXT/blend_color.txt
-// 
+//
 // EXT_blend_equation_separate: http://www.opengl.org/registry/specs/EXT/blend_equation_separate.txt
-// 
+//
 // EXT_blend_func_separate: http://www.opengl.org/registry/specs/EXT/blend_func_separate.txt
-// 
+//
 // EXT_blend_logic_op: http://www.opengl.org/registry/specs/EXT/blend_logic_op.txt
-// 
+//
 // EXT_blend_minmax: http://www.opengl.org/registry/specs/EXT/blend_minmax.txt
-// 
+//
 // EXT_blend_subtract: http://www.opengl.org/registry/specs/EXT/blend_subtract.txt
-// 
+//
 // EXT_clip_volume_hint: http://www.opengl.org/registry/specs/EXT/clip_volume_hint.txt
-// 
+//
 // EXT_cmyka: http://www.opengl.org/registry/specs/EXT/cmyka.txt
-// 
+//
 // EXT_color_subtable: http://www.opengl.org/registry/specs/EXT/color_subtable.txt
-// 
+//
 // EXT_compiled_vertex_array: http://www.opengl.org/registry/specs/EXT/compiled_vertex_array.txt
-// 
+//
 // EXT_convolution: http://www.opengl.org/registry/specs/EXT/convolution.txt
-// 
+//
 // EXT_coordinate_frame: http://www.opengl.org/registry/specs/EXT/coordinate_frame.txt
-// 
+//
 // EXT_copy_texture: http://www.opengl.org/registry/specs/EXT/copy_texture.txt
-// 
+//
 // EXT_cull_vertex: http://www.opengl.org/registry/specs/EXT/cull_vertex.txt
-// 
+//
 // EXT_depth_bounds_test: http://www.opengl.org/registry/specs/EXT/depth_bounds_test.txt
-// 
+//
 // EXT_direct_state_access: http://www.opengl.org/registry/specs/EXT/direct_state_access.txt
-// 
+//
 // EXT_draw_buffers2: http://www.opengl.org/registry/specs/EXT/draw_buffers2.txt
-// 
+//
 // EXT_draw_instanced: http://www.opengl.org/registry/specs/EXT/draw_instanced.txt
-// 
+//
 // EXT_draw_range_elements: http://www.opengl.org/registry/specs/EXT/draw_range_elements.txt
-// 
+//
 // EXT_fog_coord: http://www.opengl.org/registry/specs/EXT/fog_coord.txt
-// 
+//
 // EXT_framebuffer_blit: http://www.opengl.org/registry/specs/EXT/framebuffer_blit.txt
-// 
+//
 // EXT_framebuffer_multisample: http://www.opengl.org/registry/specs/EXT/framebuffer_multisample.txt
-// 
+//
 // EXT_framebuffer_multisample_blit_scaled: http://www.opengl.org/registry/specs/EXT/framebuffer_multisample_blit_scaled.txt
-// 
+//
 // EXT_framebuffer_object: http://www.opengl.org/registry/specs/EXT/framebuffer_object.txt
-// 
+//
 // EXT_framebuffer_sRGB: http://www.opengl.org/registry/specs/EXT/framebuffer_sRGB.txt
-// 
+//
 // EXT_geometry_shader4: http://www.opengl.org/registry/specs/EXT/geometry_shader4.txt
-// 
+//
 // EXT_gpu_program_parameters: http://www.opengl.org/registry/specs/EXT/gpu_program_parameters.txt
-// 
+//
 // EXT_gpu_shader4: http://www.opengl.org/registry/specs/EXT/gpu_shader4.txt
-// 
+//
 // EXT_histogram: http://www.opengl.org/registry/specs/EXT/histogram.txt
-// 
+//
 // EXT_index_array_formats: http://www.opengl.org/registry/specs/EXT/index_array_formats.txt
-// 
+//
 // EXT_index_func: http://www.opengl.org/registry/specs/EXT/index_func.txt
-// 
+//
 // EXT_index_material: http://www.opengl.org/registry/specs/EXT/index_material.txt
-// 
+//
 // EXT_index_texture: http://www.opengl.org/registry/specs/EXT/index_texture.txt
-// 
+//
 // EXT_light_texture: http://www.opengl.org/registry/specs/EXT/light_texture.txt
-// 
+//
 // EXT_misc_attribute: http://www.opengl.org/registry/specs/EXT/misc_attribute.txt
-// 
+//
 // EXT_multi_draw_arrays: http://www.opengl.org/registry/specs/EXT/multi_draw_arrays.txt
-// 
+//
 // EXT_multisample: http://www.opengl.org/registry/specs/EXT/multisample.txt
-// 
+//
 // EXT_packed_depth_stencil: http://www.opengl.org/registry/specs/EXT/packed_depth_stencil.txt
-// 
+//
 // EXT_packed_float: http://www.opengl.org/registry/specs/EXT/packed_float.txt
-// 
+//
 // EXT_packed_pixels: http://www.opengl.org/registry/specs/EXT/packed_pixels.txt
-// 
+//
 // EXT_paletted_texture: http://www.opengl.org/registry/specs/EXT/paletted_texture.txt
-// 
+//
 // EXT_pixel_buffer_object: http://www.opengl.org/registry/specs/EXT/pixel_buffer_object.txt
-// 
+//
 // EXT_pixel_transform: http://www.opengl.org/registry/specs/EXT/pixel_transform.txt
-// 
+//
 // EXT_pixel_transform_color_table: http://www.opengl.org/registry/specs/EXT/pixel_transform_color_table.txt
-// 
+//
 // EXT_point_parameters: http://www.opengl.org/registry/specs/EXT/point_parameters.txt
-// 
+//
 // EXT_polygon_offset: http://www.opengl.org/registry/specs/EXT/polygon_offset.txt
-// 
+//
 // EXT_provoking_vertex: http://www.opengl.org/registry/specs/EXT/provoking_vertex.txt
-// 
+//
 // EXT_rescale_normal: http://www.opengl.org/registry/specs/EXT/rescale_normal.txt
-// 
+//
 // EXT_secondary_color: http://www.opengl.org/registry/specs/EXT/secondary_color.txt
-// 
+//
 // EXT_separate_shader_objects: http://www.opengl.org/registry/specs/EXT/separate_shader_objects.txt
-// 
+//
 // EXT_separate_specular_color: http://www.opengl.org/registry/specs/EXT/separate_specular_color.txt
-// 
+//
 // EXT_shader_image_load_store: http://www.opengl.org/registry/specs/EXT/shader_image_load_store.txt
-// 
+//
 // EXT_shadow_funcs: http://www.opengl.org/registry/specs/EXT/shadow_funcs.txt
-// 
+//
 // EXT_shared_texture_palette: http://www.opengl.org/registry/specs/EXT/shared_texture_palette.txt
-// 
+//
 // EXT_stencil_clear_tag: http://www.opengl.org/registry/specs/EXT/stencil_clear_tag.txt
-// 
+//
 // EXT_stencil_two_side: http://www.opengl.org/registry/specs/EXT/stencil_two_side.txt
-// 
+//
 // EXT_stencil_wrap: http://www.opengl.org/registry/specs/EXT/stencil_wrap.txt
-// 
+//
 // EXT_subtexture: http://www.opengl.org/registry/specs/EXT/subtexture.txt
-// 
+//
 // EXT_texture: http://www.opengl.org/registry/specs/EXT/texture.txt
-// 
+//
 // EXT_texture3D: http://www.opengl.org/registry/specs/EXT/texture3D.txt
-// 
+//
 // EXT_texture_array: http://www.opengl.org/registry/specs/EXT/texture_array.txt
-// 
+//
 // EXT_texture_buffer_object: http://www.opengl.org/registry/specs/EXT/texture_buffer_object.txt
-// 
+//
 // EXT_texture_compression_latc: http://www.opengl.org/registry/specs/EXT/texture_compression_latc.txt
-// 
+//
 // EXT_texture_compression_rgtc: http://www.opengl.org/registry/specs/EXT/texture_compression_rgtc.txt
-// 
+//
 // EXT_texture_env_add: http://www.opengl.org/registry/specs/EXT/texture_env_add.txt
-// 
+//
 // EXT_texture_env_combine: http://www.opengl.org/registry/specs/EXT/texture_env_combine.txt
-// 
+//
 // EXT_texture_env_dot3: http://www.opengl.org/registry/specs/EXT/texture_env_dot3.txt
-// 
+//
 // EXT_texture_filter_anisotropic: http://www.opengl.org/registry/specs/EXT/texture_filter_anisotropic.txt
-// 
+//
 // EXT_texture_integer: http://www.opengl.org/registry/specs/EXT/texture_integer.txt
-// 
+//
 // EXT_texture_lod_bias: http://www.opengl.org/registry/specs/EXT/texture_lod_bias.txt
-// 
+//
 // EXT_texture_mirror_clamp: http://www.opengl.org/registry/specs/EXT/texture_mirror_clamp.txt
-// 
+//
 // EXT_texture_object: http://www.opengl.org/registry/specs/EXT/texture_object.txt
-// 
+//
 // EXT_texture_perturb_normal: http://www.opengl.org/registry/specs/EXT/texture_perturb_normal.txt
-// 
+//
 // EXT_texture_sRGB: http://www.opengl.org/registry/specs/EXT/texture_sRGB.txt
-// 
+//
 // EXT_texture_sRGB_decode: http://www.opengl.org/registry/specs/EXT/texture_sRGB_decode.txt
-// 
+//
 // EXT_texture_shared_exponent: http://www.opengl.org/registry/specs/EXT/texture_shared_exponent.txt
-// 
+//
 // EXT_texture_snorm: http://www.opengl.org/registry/specs/EXT/texture_snorm.txt
-// 
+//
 // EXT_texture_swizzle: http://www.opengl.org/registry/specs/EXT/texture_swizzle.txt
-// 
+//
 // EXT_timer_query: http://www.opengl.org/registry/specs/EXT/timer_query.txt
-// 
+//
 // EXT_transform_feedback: http://www.opengl.org/registry/specs/EXT/transform_feedback.txt
-// 
+//
 // EXT_vertex_array: http://www.opengl.org/registry/specs/EXT/vertex_array.txt
-// 
+//
 // EXT_vertex_array_bgra: http://www.opengl.org/registry/specs/EXT/vertex_array_bgra.txt
-// 
+//
 // EXT_vertex_attrib_64bit: http://www.opengl.org/registry/specs/EXT/vertex_attrib_64bit.txt
-// 
+//
 // EXT_vertex_shader: http://www.opengl.org/registry/specs/EXT/vertex_shader.txt
-// 
+//
 // EXT_vertex_weighting: http://www.opengl.org/registry/specs/EXT/vertex_weighting.txt
-// 
+//
 // EXT_x11_sync_object: http://www.opengl.org/registry/specs/EXT/x11_sync_object.txt
-// 
+//
 package ext
 
 // #cgo darwin  LDFLAGS: -framework OpenGL
 // #cgo linux   LDFLAGS: -lGL
 // #cgo windows LDFLAGS: -lopengl32
-// 
+//
 // #include <stdlib.h>
 // #if defined(__APPLE__)
 // #include <dlfcn.h>
@@ -198,7 +198,7 @@ package ext
 // #include <X11/Xlib.h>
 // #include <GL/glx.h>
 // #endif
-// 
+//
 // #ifndef APIENTRY
 // #define APIENTRY
 // #endif
@@ -208,7 +208,7 @@ package ext
 // #ifndef GLAPI
 // #define GLAPI extern
 // #endif
-// 
+//
 // typedef unsigned int GLenum;
 // typedef unsigned char GLboolean;
 // typedef unsigned int GLbitfield;
@@ -225,40 +225,40 @@ package ext
 // typedef double GLdouble;
 // typedef double GLclampd;
 // typedef void GLvoid;
-// 
+//
 // #include <stddef.h>
 // #ifndef GL_VERSION_2_0
 // /* GL type for program/shader text */
 // typedef char GLchar;
 // #endif
-// 
+//
 // #ifndef GL_VERSION_1_5
 // /* GL types for handling large vertex buffer objects */
 // typedef ptrdiff_t GLintptr;
 // typedef ptrdiff_t GLsizeiptr;
 // #endif
-// 
+//
 // #ifndef GL_ARB_vertex_buffer_object
 // /* GL types for handling large vertex buffer objects */
 // typedef ptrdiff_t GLintptrARB;
 // typedef ptrdiff_t GLsizeiptrARB;
 // #endif
-// 
+//
 // #ifndef GL_ARB_shader_objects
 // /* GL types for program/shader text and shader object handles */
 // typedef char GLcharARB;
 // typedef unsigned int GLhandleARB;
 // #endif
-// 
+//
 // /* GL type for "half" precision (s10e5) float data in host memory */
 // #ifndef GL_ARB_half_float_pixel
 // typedef unsigned short GLhalfARB;
 // #endif
-// 
+//
 // #ifndef GL_NV_half_float
 // typedef unsigned short GLhalfNV;
 // #endif
-// 
+//
 // #ifndef GLEXT_64_TYPES_DEFINED
 // /* This code block is duplicated in glxext.h, so must be protected */
 // #define GLEXT_64_TYPES_DEFINED
@@ -296,41 +296,41 @@ package ext
 // #include <inttypes.h>
 // #endif
 // #endif
-// 
+//
 // #ifndef GL_EXT_timer_query
 // typedef int64_t GLint64EXT;
 // typedef uint64_t GLuint64EXT;
 // #endif
-// 
+//
 // #ifndef GL_ARB_sync
 // typedef int64_t GLint64;
 // typedef uint64_t GLuint64;
 // typedef struct __GLsync *GLsync;
 // #endif
-// 
+//
 // #ifndef GL_ARB_cl_event
 // /* These incomplete types let us declare types compatible with OpenCL's cl_context and cl_event */
 // struct _cl_context;
 // struct _cl_event;
 // #endif
-// 
+//
 // #ifndef GL_ARB_debug_output
 // typedef void (APIENTRY *GLDEBUGPROCARB)(GLenum source,GLenum type,GLuint id,GLenum severity,GLsizei length,const GLchar *message,GLvoid *userParam);
 // #endif
-// 
+//
 // #ifndef GL_AMD_debug_output
 // typedef void (APIENTRY *GLDEBUGPROCAMD)(GLuint id,GLenum category,GLenum severity,GLsizei length,const GLchar *message,GLvoid *userParam);
 // #endif
-// 
+//
 // #ifndef GL_NV_vdpau_interop
 // typedef GLintptr GLvdpauSurfaceNV;
 // #endif
-// 
+//
 // #ifdef _WIN32
 // static HMODULE opengl32 = NULL;
 // #endif
-// 
-// static void* goglGetProcAddress(const char* name) { 
+//
+// static void* goglGetProcAddress(const char* name) {
 // #ifdef __APPLE__
 // 	return dlsym(RTLD_DEFAULT, name);
 // #elif _WIN32
@@ -346,7 +346,7 @@ package ext
 // 	return glXGetProcAddress((const GLubyte*)name);
 // #endif
 // }
-// 
+//
 // //  EXT_422_pixels
 // //  EXT_abgr
 // //  EXT_bgra
@@ -918,7 +918,7 @@ package ext
 // void (APIENTRYP ptrglVertexWeightPointerEXT)(GLint size, GLenum type, GLsizei stride, GLvoid* pointer);
 // //  EXT_x11_sync_object
 // GLsync (APIENTRYP ptrglImportSyncEXT)(GLenum external_sync_type, GLintptr external_sync, GLbitfield flags);
-// 
+//
 // //  EXT_422_pixels
 // //  EXT_abgr
 // //  EXT_bgra
@@ -2452,7 +2452,7 @@ package ext
 // GLsync goglImportSyncEXT(GLenum external_sync_type, GLintptr external_sync, GLbitfield flags) {
 // 	return (*ptrglImportSyncEXT)(external_sync_type, external_sync, flags);
 // }
-// 
+//
 // int init_EXT_422_pixels() {
 // 	return 0;
 // }
@@ -3685,7 +3685,7 @@ package ext
 // 	if(ptrglImportSyncEXT == NULL) return 1;
 // 	return 0;
 // }
-// 
+//
 import "C"
 import "unsafe"
 import "errors"
@@ -3717,661 +3717,718 @@ type (
 
 // EXT_422_pixels
 const (
-	X422_AVERAGE_EXT = 0x80CE
-	X422_EXT = 0x80CC
+	X422_AVERAGE_EXT     = 0x80CE
+	X422_EXT             = 0x80CC
 	X422_REV_AVERAGE_EXT = 0x80CF
-	X422_REV_EXT = 0x80CD
+	X422_REV_EXT         = 0x80CD
 )
+
 // EXT_abgr
 const (
 	ABGR_EXT = 0x8000
 )
+
 // EXT_bgra
 const (
 	BGRA_EXT = 0x80E1
-	BGR_EXT = 0x80E0
+	BGR_EXT  = 0x80E0
 )
+
 // EXT_bindable_uniform
 const (
-	MAX_BINDABLE_UNIFORM_SIZE_EXT = 0x8DED
+	MAX_BINDABLE_UNIFORM_SIZE_EXT      = 0x8DED
 	MAX_FRAGMENT_BINDABLE_UNIFORMS_EXT = 0x8DE3
 	MAX_GEOMETRY_BINDABLE_UNIFORMS_EXT = 0x8DE4
-	MAX_VERTEX_BINDABLE_UNIFORMS_EXT = 0x8DE2
-	UNIFORM_BUFFER_BINDING_EXT = 0x8DEF
-	UNIFORM_BUFFER_EXT = 0x8DEE
+	MAX_VERTEX_BINDABLE_UNIFORMS_EXT   = 0x8DE2
+	UNIFORM_BUFFER_BINDING_EXT         = 0x8DEF
+	UNIFORM_BUFFER_EXT                 = 0x8DEE
 )
+
 // EXT_blend_color
 const (
-	BLEND_COLOR_EXT = 0x8005
-	CONSTANT_ALPHA_EXT = 0x8003
-	CONSTANT_COLOR_EXT = 0x8001
+	BLEND_COLOR_EXT              = 0x8005
+	CONSTANT_ALPHA_EXT           = 0x8003
+	CONSTANT_COLOR_EXT           = 0x8001
 	ONE_MINUS_CONSTANT_ALPHA_EXT = 0x8004
 	ONE_MINUS_CONSTANT_COLOR_EXT = 0x8002
 )
+
 // EXT_blend_equation_separate
 const (
 	BLEND_EQUATION_ALPHA_EXT = 0x883D
-	BLEND_EQUATION_RGB_EXT = 0x8009
+	BLEND_EQUATION_RGB_EXT   = 0x8009
 )
+
 // EXT_blend_func_separate
 const (
 	BLEND_DST_ALPHA_EXT = 0x80CA
-	BLEND_DST_RGB_EXT = 0x80C8
+	BLEND_DST_RGB_EXT   = 0x80C8
 	BLEND_SRC_ALPHA_EXT = 0x80CB
-	BLEND_SRC_RGB_EXT = 0x80C9
+	BLEND_SRC_RGB_EXT   = 0x80C9
 )
+
 // EXT_blend_logic_op
-const (
-)
+const ()
+
 // EXT_blend_minmax
 const (
 	BLEND_EQUATION_EXT = 0x8009
-	FUNC_ADD_EXT = 0x8006
-	MAX_EXT = 0x8008
-	MIN_EXT = 0x8007
+	FUNC_ADD_EXT       = 0x8006
+	MAX_EXT            = 0x8008
+	MIN_EXT            = 0x8007
 )
+
 // EXT_blend_subtract
 const (
 	FUNC_REVERSE_SUBTRACT_EXT = 0x800B
-	FUNC_SUBTRACT_EXT = 0x800A
+	FUNC_SUBTRACT_EXT         = 0x800A
 )
+
 // EXT_clip_volume_hint
 const (
 	CLIP_VOLUME_CLIPPING_HINT_EXT = 0x80F0
 )
+
 // EXT_cmyka
 const (
-	CMYKA_EXT = 0x800D
-	CMYK_EXT = 0x800C
-	PACK_CMYK_HINT_EXT = 0x800E
+	CMYKA_EXT            = 0x800D
+	CMYK_EXT             = 0x800C
+	PACK_CMYK_HINT_EXT   = 0x800E
 	UNPACK_CMYK_HINT_EXT = 0x800F
 )
+
 // EXT_color_subtable
-const (
-)
+const ()
+
 // EXT_compiled_vertex_array
 const (
 	ARRAY_ELEMENT_LOCK_COUNT_EXT = 0x81A9
 	ARRAY_ELEMENT_LOCK_FIRST_EXT = 0x81A8
 )
+
 // EXT_convolution
 const (
-	CONVOLUTION_1D_EXT = 0x8010
-	CONVOLUTION_2D_EXT = 0x8011
-	CONVOLUTION_BORDER_MODE_EXT = 0x8013
-	CONVOLUTION_FILTER_BIAS_EXT = 0x8015
-	CONVOLUTION_FILTER_SCALE_EXT = 0x8014
-	CONVOLUTION_FORMAT_EXT = 0x8017
-	CONVOLUTION_HEIGHT_EXT = 0x8019
-	CONVOLUTION_WIDTH_EXT = 0x8018
-	MAX_CONVOLUTION_HEIGHT_EXT = 0x801B
-	MAX_CONVOLUTION_WIDTH_EXT = 0x801A
-	POST_CONVOLUTION_ALPHA_BIAS_EXT = 0x8023
+	CONVOLUTION_1D_EXT               = 0x8010
+	CONVOLUTION_2D_EXT               = 0x8011
+	CONVOLUTION_BORDER_MODE_EXT      = 0x8013
+	CONVOLUTION_FILTER_BIAS_EXT      = 0x8015
+	CONVOLUTION_FILTER_SCALE_EXT     = 0x8014
+	CONVOLUTION_FORMAT_EXT           = 0x8017
+	CONVOLUTION_HEIGHT_EXT           = 0x8019
+	CONVOLUTION_WIDTH_EXT            = 0x8018
+	MAX_CONVOLUTION_HEIGHT_EXT       = 0x801B
+	MAX_CONVOLUTION_WIDTH_EXT        = 0x801A
+	POST_CONVOLUTION_ALPHA_BIAS_EXT  = 0x8023
 	POST_CONVOLUTION_ALPHA_SCALE_EXT = 0x801F
-	POST_CONVOLUTION_BLUE_BIAS_EXT = 0x8022
-	POST_CONVOLUTION_BLUE_SCALE_EXT = 0x801E
-	POST_CONVOLUTION_GREEN_BIAS_EXT = 0x8021
+	POST_CONVOLUTION_BLUE_BIAS_EXT   = 0x8022
+	POST_CONVOLUTION_BLUE_SCALE_EXT  = 0x801E
+	POST_CONVOLUTION_GREEN_BIAS_EXT  = 0x8021
 	POST_CONVOLUTION_GREEN_SCALE_EXT = 0x801D
-	POST_CONVOLUTION_RED_BIAS_EXT = 0x8020
-	POST_CONVOLUTION_RED_SCALE_EXT = 0x801C
-	REDUCE_EXT = 0x8016
-	SEPARABLE_2D_EXT = 0x8012
+	POST_CONVOLUTION_RED_BIAS_EXT    = 0x8020
+	POST_CONVOLUTION_RED_SCALE_EXT   = 0x801C
+	REDUCE_EXT                       = 0x8016
+	SEPARABLE_2D_EXT                 = 0x8012
 )
+
 // EXT_coordinate_frame
 const (
-	BINORMAL_ARRAY_EXT = 0x843A
+	BINORMAL_ARRAY_EXT         = 0x843A
 	BINORMAL_ARRAY_POINTER_EXT = 0x8443
-	BINORMAL_ARRAY_STRIDE_EXT = 0x8441
-	BINORMAL_ARRAY_TYPE_EXT = 0x8440
-	CURRENT_BINORMAL_EXT = 0x843C
-	CURRENT_TANGENT_EXT = 0x843B
-	MAP1_BINORMAL_EXT = 0x8446
-	MAP1_TANGENT_EXT = 0x8444
-	MAP2_BINORMAL_EXT = 0x8447
-	MAP2_TANGENT_EXT = 0x8445
-	TANGENT_ARRAY_EXT = 0x8439
-	TANGENT_ARRAY_POINTER_EXT = 0x8442
-	TANGENT_ARRAY_STRIDE_EXT = 0x843F
-	TANGENT_ARRAY_TYPE_EXT = 0x843E
+	BINORMAL_ARRAY_STRIDE_EXT  = 0x8441
+	BINORMAL_ARRAY_TYPE_EXT    = 0x8440
+	CURRENT_BINORMAL_EXT       = 0x843C
+	CURRENT_TANGENT_EXT        = 0x843B
+	MAP1_BINORMAL_EXT          = 0x8446
+	MAP1_TANGENT_EXT           = 0x8444
+	MAP2_BINORMAL_EXT          = 0x8447
+	MAP2_TANGENT_EXT           = 0x8445
+	TANGENT_ARRAY_EXT          = 0x8439
+	TANGENT_ARRAY_POINTER_EXT  = 0x8442
+	TANGENT_ARRAY_STRIDE_EXT   = 0x843F
+	TANGENT_ARRAY_TYPE_EXT     = 0x843E
 )
+
 // EXT_copy_texture
-const (
-)
+const ()
+
 // EXT_cull_vertex
 const (
-	CULL_VERTEX_EXT = 0x81AA
-	CULL_VERTEX_EYE_POSITION_EXT = 0x81AB
+	CULL_VERTEX_EXT                 = 0x81AA
+	CULL_VERTEX_EYE_POSITION_EXT    = 0x81AB
 	CULL_VERTEX_OBJECT_POSITION_EXT = 0x81AC
 )
+
 // EXT_depth_bounds_test
 const (
-	DEPTH_BOUNDS_EXT = 0x8891
+	DEPTH_BOUNDS_EXT      = 0x8891
 	DEPTH_BOUNDS_TEST_EXT = 0x8890
 )
+
 // EXT_direct_state_access
 const (
-	PROGRAM_MATRIX_EXT = 0x8E2D
+	PROGRAM_MATRIX_EXT             = 0x8E2D
 	PROGRAM_MATRIX_STACK_DEPTH_EXT = 0x8E2F
-	TRANSPOSE_PROGRAM_MATRIX_EXT = 0x8E2E
+	TRANSPOSE_PROGRAM_MATRIX_EXT   = 0x8E2E
 )
+
 // EXT_draw_buffers2
-const (
-)
+const ()
+
 // EXT_draw_instanced
-const (
-)
+const ()
+
 // EXT_draw_range_elements
 const (
-	MAX_ELEMENTS_INDICES_EXT = 0x80E9
+	MAX_ELEMENTS_INDICES_EXT  = 0x80E9
 	MAX_ELEMENTS_VERTICES_EXT = 0x80E8
 )
+
 // EXT_fog_coord
 const (
-	CURRENT_FOG_COORDINATE_EXT = 0x8453
-	FOG_COORDINATE_ARRAY_EXT = 0x8457
+	CURRENT_FOG_COORDINATE_EXT       = 0x8453
+	FOG_COORDINATE_ARRAY_EXT         = 0x8457
 	FOG_COORDINATE_ARRAY_POINTER_EXT = 0x8456
-	FOG_COORDINATE_ARRAY_STRIDE_EXT = 0x8455
-	FOG_COORDINATE_ARRAY_TYPE_EXT = 0x8454
-	FOG_COORDINATE_EXT = 0x8451
-	FOG_COORDINATE_SOURCE_EXT = 0x8450
+	FOG_COORDINATE_ARRAY_STRIDE_EXT  = 0x8455
+	FOG_COORDINATE_ARRAY_TYPE_EXT    = 0x8454
+	FOG_COORDINATE_EXT               = 0x8451
+	FOG_COORDINATE_SOURCE_EXT        = 0x8450
 )
+
 // EXT_framebuffer_blit
 const (
 	DRAW_FRAMEBUFFER_BINDING_EXT = 0x8CA6
-	DRAW_FRAMEBUFFER_EXT = 0x8CA9
+	DRAW_FRAMEBUFFER_EXT         = 0x8CA9
 	READ_FRAMEBUFFER_BINDING_EXT = 0x8CAA
-	READ_FRAMEBUFFER_EXT = 0x8CA8
+	READ_FRAMEBUFFER_EXT         = 0x8CA8
 )
+
 // EXT_framebuffer_multisample
 const (
 	FRAMEBUFFER_INCOMPLETE_MULTISAMPLE_EXT = 0x8D56
-	MAX_SAMPLES_EXT = 0x8D57
-	RENDERBUFFER_SAMPLES_EXT = 0x8CAB
+	MAX_SAMPLES_EXT                        = 0x8D57
+	RENDERBUFFER_SAMPLES_EXT               = 0x8CAB
 )
+
 // EXT_framebuffer_multisample_blit_scaled
 const (
 	SCALED_RESOLVE_FASTEST_EXT = 0x90BA
-	SCALED_RESOLVE_NICEST_EXT = 0x90BB
+	SCALED_RESOLVE_NICEST_EXT  = 0x90BB
 )
+
 // EXT_framebuffer_object
 const (
-	COLOR_ATTACHMENT0_EXT = 0x8CE0
-	COLOR_ATTACHMENT10_EXT = 0x8CEA
-	COLOR_ATTACHMENT11_EXT = 0x8CEB
-	COLOR_ATTACHMENT12_EXT = 0x8CEC
-	COLOR_ATTACHMENT13_EXT = 0x8CED
-	COLOR_ATTACHMENT14_EXT = 0x8CEE
-	COLOR_ATTACHMENT15_EXT = 0x8CEF
-	COLOR_ATTACHMENT1_EXT = 0x8CE1
-	COLOR_ATTACHMENT2_EXT = 0x8CE2
-	COLOR_ATTACHMENT3_EXT = 0x8CE3
-	COLOR_ATTACHMENT4_EXT = 0x8CE4
-	COLOR_ATTACHMENT5_EXT = 0x8CE5
-	COLOR_ATTACHMENT6_EXT = 0x8CE6
-	COLOR_ATTACHMENT7_EXT = 0x8CE7
-	COLOR_ATTACHMENT8_EXT = 0x8CE8
-	COLOR_ATTACHMENT9_EXT = 0x8CE9
-	DEPTH_ATTACHMENT_EXT = 0x8D00
-	FRAMEBUFFER_ATTACHMENT_OBJECT_NAME_EXT = 0x8CD1
-	FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE_EXT = 0x8CD0
-	FRAMEBUFFER_ATTACHMENT_TEXTURE_3D_ZOFFSET_EXT = 0x8CD4
+	COLOR_ATTACHMENT0_EXT                            = 0x8CE0
+	COLOR_ATTACHMENT10_EXT                           = 0x8CEA
+	COLOR_ATTACHMENT11_EXT                           = 0x8CEB
+	COLOR_ATTACHMENT12_EXT                           = 0x8CEC
+	COLOR_ATTACHMENT13_EXT                           = 0x8CED
+	COLOR_ATTACHMENT14_EXT                           = 0x8CEE
+	COLOR_ATTACHMENT15_EXT                           = 0x8CEF
+	COLOR_ATTACHMENT1_EXT                            = 0x8CE1
+	COLOR_ATTACHMENT2_EXT                            = 0x8CE2
+	COLOR_ATTACHMENT3_EXT                            = 0x8CE3
+	COLOR_ATTACHMENT4_EXT                            = 0x8CE4
+	COLOR_ATTACHMENT5_EXT                            = 0x8CE5
+	COLOR_ATTACHMENT6_EXT                            = 0x8CE6
+	COLOR_ATTACHMENT7_EXT                            = 0x8CE7
+	COLOR_ATTACHMENT8_EXT                            = 0x8CE8
+	COLOR_ATTACHMENT9_EXT                            = 0x8CE9
+	DEPTH_ATTACHMENT_EXT                             = 0x8D00
+	FRAMEBUFFER_ATTACHMENT_OBJECT_NAME_EXT           = 0x8CD1
+	FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE_EXT           = 0x8CD0
+	FRAMEBUFFER_ATTACHMENT_TEXTURE_3D_ZOFFSET_EXT    = 0x8CD4
 	FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE_EXT = 0x8CD3
-	FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL_EXT = 0x8CD2
-	FRAMEBUFFER_BINDING_EXT = 0x8CA6
-	FRAMEBUFFER_COMPLETE_EXT = 0x8CD5
-	FRAMEBUFFER_EXT = 0x8D40
-	FRAMEBUFFER_INCOMPLETE_ATTACHMENT_EXT = 0x8CD6
-	FRAMEBUFFER_INCOMPLETE_DIMENSIONS_EXT = 0x8CD9
-	FRAMEBUFFER_INCOMPLETE_DRAW_BUFFER_EXT = 0x8CDB
-	FRAMEBUFFER_INCOMPLETE_FORMATS_EXT = 0x8CDA
-	FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT_EXT = 0x8CD7
-	FRAMEBUFFER_INCOMPLETE_READ_BUFFER_EXT = 0x8CDC
-	FRAMEBUFFER_UNSUPPORTED_EXT = 0x8CDD
-	INVALID_FRAMEBUFFER_OPERATION_EXT = 0x0506
-	MAX_COLOR_ATTACHMENTS_EXT = 0x8CDF
-	MAX_RENDERBUFFER_SIZE_EXT = 0x84E8
-	RENDERBUFFER_ALPHA_SIZE_EXT = 0x8D53
-	RENDERBUFFER_BINDING_EXT = 0x8CA7
-	RENDERBUFFER_BLUE_SIZE_EXT = 0x8D52
-	RENDERBUFFER_DEPTH_SIZE_EXT = 0x8D54
-	RENDERBUFFER_EXT = 0x8D41
-	RENDERBUFFER_GREEN_SIZE_EXT = 0x8D51
-	RENDERBUFFER_HEIGHT_EXT = 0x8D43
-	RENDERBUFFER_INTERNAL_FORMAT_EXT = 0x8D44
-	RENDERBUFFER_RED_SIZE_EXT = 0x8D50
-	RENDERBUFFER_STENCIL_SIZE_EXT = 0x8D55
-	RENDERBUFFER_WIDTH_EXT = 0x8D42
-	STENCIL_ATTACHMENT_EXT = 0x8D20
-	STENCIL_INDEX16_EXT = 0x8D49
-	STENCIL_INDEX1_EXT = 0x8D46
-	STENCIL_INDEX4_EXT = 0x8D47
-	STENCIL_INDEX8_EXT = 0x8D48
+	FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL_EXT         = 0x8CD2
+	FRAMEBUFFER_BINDING_EXT                          = 0x8CA6
+	FRAMEBUFFER_COMPLETE_EXT                         = 0x8CD5
+	FRAMEBUFFER_EXT                                  = 0x8D40
+	FRAMEBUFFER_INCOMPLETE_ATTACHMENT_EXT            = 0x8CD6
+	FRAMEBUFFER_INCOMPLETE_DIMENSIONS_EXT            = 0x8CD9
+	FRAMEBUFFER_INCOMPLETE_DRAW_BUFFER_EXT           = 0x8CDB
+	FRAMEBUFFER_INCOMPLETE_FORMATS_EXT               = 0x8CDA
+	FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT_EXT    = 0x8CD7
+	FRAMEBUFFER_INCOMPLETE_READ_BUFFER_EXT           = 0x8CDC
+	FRAMEBUFFER_UNSUPPORTED_EXT                      = 0x8CDD
+	INVALID_FRAMEBUFFER_OPERATION_EXT                = 0x0506
+	MAX_COLOR_ATTACHMENTS_EXT                        = 0x8CDF
+	MAX_RENDERBUFFER_SIZE_EXT                        = 0x84E8
+	RENDERBUFFER_ALPHA_SIZE_EXT                      = 0x8D53
+	RENDERBUFFER_BINDING_EXT                         = 0x8CA7
+	RENDERBUFFER_BLUE_SIZE_EXT                       = 0x8D52
+	RENDERBUFFER_DEPTH_SIZE_EXT                      = 0x8D54
+	RENDERBUFFER_EXT                                 = 0x8D41
+	RENDERBUFFER_GREEN_SIZE_EXT                      = 0x8D51
+	RENDERBUFFER_HEIGHT_EXT                          = 0x8D43
+	RENDERBUFFER_INTERNAL_FORMAT_EXT                 = 0x8D44
+	RENDERBUFFER_RED_SIZE_EXT                        = 0x8D50
+	RENDERBUFFER_STENCIL_SIZE_EXT                    = 0x8D55
+	RENDERBUFFER_WIDTH_EXT                           = 0x8D42
+	STENCIL_ATTACHMENT_EXT                           = 0x8D20
+	STENCIL_INDEX16_EXT                              = 0x8D49
+	STENCIL_INDEX1_EXT                               = 0x8D46
+	STENCIL_INDEX4_EXT                               = 0x8D47
+	STENCIL_INDEX8_EXT                               = 0x8D48
 )
+
 // EXT_framebuffer_sRGB
 const (
 	FRAMEBUFFER_SRGB_CAPABLE_EXT = 0x8DBA
-	FRAMEBUFFER_SRGB_EXT = 0x8DB9
+	FRAMEBUFFER_SRGB_EXT         = 0x8DB9
 )
+
 // EXT_geometry_shader4
 const (
-	FRAMEBUFFER_ATTACHMENT_LAYERED_EXT = 0x8DA7
-	FRAMEBUFFER_INCOMPLETE_LAYER_COUNT_EXT = 0x8DA9
+	FRAMEBUFFER_ATTACHMENT_LAYERED_EXT       = 0x8DA7
+	FRAMEBUFFER_INCOMPLETE_LAYER_COUNT_EXT   = 0x8DA9
 	FRAMEBUFFER_INCOMPLETE_LAYER_TARGETS_EXT = 0x8DA8
-	GEOMETRY_INPUT_TYPE_EXT = 0x8DDB
-	GEOMETRY_OUTPUT_TYPE_EXT = 0x8DDC
-	GEOMETRY_SHADER_EXT = 0x8DD9
-	GEOMETRY_VERTICES_OUT_EXT = 0x8DDA
-	LINES_ADJACENCY_EXT = 0x000A
-	LINE_STRIP_ADJACENCY_EXT = 0x000B
-	MAX_GEOMETRY_OUTPUT_VERTICES_EXT = 0x8DE0
-	MAX_GEOMETRY_TEXTURE_IMAGE_UNITS_EXT = 0x8C29
+	GEOMETRY_INPUT_TYPE_EXT                  = 0x8DDB
+	GEOMETRY_OUTPUT_TYPE_EXT                 = 0x8DDC
+	GEOMETRY_SHADER_EXT                      = 0x8DD9
+	GEOMETRY_VERTICES_OUT_EXT                = 0x8DDA
+	LINES_ADJACENCY_EXT                      = 0x000A
+	LINE_STRIP_ADJACENCY_EXT                 = 0x000B
+	MAX_GEOMETRY_OUTPUT_VERTICES_EXT         = 0x8DE0
+	MAX_GEOMETRY_TEXTURE_IMAGE_UNITS_EXT     = 0x8C29
 	MAX_GEOMETRY_TOTAL_OUTPUT_COMPONENTS_EXT = 0x8DE1
-	MAX_GEOMETRY_UNIFORM_COMPONENTS_EXT = 0x8DDF
-	MAX_GEOMETRY_VARYING_COMPONENTS_EXT = 0x8DDD
-	MAX_VARYING_COMPONENTS_EXT = 0x8B4B
-	MAX_VERTEX_VARYING_COMPONENTS_EXT = 0x8DDE
-	PROGRAM_POINT_SIZE_EXT = 0x8642
-	TRIANGLES_ADJACENCY_EXT = 0x000C
-	TRIANGLE_STRIP_ADJACENCY_EXT = 0x000D
+	MAX_GEOMETRY_UNIFORM_COMPONENTS_EXT      = 0x8DDF
+	MAX_GEOMETRY_VARYING_COMPONENTS_EXT      = 0x8DDD
+	MAX_VARYING_COMPONENTS_EXT               = 0x8B4B
+	MAX_VERTEX_VARYING_COMPONENTS_EXT        = 0x8DDE
+	PROGRAM_POINT_SIZE_EXT                   = 0x8642
+	TRIANGLES_ADJACENCY_EXT                  = 0x000C
+	TRIANGLE_STRIP_ADJACENCY_EXT             = 0x000D
 )
+
 // EXT_gpu_program_parameters
-const (
-)
+const ()
+
 // EXT_gpu_shader4
 const (
-	INT_SAMPLER_1D_ARRAY_EXT = 0x8DCE
-	INT_SAMPLER_1D_EXT = 0x8DC9
-	INT_SAMPLER_2D_ARRAY_EXT = 0x8DCF
-	INT_SAMPLER_2D_EXT = 0x8DCA
-	INT_SAMPLER_2D_RECT_EXT = 0x8DCD
-	INT_SAMPLER_3D_EXT = 0x8DCB
-	INT_SAMPLER_BUFFER_EXT = 0x8DD0
-	INT_SAMPLER_CUBE_EXT = 0x8DCC
-	SAMPLER_1D_ARRAY_EXT = 0x8DC0
-	SAMPLER_1D_ARRAY_SHADOW_EXT = 0x8DC3
-	SAMPLER_2D_ARRAY_EXT = 0x8DC1
-	SAMPLER_2D_ARRAY_SHADOW_EXT = 0x8DC4
-	SAMPLER_BUFFER_EXT = 0x8DC2
-	SAMPLER_CUBE_SHADOW_EXT = 0x8DC5
+	INT_SAMPLER_1D_ARRAY_EXT          = 0x8DCE
+	INT_SAMPLER_1D_EXT                = 0x8DC9
+	INT_SAMPLER_2D_ARRAY_EXT          = 0x8DCF
+	INT_SAMPLER_2D_EXT                = 0x8DCA
+	INT_SAMPLER_2D_RECT_EXT           = 0x8DCD
+	INT_SAMPLER_3D_EXT                = 0x8DCB
+	INT_SAMPLER_BUFFER_EXT            = 0x8DD0
+	INT_SAMPLER_CUBE_EXT              = 0x8DCC
+	SAMPLER_1D_ARRAY_EXT              = 0x8DC0
+	SAMPLER_1D_ARRAY_SHADOW_EXT       = 0x8DC3
+	SAMPLER_2D_ARRAY_EXT              = 0x8DC1
+	SAMPLER_2D_ARRAY_SHADOW_EXT       = 0x8DC4
+	SAMPLER_BUFFER_EXT                = 0x8DC2
+	SAMPLER_CUBE_SHADOW_EXT           = 0x8DC5
 	UNSIGNED_INT_SAMPLER_1D_ARRAY_EXT = 0x8DD6
-	UNSIGNED_INT_SAMPLER_1D_EXT = 0x8DD1
+	UNSIGNED_INT_SAMPLER_1D_EXT       = 0x8DD1
 	UNSIGNED_INT_SAMPLER_2D_ARRAY_EXT = 0x8DD7
-	UNSIGNED_INT_SAMPLER_2D_EXT = 0x8DD2
-	UNSIGNED_INT_SAMPLER_2D_RECT_EXT = 0x8DD5
-	UNSIGNED_INT_SAMPLER_3D_EXT = 0x8DD3
-	UNSIGNED_INT_SAMPLER_BUFFER_EXT = 0x8DD8
-	UNSIGNED_INT_SAMPLER_CUBE_EXT = 0x8DD4
-	UNSIGNED_INT_VEC2_EXT = 0x8DC6
-	UNSIGNED_INT_VEC3_EXT = 0x8DC7
-	UNSIGNED_INT_VEC4_EXT = 0x8DC8
+	UNSIGNED_INT_SAMPLER_2D_EXT       = 0x8DD2
+	UNSIGNED_INT_SAMPLER_2D_RECT_EXT  = 0x8DD5
+	UNSIGNED_INT_SAMPLER_3D_EXT       = 0x8DD3
+	UNSIGNED_INT_SAMPLER_BUFFER_EXT   = 0x8DD8
+	UNSIGNED_INT_SAMPLER_CUBE_EXT     = 0x8DD4
+	UNSIGNED_INT_VEC2_EXT             = 0x8DC6
+	UNSIGNED_INT_VEC3_EXT             = 0x8DC7
+	UNSIGNED_INT_VEC4_EXT             = 0x8DC8
 )
+
 // EXT_histogram
 const (
-	HISTOGRAM_ALPHA_SIZE_EXT = 0x802B
-	HISTOGRAM_BLUE_SIZE_EXT = 0x802A
-	HISTOGRAM_EXT = 0x8024
-	HISTOGRAM_FORMAT_EXT = 0x8027
-	HISTOGRAM_GREEN_SIZE_EXT = 0x8029
+	HISTOGRAM_ALPHA_SIZE_EXT     = 0x802B
+	HISTOGRAM_BLUE_SIZE_EXT      = 0x802A
+	HISTOGRAM_EXT                = 0x8024
+	HISTOGRAM_FORMAT_EXT         = 0x8027
+	HISTOGRAM_GREEN_SIZE_EXT     = 0x8029
 	HISTOGRAM_LUMINANCE_SIZE_EXT = 0x802C
-	HISTOGRAM_RED_SIZE_EXT = 0x8028
-	HISTOGRAM_SINK_EXT = 0x802D
-	HISTOGRAM_WIDTH_EXT = 0x8026
-	MINMAX_EXT = 0x802E
-	MINMAX_FORMAT_EXT = 0x802F
-	MINMAX_SINK_EXT = 0x8030
-	PROXY_HISTOGRAM_EXT = 0x8025
-	TABLE_TOO_LARGE_EXT = 0x8031
+	HISTOGRAM_RED_SIZE_EXT       = 0x8028
+	HISTOGRAM_SINK_EXT           = 0x802D
+	HISTOGRAM_WIDTH_EXT          = 0x8026
+	MINMAX_EXT                   = 0x802E
+	MINMAX_FORMAT_EXT            = 0x802F
+	MINMAX_SINK_EXT              = 0x8030
+	PROXY_HISTOGRAM_EXT          = 0x8025
+	TABLE_TOO_LARGE_EXT          = 0x8031
 )
+
 // EXT_index_array_formats
 const (
-	IUI_N3F_V2F_EXT = 0x81AF
-	IUI_N3F_V3F_EXT = 0x81B0
-	IUI_V2F_EXT = 0x81AD
-	IUI_V3F_EXT = 0x81AE
+	IUI_N3F_V2F_EXT     = 0x81AF
+	IUI_N3F_V3F_EXT     = 0x81B0
+	IUI_V2F_EXT         = 0x81AD
+	IUI_V3F_EXT         = 0x81AE
 	T2F_IUI_N3F_V2F_EXT = 0x81B3
 	T2F_IUI_N3F_V3F_EXT = 0x81B4
-	T2F_IUI_V2F_EXT = 0x81B1
-	T2F_IUI_V3F_EXT = 0x81B2
+	T2F_IUI_V2F_EXT     = 0x81B1
+	T2F_IUI_V3F_EXT     = 0x81B2
 )
+
 // EXT_index_func
 const (
-	INDEX_TEST_EXT = 0x81B5
+	INDEX_TEST_EXT      = 0x81B5
 	INDEX_TEST_FUNC_EXT = 0x81B6
-	INDEX_TEST_REF_EXT = 0x81B7
+	INDEX_TEST_REF_EXT  = 0x81B7
 )
+
 // EXT_index_material
 const (
-	INDEX_MATERIAL_EXT = 0x81B8
-	INDEX_MATERIAL_FACE_EXT = 0x81BA
+	INDEX_MATERIAL_EXT           = 0x81B8
+	INDEX_MATERIAL_FACE_EXT      = 0x81BA
 	INDEX_MATERIAL_PARAMETER_EXT = 0x81B9
 )
+
 // EXT_index_texture
-const (
-)
+const ()
+
 // EXT_light_texture
 const (
-	ATTENUATION_EXT = 0x834D
-	FRAGMENT_COLOR_EXT = 0x834C
-	FRAGMENT_MATERIAL_EXT = 0x8349
-	FRAGMENT_NORMAL_EXT = 0x834A
-	SHADOW_ATTENUATION_EXT = 0x834E
-	TEXTURE_APPLICATION_MODE_EXT = 0x834F
-	TEXTURE_LIGHT_EXT = 0x8350
-	TEXTURE_MATERIAL_FACE_EXT = 0x8351
+	ATTENUATION_EXT                = 0x834D
+	FRAGMENT_COLOR_EXT             = 0x834C
+	FRAGMENT_MATERIAL_EXT          = 0x8349
+	FRAGMENT_NORMAL_EXT            = 0x834A
+	SHADOW_ATTENUATION_EXT         = 0x834E
+	TEXTURE_APPLICATION_MODE_EXT   = 0x834F
+	TEXTURE_LIGHT_EXT              = 0x8350
+	TEXTURE_MATERIAL_FACE_EXT      = 0x8351
 	TEXTURE_MATERIAL_PARAMETER_EXT = 0x8352
 )
+
 // EXT_misc_attribute
-const (
-)
+const ()
+
 // EXT_multi_draw_arrays
-const (
-)
+const ()
+
 // EXT_multisample
 const (
-	X1PASS_EXT = 0x80A1
-	X2PASS_0_EXT = 0x80A2
-	X2PASS_1_EXT = 0x80A3
-	X4PASS_0_EXT = 0x80A4
-	X4PASS_1_EXT = 0x80A5
-	X4PASS_2_EXT = 0x80A6
-	X4PASS_3_EXT = 0x80A7
-	MULTISAMPLE_BIT_EXT = 0x20000000
-	MULTISAMPLE_EXT = 0x809D
-	SAMPLES_EXT = 0x80A9
+	X1PASS_EXT               = 0x80A1
+	X2PASS_0_EXT             = 0x80A2
+	X2PASS_1_EXT             = 0x80A3
+	X4PASS_0_EXT             = 0x80A4
+	X4PASS_1_EXT             = 0x80A5
+	X4PASS_2_EXT             = 0x80A6
+	X4PASS_3_EXT             = 0x80A7
+	MULTISAMPLE_BIT_EXT      = 0x20000000
+	MULTISAMPLE_EXT          = 0x809D
+	SAMPLES_EXT              = 0x80A9
 	SAMPLE_ALPHA_TO_MASK_EXT = 0x809E
-	SAMPLE_ALPHA_TO_ONE_EXT = 0x809F
-	SAMPLE_BUFFERS_EXT = 0x80A8
-	SAMPLE_MASK_EXT = 0x80A0
-	SAMPLE_MASK_INVERT_EXT = 0x80AB
-	SAMPLE_MASK_VALUE_EXT = 0x80AA
-	SAMPLE_PATTERN_EXT = 0x80AC
+	SAMPLE_ALPHA_TO_ONE_EXT  = 0x809F
+	SAMPLE_BUFFERS_EXT       = 0x80A8
+	SAMPLE_MASK_EXT          = 0x80A0
+	SAMPLE_MASK_INVERT_EXT   = 0x80AB
+	SAMPLE_MASK_VALUE_EXT    = 0x80AA
+	SAMPLE_PATTERN_EXT       = 0x80AC
 )
+
 // EXT_packed_depth_stencil
 const (
-	DEPTH24_STENCIL8_EXT = 0x88F0
-	DEPTH_STENCIL_EXT = 0x84F9
+	DEPTH24_STENCIL8_EXT     = 0x88F0
+	DEPTH_STENCIL_EXT        = 0x84F9
 	TEXTURE_STENCIL_SIZE_EXT = 0x88F1
-	UNSIGNED_INT_24_8_EXT = 0x84FA
+	UNSIGNED_INT_24_8_EXT    = 0x84FA
 )
+
 // EXT_packed_float
 const (
-	R11F_G11F_B10F_EXT = 0x8C3A
-	RGBA_SIGNED_COMPONENTS_EXT = 0x8C3C
+	R11F_G11F_B10F_EXT               = 0x8C3A
+	RGBA_SIGNED_COMPONENTS_EXT       = 0x8C3C
 	UNSIGNED_INT_10F_11F_11F_REV_EXT = 0x8C3B
 )
+
 // EXT_packed_pixels
 const (
-	UNSIGNED_BYTE_3_3_2_EXT = 0x8032
+	UNSIGNED_BYTE_3_3_2_EXT     = 0x8032
 	UNSIGNED_INT_10_10_10_2_EXT = 0x8036
-	UNSIGNED_INT_8_8_8_8_EXT = 0x8035
-	UNSIGNED_SHORT_4_4_4_4_EXT = 0x8033
-	UNSIGNED_SHORT_5_5_5_1_EXT = 0x8034
+	UNSIGNED_INT_8_8_8_8_EXT    = 0x8035
+	UNSIGNED_SHORT_4_4_4_4_EXT  = 0x8033
+	UNSIGNED_SHORT_5_5_5_1_EXT  = 0x8034
 )
+
 // EXT_paletted_texture
 const (
-	COLOR_INDEX12_EXT = 0x80E6
-	COLOR_INDEX16_EXT = 0x80E7
-	COLOR_INDEX1_EXT = 0x80E2
-	COLOR_INDEX2_EXT = 0x80E3
-	COLOR_INDEX4_EXT = 0x80E4
-	COLOR_INDEX8_EXT = 0x80E5
+	COLOR_INDEX12_EXT      = 0x80E6
+	COLOR_INDEX16_EXT      = 0x80E7
+	COLOR_INDEX1_EXT       = 0x80E2
+	COLOR_INDEX2_EXT       = 0x80E3
+	COLOR_INDEX4_EXT       = 0x80E4
+	COLOR_INDEX8_EXT       = 0x80E5
 	TEXTURE_INDEX_SIZE_EXT = 0x80ED
 )
+
 // EXT_pixel_buffer_object
 const (
-	PIXEL_PACK_BUFFER_BINDING_EXT = 0x88ED
-	PIXEL_PACK_BUFFER_EXT = 0x88EB
+	PIXEL_PACK_BUFFER_BINDING_EXT   = 0x88ED
+	PIXEL_PACK_BUFFER_EXT           = 0x88EB
 	PIXEL_UNPACK_BUFFER_BINDING_EXT = 0x88EF
-	PIXEL_UNPACK_BUFFER_EXT = 0x88EC
+	PIXEL_UNPACK_BUFFER_EXT         = 0x88EC
 )
+
 // EXT_pixel_transform
 const (
-	AVERAGE_EXT = 0x8335
-	CUBIC_EXT = 0x8334
+	AVERAGE_EXT                            = 0x8335
+	CUBIC_EXT                              = 0x8334
 	MAX_PIXEL_TRANSFORM_2D_STACK_DEPTH_EXT = 0x8337
-	PIXEL_CUBIC_WEIGHT_EXT = 0x8333
-	PIXEL_MAG_FILTER_EXT = 0x8331
-	PIXEL_MIN_FILTER_EXT = 0x8332
-	PIXEL_TRANSFORM_2D_EXT = 0x8330
-	PIXEL_TRANSFORM_2D_MATRIX_EXT = 0x8338
-	PIXEL_TRANSFORM_2D_STACK_DEPTH_EXT = 0x8336
+	PIXEL_CUBIC_WEIGHT_EXT                 = 0x8333
+	PIXEL_MAG_FILTER_EXT                   = 0x8331
+	PIXEL_MIN_FILTER_EXT                   = 0x8332
+	PIXEL_TRANSFORM_2D_EXT                 = 0x8330
+	PIXEL_TRANSFORM_2D_MATRIX_EXT          = 0x8338
+	PIXEL_TRANSFORM_2D_STACK_DEPTH_EXT     = 0x8336
 )
+
 // EXT_pixel_transform_color_table
-const (
-)
+const ()
+
 // EXT_point_parameters
 const (
-	DISTANCE_ATTENUATION_EXT = 0x8129
+	DISTANCE_ATTENUATION_EXT      = 0x8129
 	POINT_FADE_THRESHOLD_SIZE_EXT = 0x8128
-	POINT_SIZE_MAX_EXT = 0x8127
-	POINT_SIZE_MIN_EXT = 0x8126
+	POINT_SIZE_MAX_EXT            = 0x8127
+	POINT_SIZE_MIN_EXT            = 0x8126
 )
+
 // EXT_polygon_offset
 const (
-	POLYGON_OFFSET_BIAS_EXT = 0x8039
-	POLYGON_OFFSET_EXT = 0x8037
+	POLYGON_OFFSET_BIAS_EXT   = 0x8039
+	POLYGON_OFFSET_EXT        = 0x8037
 	POLYGON_OFFSET_FACTOR_EXT = 0x8038
 )
+
 // EXT_provoking_vertex
 const (
-	FIRST_VERTEX_CONVENTION_EXT = 0x8E4D
-	LAST_VERTEX_CONVENTION_EXT = 0x8E4E
-	PROVOKING_VERTEX_EXT = 0x8E4F
+	FIRST_VERTEX_CONVENTION_EXT                  = 0x8E4D
+	LAST_VERTEX_CONVENTION_EXT                   = 0x8E4E
+	PROVOKING_VERTEX_EXT                         = 0x8E4F
 	QUADS_FOLLOW_PROVOKING_VERTEX_CONVENTION_EXT = 0x8E4C
 )
+
 // EXT_rescale_normal
 const (
 	RESCALE_NORMAL_EXT = 0x803A
 )
+
 // EXT_secondary_color
 const (
-	COLOR_SUM_EXT = 0x8458
-	CURRENT_SECONDARY_COLOR_EXT = 0x8459
-	SECONDARY_COLOR_ARRAY_EXT = 0x845E
+	COLOR_SUM_EXT                     = 0x8458
+	CURRENT_SECONDARY_COLOR_EXT       = 0x8459
+	SECONDARY_COLOR_ARRAY_EXT         = 0x845E
 	SECONDARY_COLOR_ARRAY_POINTER_EXT = 0x845D
-	SECONDARY_COLOR_ARRAY_SIZE_EXT = 0x845A
-	SECONDARY_COLOR_ARRAY_STRIDE_EXT = 0x845C
-	SECONDARY_COLOR_ARRAY_TYPE_EXT = 0x845B
+	SECONDARY_COLOR_ARRAY_SIZE_EXT    = 0x845A
+	SECONDARY_COLOR_ARRAY_STRIDE_EXT  = 0x845C
+	SECONDARY_COLOR_ARRAY_TYPE_EXT    = 0x845B
 )
+
 // EXT_separate_shader_objects
 const (
 	ACTIVE_PROGRAM_EXT = 0x8B8D
 )
+
 // EXT_separate_specular_color
 const (
 	LIGHT_MODEL_COLOR_CONTROL_EXT = 0x81F8
-	SEPARATE_SPECULAR_COLOR_EXT = 0x81FA
-	SINGLE_COLOR_EXT = 0x81F9
+	SEPARATE_SPECULAR_COLOR_EXT   = 0x81FA
+	SINGLE_COLOR_EXT              = 0x81F9
 )
+
 // EXT_shader_image_load_store
 const (
-	ALL_BARRIER_BITS_EXT = 0xFFFFFFFF
-	ATOMIC_COUNTER_BARRIER_BIT_EXT = 0x00001000
-	BUFFER_UPDATE_BARRIER_BIT_EXT = 0x00000200
-	COMMAND_BARRIER_BIT_EXT = 0x00000040
-	ELEMENT_ARRAY_BARRIER_BIT_EXT = 0x00000002
-	FRAMEBUFFER_BARRIER_BIT_EXT = 0x00000400
-	IMAGE_1D_ARRAY_EXT = 0x9052
-	IMAGE_1D_EXT = 0x904C
-	IMAGE_2D_ARRAY_EXT = 0x9053
-	IMAGE_2D_EXT = 0x904D
-	IMAGE_2D_MULTISAMPLE_ARRAY_EXT = 0x9056
-	IMAGE_2D_MULTISAMPLE_EXT = 0x9055
-	IMAGE_2D_RECT_EXT = 0x904F
-	IMAGE_3D_EXT = 0x904E
-	IMAGE_BINDING_ACCESS_EXT = 0x8F3E
-	IMAGE_BINDING_FORMAT_EXT = 0x906E
-	IMAGE_BINDING_LAYERED_EXT = 0x8F3C
-	IMAGE_BINDING_LAYER_EXT = 0x8F3D
-	IMAGE_BINDING_LEVEL_EXT = 0x8F3B
-	IMAGE_BINDING_NAME_EXT = 0x8F3A
-	IMAGE_BUFFER_EXT = 0x9051
-	IMAGE_CUBE_EXT = 0x9050
-	IMAGE_CUBE_MAP_ARRAY_EXT = 0x9054
-	INT_IMAGE_1D_ARRAY_EXT = 0x905D
-	INT_IMAGE_1D_EXT = 0x9057
-	INT_IMAGE_2D_ARRAY_EXT = 0x905E
-	INT_IMAGE_2D_EXT = 0x9058
-	INT_IMAGE_2D_MULTISAMPLE_ARRAY_EXT = 0x9061
-	INT_IMAGE_2D_MULTISAMPLE_EXT = 0x9060
-	INT_IMAGE_2D_RECT_EXT = 0x905A
-	INT_IMAGE_3D_EXT = 0x9059
-	INT_IMAGE_BUFFER_EXT = 0x905C
-	INT_IMAGE_CUBE_EXT = 0x905B
-	INT_IMAGE_CUBE_MAP_ARRAY_EXT = 0x905F
+	ALL_BARRIER_BITS_EXT                              = 0xFFFFFFFF
+	ATOMIC_COUNTER_BARRIER_BIT_EXT                    = 0x00001000
+	BUFFER_UPDATE_BARRIER_BIT_EXT                     = 0x00000200
+	COMMAND_BARRIER_BIT_EXT                           = 0x00000040
+	ELEMENT_ARRAY_BARRIER_BIT_EXT                     = 0x00000002
+	FRAMEBUFFER_BARRIER_BIT_EXT                       = 0x00000400
+	IMAGE_1D_ARRAY_EXT                                = 0x9052
+	IMAGE_1D_EXT                                      = 0x904C
+	IMAGE_2D_ARRAY_EXT                                = 0x9053
+	IMAGE_2D_EXT                                      = 0x904D
+	IMAGE_2D_MULTISAMPLE_ARRAY_EXT                    = 0x9056
+	IMAGE_2D_MULTISAMPLE_EXT                          = 0x9055
+	IMAGE_2D_RECT_EXT                                 = 0x904F
+	IMAGE_3D_EXT                                      = 0x904E
+	IMAGE_BINDING_ACCESS_EXT                          = 0x8F3E
+	IMAGE_BINDING_FORMAT_EXT                          = 0x906E
+	IMAGE_BINDING_LAYERED_EXT                         = 0x8F3C
+	IMAGE_BINDING_LAYER_EXT                           = 0x8F3D
+	IMAGE_BINDING_LEVEL_EXT                           = 0x8F3B
+	IMAGE_BINDING_NAME_EXT                            = 0x8F3A
+	IMAGE_BUFFER_EXT                                  = 0x9051
+	IMAGE_CUBE_EXT                                    = 0x9050
+	IMAGE_CUBE_MAP_ARRAY_EXT                          = 0x9054
+	INT_IMAGE_1D_ARRAY_EXT                            = 0x905D
+	INT_IMAGE_1D_EXT                                  = 0x9057
+	INT_IMAGE_2D_ARRAY_EXT                            = 0x905E
+	INT_IMAGE_2D_EXT                                  = 0x9058
+	INT_IMAGE_2D_MULTISAMPLE_ARRAY_EXT                = 0x9061
+	INT_IMAGE_2D_MULTISAMPLE_EXT                      = 0x9060
+	INT_IMAGE_2D_RECT_EXT                             = 0x905A
+	INT_IMAGE_3D_EXT                                  = 0x9059
+	INT_IMAGE_BUFFER_EXT                              = 0x905C
+	INT_IMAGE_CUBE_EXT                                = 0x905B
+	INT_IMAGE_CUBE_MAP_ARRAY_EXT                      = 0x905F
 	MAX_COMBINED_IMAGE_UNITS_AND_FRAGMENT_OUTPUTS_EXT = 0x8F39
-	MAX_IMAGE_SAMPLES_EXT = 0x906D
-	MAX_IMAGE_UNITS_EXT = 0x8F38
-	PIXEL_BUFFER_BARRIER_BIT_EXT = 0x00000080
-	SHADER_IMAGE_ACCESS_BARRIER_BIT_EXT = 0x00000020
-	TEXTURE_FETCH_BARRIER_BIT_EXT = 0x00000008
-	TEXTURE_UPDATE_BARRIER_BIT_EXT = 0x00000100
-	TRANSFORM_FEEDBACK_BARRIER_BIT_EXT = 0x00000800
-	UNIFORM_BARRIER_BIT_EXT = 0x00000004
-	UNSIGNED_INT_IMAGE_1D_ARRAY_EXT = 0x9068
-	UNSIGNED_INT_IMAGE_1D_EXT = 0x9062
-	UNSIGNED_INT_IMAGE_2D_ARRAY_EXT = 0x9069
-	UNSIGNED_INT_IMAGE_2D_EXT = 0x9063
-	UNSIGNED_INT_IMAGE_2D_MULTISAMPLE_ARRAY_EXT = 0x906C
-	UNSIGNED_INT_IMAGE_2D_MULTISAMPLE_EXT = 0x906B
-	UNSIGNED_INT_IMAGE_2D_RECT_EXT = 0x9065
-	UNSIGNED_INT_IMAGE_3D_EXT = 0x9064
-	UNSIGNED_INT_IMAGE_BUFFER_EXT = 0x9067
-	UNSIGNED_INT_IMAGE_CUBE_EXT = 0x9066
-	UNSIGNED_INT_IMAGE_CUBE_MAP_ARRAY_EXT = 0x906A
-	VERTEX_ATTRIB_ARRAY_BARRIER_BIT_EXT = 0x00000001
+	MAX_IMAGE_SAMPLES_EXT                             = 0x906D
+	MAX_IMAGE_UNITS_EXT                               = 0x8F38
+	PIXEL_BUFFER_BARRIER_BIT_EXT                      = 0x00000080
+	SHADER_IMAGE_ACCESS_BARRIER_BIT_EXT               = 0x00000020
+	TEXTURE_FETCH_BARRIER_BIT_EXT                     = 0x00000008
+	TEXTURE_UPDATE_BARRIER_BIT_EXT                    = 0x00000100
+	TRANSFORM_FEEDBACK_BARRIER_BIT_EXT                = 0x00000800
+	UNIFORM_BARRIER_BIT_EXT                           = 0x00000004
+	UNSIGNED_INT_IMAGE_1D_ARRAY_EXT                   = 0x9068
+	UNSIGNED_INT_IMAGE_1D_EXT                         = 0x9062
+	UNSIGNED_INT_IMAGE_2D_ARRAY_EXT                   = 0x9069
+	UNSIGNED_INT_IMAGE_2D_EXT                         = 0x9063
+	UNSIGNED_INT_IMAGE_2D_MULTISAMPLE_ARRAY_EXT       = 0x906C
+	UNSIGNED_INT_IMAGE_2D_MULTISAMPLE_EXT             = 0x906B
+	UNSIGNED_INT_IMAGE_2D_RECT_EXT                    = 0x9065
+	UNSIGNED_INT_IMAGE_3D_EXT                         = 0x9064
+	UNSIGNED_INT_IMAGE_BUFFER_EXT                     = 0x9067
+	UNSIGNED_INT_IMAGE_CUBE_EXT                       = 0x9066
+	UNSIGNED_INT_IMAGE_CUBE_MAP_ARRAY_EXT             = 0x906A
+	VERTEX_ATTRIB_ARRAY_BARRIER_BIT_EXT               = 0x00000001
 )
+
 // EXT_shadow_funcs
-const (
-)
+const ()
+
 // EXT_shared_texture_palette
 const (
 	SHARED_TEXTURE_PALETTE_EXT = 0x81FB
 )
+
 // EXT_stencil_clear_tag
 const (
 	STENCIL_CLEAR_TAG_VALUE_EXT = 0x88F3
-	STENCIL_TAG_BITS_EXT = 0x88F2
+	STENCIL_TAG_BITS_EXT        = 0x88F2
 )
+
 // EXT_stencil_two_side
 const (
-	ACTIVE_STENCIL_FACE_EXT = 0x8911
+	ACTIVE_STENCIL_FACE_EXT   = 0x8911
 	STENCIL_TEST_TWO_SIDE_EXT = 0x8910
 )
+
 // EXT_stencil_wrap
 const (
 	DECR_WRAP_EXT = 0x8508
 	INCR_WRAP_EXT = 0x8507
 )
+
 // EXT_subtexture
-const (
-)
+const ()
+
 // EXT_texture
 const (
-	ALPHA12_EXT = 0x803D
-	ALPHA16_EXT = 0x803E
-	ALPHA4_EXT = 0x803B
-	ALPHA8_EXT = 0x803C
-	INTENSITY12_EXT = 0x804C
-	INTENSITY16_EXT = 0x804D
-	INTENSITY4_EXT = 0x804A
-	INTENSITY8_EXT = 0x804B
-	INTENSITY_EXT = 0x8049
-	LUMINANCE12_ALPHA12_EXT = 0x8047
-	LUMINANCE12_ALPHA4_EXT = 0x8046
-	LUMINANCE12_EXT = 0x8041
-	LUMINANCE16_ALPHA16_EXT = 0x8048
-	LUMINANCE16_EXT = 0x8042
-	LUMINANCE4_ALPHA4_EXT = 0x8043
-	LUMINANCE4_EXT = 0x803F
-	LUMINANCE6_ALPHA2_EXT = 0x8044
-	LUMINANCE8_ALPHA8_EXT = 0x8045
-	LUMINANCE8_EXT = 0x8040
-	PROXY_TEXTURE_1D_EXT = 0x8063
-	PROXY_TEXTURE_2D_EXT = 0x8064
-	REPLACE_EXT = 0x8062
-	RGB10_A2_EXT = 0x8059
-	RGB10_EXT = 0x8052
-	RGB12_EXT = 0x8053
-	RGB16_EXT = 0x8054
-	RGB2_EXT = 0x804E
-	RGB4_EXT = 0x804F
-	RGB5_A1_EXT = 0x8057
-	RGB5_EXT = 0x8050
-	RGB8_EXT = 0x8051
-	RGBA12_EXT = 0x805A
-	RGBA16_EXT = 0x805B
-	RGBA2_EXT = 0x8055
-	RGBA4_EXT = 0x8056
-	RGBA8_EXT = 0x8058
-	TEXTURE_ALPHA_SIZE_EXT = 0x805F
-	TEXTURE_BLUE_SIZE_EXT = 0x805E
-	TEXTURE_GREEN_SIZE_EXT = 0x805D
+	ALPHA12_EXT                = 0x803D
+	ALPHA16_EXT                = 0x803E
+	ALPHA4_EXT                 = 0x803B
+	ALPHA8_EXT                 = 0x803C
+	INTENSITY12_EXT            = 0x804C
+	INTENSITY16_EXT            = 0x804D
+	INTENSITY4_EXT             = 0x804A
+	INTENSITY8_EXT             = 0x804B
+	INTENSITY_EXT              = 0x8049
+	LUMINANCE12_ALPHA12_EXT    = 0x8047
+	LUMINANCE12_ALPHA4_EXT     = 0x8046
+	LUMINANCE12_EXT            = 0x8041
+	LUMINANCE16_ALPHA16_EXT    = 0x8048
+	LUMINANCE16_EXT            = 0x8042
+	LUMINANCE4_ALPHA4_EXT      = 0x8043
+	LUMINANCE4_EXT             = 0x803F
+	LUMINANCE6_ALPHA2_EXT      = 0x8044
+	LUMINANCE8_ALPHA8_EXT      = 0x8045
+	LUMINANCE8_EXT             = 0x8040
+	PROXY_TEXTURE_1D_EXT       = 0x8063
+	PROXY_TEXTURE_2D_EXT       = 0x8064
+	REPLACE_EXT                = 0x8062
+	RGB10_A2_EXT               = 0x8059
+	RGB10_EXT                  = 0x8052
+	RGB12_EXT                  = 0x8053
+	RGB16_EXT                  = 0x8054
+	RGB2_EXT                   = 0x804E
+	RGB4_EXT                   = 0x804F
+	RGB5_A1_EXT                = 0x8057
+	RGB5_EXT                   = 0x8050
+	RGB8_EXT                   = 0x8051
+	RGBA12_EXT                 = 0x805A
+	RGBA16_EXT                 = 0x805B
+	RGBA2_EXT                  = 0x8055
+	RGBA4_EXT                  = 0x8056
+	RGBA8_EXT                  = 0x8058
+	TEXTURE_ALPHA_SIZE_EXT     = 0x805F
+	TEXTURE_BLUE_SIZE_EXT      = 0x805E
+	TEXTURE_GREEN_SIZE_EXT     = 0x805D
 	TEXTURE_INTENSITY_SIZE_EXT = 0x8061
 	TEXTURE_LUMINANCE_SIZE_EXT = 0x8060
-	TEXTURE_RED_SIZE_EXT = 0x805C
-	TEXTURE_TOO_LARGE_EXT = 0x8065
+	TEXTURE_RED_SIZE_EXT       = 0x805C
+	TEXTURE_TOO_LARGE_EXT      = 0x8065
 )
+
 // EXT_texture3D
 const (
 	MAX_3D_TEXTURE_SIZE_EXT = 0x8073
-	PACK_IMAGE_HEIGHT_EXT = 0x806C
-	PACK_SKIP_IMAGES_EXT = 0x806B
-	PROXY_TEXTURE_3D_EXT = 0x8070
-	TEXTURE_3D_EXT = 0x806F
-	TEXTURE_DEPTH_EXT = 0x8071
-	TEXTURE_WRAP_R_EXT = 0x8072
+	PACK_IMAGE_HEIGHT_EXT   = 0x806C
+	PACK_SKIP_IMAGES_EXT    = 0x806B
+	PROXY_TEXTURE_3D_EXT    = 0x8070
+	TEXTURE_3D_EXT          = 0x806F
+	TEXTURE_DEPTH_EXT       = 0x8071
+	TEXTURE_WRAP_R_EXT      = 0x8072
 	UNPACK_IMAGE_HEIGHT_EXT = 0x806E
-	UNPACK_SKIP_IMAGES_EXT = 0x806D
+	UNPACK_SKIP_IMAGES_EXT  = 0x806D
 )
+
 // EXT_texture_array
 const (
 	COMPARE_REF_DEPTH_TO_TEXTURE_EXT = 0x884E
-	MAX_ARRAY_TEXTURE_LAYERS_EXT = 0x88FF
-	PROXY_TEXTURE_1D_ARRAY_EXT = 0x8C19
-	PROXY_TEXTURE_2D_ARRAY_EXT = 0x8C1B
-	TEXTURE_1D_ARRAY_EXT = 0x8C18
-	TEXTURE_2D_ARRAY_EXT = 0x8C1A
-	TEXTURE_BINDING_1D_ARRAY_EXT = 0x8C1C
-	TEXTURE_BINDING_2D_ARRAY_EXT = 0x8C1D
+	MAX_ARRAY_TEXTURE_LAYERS_EXT     = 0x88FF
+	PROXY_TEXTURE_1D_ARRAY_EXT       = 0x8C19
+	PROXY_TEXTURE_2D_ARRAY_EXT       = 0x8C1B
+	TEXTURE_1D_ARRAY_EXT             = 0x8C18
+	TEXTURE_2D_ARRAY_EXT             = 0x8C1A
+	TEXTURE_BINDING_1D_ARRAY_EXT     = 0x8C1C
+	TEXTURE_BINDING_2D_ARRAY_EXT     = 0x8C1D
 )
+
 // EXT_texture_buffer_object
 const (
-	MAX_TEXTURE_BUFFER_SIZE_EXT = 0x8C2B
-	TEXTURE_BINDING_BUFFER_EXT = 0x8C2C
+	MAX_TEXTURE_BUFFER_SIZE_EXT           = 0x8C2B
+	TEXTURE_BINDING_BUFFER_EXT            = 0x8C2C
 	TEXTURE_BUFFER_DATA_STORE_BINDING_EXT = 0x8C2D
-	TEXTURE_BUFFER_EXT = 0x8C2A
-	TEXTURE_BUFFER_FORMAT_EXT = 0x8C2E
+	TEXTURE_BUFFER_EXT                    = 0x8C2A
+	TEXTURE_BUFFER_FORMAT_EXT             = 0x8C2E
 )
+
 // EXT_texture_compression_latc
 const (
-	COMPRESSED_LUMINANCE_ALPHA_LATC2_EXT = 0x8C72
-	COMPRESSED_LUMINANCE_LATC1_EXT = 0x8C70
+	COMPRESSED_LUMINANCE_ALPHA_LATC2_EXT        = 0x8C72
+	COMPRESSED_LUMINANCE_LATC1_EXT              = 0x8C70
 	COMPRESSED_SIGNED_LUMINANCE_ALPHA_LATC2_EXT = 0x8C73
-	COMPRESSED_SIGNED_LUMINANCE_LATC1_EXT = 0x8C71
+	COMPRESSED_SIGNED_LUMINANCE_LATC1_EXT       = 0x8C71
 )
+
 // EXT_texture_compression_rgtc
 const (
-	COMPRESSED_RED_GREEN_RGTC2_EXT = 0x8DBD
-	COMPRESSED_RED_RGTC1_EXT = 0x8DBB
+	COMPRESSED_RED_GREEN_RGTC2_EXT        = 0x8DBD
+	COMPRESSED_RED_RGTC1_EXT              = 0x8DBB
 	COMPRESSED_SIGNED_RED_GREEN_RGTC2_EXT = 0x8DBE
-	COMPRESSED_SIGNED_RED_RGTC1_EXT = 0x8DBC
+	COMPRESSED_SIGNED_RED_RGTC1_EXT       = 0x8DBC
 )
+
 // EXT_texture_compression_s3tc
 const (
 	COMPRESSED_RGBA_S3TC_DXT1_EXT = 0x83F1
 	COMPRESSED_RGBA_S3TC_DXT3_EXT = 0x83F2
 	COMPRESSED_RGBA_S3TC_DXT5_EXT = 0x83F3
-	COMPRESSED_RGB_S3TC_DXT1_EXT = 0x83F0
+	COMPRESSED_RGB_S3TC_DXT1_EXT  = 0x83F0
 )
+
 // EXT_texture_cube_map
 const (
-	MAX_CUBE_MAP_TEXTURE_SIZE_EXT = 0x851C
-	NORMAL_MAP_EXT = 0x8511
-	PROXY_TEXTURE_CUBE_MAP_EXT = 0x851B
-	REFLECTION_MAP_EXT = 0x8512
-	TEXTURE_BINDING_CUBE_MAP_EXT = 0x8514
-	TEXTURE_CUBE_MAP_EXT = 0x8513
+	MAX_CUBE_MAP_TEXTURE_SIZE_EXT   = 0x851C
+	NORMAL_MAP_EXT                  = 0x8511
+	PROXY_TEXTURE_CUBE_MAP_EXT      = 0x851B
+	REFLECTION_MAP_EXT              = 0x8512
+	TEXTURE_BINDING_CUBE_MAP_EXT    = 0x8514
+	TEXTURE_CUBE_MAP_EXT            = 0x8513
 	TEXTURE_CUBE_MAP_NEGATIVE_X_EXT = 0x8516
 	TEXTURE_CUBE_MAP_NEGATIVE_Y_EXT = 0x8518
 	TEXTURE_CUBE_MAP_NEGATIVE_Z_EXT = 0x851A
@@ -4379,395 +4436,417 @@ const (
 	TEXTURE_CUBE_MAP_POSITIVE_Y_EXT = 0x8517
 	TEXTURE_CUBE_MAP_POSITIVE_Z_EXT = 0x8519
 )
+
 // EXT_texture_env_add
-const (
-)
+const ()
+
 // EXT_texture_env_combine
 const (
-	ADD_SIGNED_EXT = 0x8574
-	COMBINE_ALPHA_EXT = 0x8572
-	COMBINE_EXT = 0x8570
-	COMBINE_RGB_EXT = 0x8571
-	CONSTANT_EXT = 0x8576
-	INTERPOLATE_EXT = 0x8575
+	ADD_SIGNED_EXT     = 0x8574
+	COMBINE_ALPHA_EXT  = 0x8572
+	COMBINE_EXT        = 0x8570
+	COMBINE_RGB_EXT    = 0x8571
+	CONSTANT_EXT       = 0x8576
+	INTERPOLATE_EXT    = 0x8575
 	OPERAND0_ALPHA_EXT = 0x8598
-	OPERAND0_RGB_EXT = 0x8590
+	OPERAND0_RGB_EXT   = 0x8590
 	OPERAND1_ALPHA_EXT = 0x8599
-	OPERAND1_RGB_EXT = 0x8591
+	OPERAND1_RGB_EXT   = 0x8591
 	OPERAND2_ALPHA_EXT = 0x859A
-	OPERAND2_RGB_EXT = 0x8592
-	PREVIOUS_EXT = 0x8578
-	PRIMARY_COLOR_EXT = 0x8577
-	RGB_SCALE_EXT = 0x8573
-	SOURCE0_ALPHA_EXT = 0x8588
-	SOURCE0_RGB_EXT = 0x8580
-	SOURCE1_ALPHA_EXT = 0x8589
-	SOURCE1_RGB_EXT = 0x8581
-	SOURCE2_ALPHA_EXT = 0x858A
-	SOURCE2_RGB_EXT = 0x8582
+	OPERAND2_RGB_EXT   = 0x8592
+	PREVIOUS_EXT       = 0x8578
+	PRIMARY_COLOR_EXT  = 0x8577
+	RGB_SCALE_EXT      = 0x8573
+	SOURCE0_ALPHA_EXT  = 0x8588
+	SOURCE0_RGB_EXT    = 0x8580
+	SOURCE1_ALPHA_EXT  = 0x8589
+	SOURCE1_RGB_EXT    = 0x8581
+	SOURCE2_ALPHA_EXT  = 0x858A
+	SOURCE2_RGB_EXT    = 0x8582
 )
+
 // EXT_texture_env_dot3
 const (
 	DOT3_RGBA_EXT = 0x8741
-	DOT3_RGB_EXT = 0x8740
+	DOT3_RGB_EXT  = 0x8740
 )
+
 // EXT_texture_filter_anisotropic
 const (
 	MAX_TEXTURE_MAX_ANISOTROPY_EXT = 0x84FF
-	TEXTURE_MAX_ANISOTROPY_EXT = 0x84FE
+	TEXTURE_MAX_ANISOTROPY_EXT     = 0x84FE
 )
+
 // EXT_texture_integer
 const (
-	ALPHA16I_EXT = 0x8D8A
-	ALPHA16UI_EXT = 0x8D78
-	ALPHA32I_EXT = 0x8D84
-	ALPHA32UI_EXT = 0x8D72
-	ALPHA8I_EXT = 0x8D90
-	ALPHA8UI_EXT = 0x8D7E
-	ALPHA_INTEGER_EXT = 0x8D97
-	BGRA_INTEGER_EXT = 0x8D9B
-	BGR_INTEGER_EXT = 0x8D9A
-	BLUE_INTEGER_EXT = 0x8D96
-	GREEN_INTEGER_EXT = 0x8D95
-	INTENSITY16I_EXT = 0x8D8B
-	INTENSITY16UI_EXT = 0x8D79
-	INTENSITY32I_EXT = 0x8D85
-	INTENSITY32UI_EXT = 0x8D73
-	INTENSITY8I_EXT = 0x8D91
-	INTENSITY8UI_EXT = 0x8D7F
-	LUMINANCE16I_EXT = 0x8D8C
-	LUMINANCE16UI_EXT = 0x8D7A
-	LUMINANCE32I_EXT = 0x8D86
-	LUMINANCE32UI_EXT = 0x8D74
-	LUMINANCE8I_EXT = 0x8D92
-	LUMINANCE8UI_EXT = 0x8D80
-	LUMINANCE_ALPHA16I_EXT = 0x8D8D
-	LUMINANCE_ALPHA16UI_EXT = 0x8D7B
-	LUMINANCE_ALPHA32I_EXT = 0x8D87
-	LUMINANCE_ALPHA32UI_EXT = 0x8D75
-	LUMINANCE_ALPHA8I_EXT = 0x8D93
-	LUMINANCE_ALPHA8UI_EXT = 0x8D81
+	ALPHA16I_EXT                = 0x8D8A
+	ALPHA16UI_EXT               = 0x8D78
+	ALPHA32I_EXT                = 0x8D84
+	ALPHA32UI_EXT               = 0x8D72
+	ALPHA8I_EXT                 = 0x8D90
+	ALPHA8UI_EXT                = 0x8D7E
+	ALPHA_INTEGER_EXT           = 0x8D97
+	BGRA_INTEGER_EXT            = 0x8D9B
+	BGR_INTEGER_EXT             = 0x8D9A
+	BLUE_INTEGER_EXT            = 0x8D96
+	GREEN_INTEGER_EXT           = 0x8D95
+	INTENSITY16I_EXT            = 0x8D8B
+	INTENSITY16UI_EXT           = 0x8D79
+	INTENSITY32I_EXT            = 0x8D85
+	INTENSITY32UI_EXT           = 0x8D73
+	INTENSITY8I_EXT             = 0x8D91
+	INTENSITY8UI_EXT            = 0x8D7F
+	LUMINANCE16I_EXT            = 0x8D8C
+	LUMINANCE16UI_EXT           = 0x8D7A
+	LUMINANCE32I_EXT            = 0x8D86
+	LUMINANCE32UI_EXT           = 0x8D74
+	LUMINANCE8I_EXT             = 0x8D92
+	LUMINANCE8UI_EXT            = 0x8D80
+	LUMINANCE_ALPHA16I_EXT      = 0x8D8D
+	LUMINANCE_ALPHA16UI_EXT     = 0x8D7B
+	LUMINANCE_ALPHA32I_EXT      = 0x8D87
+	LUMINANCE_ALPHA32UI_EXT     = 0x8D75
+	LUMINANCE_ALPHA8I_EXT       = 0x8D93
+	LUMINANCE_ALPHA8UI_EXT      = 0x8D81
 	LUMINANCE_ALPHA_INTEGER_EXT = 0x8D9D
-	LUMINANCE_INTEGER_EXT = 0x8D9C
-	RED_INTEGER_EXT = 0x8D94
-	RGB16I_EXT = 0x8D89
-	RGB16UI_EXT = 0x8D77
-	RGB32I_EXT = 0x8D83
-	RGB32UI_EXT = 0x8D71
-	RGB8I_EXT = 0x8D8F
-	RGB8UI_EXT = 0x8D7D
-	RGBA16I_EXT = 0x8D88
-	RGBA16UI_EXT = 0x8D76
-	RGBA32I_EXT = 0x8D82
-	RGBA32UI_EXT = 0x8D70
-	RGBA8I_EXT = 0x8D8E
-	RGBA8UI_EXT = 0x8D7C
-	RGBA_INTEGER_EXT = 0x8D99
-	RGBA_INTEGER_MODE_EXT = 0x8D9E
-	RGB_INTEGER_EXT = 0x8D98
+	LUMINANCE_INTEGER_EXT       = 0x8D9C
+	RED_INTEGER_EXT             = 0x8D94
+	RGB16I_EXT                  = 0x8D89
+	RGB16UI_EXT                 = 0x8D77
+	RGB32I_EXT                  = 0x8D83
+	RGB32UI_EXT                 = 0x8D71
+	RGB8I_EXT                   = 0x8D8F
+	RGB8UI_EXT                  = 0x8D7D
+	RGBA16I_EXT                 = 0x8D88
+	RGBA16UI_EXT                = 0x8D76
+	RGBA32I_EXT                 = 0x8D82
+	RGBA32UI_EXT                = 0x8D70
+	RGBA8I_EXT                  = 0x8D8E
+	RGBA8UI_EXT                 = 0x8D7C
+	RGBA_INTEGER_EXT            = 0x8D99
+	RGBA_INTEGER_MODE_EXT       = 0x8D9E
+	RGB_INTEGER_EXT             = 0x8D98
 )
+
 // EXT_texture_lod_bias
 const (
-	MAX_TEXTURE_LOD_BIAS_EXT = 0x84FD
+	MAX_TEXTURE_LOD_BIAS_EXT   = 0x84FD
 	TEXTURE_FILTER_CONTROL_EXT = 0x8500
-	TEXTURE_LOD_BIAS_EXT = 0x8501
+	TEXTURE_LOD_BIAS_EXT       = 0x8501
 )
+
 // EXT_texture_mirror_clamp
 const (
-	MIRROR_CLAMP_EXT = 0x8742
+	MIRROR_CLAMP_EXT           = 0x8742
 	MIRROR_CLAMP_TO_BORDER_EXT = 0x8912
-	MIRROR_CLAMP_TO_EDGE_EXT = 0x8743
+	MIRROR_CLAMP_TO_EDGE_EXT   = 0x8743
 )
+
 // EXT_texture_object
 const (
 	TEXTURE_1D_BINDING_EXT = 0x8068
 	TEXTURE_2D_BINDING_EXT = 0x8069
 	TEXTURE_3D_BINDING_EXT = 0x806A
-	TEXTURE_PRIORITY_EXT = 0x8066
-	TEXTURE_RESIDENT_EXT = 0x8067
+	TEXTURE_PRIORITY_EXT   = 0x8066
+	TEXTURE_RESIDENT_EXT   = 0x8067
 )
+
 // EXT_texture_perturb_normal
 const (
-	PERTURB_EXT = 0x85AE
+	PERTURB_EXT        = 0x85AE
 	TEXTURE_NORMAL_EXT = 0x85AF
 )
+
 // EXT_texture_sRGB
 const (
-	COMPRESSED_SLUMINANCE_ALPHA_EXT = 0x8C4B
-	COMPRESSED_SLUMINANCE_EXT = 0x8C4A
-	COMPRESSED_SRGB_ALPHA_EXT = 0x8C49
+	COMPRESSED_SLUMINANCE_ALPHA_EXT     = 0x8C4B
+	COMPRESSED_SLUMINANCE_EXT           = 0x8C4A
+	COMPRESSED_SRGB_ALPHA_EXT           = 0x8C49
 	COMPRESSED_SRGB_ALPHA_S3TC_DXT1_EXT = 0x8C4D
 	COMPRESSED_SRGB_ALPHA_S3TC_DXT3_EXT = 0x8C4E
 	COMPRESSED_SRGB_ALPHA_S3TC_DXT5_EXT = 0x8C4F
-	COMPRESSED_SRGB_EXT = 0x8C48
-	COMPRESSED_SRGB_S3TC_DXT1_EXT = 0x8C4C
-	SLUMINANCE8_ALPHA8_EXT = 0x8C45
-	SLUMINANCE8_EXT = 0x8C47
-	SLUMINANCE_ALPHA_EXT = 0x8C44
-	SLUMINANCE_EXT = 0x8C46
-	SRGB8_ALPHA8_EXT = 0x8C43
-	SRGB8_EXT = 0x8C41
-	SRGB_ALPHA_EXT = 0x8C42
-	SRGB_EXT = 0x8C40
+	COMPRESSED_SRGB_EXT                 = 0x8C48
+	COMPRESSED_SRGB_S3TC_DXT1_EXT       = 0x8C4C
+	SLUMINANCE8_ALPHA8_EXT              = 0x8C45
+	SLUMINANCE8_EXT                     = 0x8C47
+	SLUMINANCE_ALPHA_EXT                = 0x8C44
+	SLUMINANCE_EXT                      = 0x8C46
+	SRGB8_ALPHA8_EXT                    = 0x8C43
+	SRGB8_EXT                           = 0x8C41
+	SRGB_ALPHA_EXT                      = 0x8C42
+	SRGB_EXT                            = 0x8C40
 )
+
 // EXT_texture_sRGB_decode
 const (
-	DECODE_EXT = 0x8A49
-	SKIP_DECODE_EXT = 0x8A4A
+	DECODE_EXT              = 0x8A49
+	SKIP_DECODE_EXT         = 0x8A4A
 	TEXTURE_SRGB_DECODE_EXT = 0x8A48
 )
+
 // EXT_texture_shared_exponent
 const (
-	RGB9_E5_EXT = 0x8C3D
-	TEXTURE_SHARED_SIZE_EXT = 0x8C3F
+	RGB9_E5_EXT                  = 0x8C3D
+	TEXTURE_SHARED_SIZE_EXT      = 0x8C3F
 	UNSIGNED_INT_5_9_9_9_REV_EXT = 0x8C3E
 )
+
 // EXT_texture_snorm
 const (
-	ALPHA16_SNORM = 0x9018
-	ALPHA8_SNORM = 0x9014
-	ALPHA_SNORM = 0x9010
-	INTENSITY16_SNORM = 0x901B
-	INTENSITY8_SNORM = 0x9017
-	INTENSITY_SNORM = 0x9013
+	ALPHA16_SNORM             = 0x9018
+	ALPHA8_SNORM              = 0x9014
+	ALPHA_SNORM               = 0x9010
+	INTENSITY16_SNORM         = 0x901B
+	INTENSITY8_SNORM          = 0x9017
+	INTENSITY_SNORM           = 0x9013
 	LUMINANCE16_ALPHA16_SNORM = 0x901A
-	LUMINANCE16_SNORM = 0x9019
-	LUMINANCE8_ALPHA8_SNORM = 0x9016
-	LUMINANCE8_SNORM = 0x9015
-	LUMINANCE_ALPHA_SNORM = 0x9012
-	LUMINANCE_SNORM = 0x9011
-	R16_SNORM = 0x8F98
-	R8_SNORM = 0x8F94
-	RED_SNORM = 0x8F90
-	RG16_SNORM = 0x8F99
-	RG8_SNORM = 0x8F95
-	RGB16_SNORM = 0x8F9A
-	RGB8_SNORM = 0x8F96
-	RGBA16_SNORM = 0x8F9B
-	RGBA8_SNORM = 0x8F97
-	RGBA_SNORM = 0x8F93
-	RGB_SNORM = 0x8F92
-	RG_SNORM = 0x8F91
-	SIGNED_NORMALIZED = 0x8F9C
+	LUMINANCE16_SNORM         = 0x9019
+	LUMINANCE8_ALPHA8_SNORM   = 0x9016
+	LUMINANCE8_SNORM          = 0x9015
+	LUMINANCE_ALPHA_SNORM     = 0x9012
+	LUMINANCE_SNORM           = 0x9011
+	R16_SNORM                 = 0x8F98
+	R8_SNORM                  = 0x8F94
+	RED_SNORM                 = 0x8F90
+	RG16_SNORM                = 0x8F99
+	RG8_SNORM                 = 0x8F95
+	RGB16_SNORM               = 0x8F9A
+	RGB8_SNORM                = 0x8F96
+	RGBA16_SNORM              = 0x8F9B
+	RGBA8_SNORM               = 0x8F97
+	RGBA_SNORM                = 0x8F93
+	RGB_SNORM                 = 0x8F92
+	RG_SNORM                  = 0x8F91
+	SIGNED_NORMALIZED         = 0x8F9C
 )
+
 // EXT_texture_swizzle
 const (
-	TEXTURE_SWIZZLE_A_EXT = 0x8E45
-	TEXTURE_SWIZZLE_B_EXT = 0x8E44
-	TEXTURE_SWIZZLE_G_EXT = 0x8E43
+	TEXTURE_SWIZZLE_A_EXT    = 0x8E45
+	TEXTURE_SWIZZLE_B_EXT    = 0x8E44
+	TEXTURE_SWIZZLE_G_EXT    = 0x8E43
 	TEXTURE_SWIZZLE_RGBA_EXT = 0x8E46
-	TEXTURE_SWIZZLE_R_EXT = 0x8E42
+	TEXTURE_SWIZZLE_R_EXT    = 0x8E42
 )
+
 // EXT_timer_query
 const (
 	TIME_ELAPSED_EXT = 0x88BF
 )
+
 // EXT_transform_feedback
 const (
-	INTERLEAVED_ATTRIBS_EXT = 0x8C8C
+	INTERLEAVED_ATTRIBS_EXT                           = 0x8C8C
 	MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS_EXT = 0x8C8A
-	MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS_EXT = 0x8C8B
-	MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS_EXT = 0x8C80
-	PRIMITIVES_GENERATED_EXT = 0x8C87
-	RASTERIZER_DISCARD_EXT = 0x8C89
-	SEPARATE_ATTRIBS_EXT = 0x8C8D
-	TRANSFORM_FEEDBACK_BUFFER_BINDING_EXT = 0x8C8F
-	TRANSFORM_FEEDBACK_BUFFER_EXT = 0x8C8E
-	TRANSFORM_FEEDBACK_BUFFER_MODE_EXT = 0x8C7F
-	TRANSFORM_FEEDBACK_BUFFER_SIZE_EXT = 0x8C85
-	TRANSFORM_FEEDBACK_BUFFER_START_EXT = 0x8C84
-	TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN_EXT = 0x8C88
-	TRANSFORM_FEEDBACK_VARYINGS_EXT = 0x8C83
-	TRANSFORM_FEEDBACK_VARYING_MAX_LENGTH_EXT = 0x8C76
+	MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS_EXT       = 0x8C8B
+	MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS_EXT    = 0x8C80
+	PRIMITIVES_GENERATED_EXT                          = 0x8C87
+	RASTERIZER_DISCARD_EXT                            = 0x8C89
+	SEPARATE_ATTRIBS_EXT                              = 0x8C8D
+	TRANSFORM_FEEDBACK_BUFFER_BINDING_EXT             = 0x8C8F
+	TRANSFORM_FEEDBACK_BUFFER_EXT                     = 0x8C8E
+	TRANSFORM_FEEDBACK_BUFFER_MODE_EXT                = 0x8C7F
+	TRANSFORM_FEEDBACK_BUFFER_SIZE_EXT                = 0x8C85
+	TRANSFORM_FEEDBACK_BUFFER_START_EXT               = 0x8C84
+	TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN_EXT         = 0x8C88
+	TRANSFORM_FEEDBACK_VARYINGS_EXT                   = 0x8C83
+	TRANSFORM_FEEDBACK_VARYING_MAX_LENGTH_EXT         = 0x8C76
 )
+
 // EXT_vertex_array
 const (
-	COLOR_ARRAY_COUNT_EXT = 0x8084
-	COLOR_ARRAY_EXT = 0x8076
-	COLOR_ARRAY_POINTER_EXT = 0x8090
-	COLOR_ARRAY_SIZE_EXT = 0x8081
-	COLOR_ARRAY_STRIDE_EXT = 0x8083
-	COLOR_ARRAY_TYPE_EXT = 0x8082
-	EDGE_FLAG_ARRAY_COUNT_EXT = 0x808D
-	EDGE_FLAG_ARRAY_EXT = 0x8079
-	EDGE_FLAG_ARRAY_POINTER_EXT = 0x8093
-	EDGE_FLAG_ARRAY_STRIDE_EXT = 0x808C
-	INDEX_ARRAY_COUNT_EXT = 0x8087
-	INDEX_ARRAY_EXT = 0x8077
-	INDEX_ARRAY_POINTER_EXT = 0x8091
-	INDEX_ARRAY_STRIDE_EXT = 0x8086
-	INDEX_ARRAY_TYPE_EXT = 0x8085
-	NORMAL_ARRAY_COUNT_EXT = 0x8080
-	NORMAL_ARRAY_EXT = 0x8075
-	NORMAL_ARRAY_POINTER_EXT = 0x808F
-	NORMAL_ARRAY_STRIDE_EXT = 0x807F
-	NORMAL_ARRAY_TYPE_EXT = 0x807E
-	TEXTURE_COORD_ARRAY_COUNT_EXT = 0x808B
-	TEXTURE_COORD_ARRAY_EXT = 0x8078
+	COLOR_ARRAY_COUNT_EXT           = 0x8084
+	COLOR_ARRAY_EXT                 = 0x8076
+	COLOR_ARRAY_POINTER_EXT         = 0x8090
+	COLOR_ARRAY_SIZE_EXT            = 0x8081
+	COLOR_ARRAY_STRIDE_EXT          = 0x8083
+	COLOR_ARRAY_TYPE_EXT            = 0x8082
+	EDGE_FLAG_ARRAY_COUNT_EXT       = 0x808D
+	EDGE_FLAG_ARRAY_EXT             = 0x8079
+	EDGE_FLAG_ARRAY_POINTER_EXT     = 0x8093
+	EDGE_FLAG_ARRAY_STRIDE_EXT      = 0x808C
+	INDEX_ARRAY_COUNT_EXT           = 0x8087
+	INDEX_ARRAY_EXT                 = 0x8077
+	INDEX_ARRAY_POINTER_EXT         = 0x8091
+	INDEX_ARRAY_STRIDE_EXT          = 0x8086
+	INDEX_ARRAY_TYPE_EXT            = 0x8085
+	NORMAL_ARRAY_COUNT_EXT          = 0x8080
+	NORMAL_ARRAY_EXT                = 0x8075
+	NORMAL_ARRAY_POINTER_EXT        = 0x808F
+	NORMAL_ARRAY_STRIDE_EXT         = 0x807F
+	NORMAL_ARRAY_TYPE_EXT           = 0x807E
+	TEXTURE_COORD_ARRAY_COUNT_EXT   = 0x808B
+	TEXTURE_COORD_ARRAY_EXT         = 0x8078
 	TEXTURE_COORD_ARRAY_POINTER_EXT = 0x8092
-	TEXTURE_COORD_ARRAY_SIZE_EXT = 0x8088
-	TEXTURE_COORD_ARRAY_STRIDE_EXT = 0x808A
-	TEXTURE_COORD_ARRAY_TYPE_EXT = 0x8089
-	VERTEX_ARRAY_COUNT_EXT = 0x807D
-	VERTEX_ARRAY_EXT = 0x8074
-	VERTEX_ARRAY_POINTER_EXT = 0x808E
-	VERTEX_ARRAY_SIZE_EXT = 0x807A
-	VERTEX_ARRAY_STRIDE_EXT = 0x807C
-	VERTEX_ARRAY_TYPE_EXT = 0x807B
+	TEXTURE_COORD_ARRAY_SIZE_EXT    = 0x8088
+	TEXTURE_COORD_ARRAY_STRIDE_EXT  = 0x808A
+	TEXTURE_COORD_ARRAY_TYPE_EXT    = 0x8089
+	VERTEX_ARRAY_COUNT_EXT          = 0x807D
+	VERTEX_ARRAY_EXT                = 0x8074
+	VERTEX_ARRAY_POINTER_EXT        = 0x808E
+	VERTEX_ARRAY_SIZE_EXT           = 0x807A
+	VERTEX_ARRAY_STRIDE_EXT         = 0x807C
+	VERTEX_ARRAY_TYPE_EXT           = 0x807B
 )
+
 // EXT_vertex_array_bgra
 const (
 	BGRA = 0x80E1
 )
+
 // EXT_vertex_attrib_64bit
 const (
-	DOUBLE = 0x140A
-	DOUBLE_MAT2_EXT = 0x8F46
+	DOUBLE            = 0x140A
+	DOUBLE_MAT2_EXT   = 0x8F46
 	DOUBLE_MAT2x3_EXT = 0x8F49
 	DOUBLE_MAT2x4_EXT = 0x8F4A
-	DOUBLE_MAT3_EXT = 0x8F47
+	DOUBLE_MAT3_EXT   = 0x8F47
 	DOUBLE_MAT3x2_EXT = 0x8F4B
 	DOUBLE_MAT3x4_EXT = 0x8F4C
-	DOUBLE_MAT4_EXT = 0x8F48
+	DOUBLE_MAT4_EXT   = 0x8F48
 	DOUBLE_MAT4x2_EXT = 0x8F4D
 	DOUBLE_MAT4x3_EXT = 0x8F4E
-	DOUBLE_VEC2_EXT = 0x8FFC
-	DOUBLE_VEC3_EXT = 0x8FFD
-	DOUBLE_VEC4_EXT = 0x8FFE
+	DOUBLE_VEC2_EXT   = 0x8FFC
+	DOUBLE_VEC3_EXT   = 0x8FFD
+	DOUBLE_VEC4_EXT   = 0x8FFE
 )
+
 // EXT_vertex_shader
 const (
-	CURRENT_VERTEX_EXT = 0x87E2
-	FULL_RANGE_EXT = 0x87E1
-	INVARIANT_DATATYPE_EXT = 0x87EB
-	INVARIANT_EXT = 0x87C2
-	INVARIANT_VALUE_EXT = 0x87EA
-	LOCAL_CONSTANT_DATATYPE_EXT = 0x87ED
-	LOCAL_CONSTANT_EXT = 0x87C3
-	LOCAL_CONSTANT_VALUE_EXT = 0x87EC
-	LOCAL_EXT = 0x87C4
-	MATRIX_EXT = 0x87C0
-	MAX_OPTIMIZED_VERTEX_SHADER_INSTRUCTIONS_EXT = 0x87CA
-	MAX_OPTIMIZED_VERTEX_SHADER_INVARIANTS_EXT = 0x87CD
-	MAX_OPTIMIZED_VERTEX_SHADER_LOCALS_EXT = 0x87CE
+	CURRENT_VERTEX_EXT                              = 0x87E2
+	FULL_RANGE_EXT                                  = 0x87E1
+	INVARIANT_DATATYPE_EXT                          = 0x87EB
+	INVARIANT_EXT                                   = 0x87C2
+	INVARIANT_VALUE_EXT                             = 0x87EA
+	LOCAL_CONSTANT_DATATYPE_EXT                     = 0x87ED
+	LOCAL_CONSTANT_EXT                              = 0x87C3
+	LOCAL_CONSTANT_VALUE_EXT                        = 0x87EC
+	LOCAL_EXT                                       = 0x87C4
+	MATRIX_EXT                                      = 0x87C0
+	MAX_OPTIMIZED_VERTEX_SHADER_INSTRUCTIONS_EXT    = 0x87CA
+	MAX_OPTIMIZED_VERTEX_SHADER_INVARIANTS_EXT      = 0x87CD
+	MAX_OPTIMIZED_VERTEX_SHADER_LOCALS_EXT          = 0x87CE
 	MAX_OPTIMIZED_VERTEX_SHADER_LOCAL_CONSTANTS_EXT = 0x87CC
-	MAX_OPTIMIZED_VERTEX_SHADER_VARIANTS_EXT = 0x87CB
-	MAX_VERTEX_SHADER_INSTRUCTIONS_EXT = 0x87C5
-	MAX_VERTEX_SHADER_INVARIANTS_EXT = 0x87C7
-	MAX_VERTEX_SHADER_LOCALS_EXT = 0x87C9
-	MAX_VERTEX_SHADER_LOCAL_CONSTANTS_EXT = 0x87C8
-	MAX_VERTEX_SHADER_VARIANTS_EXT = 0x87C6
-	MVP_MATRIX_EXT = 0x87E3
-	NEGATIVE_ONE_EXT = 0x87DF
-	NEGATIVE_W_EXT = 0x87DC
-	NEGATIVE_X_EXT = 0x87D9
-	NEGATIVE_Y_EXT = 0x87DA
-	NEGATIVE_Z_EXT = 0x87DB
-	NORMALIZED_RANGE_EXT = 0x87E0
-	ONE_EXT = 0x87DE
-	OP_ADD_EXT = 0x8787
-	OP_CLAMP_EXT = 0x878E
-	OP_CROSS_PRODUCT_EXT = 0x8797
-	OP_DOT3_EXT = 0x8784
-	OP_DOT4_EXT = 0x8785
-	OP_EXP_BASE_2_EXT = 0x8791
-	OP_FLOOR_EXT = 0x878F
-	OP_FRAC_EXT = 0x8789
-	OP_INDEX_EXT = 0x8782
-	OP_LOG_BASE_2_EXT = 0x8792
-	OP_MADD_EXT = 0x8788
-	OP_MAX_EXT = 0x878A
-	OP_MIN_EXT = 0x878B
-	OP_MOV_EXT = 0x8799
-	OP_MULTIPLY_MATRIX_EXT = 0x8798
-	OP_MUL_EXT = 0x8786
-	OP_NEGATE_EXT = 0x8783
-	OP_POWER_EXT = 0x8793
-	OP_RECIP_EXT = 0x8794
-	OP_RECIP_SQRT_EXT = 0x8795
-	OP_ROUND_EXT = 0x8790
-	OP_SET_GE_EXT = 0x878C
-	OP_SET_LT_EXT = 0x878D
-	OP_SUB_EXT = 0x8796
-	OUTPUT_COLOR0_EXT = 0x879B
-	OUTPUT_COLOR1_EXT = 0x879C
-	OUTPUT_FOG_EXT = 0x87BD
-	OUTPUT_TEXTURE_COORD0_EXT = 0x879D
-	OUTPUT_TEXTURE_COORD10_EXT = 0x87A7
-	OUTPUT_TEXTURE_COORD11_EXT = 0x87A8
-	OUTPUT_TEXTURE_COORD12_EXT = 0x87A9
-	OUTPUT_TEXTURE_COORD13_EXT = 0x87AA
-	OUTPUT_TEXTURE_COORD14_EXT = 0x87AB
-	OUTPUT_TEXTURE_COORD15_EXT = 0x87AC
-	OUTPUT_TEXTURE_COORD16_EXT = 0x87AD
-	OUTPUT_TEXTURE_COORD17_EXT = 0x87AE
-	OUTPUT_TEXTURE_COORD18_EXT = 0x87AF
-	OUTPUT_TEXTURE_COORD19_EXT = 0x87B0
-	OUTPUT_TEXTURE_COORD1_EXT = 0x879E
-	OUTPUT_TEXTURE_COORD20_EXT = 0x87B1
-	OUTPUT_TEXTURE_COORD21_EXT = 0x87B2
-	OUTPUT_TEXTURE_COORD22_EXT = 0x87B3
-	OUTPUT_TEXTURE_COORD23_EXT = 0x87B4
-	OUTPUT_TEXTURE_COORD24_EXT = 0x87B5
-	OUTPUT_TEXTURE_COORD25_EXT = 0x87B6
-	OUTPUT_TEXTURE_COORD26_EXT = 0x87B7
-	OUTPUT_TEXTURE_COORD27_EXT = 0x87B8
-	OUTPUT_TEXTURE_COORD28_EXT = 0x87B9
-	OUTPUT_TEXTURE_COORD29_EXT = 0x87BA
-	OUTPUT_TEXTURE_COORD2_EXT = 0x879F
-	OUTPUT_TEXTURE_COORD30_EXT = 0x87BB
-	OUTPUT_TEXTURE_COORD31_EXT = 0x87BC
-	OUTPUT_TEXTURE_COORD3_EXT = 0x87A0
-	OUTPUT_TEXTURE_COORD4_EXT = 0x87A1
-	OUTPUT_TEXTURE_COORD5_EXT = 0x87A2
-	OUTPUT_TEXTURE_COORD6_EXT = 0x87A3
-	OUTPUT_TEXTURE_COORD7_EXT = 0x87A4
-	OUTPUT_TEXTURE_COORD8_EXT = 0x87A5
-	OUTPUT_TEXTURE_COORD9_EXT = 0x87A6
-	OUTPUT_VERTEX_EXT = 0x879A
-	SCALAR_EXT = 0x87BE
-	VARIANT_ARRAY_EXT = 0x87E8
-	VARIANT_ARRAY_POINTER_EXT = 0x87E9
-	VARIANT_ARRAY_STRIDE_EXT = 0x87E6
-	VARIANT_ARRAY_TYPE_EXT = 0x87E7
-	VARIANT_DATATYPE_EXT = 0x87E5
-	VARIANT_EXT = 0x87C1
-	VARIANT_VALUE_EXT = 0x87E4
-	VECTOR_EXT = 0x87BF
-	VERTEX_SHADER_BINDING_EXT = 0x8781
-	VERTEX_SHADER_EXT = 0x8780
-	VERTEX_SHADER_INSTRUCTIONS_EXT = 0x87CF
-	VERTEX_SHADER_INVARIANTS_EXT = 0x87D1
-	VERTEX_SHADER_LOCALS_EXT = 0x87D3
-	VERTEX_SHADER_LOCAL_CONSTANTS_EXT = 0x87D2
-	VERTEX_SHADER_OPTIMIZED_EXT = 0x87D4
-	VERTEX_SHADER_VARIANTS_EXT = 0x87D0
-	W_EXT = 0x87D8
-	X_EXT = 0x87D5
-	Y_EXT = 0x87D6
-	ZERO_EXT = 0x87DD
-	Z_EXT = 0x87D7
+	MAX_OPTIMIZED_VERTEX_SHADER_VARIANTS_EXT        = 0x87CB
+	MAX_VERTEX_SHADER_INSTRUCTIONS_EXT              = 0x87C5
+	MAX_VERTEX_SHADER_INVARIANTS_EXT                = 0x87C7
+	MAX_VERTEX_SHADER_LOCALS_EXT                    = 0x87C9
+	MAX_VERTEX_SHADER_LOCAL_CONSTANTS_EXT           = 0x87C8
+	MAX_VERTEX_SHADER_VARIANTS_EXT                  = 0x87C6
+	MVP_MATRIX_EXT                                  = 0x87E3
+	NEGATIVE_ONE_EXT                                = 0x87DF
+	NEGATIVE_W_EXT                                  = 0x87DC
+	NEGATIVE_X_EXT                                  = 0x87D9
+	NEGATIVE_Y_EXT                                  = 0x87DA
+	NEGATIVE_Z_EXT                                  = 0x87DB
+	NORMALIZED_RANGE_EXT                            = 0x87E0
+	ONE_EXT                                         = 0x87DE
+	OP_ADD_EXT                                      = 0x8787
+	OP_CLAMP_EXT                                    = 0x878E
+	OP_CROSS_PRODUCT_EXT                            = 0x8797
+	OP_DOT3_EXT                                     = 0x8784
+	OP_DOT4_EXT                                     = 0x8785
+	OP_EXP_BASE_2_EXT                               = 0x8791
+	OP_FLOOR_EXT                                    = 0x878F
+	OP_FRAC_EXT                                     = 0x8789
+	OP_INDEX_EXT                                    = 0x8782
+	OP_LOG_BASE_2_EXT                               = 0x8792
+	OP_MADD_EXT                                     = 0x8788
+	OP_MAX_EXT                                      = 0x878A
+	OP_MIN_EXT                                      = 0x878B
+	OP_MOV_EXT                                      = 0x8799
+	OP_MULTIPLY_MATRIX_EXT                          = 0x8798
+	OP_MUL_EXT                                      = 0x8786
+	OP_NEGATE_EXT                                   = 0x8783
+	OP_POWER_EXT                                    = 0x8793
+	OP_RECIP_EXT                                    = 0x8794
+	OP_RECIP_SQRT_EXT                               = 0x8795
+	OP_ROUND_EXT                                    = 0x8790
+	OP_SET_GE_EXT                                   = 0x878C
+	OP_SET_LT_EXT                                   = 0x878D
+	OP_SUB_EXT                                      = 0x8796
+	OUTPUT_COLOR0_EXT                               = 0x879B
+	OUTPUT_COLOR1_EXT                               = 0x879C
+	OUTPUT_FOG_EXT                                  = 0x87BD
+	OUTPUT_TEXTURE_COORD0_EXT                       = 0x879D
+	OUTPUT_TEXTURE_COORD10_EXT                      = 0x87A7
+	OUTPUT_TEXTURE_COORD11_EXT                      = 0x87A8
+	OUTPUT_TEXTURE_COORD12_EXT                      = 0x87A9
+	OUTPUT_TEXTURE_COORD13_EXT                      = 0x87AA
+	OUTPUT_TEXTURE_COORD14_EXT                      = 0x87AB
+	OUTPUT_TEXTURE_COORD15_EXT                      = 0x87AC
+	OUTPUT_TEXTURE_COORD16_EXT                      = 0x87AD
+	OUTPUT_TEXTURE_COORD17_EXT                      = 0x87AE
+	OUTPUT_TEXTURE_COORD18_EXT                      = 0x87AF
+	OUTPUT_TEXTURE_COORD19_EXT                      = 0x87B0
+	OUTPUT_TEXTURE_COORD1_EXT                       = 0x879E
+	OUTPUT_TEXTURE_COORD20_EXT                      = 0x87B1
+	OUTPUT_TEXTURE_COORD21_EXT                      = 0x87B2
+	OUTPUT_TEXTURE_COORD22_EXT                      = 0x87B3
+	OUTPUT_TEXTURE_COORD23_EXT                      = 0x87B4
+	OUTPUT_TEXTURE_COORD24_EXT                      = 0x87B5
+	OUTPUT_TEXTURE_COORD25_EXT                      = 0x87B6
+	OUTPUT_TEXTURE_COORD26_EXT                      = 0x87B7
+	OUTPUT_TEXTURE_COORD27_EXT                      = 0x87B8
+	OUTPUT_TEXTURE_COORD28_EXT                      = 0x87B9
+	OUTPUT_TEXTURE_COORD29_EXT                      = 0x87BA
+	OUTPUT_TEXTURE_COORD2_EXT                       = 0x879F
+	OUTPUT_TEXTURE_COORD30_EXT                      = 0x87BB
+	OUTPUT_TEXTURE_COORD31_EXT                      = 0x87BC
+	OUTPUT_TEXTURE_COORD3_EXT                       = 0x87A0
+	OUTPUT_TEXTURE_COORD4_EXT                       = 0x87A1
+	OUTPUT_TEXTURE_COORD5_EXT                       = 0x87A2
+	OUTPUT_TEXTURE_COORD6_EXT                       = 0x87A3
+	OUTPUT_TEXTURE_COORD7_EXT                       = 0x87A4
+	OUTPUT_TEXTURE_COORD8_EXT                       = 0x87A5
+	OUTPUT_TEXTURE_COORD9_EXT                       = 0x87A6
+	OUTPUT_VERTEX_EXT                               = 0x879A
+	SCALAR_EXT                                      = 0x87BE
+	VARIANT_ARRAY_EXT                               = 0x87E8
+	VARIANT_ARRAY_POINTER_EXT                       = 0x87E9
+	VARIANT_ARRAY_STRIDE_EXT                        = 0x87E6
+	VARIANT_ARRAY_TYPE_EXT                          = 0x87E7
+	VARIANT_DATATYPE_EXT                            = 0x87E5
+	VARIANT_EXT                                     = 0x87C1
+	VARIANT_VALUE_EXT                               = 0x87E4
+	VECTOR_EXT                                      = 0x87BF
+	VERTEX_SHADER_BINDING_EXT                       = 0x8781
+	VERTEX_SHADER_EXT                               = 0x8780
+	VERTEX_SHADER_INSTRUCTIONS_EXT                  = 0x87CF
+	VERTEX_SHADER_INVARIANTS_EXT                    = 0x87D1
+	VERTEX_SHADER_LOCALS_EXT                        = 0x87D3
+	VERTEX_SHADER_LOCAL_CONSTANTS_EXT               = 0x87D2
+	VERTEX_SHADER_OPTIMIZED_EXT                     = 0x87D4
+	VERTEX_SHADER_VARIANTS_EXT                      = 0x87D0
+	W_EXT                                           = 0x87D8
+	X_EXT                                           = 0x87D5
+	Y_EXT                                           = 0x87D6
+	ZERO_EXT                                        = 0x87DD
+	Z_EXT                                           = 0x87D7
 )
+
 // EXT_vertex_weighting
 const (
-	CURRENT_VERTEX_WEIGHT_EXT = 0x850B
-	MODELVIEW0_EXT = 0x1700
-	MODELVIEW0_MATRIX_EXT = 0x0BA6
-	MODELVIEW0_STACK_DEPTH_EXT = 0x0BA3
-	MODELVIEW1_EXT = 0x850A
-	MODELVIEW1_MATRIX_EXT = 0x8506
-	MODELVIEW1_STACK_DEPTH_EXT = 0x8502
-	VERTEX_WEIGHTING_EXT = 0x8509
-	VERTEX_WEIGHT_ARRAY_EXT = 0x850C
+	CURRENT_VERTEX_WEIGHT_EXT       = 0x850B
+	MODELVIEW0_EXT                  = 0x1700
+	MODELVIEW0_MATRIX_EXT           = 0x0BA6
+	MODELVIEW0_STACK_DEPTH_EXT      = 0x0BA3
+	MODELVIEW1_EXT                  = 0x850A
+	MODELVIEW1_MATRIX_EXT           = 0x8506
+	MODELVIEW1_STACK_DEPTH_EXT      = 0x8502
+	VERTEX_WEIGHTING_EXT            = 0x8509
+	VERTEX_WEIGHT_ARRAY_EXT         = 0x850C
 	VERTEX_WEIGHT_ARRAY_POINTER_EXT = 0x8510
-	VERTEX_WEIGHT_ARRAY_SIZE_EXT = 0x850D
-	VERTEX_WEIGHT_ARRAY_STRIDE_EXT = 0x850F
-	VERTEX_WEIGHT_ARRAY_TYPE_EXT = 0x850E
+	VERTEX_WEIGHT_ARRAY_SIZE_EXT    = 0x850D
+	VERTEX_WEIGHT_ARRAY_STRIDE_EXT  = 0x850F
+	VERTEX_WEIGHT_ARRAY_TYPE_EXT    = 0x850E
 )
+
 // EXT_x11_sync_object
 const (
 	SYNC_X11_FENCE_EXT = 0x90E1
 )
+
 // EXT_422_pixels
 
 // EXT_abgr
@@ -4776,7 +4855,7 @@ const (
 
 // EXT_bindable_uniform
 
-func UniformBufferEXT(program Uint, location Int, buffer Uint)  {
+func UniformBufferEXT(program Uint, location Int, buffer Uint) {
 	C.goglUniformBufferEXT((C.GLuint)(program), (C.GLint)(location), (C.GLuint)(buffer))
 }
 func GetUniformBufferSizeEXT(program Uint, location Int) Int {
@@ -4785,28 +4864,33 @@ func GetUniformBufferSizeEXT(program Uint, location Int) Int {
 func GetUniformOffsetEXT(program Uint, location Int) Intptr {
 	return (Intptr)(C.goglGetUniformOffsetEXT((C.GLuint)(program), (C.GLint)(location)))
 }
+
 // EXT_blend_color
 
-func BlendColorEXT(red Float, green Float, blue Float, alpha Float)  {
+func BlendColorEXT(red Float, green Float, blue Float, alpha Float) {
 	C.goglBlendColorEXT((C.GLfloat)(red), (C.GLfloat)(green), (C.GLfloat)(blue), (C.GLfloat)(alpha))
 }
+
 // EXT_blend_equation_separate
 
-func BlendEquationSeparateEXT(modeRGB Enum, modeAlpha Enum)  {
+func BlendEquationSeparateEXT(modeRGB Enum, modeAlpha Enum) {
 	C.goglBlendEquationSeparateEXT((C.GLenum)(modeRGB), (C.GLenum)(modeAlpha))
 }
+
 // EXT_blend_func_separate
 
-func BlendFuncSeparateEXT(sfactorRGB Enum, dfactorRGB Enum, sfactorAlpha Enum, dfactorAlpha Enum)  {
+func BlendFuncSeparateEXT(sfactorRGB Enum, dfactorRGB Enum, sfactorAlpha Enum, dfactorAlpha Enum) {
 	C.goglBlendFuncSeparateEXT((C.GLenum)(sfactorRGB), (C.GLenum)(dfactorRGB), (C.GLenum)(sfactorAlpha), (C.GLenum)(dfactorAlpha))
 }
+
 // EXT_blend_logic_op
 
 // EXT_blend_minmax
 
-func BlendEquationEXT(mode Enum)  {
+func BlendEquationEXT(mode Enum) {
 	C.goglBlendEquationEXT((C.GLenum)(mode))
 }
+
 // EXT_blend_subtract
 
 // EXT_clip_volume_hint
@@ -4815,648 +4899,655 @@ func BlendEquationEXT(mode Enum)  {
 
 // EXT_color_subtable
 
-func ColorSubTableEXT(target Enum, start Sizei, count Sizei, format Enum, type_ Enum, data Pointer)  {
+func ColorSubTableEXT(target Enum, start Sizei, count Sizei, format Enum, type_ Enum, data Pointer) {
 	C.goglColorSubTableEXT((C.GLenum)(target), (C.GLsizei)(start), (C.GLsizei)(count), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(data))
 }
-func CopyColorSubTableEXT(target Enum, start Sizei, x Int, y Int, width Sizei)  {
+func CopyColorSubTableEXT(target Enum, start Sizei, x Int, y Int, width Sizei) {
 	C.goglCopyColorSubTableEXT((C.GLenum)(target), (C.GLsizei)(start), (C.GLint)(x), (C.GLint)(y), (C.GLsizei)(width))
 }
+
 // EXT_compiled_vertex_array
 
-func LockArraysEXT(first Int, count Sizei)  {
+func LockArraysEXT(first Int, count Sizei) {
 	C.goglLockArraysEXT((C.GLint)(first), (C.GLsizei)(count))
 }
-func UnlockArraysEXT()  {
+func UnlockArraysEXT() {
 	C.goglUnlockArraysEXT()
 }
+
 // EXT_convolution
 
-func ConvolutionFilter1DEXT(target Enum, internalformat Enum, width Sizei, format Enum, type_ Enum, image Pointer)  {
+func ConvolutionFilter1DEXT(target Enum, internalformat Enum, width Sizei, format Enum, type_ Enum, image Pointer) {
 	C.goglConvolutionFilter1DEXT((C.GLenum)(target), (C.GLenum)(internalformat), (C.GLsizei)(width), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(image))
 }
-func ConvolutionFilter2DEXT(target Enum, internalformat Enum, width Sizei, height Sizei, format Enum, type_ Enum, image Pointer)  {
+func ConvolutionFilter2DEXT(target Enum, internalformat Enum, width Sizei, height Sizei, format Enum, type_ Enum, image Pointer) {
 	C.goglConvolutionFilter2DEXT((C.GLenum)(target), (C.GLenum)(internalformat), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(image))
 }
-func ConvolutionParameterfEXT(target Enum, pname Enum, params Float)  {
+func ConvolutionParameterfEXT(target Enum, pname Enum, params Float) {
 	C.goglConvolutionParameterfEXT((C.GLenum)(target), (C.GLenum)(pname), (C.GLfloat)(params))
 }
-func ConvolutionParameterfvEXT(target Enum, pname Enum, params *Float)  {
+func ConvolutionParameterfvEXT(target Enum, pname Enum, params *Float) {
 	C.goglConvolutionParameterfvEXT((C.GLenum)(target), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func ConvolutionParameteriEXT(target Enum, pname Enum, params Int)  {
+func ConvolutionParameteriEXT(target Enum, pname Enum, params Int) {
 	C.goglConvolutionParameteriEXT((C.GLenum)(target), (C.GLenum)(pname), (C.GLint)(params))
 }
-func ConvolutionParameterivEXT(target Enum, pname Enum, params *Int)  {
+func ConvolutionParameterivEXT(target Enum, pname Enum, params *Int) {
 	C.goglConvolutionParameterivEXT((C.GLenum)(target), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func CopyConvolutionFilter1DEXT(target Enum, internalformat Enum, x Int, y Int, width Sizei)  {
+func CopyConvolutionFilter1DEXT(target Enum, internalformat Enum, x Int, y Int, width Sizei) {
 	C.goglCopyConvolutionFilter1DEXT((C.GLenum)(target), (C.GLenum)(internalformat), (C.GLint)(x), (C.GLint)(y), (C.GLsizei)(width))
 }
-func CopyConvolutionFilter2DEXT(target Enum, internalformat Enum, x Int, y Int, width Sizei, height Sizei)  {
+func CopyConvolutionFilter2DEXT(target Enum, internalformat Enum, x Int, y Int, width Sizei, height Sizei) {
 	C.goglCopyConvolutionFilter2DEXT((C.GLenum)(target), (C.GLenum)(internalformat), (C.GLint)(x), (C.GLint)(y), (C.GLsizei)(width), (C.GLsizei)(height))
 }
-func GetConvolutionFilterEXT(target Enum, format Enum, type_ Enum, image Pointer)  {
+func GetConvolutionFilterEXT(target Enum, format Enum, type_ Enum, image Pointer) {
 	C.goglGetConvolutionFilterEXT((C.GLenum)(target), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(image))
 }
-func GetConvolutionParameterfvEXT(target Enum, pname Enum, params *Float)  {
+func GetConvolutionParameterfvEXT(target Enum, pname Enum, params *Float) {
 	C.goglGetConvolutionParameterfvEXT((C.GLenum)(target), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func GetConvolutionParameterivEXT(target Enum, pname Enum, params *Int)  {
+func GetConvolutionParameterivEXT(target Enum, pname Enum, params *Int) {
 	C.goglGetConvolutionParameterivEXT((C.GLenum)(target), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetSeparableFilterEXT(target Enum, format Enum, type_ Enum, row Pointer, column Pointer, span Pointer)  {
+func GetSeparableFilterEXT(target Enum, format Enum, type_ Enum, row Pointer, column Pointer, span Pointer) {
 	C.goglGetSeparableFilterEXT((C.GLenum)(target), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(row), (unsafe.Pointer)(column), (unsafe.Pointer)(span))
 }
-func SeparableFilter2DEXT(target Enum, internalformat Enum, width Sizei, height Sizei, format Enum, type_ Enum, row Pointer, column Pointer)  {
+func SeparableFilter2DEXT(target Enum, internalformat Enum, width Sizei, height Sizei, format Enum, type_ Enum, row Pointer, column Pointer) {
 	C.goglSeparableFilter2DEXT((C.GLenum)(target), (C.GLenum)(internalformat), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(row), (unsafe.Pointer)(column))
 }
+
 // EXT_coordinate_frame
 
-func Tangent3bEXT(tx Byte, ty Byte, tz Byte)  {
+func Tangent3bEXT(tx Byte, ty Byte, tz Byte) {
 	C.goglTangent3bEXT((C.GLbyte)(tx), (C.GLbyte)(ty), (C.GLbyte)(tz))
 }
-func Tangent3bvEXT(v *Byte)  {
+func Tangent3bvEXT(v *Byte) {
 	C.goglTangent3bvEXT((*C.GLbyte)(v))
 }
-func Tangent3dEXT(tx Double, ty Double, tz Double)  {
+func Tangent3dEXT(tx Double, ty Double, tz Double) {
 	C.goglTangent3dEXT((C.GLdouble)(tx), (C.GLdouble)(ty), (C.GLdouble)(tz))
 }
-func Tangent3dvEXT(v *Double)  {
+func Tangent3dvEXT(v *Double) {
 	C.goglTangent3dvEXT((*C.GLdouble)(v))
 }
-func Tangent3fEXT(tx Float, ty Float, tz Float)  {
+func Tangent3fEXT(tx Float, ty Float, tz Float) {
 	C.goglTangent3fEXT((C.GLfloat)(tx), (C.GLfloat)(ty), (C.GLfloat)(tz))
 }
-func Tangent3fvEXT(v *Float)  {
+func Tangent3fvEXT(v *Float) {
 	C.goglTangent3fvEXT((*C.GLfloat)(v))
 }
-func Tangent3iEXT(tx Int, ty Int, tz Int)  {
+func Tangent3iEXT(tx Int, ty Int, tz Int) {
 	C.goglTangent3iEXT((C.GLint)(tx), (C.GLint)(ty), (C.GLint)(tz))
 }
-func Tangent3ivEXT(v *Int)  {
+func Tangent3ivEXT(v *Int) {
 	C.goglTangent3ivEXT((*C.GLint)(v))
 }
-func Tangent3sEXT(tx Short, ty Short, tz Short)  {
+func Tangent3sEXT(tx Short, ty Short, tz Short) {
 	C.goglTangent3sEXT((C.GLshort)(tx), (C.GLshort)(ty), (C.GLshort)(tz))
 }
-func Tangent3svEXT(v *Short)  {
+func Tangent3svEXT(v *Short) {
 	C.goglTangent3svEXT((*C.GLshort)(v))
 }
-func Binormal3bEXT(bx Byte, by Byte, bz Byte)  {
+func Binormal3bEXT(bx Byte, by Byte, bz Byte) {
 	C.goglBinormal3bEXT((C.GLbyte)(bx), (C.GLbyte)(by), (C.GLbyte)(bz))
 }
-func Binormal3bvEXT(v *Byte)  {
+func Binormal3bvEXT(v *Byte) {
 	C.goglBinormal3bvEXT((*C.GLbyte)(v))
 }
-func Binormal3dEXT(bx Double, by Double, bz Double)  {
+func Binormal3dEXT(bx Double, by Double, bz Double) {
 	C.goglBinormal3dEXT((C.GLdouble)(bx), (C.GLdouble)(by), (C.GLdouble)(bz))
 }
-func Binormal3dvEXT(v *Double)  {
+func Binormal3dvEXT(v *Double) {
 	C.goglBinormal3dvEXT((*C.GLdouble)(v))
 }
-func Binormal3fEXT(bx Float, by Float, bz Float)  {
+func Binormal3fEXT(bx Float, by Float, bz Float) {
 	C.goglBinormal3fEXT((C.GLfloat)(bx), (C.GLfloat)(by), (C.GLfloat)(bz))
 }
-func Binormal3fvEXT(v *Float)  {
+func Binormal3fvEXT(v *Float) {
 	C.goglBinormal3fvEXT((*C.GLfloat)(v))
 }
-func Binormal3iEXT(bx Int, by Int, bz Int)  {
+func Binormal3iEXT(bx Int, by Int, bz Int) {
 	C.goglBinormal3iEXT((C.GLint)(bx), (C.GLint)(by), (C.GLint)(bz))
 }
-func Binormal3ivEXT(v *Int)  {
+func Binormal3ivEXT(v *Int) {
 	C.goglBinormal3ivEXT((*C.GLint)(v))
 }
-func Binormal3sEXT(bx Short, by Short, bz Short)  {
+func Binormal3sEXT(bx Short, by Short, bz Short) {
 	C.goglBinormal3sEXT((C.GLshort)(bx), (C.GLshort)(by), (C.GLshort)(bz))
 }
-func Binormal3svEXT(v *Short)  {
+func Binormal3svEXT(v *Short) {
 	C.goglBinormal3svEXT((*C.GLshort)(v))
 }
-func TangentPointerEXT(type_ Enum, stride Sizei, pointer Pointer)  {
+func TangentPointerEXT(type_ Enum, stride Sizei, pointer Pointer) {
 	C.goglTangentPointerEXT((C.GLenum)(type_), (C.GLsizei)(stride), (unsafe.Pointer)(pointer))
 }
-func BinormalPointerEXT(type_ Enum, stride Sizei, pointer Pointer)  {
+func BinormalPointerEXT(type_ Enum, stride Sizei, pointer Pointer) {
 	C.goglBinormalPointerEXT((C.GLenum)(type_), (C.GLsizei)(stride), (unsafe.Pointer)(pointer))
 }
+
 // EXT_copy_texture
 
-func CopyTexImage1DEXT(target Enum, level Int, internalformat Enum, x Int, y Int, width Sizei, border Int)  {
+func CopyTexImage1DEXT(target Enum, level Int, internalformat Enum, x Int, y Int, width Sizei, border Int) {
 	C.goglCopyTexImage1DEXT((C.GLenum)(target), (C.GLint)(level), (C.GLenum)(internalformat), (C.GLint)(x), (C.GLint)(y), (C.GLsizei)(width), (C.GLint)(border))
 }
-func CopyTexImage2DEXT(target Enum, level Int, internalformat Enum, x Int, y Int, width Sizei, height Sizei, border Int)  {
+func CopyTexImage2DEXT(target Enum, level Int, internalformat Enum, x Int, y Int, width Sizei, height Sizei, border Int) {
 	C.goglCopyTexImage2DEXT((C.GLenum)(target), (C.GLint)(level), (C.GLenum)(internalformat), (C.GLint)(x), (C.GLint)(y), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLint)(border))
 }
-func CopyTexSubImage1DEXT(target Enum, level Int, xoffset Int, x Int, y Int, width Sizei)  {
+func CopyTexSubImage1DEXT(target Enum, level Int, xoffset Int, x Int, y Int, width Sizei) {
 	C.goglCopyTexSubImage1DEXT((C.GLenum)(target), (C.GLint)(level), (C.GLint)(xoffset), (C.GLint)(x), (C.GLint)(y), (C.GLsizei)(width))
 }
-func CopyTexSubImage2DEXT(target Enum, level Int, xoffset Int, yoffset Int, x Int, y Int, width Sizei, height Sizei)  {
+func CopyTexSubImage2DEXT(target Enum, level Int, xoffset Int, yoffset Int, x Int, y Int, width Sizei, height Sizei) {
 	C.goglCopyTexSubImage2DEXT((C.GLenum)(target), (C.GLint)(level), (C.GLint)(xoffset), (C.GLint)(yoffset), (C.GLint)(x), (C.GLint)(y), (C.GLsizei)(width), (C.GLsizei)(height))
 }
-func CopyTexSubImage3DEXT(target Enum, level Int, xoffset Int, yoffset Int, zoffset Int, x Int, y Int, width Sizei, height Sizei)  {
+func CopyTexSubImage3DEXT(target Enum, level Int, xoffset Int, yoffset Int, zoffset Int, x Int, y Int, width Sizei, height Sizei) {
 	C.goglCopyTexSubImage3DEXT((C.GLenum)(target), (C.GLint)(level), (C.GLint)(xoffset), (C.GLint)(yoffset), (C.GLint)(zoffset), (C.GLint)(x), (C.GLint)(y), (C.GLsizei)(width), (C.GLsizei)(height))
 }
+
 // EXT_cull_vertex
 
-func CullParameterdvEXT(pname Enum, params *Double)  {
+func CullParameterdvEXT(pname Enum, params *Double) {
 	C.goglCullParameterdvEXT((C.GLenum)(pname), (*C.GLdouble)(params))
 }
-func CullParameterfvEXT(pname Enum, params *Float)  {
+func CullParameterfvEXT(pname Enum, params *Float) {
 	C.goglCullParameterfvEXT((C.GLenum)(pname), (*C.GLfloat)(params))
 }
+
 // EXT_depth_bounds_test
 
-func DepthBoundsEXT(zmin Clampd, zmax Clampd)  {
+func DepthBoundsEXT(zmin Clampd, zmax Clampd) {
 	C.goglDepthBoundsEXT((C.GLclampd)(zmin), (C.GLclampd)(zmax))
 }
+
 // EXT_direct_state_access
 
-func ClientAttribDefaultEXT(mask Bitfield)  {
+func ClientAttribDefaultEXT(mask Bitfield) {
 	C.goglClientAttribDefaultEXT((C.GLbitfield)(mask))
 }
-func PushClientAttribDefaultEXT(mask Bitfield)  {
+func PushClientAttribDefaultEXT(mask Bitfield) {
 	C.goglPushClientAttribDefaultEXT((C.GLbitfield)(mask))
 }
-func MatrixLoadfEXT(mode Enum, m *Float)  {
+func MatrixLoadfEXT(mode Enum, m *Float) {
 	C.goglMatrixLoadfEXT((C.GLenum)(mode), (*C.GLfloat)(m))
 }
-func MatrixLoaddEXT(mode Enum, m *Double)  {
+func MatrixLoaddEXT(mode Enum, m *Double) {
 	C.goglMatrixLoaddEXT((C.GLenum)(mode), (*C.GLdouble)(m))
 }
-func MatrixMultfEXT(mode Enum, m *Float)  {
+func MatrixMultfEXT(mode Enum, m *Float) {
 	C.goglMatrixMultfEXT((C.GLenum)(mode), (*C.GLfloat)(m))
 }
-func MatrixMultdEXT(mode Enum, m *Double)  {
+func MatrixMultdEXT(mode Enum, m *Double) {
 	C.goglMatrixMultdEXT((C.GLenum)(mode), (*C.GLdouble)(m))
 }
-func MatrixLoadIdentityEXT(mode Enum)  {
+func MatrixLoadIdentityEXT(mode Enum) {
 	C.goglMatrixLoadIdentityEXT((C.GLenum)(mode))
 }
-func MatrixRotatefEXT(mode Enum, angle Float, x Float, y Float, z Float)  {
+func MatrixRotatefEXT(mode Enum, angle Float, x Float, y Float, z Float) {
 	C.goglMatrixRotatefEXT((C.GLenum)(mode), (C.GLfloat)(angle), (C.GLfloat)(x), (C.GLfloat)(y), (C.GLfloat)(z))
 }
-func MatrixRotatedEXT(mode Enum, angle Double, x Double, y Double, z Double)  {
+func MatrixRotatedEXT(mode Enum, angle Double, x Double, y Double, z Double) {
 	C.goglMatrixRotatedEXT((C.GLenum)(mode), (C.GLdouble)(angle), (C.GLdouble)(x), (C.GLdouble)(y), (C.GLdouble)(z))
 }
-func MatrixScalefEXT(mode Enum, x Float, y Float, z Float)  {
+func MatrixScalefEXT(mode Enum, x Float, y Float, z Float) {
 	C.goglMatrixScalefEXT((C.GLenum)(mode), (C.GLfloat)(x), (C.GLfloat)(y), (C.GLfloat)(z))
 }
-func MatrixScaledEXT(mode Enum, x Double, y Double, z Double)  {
+func MatrixScaledEXT(mode Enum, x Double, y Double, z Double) {
 	C.goglMatrixScaledEXT((C.GLenum)(mode), (C.GLdouble)(x), (C.GLdouble)(y), (C.GLdouble)(z))
 }
-func MatrixTranslatefEXT(mode Enum, x Float, y Float, z Float)  {
+func MatrixTranslatefEXT(mode Enum, x Float, y Float, z Float) {
 	C.goglMatrixTranslatefEXT((C.GLenum)(mode), (C.GLfloat)(x), (C.GLfloat)(y), (C.GLfloat)(z))
 }
-func MatrixTranslatedEXT(mode Enum, x Double, y Double, z Double)  {
+func MatrixTranslatedEXT(mode Enum, x Double, y Double, z Double) {
 	C.goglMatrixTranslatedEXT((C.GLenum)(mode), (C.GLdouble)(x), (C.GLdouble)(y), (C.GLdouble)(z))
 }
-func MatrixFrustumEXT(mode Enum, left Double, right Double, bottom Double, top Double, zNear Double, zFar Double)  {
+func MatrixFrustumEXT(mode Enum, left Double, right Double, bottom Double, top Double, zNear Double, zFar Double) {
 	C.goglMatrixFrustumEXT((C.GLenum)(mode), (C.GLdouble)(left), (C.GLdouble)(right), (C.GLdouble)(bottom), (C.GLdouble)(top), (C.GLdouble)(zNear), (C.GLdouble)(zFar))
 }
-func MatrixOrthoEXT(mode Enum, left Double, right Double, bottom Double, top Double, zNear Double, zFar Double)  {
+func MatrixOrthoEXT(mode Enum, left Double, right Double, bottom Double, top Double, zNear Double, zFar Double) {
 	C.goglMatrixOrthoEXT((C.GLenum)(mode), (C.GLdouble)(left), (C.GLdouble)(right), (C.GLdouble)(bottom), (C.GLdouble)(top), (C.GLdouble)(zNear), (C.GLdouble)(zFar))
 }
-func MatrixPopEXT(mode Enum)  {
+func MatrixPopEXT(mode Enum) {
 	C.goglMatrixPopEXT((C.GLenum)(mode))
 }
-func MatrixPushEXT(mode Enum)  {
+func MatrixPushEXT(mode Enum) {
 	C.goglMatrixPushEXT((C.GLenum)(mode))
 }
-func MatrixLoadTransposefEXT(mode Enum, m *Float)  {
+func MatrixLoadTransposefEXT(mode Enum, m *Float) {
 	C.goglMatrixLoadTransposefEXT((C.GLenum)(mode), (*C.GLfloat)(m))
 }
-func MatrixLoadTransposedEXT(mode Enum, m *Double)  {
+func MatrixLoadTransposedEXT(mode Enum, m *Double) {
 	C.goglMatrixLoadTransposedEXT((C.GLenum)(mode), (*C.GLdouble)(m))
 }
-func MatrixMultTransposefEXT(mode Enum, m *Float)  {
+func MatrixMultTransposefEXT(mode Enum, m *Float) {
 	C.goglMatrixMultTransposefEXT((C.GLenum)(mode), (*C.GLfloat)(m))
 }
-func MatrixMultTransposedEXT(mode Enum, m *Double)  {
+func MatrixMultTransposedEXT(mode Enum, m *Double) {
 	C.goglMatrixMultTransposedEXT((C.GLenum)(mode), (*C.GLdouble)(m))
 }
-func TextureParameterfEXT(texture Uint, target Enum, pname Enum, param Float)  {
+func TextureParameterfEXT(texture Uint, target Enum, pname Enum, param Float) {
 	C.goglTextureParameterfEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLenum)(pname), (C.GLfloat)(param))
 }
-func TextureParameterfvEXT(texture Uint, target Enum, pname Enum, params *Float)  {
+func TextureParameterfvEXT(texture Uint, target Enum, pname Enum, params *Float) {
 	C.goglTextureParameterfvEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func TextureParameteriEXT(texture Uint, target Enum, pname Enum, param Int)  {
+func TextureParameteriEXT(texture Uint, target Enum, pname Enum, param Int) {
 	C.goglTextureParameteriEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLenum)(pname), (C.GLint)(param))
 }
-func TextureParameterivEXT(texture Uint, target Enum, pname Enum, params *Int)  {
+func TextureParameterivEXT(texture Uint, target Enum, pname Enum, params *Int) {
 	C.goglTextureParameterivEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func TextureImage1DEXT(texture Uint, target Enum, level Int, internalformat Enum, width Sizei, border Int, format Enum, type_ Enum, pixels Pointer)  {
+func TextureImage1DEXT(texture Uint, target Enum, level Int, internalformat Enum, width Sizei, border Int, format Enum, type_ Enum, pixels Pointer) {
 	C.goglTextureImage1DEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLint)(level), (C.GLenum)(internalformat), (C.GLsizei)(width), (C.GLint)(border), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(pixels))
 }
-func TextureImage2DEXT(texture Uint, target Enum, level Int, internalformat Enum, width Sizei, height Sizei, border Int, format Enum, type_ Enum, pixels Pointer)  {
+func TextureImage2DEXT(texture Uint, target Enum, level Int, internalformat Enum, width Sizei, height Sizei, border Int, format Enum, type_ Enum, pixels Pointer) {
 	C.goglTextureImage2DEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLint)(level), (C.GLenum)(internalformat), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLint)(border), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(pixels))
 }
-func TextureSubImage1DEXT(texture Uint, target Enum, level Int, xoffset Int, width Sizei, format Enum, type_ Enum, pixels Pointer)  {
+func TextureSubImage1DEXT(texture Uint, target Enum, level Int, xoffset Int, width Sizei, format Enum, type_ Enum, pixels Pointer) {
 	C.goglTextureSubImage1DEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLint)(level), (C.GLint)(xoffset), (C.GLsizei)(width), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(pixels))
 }
-func TextureSubImage2DEXT(texture Uint, target Enum, level Int, xoffset Int, yoffset Int, width Sizei, height Sizei, format Enum, type_ Enum, pixels Pointer)  {
+func TextureSubImage2DEXT(texture Uint, target Enum, level Int, xoffset Int, yoffset Int, width Sizei, height Sizei, format Enum, type_ Enum, pixels Pointer) {
 	C.goglTextureSubImage2DEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLint)(level), (C.GLint)(xoffset), (C.GLint)(yoffset), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(pixels))
 }
-func CopyTextureImage1DEXT(texture Uint, target Enum, level Int, internalformat Enum, x Int, y Int, width Sizei, border Int)  {
+func CopyTextureImage1DEXT(texture Uint, target Enum, level Int, internalformat Enum, x Int, y Int, width Sizei, border Int) {
 	C.goglCopyTextureImage1DEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLint)(level), (C.GLenum)(internalformat), (C.GLint)(x), (C.GLint)(y), (C.GLsizei)(width), (C.GLint)(border))
 }
-func CopyTextureImage2DEXT(texture Uint, target Enum, level Int, internalformat Enum, x Int, y Int, width Sizei, height Sizei, border Int)  {
+func CopyTextureImage2DEXT(texture Uint, target Enum, level Int, internalformat Enum, x Int, y Int, width Sizei, height Sizei, border Int) {
 	C.goglCopyTextureImage2DEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLint)(level), (C.GLenum)(internalformat), (C.GLint)(x), (C.GLint)(y), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLint)(border))
 }
-func CopyTextureSubImage1DEXT(texture Uint, target Enum, level Int, xoffset Int, x Int, y Int, width Sizei)  {
+func CopyTextureSubImage1DEXT(texture Uint, target Enum, level Int, xoffset Int, x Int, y Int, width Sizei) {
 	C.goglCopyTextureSubImage1DEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLint)(level), (C.GLint)(xoffset), (C.GLint)(x), (C.GLint)(y), (C.GLsizei)(width))
 }
-func CopyTextureSubImage2DEXT(texture Uint, target Enum, level Int, xoffset Int, yoffset Int, x Int, y Int, width Sizei, height Sizei)  {
+func CopyTextureSubImage2DEXT(texture Uint, target Enum, level Int, xoffset Int, yoffset Int, x Int, y Int, width Sizei, height Sizei) {
 	C.goglCopyTextureSubImage2DEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLint)(level), (C.GLint)(xoffset), (C.GLint)(yoffset), (C.GLint)(x), (C.GLint)(y), (C.GLsizei)(width), (C.GLsizei)(height))
 }
-func GetTextureImageEXT(texture Uint, target Enum, level Int, format Enum, type_ Enum, pixels Pointer)  {
+func GetTextureImageEXT(texture Uint, target Enum, level Int, format Enum, type_ Enum, pixels Pointer) {
 	C.goglGetTextureImageEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLint)(level), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(pixels))
 }
-func GetTextureParameterfvEXT(texture Uint, target Enum, pname Enum, params *Float)  {
+func GetTextureParameterfvEXT(texture Uint, target Enum, pname Enum, params *Float) {
 	C.goglGetTextureParameterfvEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func GetTextureParameterivEXT(texture Uint, target Enum, pname Enum, params *Int)  {
+func GetTextureParameterivEXT(texture Uint, target Enum, pname Enum, params *Int) {
 	C.goglGetTextureParameterivEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetTextureLevelParameterfvEXT(texture Uint, target Enum, level Int, pname Enum, params *Float)  {
+func GetTextureLevelParameterfvEXT(texture Uint, target Enum, level Int, pname Enum, params *Float) {
 	C.goglGetTextureLevelParameterfvEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLint)(level), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func GetTextureLevelParameterivEXT(texture Uint, target Enum, level Int, pname Enum, params *Int)  {
+func GetTextureLevelParameterivEXT(texture Uint, target Enum, level Int, pname Enum, params *Int) {
 	C.goglGetTextureLevelParameterivEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLint)(level), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func TextureImage3DEXT(texture Uint, target Enum, level Int, internalformat Enum, width Sizei, height Sizei, depth Sizei, border Int, format Enum, type_ Enum, pixels Pointer)  {
+func TextureImage3DEXT(texture Uint, target Enum, level Int, internalformat Enum, width Sizei, height Sizei, depth Sizei, border Int, format Enum, type_ Enum, pixels Pointer) {
 	C.goglTextureImage3DEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLint)(level), (C.GLenum)(internalformat), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLsizei)(depth), (C.GLint)(border), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(pixels))
 }
-func TextureSubImage3DEXT(texture Uint, target Enum, level Int, xoffset Int, yoffset Int, zoffset Int, width Sizei, height Sizei, depth Sizei, format Enum, type_ Enum, pixels Pointer)  {
+func TextureSubImage3DEXT(texture Uint, target Enum, level Int, xoffset Int, yoffset Int, zoffset Int, width Sizei, height Sizei, depth Sizei, format Enum, type_ Enum, pixels Pointer) {
 	C.goglTextureSubImage3DEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLint)(level), (C.GLint)(xoffset), (C.GLint)(yoffset), (C.GLint)(zoffset), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLsizei)(depth), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(pixels))
 }
-func CopyTextureSubImage3DEXT(texture Uint, target Enum, level Int, xoffset Int, yoffset Int, zoffset Int, x Int, y Int, width Sizei, height Sizei)  {
+func CopyTextureSubImage3DEXT(texture Uint, target Enum, level Int, xoffset Int, yoffset Int, zoffset Int, x Int, y Int, width Sizei, height Sizei) {
 	C.goglCopyTextureSubImage3DEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLint)(level), (C.GLint)(xoffset), (C.GLint)(yoffset), (C.GLint)(zoffset), (C.GLint)(x), (C.GLint)(y), (C.GLsizei)(width), (C.GLsizei)(height))
 }
-func MultiTexParameterfEXT(texunit Enum, target Enum, pname Enum, param Float)  {
+func MultiTexParameterfEXT(texunit Enum, target Enum, pname Enum, param Float) {
 	C.goglMultiTexParameterfEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLenum)(pname), (C.GLfloat)(param))
 }
-func MultiTexParameterfvEXT(texunit Enum, target Enum, pname Enum, params *Float)  {
+func MultiTexParameterfvEXT(texunit Enum, target Enum, pname Enum, params *Float) {
 	C.goglMultiTexParameterfvEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func MultiTexParameteriEXT(texunit Enum, target Enum, pname Enum, param Int)  {
+func MultiTexParameteriEXT(texunit Enum, target Enum, pname Enum, param Int) {
 	C.goglMultiTexParameteriEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLenum)(pname), (C.GLint)(param))
 }
-func MultiTexParameterivEXT(texunit Enum, target Enum, pname Enum, params *Int)  {
+func MultiTexParameterivEXT(texunit Enum, target Enum, pname Enum, params *Int) {
 	C.goglMultiTexParameterivEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func MultiTexImage1DEXT(texunit Enum, target Enum, level Int, internalformat Enum, width Sizei, border Int, format Enum, type_ Enum, pixels Pointer)  {
+func MultiTexImage1DEXT(texunit Enum, target Enum, level Int, internalformat Enum, width Sizei, border Int, format Enum, type_ Enum, pixels Pointer) {
 	C.goglMultiTexImage1DEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLint)(level), (C.GLenum)(internalformat), (C.GLsizei)(width), (C.GLint)(border), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(pixels))
 }
-func MultiTexImage2DEXT(texunit Enum, target Enum, level Int, internalformat Enum, width Sizei, height Sizei, border Int, format Enum, type_ Enum, pixels Pointer)  {
+func MultiTexImage2DEXT(texunit Enum, target Enum, level Int, internalformat Enum, width Sizei, height Sizei, border Int, format Enum, type_ Enum, pixels Pointer) {
 	C.goglMultiTexImage2DEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLint)(level), (C.GLenum)(internalformat), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLint)(border), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(pixels))
 }
-func MultiTexSubImage1DEXT(texunit Enum, target Enum, level Int, xoffset Int, width Sizei, format Enum, type_ Enum, pixels Pointer)  {
+func MultiTexSubImage1DEXT(texunit Enum, target Enum, level Int, xoffset Int, width Sizei, format Enum, type_ Enum, pixels Pointer) {
 	C.goglMultiTexSubImage1DEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLint)(level), (C.GLint)(xoffset), (C.GLsizei)(width), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(pixels))
 }
-func MultiTexSubImage2DEXT(texunit Enum, target Enum, level Int, xoffset Int, yoffset Int, width Sizei, height Sizei, format Enum, type_ Enum, pixels Pointer)  {
+func MultiTexSubImage2DEXT(texunit Enum, target Enum, level Int, xoffset Int, yoffset Int, width Sizei, height Sizei, format Enum, type_ Enum, pixels Pointer) {
 	C.goglMultiTexSubImage2DEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLint)(level), (C.GLint)(xoffset), (C.GLint)(yoffset), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(pixels))
 }
-func CopyMultiTexImage1DEXT(texunit Enum, target Enum, level Int, internalformat Enum, x Int, y Int, width Sizei, border Int)  {
+func CopyMultiTexImage1DEXT(texunit Enum, target Enum, level Int, internalformat Enum, x Int, y Int, width Sizei, border Int) {
 	C.goglCopyMultiTexImage1DEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLint)(level), (C.GLenum)(internalformat), (C.GLint)(x), (C.GLint)(y), (C.GLsizei)(width), (C.GLint)(border))
 }
-func CopyMultiTexImage2DEXT(texunit Enum, target Enum, level Int, internalformat Enum, x Int, y Int, width Sizei, height Sizei, border Int)  {
+func CopyMultiTexImage2DEXT(texunit Enum, target Enum, level Int, internalformat Enum, x Int, y Int, width Sizei, height Sizei, border Int) {
 	C.goglCopyMultiTexImage2DEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLint)(level), (C.GLenum)(internalformat), (C.GLint)(x), (C.GLint)(y), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLint)(border))
 }
-func CopyMultiTexSubImage1DEXT(texunit Enum, target Enum, level Int, xoffset Int, x Int, y Int, width Sizei)  {
+func CopyMultiTexSubImage1DEXT(texunit Enum, target Enum, level Int, xoffset Int, x Int, y Int, width Sizei) {
 	C.goglCopyMultiTexSubImage1DEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLint)(level), (C.GLint)(xoffset), (C.GLint)(x), (C.GLint)(y), (C.GLsizei)(width))
 }
-func CopyMultiTexSubImage2DEXT(texunit Enum, target Enum, level Int, xoffset Int, yoffset Int, x Int, y Int, width Sizei, height Sizei)  {
+func CopyMultiTexSubImage2DEXT(texunit Enum, target Enum, level Int, xoffset Int, yoffset Int, x Int, y Int, width Sizei, height Sizei) {
 	C.goglCopyMultiTexSubImage2DEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLint)(level), (C.GLint)(xoffset), (C.GLint)(yoffset), (C.GLint)(x), (C.GLint)(y), (C.GLsizei)(width), (C.GLsizei)(height))
 }
-func GetMultiTexImageEXT(texunit Enum, target Enum, level Int, format Enum, type_ Enum, pixels Pointer)  {
+func GetMultiTexImageEXT(texunit Enum, target Enum, level Int, format Enum, type_ Enum, pixels Pointer) {
 	C.goglGetMultiTexImageEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLint)(level), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(pixels))
 }
-func GetMultiTexParameterfvEXT(texunit Enum, target Enum, pname Enum, params *Float)  {
+func GetMultiTexParameterfvEXT(texunit Enum, target Enum, pname Enum, params *Float) {
 	C.goglGetMultiTexParameterfvEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func GetMultiTexParameterivEXT(texunit Enum, target Enum, pname Enum, params *Int)  {
+func GetMultiTexParameterivEXT(texunit Enum, target Enum, pname Enum, params *Int) {
 	C.goglGetMultiTexParameterivEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetMultiTexLevelParameterfvEXT(texunit Enum, target Enum, level Int, pname Enum, params *Float)  {
+func GetMultiTexLevelParameterfvEXT(texunit Enum, target Enum, level Int, pname Enum, params *Float) {
 	C.goglGetMultiTexLevelParameterfvEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLint)(level), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func GetMultiTexLevelParameterivEXT(texunit Enum, target Enum, level Int, pname Enum, params *Int)  {
+func GetMultiTexLevelParameterivEXT(texunit Enum, target Enum, level Int, pname Enum, params *Int) {
 	C.goglGetMultiTexLevelParameterivEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLint)(level), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func MultiTexImage3DEXT(texunit Enum, target Enum, level Int, internalformat Enum, width Sizei, height Sizei, depth Sizei, border Int, format Enum, type_ Enum, pixels Pointer)  {
+func MultiTexImage3DEXT(texunit Enum, target Enum, level Int, internalformat Enum, width Sizei, height Sizei, depth Sizei, border Int, format Enum, type_ Enum, pixels Pointer) {
 	C.goglMultiTexImage3DEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLint)(level), (C.GLenum)(internalformat), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLsizei)(depth), (C.GLint)(border), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(pixels))
 }
-func MultiTexSubImage3DEXT(texunit Enum, target Enum, level Int, xoffset Int, yoffset Int, zoffset Int, width Sizei, height Sizei, depth Sizei, format Enum, type_ Enum, pixels Pointer)  {
+func MultiTexSubImage3DEXT(texunit Enum, target Enum, level Int, xoffset Int, yoffset Int, zoffset Int, width Sizei, height Sizei, depth Sizei, format Enum, type_ Enum, pixels Pointer) {
 	C.goglMultiTexSubImage3DEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLint)(level), (C.GLint)(xoffset), (C.GLint)(yoffset), (C.GLint)(zoffset), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLsizei)(depth), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(pixels))
 }
-func CopyMultiTexSubImage3DEXT(texunit Enum, target Enum, level Int, xoffset Int, yoffset Int, zoffset Int, x Int, y Int, width Sizei, height Sizei)  {
+func CopyMultiTexSubImage3DEXT(texunit Enum, target Enum, level Int, xoffset Int, yoffset Int, zoffset Int, x Int, y Int, width Sizei, height Sizei) {
 	C.goglCopyMultiTexSubImage3DEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLint)(level), (C.GLint)(xoffset), (C.GLint)(yoffset), (C.GLint)(zoffset), (C.GLint)(x), (C.GLint)(y), (C.GLsizei)(width), (C.GLsizei)(height))
 }
-func BindMultiTextureEXT(texunit Enum, target Enum, texture Uint)  {
+func BindMultiTextureEXT(texunit Enum, target Enum, texture Uint) {
 	C.goglBindMultiTextureEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLuint)(texture))
 }
-func EnableClientStateIndexedEXT(array Enum, index Uint)  {
+func EnableClientStateIndexedEXT(array Enum, index Uint) {
 	C.goglEnableClientStateIndexedEXT((C.GLenum)(array), (C.GLuint)(index))
 }
-func DisableClientStateIndexedEXT(array Enum, index Uint)  {
+func DisableClientStateIndexedEXT(array Enum, index Uint) {
 	C.goglDisableClientStateIndexedEXT((C.GLenum)(array), (C.GLuint)(index))
 }
-func EnableClientStateiEXT(array Enum, index Uint)  {
+func EnableClientStateiEXT(array Enum, index Uint) {
 	C.goglEnableClientStateiEXT((C.GLenum)(array), (C.GLuint)(index))
 }
-func DisableClientStateiEXT(array Enum, index Uint)  {
+func DisableClientStateiEXT(array Enum, index Uint) {
 	C.goglDisableClientStateiEXT((C.GLenum)(array), (C.GLuint)(index))
 }
-func MultiTexCoordPointerEXT(texunit Enum, size Int, type_ Enum, stride Sizei, pointer Pointer)  {
+func MultiTexCoordPointerEXT(texunit Enum, size Int, type_ Enum, stride Sizei, pointer Pointer) {
 	C.goglMultiTexCoordPointerEXT((C.GLenum)(texunit), (C.GLint)(size), (C.GLenum)(type_), (C.GLsizei)(stride), (unsafe.Pointer)(pointer))
 }
-func MultiTexEnvfEXT(texunit Enum, target Enum, pname Enum, param Float)  {
+func MultiTexEnvfEXT(texunit Enum, target Enum, pname Enum, param Float) {
 	C.goglMultiTexEnvfEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLenum)(pname), (C.GLfloat)(param))
 }
-func MultiTexEnvfvEXT(texunit Enum, target Enum, pname Enum, params *Float)  {
+func MultiTexEnvfvEXT(texunit Enum, target Enum, pname Enum, params *Float) {
 	C.goglMultiTexEnvfvEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func MultiTexEnviEXT(texunit Enum, target Enum, pname Enum, param Int)  {
+func MultiTexEnviEXT(texunit Enum, target Enum, pname Enum, param Int) {
 	C.goglMultiTexEnviEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLenum)(pname), (C.GLint)(param))
 }
-func MultiTexEnvivEXT(texunit Enum, target Enum, pname Enum, params *Int)  {
+func MultiTexEnvivEXT(texunit Enum, target Enum, pname Enum, params *Int) {
 	C.goglMultiTexEnvivEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func MultiTexGendEXT(texunit Enum, coord Enum, pname Enum, param Double)  {
+func MultiTexGendEXT(texunit Enum, coord Enum, pname Enum, param Double) {
 	C.goglMultiTexGendEXT((C.GLenum)(texunit), (C.GLenum)(coord), (C.GLenum)(pname), (C.GLdouble)(param))
 }
-func MultiTexGendvEXT(texunit Enum, coord Enum, pname Enum, params *Double)  {
+func MultiTexGendvEXT(texunit Enum, coord Enum, pname Enum, params *Double) {
 	C.goglMultiTexGendvEXT((C.GLenum)(texunit), (C.GLenum)(coord), (C.GLenum)(pname), (*C.GLdouble)(params))
 }
-func MultiTexGenfEXT(texunit Enum, coord Enum, pname Enum, param Float)  {
+func MultiTexGenfEXT(texunit Enum, coord Enum, pname Enum, param Float) {
 	C.goglMultiTexGenfEXT((C.GLenum)(texunit), (C.GLenum)(coord), (C.GLenum)(pname), (C.GLfloat)(param))
 }
-func MultiTexGenfvEXT(texunit Enum, coord Enum, pname Enum, params *Float)  {
+func MultiTexGenfvEXT(texunit Enum, coord Enum, pname Enum, params *Float) {
 	C.goglMultiTexGenfvEXT((C.GLenum)(texunit), (C.GLenum)(coord), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func MultiTexGeniEXT(texunit Enum, coord Enum, pname Enum, param Int)  {
+func MultiTexGeniEXT(texunit Enum, coord Enum, pname Enum, param Int) {
 	C.goglMultiTexGeniEXT((C.GLenum)(texunit), (C.GLenum)(coord), (C.GLenum)(pname), (C.GLint)(param))
 }
-func MultiTexGenivEXT(texunit Enum, coord Enum, pname Enum, params *Int)  {
+func MultiTexGenivEXT(texunit Enum, coord Enum, pname Enum, params *Int) {
 	C.goglMultiTexGenivEXT((C.GLenum)(texunit), (C.GLenum)(coord), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetMultiTexEnvfvEXT(texunit Enum, target Enum, pname Enum, params *Float)  {
+func GetMultiTexEnvfvEXT(texunit Enum, target Enum, pname Enum, params *Float) {
 	C.goglGetMultiTexEnvfvEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func GetMultiTexEnvivEXT(texunit Enum, target Enum, pname Enum, params *Int)  {
+func GetMultiTexEnvivEXT(texunit Enum, target Enum, pname Enum, params *Int) {
 	C.goglGetMultiTexEnvivEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetMultiTexGendvEXT(texunit Enum, coord Enum, pname Enum, params *Double)  {
+func GetMultiTexGendvEXT(texunit Enum, coord Enum, pname Enum, params *Double) {
 	C.goglGetMultiTexGendvEXT((C.GLenum)(texunit), (C.GLenum)(coord), (C.GLenum)(pname), (*C.GLdouble)(params))
 }
-func GetMultiTexGenfvEXT(texunit Enum, coord Enum, pname Enum, params *Float)  {
+func GetMultiTexGenfvEXT(texunit Enum, coord Enum, pname Enum, params *Float) {
 	C.goglGetMultiTexGenfvEXT((C.GLenum)(texunit), (C.GLenum)(coord), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func GetMultiTexGenivEXT(texunit Enum, coord Enum, pname Enum, params *Int)  {
+func GetMultiTexGenivEXT(texunit Enum, coord Enum, pname Enum, params *Int) {
 	C.goglGetMultiTexGenivEXT((C.GLenum)(texunit), (C.GLenum)(coord), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetFloatIndexedvEXT(target Enum, index Uint, data *Float)  {
+func GetFloatIndexedvEXT(target Enum, index Uint, data *Float) {
 	C.goglGetFloatIndexedvEXT((C.GLenum)(target), (C.GLuint)(index), (*C.GLfloat)(data))
 }
-func GetDoubleIndexedvEXT(target Enum, index Uint, data *Double)  {
+func GetDoubleIndexedvEXT(target Enum, index Uint, data *Double) {
 	C.goglGetDoubleIndexedvEXT((C.GLenum)(target), (C.GLuint)(index), (*C.GLdouble)(data))
 }
-func GetPointerIndexedvEXT(target Enum, index Uint, data *Pointer)  {
+func GetPointerIndexedvEXT(target Enum, index Uint, data *Pointer) {
 	C.goglGetPointerIndexedvEXT((C.GLenum)(target), (C.GLuint)(index), (*unsafe.Pointer)(data))
 }
-func GetFloati_vEXT(target Enum, index Uint, data *Float)  {
+func GetFloati_vEXT(target Enum, index Uint, data *Float) {
 	C.goglGetFloati_vEXT((C.GLenum)(target), (C.GLuint)(index), (*C.GLfloat)(data))
 }
-func GetDoublei_vEXT(target Enum, index Uint, data *Double)  {
+func GetDoublei_vEXT(target Enum, index Uint, data *Double) {
 	C.goglGetDoublei_vEXT((C.GLenum)(target), (C.GLuint)(index), (*C.GLdouble)(data))
 }
-func GetPointeri_vEXT(target Enum, index Uint, data *Pointer)  {
+func GetPointeri_vEXT(target Enum, index Uint, data *Pointer) {
 	C.goglGetPointeri_vEXT((C.GLenum)(target), (C.GLuint)(index), (*unsafe.Pointer)(data))
 }
-func CompressedTextureImage3DEXT(texture Uint, target Enum, level Int, internalformat Enum, width Sizei, height Sizei, depth Sizei, border Int, imageSize Sizei, bits Pointer)  {
+func CompressedTextureImage3DEXT(texture Uint, target Enum, level Int, internalformat Enum, width Sizei, height Sizei, depth Sizei, border Int, imageSize Sizei, bits Pointer) {
 	C.goglCompressedTextureImage3DEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLint)(level), (C.GLenum)(internalformat), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLsizei)(depth), (C.GLint)(border), (C.GLsizei)(imageSize), (unsafe.Pointer)(bits))
 }
-func CompressedTextureImage2DEXT(texture Uint, target Enum, level Int, internalformat Enum, width Sizei, height Sizei, border Int, imageSize Sizei, bits Pointer)  {
+func CompressedTextureImage2DEXT(texture Uint, target Enum, level Int, internalformat Enum, width Sizei, height Sizei, border Int, imageSize Sizei, bits Pointer) {
 	C.goglCompressedTextureImage2DEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLint)(level), (C.GLenum)(internalformat), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLint)(border), (C.GLsizei)(imageSize), (unsafe.Pointer)(bits))
 }
-func CompressedTextureImage1DEXT(texture Uint, target Enum, level Int, internalformat Enum, width Sizei, border Int, imageSize Sizei, bits Pointer)  {
+func CompressedTextureImage1DEXT(texture Uint, target Enum, level Int, internalformat Enum, width Sizei, border Int, imageSize Sizei, bits Pointer) {
 	C.goglCompressedTextureImage1DEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLint)(level), (C.GLenum)(internalformat), (C.GLsizei)(width), (C.GLint)(border), (C.GLsizei)(imageSize), (unsafe.Pointer)(bits))
 }
-func CompressedTextureSubImage3DEXT(texture Uint, target Enum, level Int, xoffset Int, yoffset Int, zoffset Int, width Sizei, height Sizei, depth Sizei, format Enum, imageSize Sizei, bits Pointer)  {
+func CompressedTextureSubImage3DEXT(texture Uint, target Enum, level Int, xoffset Int, yoffset Int, zoffset Int, width Sizei, height Sizei, depth Sizei, format Enum, imageSize Sizei, bits Pointer) {
 	C.goglCompressedTextureSubImage3DEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLint)(level), (C.GLint)(xoffset), (C.GLint)(yoffset), (C.GLint)(zoffset), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLsizei)(depth), (C.GLenum)(format), (C.GLsizei)(imageSize), (unsafe.Pointer)(bits))
 }
-func CompressedTextureSubImage2DEXT(texture Uint, target Enum, level Int, xoffset Int, yoffset Int, width Sizei, height Sizei, format Enum, imageSize Sizei, bits Pointer)  {
+func CompressedTextureSubImage2DEXT(texture Uint, target Enum, level Int, xoffset Int, yoffset Int, width Sizei, height Sizei, format Enum, imageSize Sizei, bits Pointer) {
 	C.goglCompressedTextureSubImage2DEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLint)(level), (C.GLint)(xoffset), (C.GLint)(yoffset), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLenum)(format), (C.GLsizei)(imageSize), (unsafe.Pointer)(bits))
 }
-func CompressedTextureSubImage1DEXT(texture Uint, target Enum, level Int, xoffset Int, width Sizei, format Enum, imageSize Sizei, bits Pointer)  {
+func CompressedTextureSubImage1DEXT(texture Uint, target Enum, level Int, xoffset Int, width Sizei, format Enum, imageSize Sizei, bits Pointer) {
 	C.goglCompressedTextureSubImage1DEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLint)(level), (C.GLint)(xoffset), (C.GLsizei)(width), (C.GLenum)(format), (C.GLsizei)(imageSize), (unsafe.Pointer)(bits))
 }
-func GetCompressedTextureImageEXT(texture Uint, target Enum, lod Int, img Pointer)  {
+func GetCompressedTextureImageEXT(texture Uint, target Enum, lod Int, img Pointer) {
 	C.goglGetCompressedTextureImageEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLint)(lod), (unsafe.Pointer)(img))
 }
-func CompressedMultiTexImage3DEXT(texunit Enum, target Enum, level Int, internalformat Enum, width Sizei, height Sizei, depth Sizei, border Int, imageSize Sizei, bits Pointer)  {
+func CompressedMultiTexImage3DEXT(texunit Enum, target Enum, level Int, internalformat Enum, width Sizei, height Sizei, depth Sizei, border Int, imageSize Sizei, bits Pointer) {
 	C.goglCompressedMultiTexImage3DEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLint)(level), (C.GLenum)(internalformat), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLsizei)(depth), (C.GLint)(border), (C.GLsizei)(imageSize), (unsafe.Pointer)(bits))
 }
-func CompressedMultiTexImage2DEXT(texunit Enum, target Enum, level Int, internalformat Enum, width Sizei, height Sizei, border Int, imageSize Sizei, bits Pointer)  {
+func CompressedMultiTexImage2DEXT(texunit Enum, target Enum, level Int, internalformat Enum, width Sizei, height Sizei, border Int, imageSize Sizei, bits Pointer) {
 	C.goglCompressedMultiTexImage2DEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLint)(level), (C.GLenum)(internalformat), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLint)(border), (C.GLsizei)(imageSize), (unsafe.Pointer)(bits))
 }
-func CompressedMultiTexImage1DEXT(texunit Enum, target Enum, level Int, internalformat Enum, width Sizei, border Int, imageSize Sizei, bits Pointer)  {
+func CompressedMultiTexImage1DEXT(texunit Enum, target Enum, level Int, internalformat Enum, width Sizei, border Int, imageSize Sizei, bits Pointer) {
 	C.goglCompressedMultiTexImage1DEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLint)(level), (C.GLenum)(internalformat), (C.GLsizei)(width), (C.GLint)(border), (C.GLsizei)(imageSize), (unsafe.Pointer)(bits))
 }
-func CompressedMultiTexSubImage3DEXT(texunit Enum, target Enum, level Int, xoffset Int, yoffset Int, zoffset Int, width Sizei, height Sizei, depth Sizei, format Enum, imageSize Sizei, bits Pointer)  {
+func CompressedMultiTexSubImage3DEXT(texunit Enum, target Enum, level Int, xoffset Int, yoffset Int, zoffset Int, width Sizei, height Sizei, depth Sizei, format Enum, imageSize Sizei, bits Pointer) {
 	C.goglCompressedMultiTexSubImage3DEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLint)(level), (C.GLint)(xoffset), (C.GLint)(yoffset), (C.GLint)(zoffset), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLsizei)(depth), (C.GLenum)(format), (C.GLsizei)(imageSize), (unsafe.Pointer)(bits))
 }
-func CompressedMultiTexSubImage2DEXT(texunit Enum, target Enum, level Int, xoffset Int, yoffset Int, width Sizei, height Sizei, format Enum, imageSize Sizei, bits Pointer)  {
+func CompressedMultiTexSubImage2DEXT(texunit Enum, target Enum, level Int, xoffset Int, yoffset Int, width Sizei, height Sizei, format Enum, imageSize Sizei, bits Pointer) {
 	C.goglCompressedMultiTexSubImage2DEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLint)(level), (C.GLint)(xoffset), (C.GLint)(yoffset), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLenum)(format), (C.GLsizei)(imageSize), (unsafe.Pointer)(bits))
 }
-func CompressedMultiTexSubImage1DEXT(texunit Enum, target Enum, level Int, xoffset Int, width Sizei, format Enum, imageSize Sizei, bits Pointer)  {
+func CompressedMultiTexSubImage1DEXT(texunit Enum, target Enum, level Int, xoffset Int, width Sizei, format Enum, imageSize Sizei, bits Pointer) {
 	C.goglCompressedMultiTexSubImage1DEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLint)(level), (C.GLint)(xoffset), (C.GLsizei)(width), (C.GLenum)(format), (C.GLsizei)(imageSize), (unsafe.Pointer)(bits))
 }
-func GetCompressedMultiTexImageEXT(texunit Enum, target Enum, lod Int, img Pointer)  {
+func GetCompressedMultiTexImageEXT(texunit Enum, target Enum, lod Int, img Pointer) {
 	C.goglGetCompressedMultiTexImageEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLint)(lod), (unsafe.Pointer)(img))
 }
-func NamedProgramStringEXT(program Uint, target Enum, format Enum, len Sizei, string_ Pointer)  {
+func NamedProgramStringEXT(program Uint, target Enum, format Enum, len Sizei, string_ Pointer) {
 	C.goglNamedProgramStringEXT((C.GLuint)(program), (C.GLenum)(target), (C.GLenum)(format), (C.GLsizei)(len), (unsafe.Pointer)(string_))
 }
-func NamedProgramLocalParameter4dEXT(program Uint, target Enum, index Uint, x Double, y Double, z Double, w Double)  {
+func NamedProgramLocalParameter4dEXT(program Uint, target Enum, index Uint, x Double, y Double, z Double, w Double) {
 	C.goglNamedProgramLocalParameter4dEXT((C.GLuint)(program), (C.GLenum)(target), (C.GLuint)(index), (C.GLdouble)(x), (C.GLdouble)(y), (C.GLdouble)(z), (C.GLdouble)(w))
 }
-func NamedProgramLocalParameter4dvEXT(program Uint, target Enum, index Uint, params *Double)  {
+func NamedProgramLocalParameter4dvEXT(program Uint, target Enum, index Uint, params *Double) {
 	C.goglNamedProgramLocalParameter4dvEXT((C.GLuint)(program), (C.GLenum)(target), (C.GLuint)(index), (*C.GLdouble)(params))
 }
-func NamedProgramLocalParameter4fEXT(program Uint, target Enum, index Uint, x Float, y Float, z Float, w Float)  {
+func NamedProgramLocalParameter4fEXT(program Uint, target Enum, index Uint, x Float, y Float, z Float, w Float) {
 	C.goglNamedProgramLocalParameter4fEXT((C.GLuint)(program), (C.GLenum)(target), (C.GLuint)(index), (C.GLfloat)(x), (C.GLfloat)(y), (C.GLfloat)(z), (C.GLfloat)(w))
 }
-func NamedProgramLocalParameter4fvEXT(program Uint, target Enum, index Uint, params *Float)  {
+func NamedProgramLocalParameter4fvEXT(program Uint, target Enum, index Uint, params *Float) {
 	C.goglNamedProgramLocalParameter4fvEXT((C.GLuint)(program), (C.GLenum)(target), (C.GLuint)(index), (*C.GLfloat)(params))
 }
-func GetNamedProgramLocalParameterdvEXT(program Uint, target Enum, index Uint, params *Double)  {
+func GetNamedProgramLocalParameterdvEXT(program Uint, target Enum, index Uint, params *Double) {
 	C.goglGetNamedProgramLocalParameterdvEXT((C.GLuint)(program), (C.GLenum)(target), (C.GLuint)(index), (*C.GLdouble)(params))
 }
-func GetNamedProgramLocalParameterfvEXT(program Uint, target Enum, index Uint, params *Float)  {
+func GetNamedProgramLocalParameterfvEXT(program Uint, target Enum, index Uint, params *Float) {
 	C.goglGetNamedProgramLocalParameterfvEXT((C.GLuint)(program), (C.GLenum)(target), (C.GLuint)(index), (*C.GLfloat)(params))
 }
-func GetNamedProgramivEXT(program Uint, target Enum, pname Enum, params *Int)  {
+func GetNamedProgramivEXT(program Uint, target Enum, pname Enum, params *Int) {
 	C.goglGetNamedProgramivEXT((C.GLuint)(program), (C.GLenum)(target), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetNamedProgramStringEXT(program Uint, target Enum, pname Enum, string_ Pointer)  {
+func GetNamedProgramStringEXT(program Uint, target Enum, pname Enum, string_ Pointer) {
 	C.goglGetNamedProgramStringEXT((C.GLuint)(program), (C.GLenum)(target), (C.GLenum)(pname), (unsafe.Pointer)(string_))
 }
-func NamedProgramLocalParameters4fvEXT(program Uint, target Enum, index Uint, count Sizei, params *Float)  {
+func NamedProgramLocalParameters4fvEXT(program Uint, target Enum, index Uint, count Sizei, params *Float) {
 	C.goglNamedProgramLocalParameters4fvEXT((C.GLuint)(program), (C.GLenum)(target), (C.GLuint)(index), (C.GLsizei)(count), (*C.GLfloat)(params))
 }
-func NamedProgramLocalParameterI4iEXT(program Uint, target Enum, index Uint, x Int, y Int, z Int, w Int)  {
+func NamedProgramLocalParameterI4iEXT(program Uint, target Enum, index Uint, x Int, y Int, z Int, w Int) {
 	C.goglNamedProgramLocalParameterI4iEXT((C.GLuint)(program), (C.GLenum)(target), (C.GLuint)(index), (C.GLint)(x), (C.GLint)(y), (C.GLint)(z), (C.GLint)(w))
 }
-func NamedProgramLocalParameterI4ivEXT(program Uint, target Enum, index Uint, params *Int)  {
+func NamedProgramLocalParameterI4ivEXT(program Uint, target Enum, index Uint, params *Int) {
 	C.goglNamedProgramLocalParameterI4ivEXT((C.GLuint)(program), (C.GLenum)(target), (C.GLuint)(index), (*C.GLint)(params))
 }
-func NamedProgramLocalParametersI4ivEXT(program Uint, target Enum, index Uint, count Sizei, params *Int)  {
+func NamedProgramLocalParametersI4ivEXT(program Uint, target Enum, index Uint, count Sizei, params *Int) {
 	C.goglNamedProgramLocalParametersI4ivEXT((C.GLuint)(program), (C.GLenum)(target), (C.GLuint)(index), (C.GLsizei)(count), (*C.GLint)(params))
 }
-func NamedProgramLocalParameterI4uiEXT(program Uint, target Enum, index Uint, x Uint, y Uint, z Uint, w Uint)  {
+func NamedProgramLocalParameterI4uiEXT(program Uint, target Enum, index Uint, x Uint, y Uint, z Uint, w Uint) {
 	C.goglNamedProgramLocalParameterI4uiEXT((C.GLuint)(program), (C.GLenum)(target), (C.GLuint)(index), (C.GLuint)(x), (C.GLuint)(y), (C.GLuint)(z), (C.GLuint)(w))
 }
-func NamedProgramLocalParameterI4uivEXT(program Uint, target Enum, index Uint, params *Uint)  {
+func NamedProgramLocalParameterI4uivEXT(program Uint, target Enum, index Uint, params *Uint) {
 	C.goglNamedProgramLocalParameterI4uivEXT((C.GLuint)(program), (C.GLenum)(target), (C.GLuint)(index), (*C.GLuint)(params))
 }
-func NamedProgramLocalParametersI4uivEXT(program Uint, target Enum, index Uint, count Sizei, params *Uint)  {
+func NamedProgramLocalParametersI4uivEXT(program Uint, target Enum, index Uint, count Sizei, params *Uint) {
 	C.goglNamedProgramLocalParametersI4uivEXT((C.GLuint)(program), (C.GLenum)(target), (C.GLuint)(index), (C.GLsizei)(count), (*C.GLuint)(params))
 }
-func GetNamedProgramLocalParameterIivEXT(program Uint, target Enum, index Uint, params *Int)  {
+func GetNamedProgramLocalParameterIivEXT(program Uint, target Enum, index Uint, params *Int) {
 	C.goglGetNamedProgramLocalParameterIivEXT((C.GLuint)(program), (C.GLenum)(target), (C.GLuint)(index), (*C.GLint)(params))
 }
-func GetNamedProgramLocalParameterIuivEXT(program Uint, target Enum, index Uint, params *Uint)  {
+func GetNamedProgramLocalParameterIuivEXT(program Uint, target Enum, index Uint, params *Uint) {
 	C.goglGetNamedProgramLocalParameterIuivEXT((C.GLuint)(program), (C.GLenum)(target), (C.GLuint)(index), (*C.GLuint)(params))
 }
-func TextureParameterIivEXT(texture Uint, target Enum, pname Enum, params *Int)  {
+func TextureParameterIivEXT(texture Uint, target Enum, pname Enum, params *Int) {
 	C.goglTextureParameterIivEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func TextureParameterIuivEXT(texture Uint, target Enum, pname Enum, params *Uint)  {
+func TextureParameterIuivEXT(texture Uint, target Enum, pname Enum, params *Uint) {
 	C.goglTextureParameterIuivEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLenum)(pname), (*C.GLuint)(params))
 }
-func GetTextureParameterIivEXT(texture Uint, target Enum, pname Enum, params *Int)  {
+func GetTextureParameterIivEXT(texture Uint, target Enum, pname Enum, params *Int) {
 	C.goglGetTextureParameterIivEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetTextureParameterIuivEXT(texture Uint, target Enum, pname Enum, params *Uint)  {
+func GetTextureParameterIuivEXT(texture Uint, target Enum, pname Enum, params *Uint) {
 	C.goglGetTextureParameterIuivEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLenum)(pname), (*C.GLuint)(params))
 }
-func MultiTexParameterIivEXT(texunit Enum, target Enum, pname Enum, params *Int)  {
+func MultiTexParameterIivEXT(texunit Enum, target Enum, pname Enum, params *Int) {
 	C.goglMultiTexParameterIivEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func MultiTexParameterIuivEXT(texunit Enum, target Enum, pname Enum, params *Uint)  {
+func MultiTexParameterIuivEXT(texunit Enum, target Enum, pname Enum, params *Uint) {
 	C.goglMultiTexParameterIuivEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLenum)(pname), (*C.GLuint)(params))
 }
-func GetMultiTexParameterIivEXT(texunit Enum, target Enum, pname Enum, params *Int)  {
+func GetMultiTexParameterIivEXT(texunit Enum, target Enum, pname Enum, params *Int) {
 	C.goglGetMultiTexParameterIivEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetMultiTexParameterIuivEXT(texunit Enum, target Enum, pname Enum, params *Uint)  {
+func GetMultiTexParameterIuivEXT(texunit Enum, target Enum, pname Enum, params *Uint) {
 	C.goglGetMultiTexParameterIuivEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLenum)(pname), (*C.GLuint)(params))
 }
-func ProgramUniform1fEXT(program Uint, location Int, v0 Float)  {
+func ProgramUniform1fEXT(program Uint, location Int, v0 Float) {
 	C.goglProgramUniform1fEXT((C.GLuint)(program), (C.GLint)(location), (C.GLfloat)(v0))
 }
-func ProgramUniform2fEXT(program Uint, location Int, v0 Float, v1 Float)  {
+func ProgramUniform2fEXT(program Uint, location Int, v0 Float, v1 Float) {
 	C.goglProgramUniform2fEXT((C.GLuint)(program), (C.GLint)(location), (C.GLfloat)(v0), (C.GLfloat)(v1))
 }
-func ProgramUniform3fEXT(program Uint, location Int, v0 Float, v1 Float, v2 Float)  {
+func ProgramUniform3fEXT(program Uint, location Int, v0 Float, v1 Float, v2 Float) {
 	C.goglProgramUniform3fEXT((C.GLuint)(program), (C.GLint)(location), (C.GLfloat)(v0), (C.GLfloat)(v1), (C.GLfloat)(v2))
 }
-func ProgramUniform4fEXT(program Uint, location Int, v0 Float, v1 Float, v2 Float, v3 Float)  {
+func ProgramUniform4fEXT(program Uint, location Int, v0 Float, v1 Float, v2 Float, v3 Float) {
 	C.goglProgramUniform4fEXT((C.GLuint)(program), (C.GLint)(location), (C.GLfloat)(v0), (C.GLfloat)(v1), (C.GLfloat)(v2), (C.GLfloat)(v3))
 }
-func ProgramUniform1iEXT(program Uint, location Int, v0 Int)  {
+func ProgramUniform1iEXT(program Uint, location Int, v0 Int) {
 	C.goglProgramUniform1iEXT((C.GLuint)(program), (C.GLint)(location), (C.GLint)(v0))
 }
-func ProgramUniform2iEXT(program Uint, location Int, v0 Int, v1 Int)  {
+func ProgramUniform2iEXT(program Uint, location Int, v0 Int, v1 Int) {
 	C.goglProgramUniform2iEXT((C.GLuint)(program), (C.GLint)(location), (C.GLint)(v0), (C.GLint)(v1))
 }
-func ProgramUniform3iEXT(program Uint, location Int, v0 Int, v1 Int, v2 Int)  {
+func ProgramUniform3iEXT(program Uint, location Int, v0 Int, v1 Int, v2 Int) {
 	C.goglProgramUniform3iEXT((C.GLuint)(program), (C.GLint)(location), (C.GLint)(v0), (C.GLint)(v1), (C.GLint)(v2))
 }
-func ProgramUniform4iEXT(program Uint, location Int, v0 Int, v1 Int, v2 Int, v3 Int)  {
+func ProgramUniform4iEXT(program Uint, location Int, v0 Int, v1 Int, v2 Int, v3 Int) {
 	C.goglProgramUniform4iEXT((C.GLuint)(program), (C.GLint)(location), (C.GLint)(v0), (C.GLint)(v1), (C.GLint)(v2), (C.GLint)(v3))
 }
-func ProgramUniform1fvEXT(program Uint, location Int, count Sizei, value *Float)  {
+func ProgramUniform1fvEXT(program Uint, location Int, count Sizei, value *Float) {
 	C.goglProgramUniform1fvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLfloat)(value))
 }
-func ProgramUniform2fvEXT(program Uint, location Int, count Sizei, value *Float)  {
+func ProgramUniform2fvEXT(program Uint, location Int, count Sizei, value *Float) {
 	C.goglProgramUniform2fvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLfloat)(value))
 }
-func ProgramUniform3fvEXT(program Uint, location Int, count Sizei, value *Float)  {
+func ProgramUniform3fvEXT(program Uint, location Int, count Sizei, value *Float) {
 	C.goglProgramUniform3fvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLfloat)(value))
 }
-func ProgramUniform4fvEXT(program Uint, location Int, count Sizei, value *Float)  {
+func ProgramUniform4fvEXT(program Uint, location Int, count Sizei, value *Float) {
 	C.goglProgramUniform4fvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLfloat)(value))
 }
-func ProgramUniform1ivEXT(program Uint, location Int, count Sizei, value *Int)  {
+func ProgramUniform1ivEXT(program Uint, location Int, count Sizei, value *Int) {
 	C.goglProgramUniform1ivEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLint)(value))
 }
-func ProgramUniform2ivEXT(program Uint, location Int, count Sizei, value *Int)  {
+func ProgramUniform2ivEXT(program Uint, location Int, count Sizei, value *Int) {
 	C.goglProgramUniform2ivEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLint)(value))
 }
-func ProgramUniform3ivEXT(program Uint, location Int, count Sizei, value *Int)  {
+func ProgramUniform3ivEXT(program Uint, location Int, count Sizei, value *Int) {
 	C.goglProgramUniform3ivEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLint)(value))
 }
-func ProgramUniform4ivEXT(program Uint, location Int, count Sizei, value *Int)  {
+func ProgramUniform4ivEXT(program Uint, location Int, count Sizei, value *Int) {
 	C.goglProgramUniform4ivEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLint)(value))
 }
-func ProgramUniformMatrix2fvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Float)  {
+func ProgramUniformMatrix2fvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Float) {
 	C.goglProgramUniformMatrix2fvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (C.GLboolean)(transpose), (*C.GLfloat)(value))
 }
-func ProgramUniformMatrix3fvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Float)  {
+func ProgramUniformMatrix3fvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Float) {
 	C.goglProgramUniformMatrix3fvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (C.GLboolean)(transpose), (*C.GLfloat)(value))
 }
-func ProgramUniformMatrix4fvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Float)  {
+func ProgramUniformMatrix4fvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Float) {
 	C.goglProgramUniformMatrix4fvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (C.GLboolean)(transpose), (*C.GLfloat)(value))
 }
-func ProgramUniformMatrix2x3fvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Float)  {
+func ProgramUniformMatrix2x3fvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Float) {
 	C.goglProgramUniformMatrix2x3fvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (C.GLboolean)(transpose), (*C.GLfloat)(value))
 }
-func ProgramUniformMatrix3x2fvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Float)  {
+func ProgramUniformMatrix3x2fvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Float) {
 	C.goglProgramUniformMatrix3x2fvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (C.GLboolean)(transpose), (*C.GLfloat)(value))
 }
-func ProgramUniformMatrix2x4fvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Float)  {
+func ProgramUniformMatrix2x4fvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Float) {
 	C.goglProgramUniformMatrix2x4fvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (C.GLboolean)(transpose), (*C.GLfloat)(value))
 }
-func ProgramUniformMatrix4x2fvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Float)  {
+func ProgramUniformMatrix4x2fvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Float) {
 	C.goglProgramUniformMatrix4x2fvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (C.GLboolean)(transpose), (*C.GLfloat)(value))
 }
-func ProgramUniformMatrix3x4fvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Float)  {
+func ProgramUniformMatrix3x4fvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Float) {
 	C.goglProgramUniformMatrix3x4fvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (C.GLboolean)(transpose), (*C.GLfloat)(value))
 }
-func ProgramUniformMatrix4x3fvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Float)  {
+func ProgramUniformMatrix4x3fvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Float) {
 	C.goglProgramUniformMatrix4x3fvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (C.GLboolean)(transpose), (*C.GLfloat)(value))
 }
-func ProgramUniform1uiEXT(program Uint, location Int, v0 Uint)  {
+func ProgramUniform1uiEXT(program Uint, location Int, v0 Uint) {
 	C.goglProgramUniform1uiEXT((C.GLuint)(program), (C.GLint)(location), (C.GLuint)(v0))
 }
-func ProgramUniform2uiEXT(program Uint, location Int, v0 Uint, v1 Uint)  {
+func ProgramUniform2uiEXT(program Uint, location Int, v0 Uint, v1 Uint) {
 	C.goglProgramUniform2uiEXT((C.GLuint)(program), (C.GLint)(location), (C.GLuint)(v0), (C.GLuint)(v1))
 }
-func ProgramUniform3uiEXT(program Uint, location Int, v0 Uint, v1 Uint, v2 Uint)  {
+func ProgramUniform3uiEXT(program Uint, location Int, v0 Uint, v1 Uint, v2 Uint) {
 	C.goglProgramUniform3uiEXT((C.GLuint)(program), (C.GLint)(location), (C.GLuint)(v0), (C.GLuint)(v1), (C.GLuint)(v2))
 }
-func ProgramUniform4uiEXT(program Uint, location Int, v0 Uint, v1 Uint, v2 Uint, v3 Uint)  {
+func ProgramUniform4uiEXT(program Uint, location Int, v0 Uint, v1 Uint, v2 Uint, v3 Uint) {
 	C.goglProgramUniform4uiEXT((C.GLuint)(program), (C.GLint)(location), (C.GLuint)(v0), (C.GLuint)(v1), (C.GLuint)(v2), (C.GLuint)(v3))
 }
-func ProgramUniform1uivEXT(program Uint, location Int, count Sizei, value *Uint)  {
+func ProgramUniform1uivEXT(program Uint, location Int, count Sizei, value *Uint) {
 	C.goglProgramUniform1uivEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLuint)(value))
 }
-func ProgramUniform2uivEXT(program Uint, location Int, count Sizei, value *Uint)  {
+func ProgramUniform2uivEXT(program Uint, location Int, count Sizei, value *Uint) {
 	C.goglProgramUniform2uivEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLuint)(value))
 }
-func ProgramUniform3uivEXT(program Uint, location Int, count Sizei, value *Uint)  {
+func ProgramUniform3uivEXT(program Uint, location Int, count Sizei, value *Uint) {
 	C.goglProgramUniform3uivEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLuint)(value))
 }
-func ProgramUniform4uivEXT(program Uint, location Int, count Sizei, value *Uint)  {
+func ProgramUniform4uivEXT(program Uint, location Int, count Sizei, value *Uint) {
 	C.goglProgramUniform4uivEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLuint)(value))
 }
-func NamedBufferDataEXT(buffer Uint, size Sizeiptr, data Pointer, usage Enum)  {
+func NamedBufferDataEXT(buffer Uint, size Sizeiptr, data Pointer, usage Enum) {
 	C.goglNamedBufferDataEXT((C.GLuint)(buffer), (C.GLsizeiptr)(size), (unsafe.Pointer)(data), (C.GLenum)(usage))
 }
-func NamedBufferSubDataEXT(buffer Uint, offset Intptr, size Sizeiptr, data Pointer)  {
+func NamedBufferSubDataEXT(buffer Uint, offset Intptr, size Sizeiptr, data Pointer) {
 	C.goglNamedBufferSubDataEXT((C.GLuint)(buffer), (C.GLintptr)(offset), (C.GLsizeiptr)(size), (unsafe.Pointer)(data))
 }
 func MapNamedBufferEXT(buffer Uint, access Enum) Pointer {
@@ -5468,258 +5559,265 @@ func UnmapNamedBufferEXT(buffer Uint) Boolean {
 func MapNamedBufferRangeEXT(buffer Uint, offset Intptr, length Sizeiptr, access Bitfield) Pointer {
 	return (Pointer)(C.goglMapNamedBufferRangeEXT((C.GLuint)(buffer), (C.GLintptr)(offset), (C.GLsizeiptr)(length), (C.GLbitfield)(access)))
 }
-func FlushMappedNamedBufferRangeEXT(buffer Uint, offset Intptr, length Sizeiptr)  {
+func FlushMappedNamedBufferRangeEXT(buffer Uint, offset Intptr, length Sizeiptr) {
 	C.goglFlushMappedNamedBufferRangeEXT((C.GLuint)(buffer), (C.GLintptr)(offset), (C.GLsizeiptr)(length))
 }
-func NamedCopyBufferSubDataEXT(readBuffer Uint, writeBuffer Uint, readOffset Intptr, writeOffset Intptr, size Sizeiptr)  {
+func NamedCopyBufferSubDataEXT(readBuffer Uint, writeBuffer Uint, readOffset Intptr, writeOffset Intptr, size Sizeiptr) {
 	C.goglNamedCopyBufferSubDataEXT((C.GLuint)(readBuffer), (C.GLuint)(writeBuffer), (C.GLintptr)(readOffset), (C.GLintptr)(writeOffset), (C.GLsizeiptr)(size))
 }
-func GetNamedBufferParameterivEXT(buffer Uint, pname Enum, params *Int)  {
+func GetNamedBufferParameterivEXT(buffer Uint, pname Enum, params *Int) {
 	C.goglGetNamedBufferParameterivEXT((C.GLuint)(buffer), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetNamedBufferPointervEXT(buffer Uint, pname Enum, params *Pointer)  {
+func GetNamedBufferPointervEXT(buffer Uint, pname Enum, params *Pointer) {
 	C.goglGetNamedBufferPointervEXT((C.GLuint)(buffer), (C.GLenum)(pname), (*unsafe.Pointer)(params))
 }
-func GetNamedBufferSubDataEXT(buffer Uint, offset Intptr, size Sizeiptr, data Pointer)  {
+func GetNamedBufferSubDataEXT(buffer Uint, offset Intptr, size Sizeiptr, data Pointer) {
 	C.goglGetNamedBufferSubDataEXT((C.GLuint)(buffer), (C.GLintptr)(offset), (C.GLsizeiptr)(size), (unsafe.Pointer)(data))
 }
-func TextureBufferEXT(texture Uint, target Enum, internalformat Enum, buffer Uint)  {
+func TextureBufferEXT(texture Uint, target Enum, internalformat Enum, buffer Uint) {
 	C.goglTextureBufferEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLenum)(internalformat), (C.GLuint)(buffer))
 }
-func MultiTexBufferEXT(texunit Enum, target Enum, internalformat Enum, buffer Uint)  {
+func MultiTexBufferEXT(texunit Enum, target Enum, internalformat Enum, buffer Uint) {
 	C.goglMultiTexBufferEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLenum)(internalformat), (C.GLuint)(buffer))
 }
-func NamedRenderbufferStorageEXT(renderbuffer Uint, internalformat Enum, width Sizei, height Sizei)  {
+func NamedRenderbufferStorageEXT(renderbuffer Uint, internalformat Enum, width Sizei, height Sizei) {
 	C.goglNamedRenderbufferStorageEXT((C.GLuint)(renderbuffer), (C.GLenum)(internalformat), (C.GLsizei)(width), (C.GLsizei)(height))
 }
-func GetNamedRenderbufferParameterivEXT(renderbuffer Uint, pname Enum, params *Int)  {
+func GetNamedRenderbufferParameterivEXT(renderbuffer Uint, pname Enum, params *Int) {
 	C.goglGetNamedRenderbufferParameterivEXT((C.GLuint)(renderbuffer), (C.GLenum)(pname), (*C.GLint)(params))
 }
 func CheckNamedFramebufferStatusEXT(framebuffer Uint, target Enum) Enum {
 	return (Enum)(C.goglCheckNamedFramebufferStatusEXT((C.GLuint)(framebuffer), (C.GLenum)(target)))
 }
-func NamedFramebufferTexture1DEXT(framebuffer Uint, attachment Enum, textarget Enum, texture Uint, level Int)  {
+func NamedFramebufferTexture1DEXT(framebuffer Uint, attachment Enum, textarget Enum, texture Uint, level Int) {
 	C.goglNamedFramebufferTexture1DEXT((C.GLuint)(framebuffer), (C.GLenum)(attachment), (C.GLenum)(textarget), (C.GLuint)(texture), (C.GLint)(level))
 }
-func NamedFramebufferTexture2DEXT(framebuffer Uint, attachment Enum, textarget Enum, texture Uint, level Int)  {
+func NamedFramebufferTexture2DEXT(framebuffer Uint, attachment Enum, textarget Enum, texture Uint, level Int) {
 	C.goglNamedFramebufferTexture2DEXT((C.GLuint)(framebuffer), (C.GLenum)(attachment), (C.GLenum)(textarget), (C.GLuint)(texture), (C.GLint)(level))
 }
-func NamedFramebufferTexture3DEXT(framebuffer Uint, attachment Enum, textarget Enum, texture Uint, level Int, zoffset Int)  {
+func NamedFramebufferTexture3DEXT(framebuffer Uint, attachment Enum, textarget Enum, texture Uint, level Int, zoffset Int) {
 	C.goglNamedFramebufferTexture3DEXT((C.GLuint)(framebuffer), (C.GLenum)(attachment), (C.GLenum)(textarget), (C.GLuint)(texture), (C.GLint)(level), (C.GLint)(zoffset))
 }
-func NamedFramebufferRenderbufferEXT(framebuffer Uint, attachment Enum, renderbuffertarget Enum, renderbuffer Uint)  {
+func NamedFramebufferRenderbufferEXT(framebuffer Uint, attachment Enum, renderbuffertarget Enum, renderbuffer Uint) {
 	C.goglNamedFramebufferRenderbufferEXT((C.GLuint)(framebuffer), (C.GLenum)(attachment), (C.GLenum)(renderbuffertarget), (C.GLuint)(renderbuffer))
 }
-func GetNamedFramebufferAttachmentParameterivEXT(framebuffer Uint, attachment Enum, pname Enum, params *Int)  {
+func GetNamedFramebufferAttachmentParameterivEXT(framebuffer Uint, attachment Enum, pname Enum, params *Int) {
 	C.goglGetNamedFramebufferAttachmentParameterivEXT((C.GLuint)(framebuffer), (C.GLenum)(attachment), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GenerateTextureMipmapEXT(texture Uint, target Enum)  {
+func GenerateTextureMipmapEXT(texture Uint, target Enum) {
 	C.goglGenerateTextureMipmapEXT((C.GLuint)(texture), (C.GLenum)(target))
 }
-func GenerateMultiTexMipmapEXT(texunit Enum, target Enum)  {
+func GenerateMultiTexMipmapEXT(texunit Enum, target Enum) {
 	C.goglGenerateMultiTexMipmapEXT((C.GLenum)(texunit), (C.GLenum)(target))
 }
-func FramebufferDrawBufferEXT(framebuffer Uint, mode Enum)  {
+func FramebufferDrawBufferEXT(framebuffer Uint, mode Enum) {
 	C.goglFramebufferDrawBufferEXT((C.GLuint)(framebuffer), (C.GLenum)(mode))
 }
-func FramebufferDrawBuffersEXT(framebuffer Uint, n Sizei, bufs *Enum)  {
+func FramebufferDrawBuffersEXT(framebuffer Uint, n Sizei, bufs *Enum) {
 	C.goglFramebufferDrawBuffersEXT((C.GLuint)(framebuffer), (C.GLsizei)(n), (*C.GLenum)(bufs))
 }
-func FramebufferReadBufferEXT(framebuffer Uint, mode Enum)  {
+func FramebufferReadBufferEXT(framebuffer Uint, mode Enum) {
 	C.goglFramebufferReadBufferEXT((C.GLuint)(framebuffer), (C.GLenum)(mode))
 }
-func GetFramebufferParameterivEXT(framebuffer Uint, pname Enum, params *Int)  {
+func GetFramebufferParameterivEXT(framebuffer Uint, pname Enum, params *Int) {
 	C.goglGetFramebufferParameterivEXT((C.GLuint)(framebuffer), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func NamedRenderbufferStorageMultisampleEXT(renderbuffer Uint, samples Sizei, internalformat Enum, width Sizei, height Sizei)  {
+func NamedRenderbufferStorageMultisampleEXT(renderbuffer Uint, samples Sizei, internalformat Enum, width Sizei, height Sizei) {
 	C.goglNamedRenderbufferStorageMultisampleEXT((C.GLuint)(renderbuffer), (C.GLsizei)(samples), (C.GLenum)(internalformat), (C.GLsizei)(width), (C.GLsizei)(height))
 }
-func NamedRenderbufferStorageMultisampleCoverageEXT(renderbuffer Uint, coverageSamples Sizei, colorSamples Sizei, internalformat Enum, width Sizei, height Sizei)  {
+func NamedRenderbufferStorageMultisampleCoverageEXT(renderbuffer Uint, coverageSamples Sizei, colorSamples Sizei, internalformat Enum, width Sizei, height Sizei) {
 	C.goglNamedRenderbufferStorageMultisampleCoverageEXT((C.GLuint)(renderbuffer), (C.GLsizei)(coverageSamples), (C.GLsizei)(colorSamples), (C.GLenum)(internalformat), (C.GLsizei)(width), (C.GLsizei)(height))
 }
-func NamedFramebufferTextureEXT(framebuffer Uint, attachment Enum, texture Uint, level Int)  {
+func NamedFramebufferTextureEXT(framebuffer Uint, attachment Enum, texture Uint, level Int) {
 	C.goglNamedFramebufferTextureEXT((C.GLuint)(framebuffer), (C.GLenum)(attachment), (C.GLuint)(texture), (C.GLint)(level))
 }
-func NamedFramebufferTextureLayerEXT(framebuffer Uint, attachment Enum, texture Uint, level Int, layer Int)  {
+func NamedFramebufferTextureLayerEXT(framebuffer Uint, attachment Enum, texture Uint, level Int, layer Int) {
 	C.goglNamedFramebufferTextureLayerEXT((C.GLuint)(framebuffer), (C.GLenum)(attachment), (C.GLuint)(texture), (C.GLint)(level), (C.GLint)(layer))
 }
-func NamedFramebufferTextureFaceEXT(framebuffer Uint, attachment Enum, texture Uint, level Int, face Enum)  {
+func NamedFramebufferTextureFaceEXT(framebuffer Uint, attachment Enum, texture Uint, level Int, face Enum) {
 	C.goglNamedFramebufferTextureFaceEXT((C.GLuint)(framebuffer), (C.GLenum)(attachment), (C.GLuint)(texture), (C.GLint)(level), (C.GLenum)(face))
 }
-func TextureRenderbufferEXT(texture Uint, target Enum, renderbuffer Uint)  {
+func TextureRenderbufferEXT(texture Uint, target Enum, renderbuffer Uint) {
 	C.goglTextureRenderbufferEXT((C.GLuint)(texture), (C.GLenum)(target), (C.GLuint)(renderbuffer))
 }
-func MultiTexRenderbufferEXT(texunit Enum, target Enum, renderbuffer Uint)  {
+func MultiTexRenderbufferEXT(texunit Enum, target Enum, renderbuffer Uint) {
 	C.goglMultiTexRenderbufferEXT((C.GLenum)(texunit), (C.GLenum)(target), (C.GLuint)(renderbuffer))
 }
-func ProgramUniform1dEXT(program Uint, location Int, x Double)  {
+func ProgramUniform1dEXT(program Uint, location Int, x Double) {
 	C.goglProgramUniform1dEXT((C.GLuint)(program), (C.GLint)(location), (C.GLdouble)(x))
 }
-func ProgramUniform2dEXT(program Uint, location Int, x Double, y Double)  {
+func ProgramUniform2dEXT(program Uint, location Int, x Double, y Double) {
 	C.goglProgramUniform2dEXT((C.GLuint)(program), (C.GLint)(location), (C.GLdouble)(x), (C.GLdouble)(y))
 }
-func ProgramUniform3dEXT(program Uint, location Int, x Double, y Double, z Double)  {
+func ProgramUniform3dEXT(program Uint, location Int, x Double, y Double, z Double) {
 	C.goglProgramUniform3dEXT((C.GLuint)(program), (C.GLint)(location), (C.GLdouble)(x), (C.GLdouble)(y), (C.GLdouble)(z))
 }
-func ProgramUniform4dEXT(program Uint, location Int, x Double, y Double, z Double, w Double)  {
+func ProgramUniform4dEXT(program Uint, location Int, x Double, y Double, z Double, w Double) {
 	C.goglProgramUniform4dEXT((C.GLuint)(program), (C.GLint)(location), (C.GLdouble)(x), (C.GLdouble)(y), (C.GLdouble)(z), (C.GLdouble)(w))
 }
-func ProgramUniform1dvEXT(program Uint, location Int, count Sizei, value *Double)  {
+func ProgramUniform1dvEXT(program Uint, location Int, count Sizei, value *Double) {
 	C.goglProgramUniform1dvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLdouble)(value))
 }
-func ProgramUniform2dvEXT(program Uint, location Int, count Sizei, value *Double)  {
+func ProgramUniform2dvEXT(program Uint, location Int, count Sizei, value *Double) {
 	C.goglProgramUniform2dvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLdouble)(value))
 }
-func ProgramUniform3dvEXT(program Uint, location Int, count Sizei, value *Double)  {
+func ProgramUniform3dvEXT(program Uint, location Int, count Sizei, value *Double) {
 	C.goglProgramUniform3dvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLdouble)(value))
 }
-func ProgramUniform4dvEXT(program Uint, location Int, count Sizei, value *Double)  {
+func ProgramUniform4dvEXT(program Uint, location Int, count Sizei, value *Double) {
 	C.goglProgramUniform4dvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (*C.GLdouble)(value))
 }
-func ProgramUniformMatrix2dvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Double)  {
+func ProgramUniformMatrix2dvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Double) {
 	C.goglProgramUniformMatrix2dvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (C.GLboolean)(transpose), (*C.GLdouble)(value))
 }
-func ProgramUniformMatrix3dvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Double)  {
+func ProgramUniformMatrix3dvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Double) {
 	C.goglProgramUniformMatrix3dvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (C.GLboolean)(transpose), (*C.GLdouble)(value))
 }
-func ProgramUniformMatrix4dvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Double)  {
+func ProgramUniformMatrix4dvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Double) {
 	C.goglProgramUniformMatrix4dvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (C.GLboolean)(transpose), (*C.GLdouble)(value))
 }
-func ProgramUniformMatrix2x3dvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Double)  {
+func ProgramUniformMatrix2x3dvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Double) {
 	C.goglProgramUniformMatrix2x3dvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (C.GLboolean)(transpose), (*C.GLdouble)(value))
 }
-func ProgramUniformMatrix2x4dvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Double)  {
+func ProgramUniformMatrix2x4dvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Double) {
 	C.goglProgramUniformMatrix2x4dvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (C.GLboolean)(transpose), (*C.GLdouble)(value))
 }
-func ProgramUniformMatrix3x2dvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Double)  {
+func ProgramUniformMatrix3x2dvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Double) {
 	C.goglProgramUniformMatrix3x2dvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (C.GLboolean)(transpose), (*C.GLdouble)(value))
 }
-func ProgramUniformMatrix3x4dvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Double)  {
+func ProgramUniformMatrix3x4dvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Double) {
 	C.goglProgramUniformMatrix3x4dvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (C.GLboolean)(transpose), (*C.GLdouble)(value))
 }
-func ProgramUniformMatrix4x2dvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Double)  {
+func ProgramUniformMatrix4x2dvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Double) {
 	C.goglProgramUniformMatrix4x2dvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (C.GLboolean)(transpose), (*C.GLdouble)(value))
 }
-func ProgramUniformMatrix4x3dvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Double)  {
+func ProgramUniformMatrix4x3dvEXT(program Uint, location Int, count Sizei, transpose Boolean, value *Double) {
 	C.goglProgramUniformMatrix4x3dvEXT((C.GLuint)(program), (C.GLint)(location), (C.GLsizei)(count), (C.GLboolean)(transpose), (*C.GLdouble)(value))
 }
-func EnableVertexArrayAttribEXT(vaobj Uint, index Uint)  {
+func EnableVertexArrayAttribEXT(vaobj Uint, index Uint) {
 	C.goglEnableVertexArrayAttribEXT((C.GLuint)(vaobj), (C.GLuint)(index))
 }
-func DisableVertexArrayAttribEXT(vaobj Uint, index Uint)  {
+func DisableVertexArrayAttribEXT(vaobj Uint, index Uint) {
 	C.goglDisableVertexArrayAttribEXT((C.GLuint)(vaobj), (C.GLuint)(index))
 }
-func EnableVertexArrayEXT(vaobj Uint, array Enum)  {
+func EnableVertexArrayEXT(vaobj Uint, array Enum) {
 	C.goglEnableVertexArrayEXT((C.GLuint)(vaobj), (C.GLenum)(array))
 }
-func DisableVertexArrayEXT(vaobj Uint, array Enum)  {
+func DisableVertexArrayEXT(vaobj Uint, array Enum) {
 	C.goglDisableVertexArrayEXT((C.GLuint)(vaobj), (C.GLenum)(array))
 }
-func VertexArrayColorOffsetEXT(vaobj Uint, buffer Uint, size Int, type_ Enum, stride Sizei, offset Intptr)  {
+func VertexArrayColorOffsetEXT(vaobj Uint, buffer Uint, size Int, type_ Enum, stride Sizei, offset Intptr) {
 	C.goglVertexArrayColorOffsetEXT((C.GLuint)(vaobj), (C.GLuint)(buffer), (C.GLint)(size), (C.GLenum)(type_), (C.GLsizei)(stride), (C.GLintptr)(offset))
 }
-func VertexArrayEdgeFlagOffsetEXT(vaobj Uint, buffer Uint, stride Sizei, offset Intptr)  {
+func VertexArrayEdgeFlagOffsetEXT(vaobj Uint, buffer Uint, stride Sizei, offset Intptr) {
 	C.goglVertexArrayEdgeFlagOffsetEXT((C.GLuint)(vaobj), (C.GLuint)(buffer), (C.GLsizei)(stride), (C.GLintptr)(offset))
 }
-func VertexArrayFogCoordOffsetEXT(vaobj Uint, buffer Uint, type_ Enum, stride Sizei, offset Intptr)  {
+func VertexArrayFogCoordOffsetEXT(vaobj Uint, buffer Uint, type_ Enum, stride Sizei, offset Intptr) {
 	C.goglVertexArrayFogCoordOffsetEXT((C.GLuint)(vaobj), (C.GLuint)(buffer), (C.GLenum)(type_), (C.GLsizei)(stride), (C.GLintptr)(offset))
 }
-func VertexArrayIndexOffsetEXT(vaobj Uint, buffer Uint, type_ Enum, stride Sizei, offset Intptr)  {
+func VertexArrayIndexOffsetEXT(vaobj Uint, buffer Uint, type_ Enum, stride Sizei, offset Intptr) {
 	C.goglVertexArrayIndexOffsetEXT((C.GLuint)(vaobj), (C.GLuint)(buffer), (C.GLenum)(type_), (C.GLsizei)(stride), (C.GLintptr)(offset))
 }
-func VertexArrayMultiTexCoordOffsetEXT(vaobj Uint, buffer Uint, texunit Enum, size Int, type_ Enum, stride Sizei, offset Intptr)  {
+func VertexArrayMultiTexCoordOffsetEXT(vaobj Uint, buffer Uint, texunit Enum, size Int, type_ Enum, stride Sizei, offset Intptr) {
 	C.goglVertexArrayMultiTexCoordOffsetEXT((C.GLuint)(vaobj), (C.GLuint)(buffer), (C.GLenum)(texunit), (C.GLint)(size), (C.GLenum)(type_), (C.GLsizei)(stride), (C.GLintptr)(offset))
 }
-func VertexArrayNormalOffsetEXT(vaobj Uint, buffer Uint, type_ Enum, stride Sizei, offset Intptr)  {
+func VertexArrayNormalOffsetEXT(vaobj Uint, buffer Uint, type_ Enum, stride Sizei, offset Intptr) {
 	C.goglVertexArrayNormalOffsetEXT((C.GLuint)(vaobj), (C.GLuint)(buffer), (C.GLenum)(type_), (C.GLsizei)(stride), (C.GLintptr)(offset))
 }
-func VertexArraySecondaryColorOffsetEXT(vaobj Uint, buffer Uint, size Int, type_ Enum, stride Sizei, offset Intptr)  {
+func VertexArraySecondaryColorOffsetEXT(vaobj Uint, buffer Uint, size Int, type_ Enum, stride Sizei, offset Intptr) {
 	C.goglVertexArraySecondaryColorOffsetEXT((C.GLuint)(vaobj), (C.GLuint)(buffer), (C.GLint)(size), (C.GLenum)(type_), (C.GLsizei)(stride), (C.GLintptr)(offset))
 }
-func VertexArrayTexCoordOffsetEXT(vaobj Uint, buffer Uint, size Int, type_ Enum, stride Sizei, offset Intptr)  {
+func VertexArrayTexCoordOffsetEXT(vaobj Uint, buffer Uint, size Int, type_ Enum, stride Sizei, offset Intptr) {
 	C.goglVertexArrayTexCoordOffsetEXT((C.GLuint)(vaobj), (C.GLuint)(buffer), (C.GLint)(size), (C.GLenum)(type_), (C.GLsizei)(stride), (C.GLintptr)(offset))
 }
-func VertexArrayVertexOffsetEXT(vaobj Uint, buffer Uint, size Int, type_ Enum, stride Sizei, offset Intptr)  {
+func VertexArrayVertexOffsetEXT(vaobj Uint, buffer Uint, size Int, type_ Enum, stride Sizei, offset Intptr) {
 	C.goglVertexArrayVertexOffsetEXT((C.GLuint)(vaobj), (C.GLuint)(buffer), (C.GLint)(size), (C.GLenum)(type_), (C.GLsizei)(stride), (C.GLintptr)(offset))
 }
-func VertexArrayVertexAttribIOffsetEXT(vaobj Uint, buffer Uint, index Uint, size Int, type_ Enum, stride Sizei, offset Intptr)  {
+func VertexArrayVertexAttribIOffsetEXT(vaobj Uint, buffer Uint, index Uint, size Int, type_ Enum, stride Sizei, offset Intptr) {
 	C.goglVertexArrayVertexAttribIOffsetEXT((C.GLuint)(vaobj), (C.GLuint)(buffer), (C.GLuint)(index), (C.GLint)(size), (C.GLenum)(type_), (C.GLsizei)(stride), (C.GLintptr)(offset))
 }
-func glVertexArrayVertexAttribOffsetEXT(vaobj Uint, buffer Uint, index Uint, size Int, type_ Enum, normalized Boolean, stride Sizei, offset Intptr)  {
+func glVertexArrayVertexAttribOffsetEXT(vaobj Uint, buffer Uint, index Uint, size Int, type_ Enum, normalized Boolean, stride Sizei, offset Intptr) {
 	C.goglglVertexArrayVertexAttribOffsetEXT((C.GLuint)(vaobj), (C.GLuint)(buffer), (C.GLuint)(index), (C.GLint)(size), (C.GLenum)(type_), (C.GLboolean)(normalized), (C.GLsizei)(stride), (C.GLintptr)(offset))
 }
-func GetVertexArrayIntegervEXT(vaobj Uint, pname Enum, param *Int)  {
+func GetVertexArrayIntegervEXT(vaobj Uint, pname Enum, param *Int) {
 	C.goglGetVertexArrayIntegervEXT((C.GLuint)(vaobj), (C.GLenum)(pname), (*C.GLint)(param))
 }
-func GetVertexArrayPointervEXT(vaobj Uint, pname Enum, param *Pointer)  {
+func GetVertexArrayPointervEXT(vaobj Uint, pname Enum, param *Pointer) {
 	C.goglGetVertexArrayPointervEXT((C.GLuint)(vaobj), (C.GLenum)(pname), (*unsafe.Pointer)(param))
 }
-func GetVertexArrayIntegeri_vEXT(vaobj Uint, index Uint, pname Enum, param *Int)  {
+func GetVertexArrayIntegeri_vEXT(vaobj Uint, index Uint, pname Enum, param *Int) {
 	C.goglGetVertexArrayIntegeri_vEXT((C.GLuint)(vaobj), (C.GLuint)(index), (C.GLenum)(pname), (*C.GLint)(param))
 }
-func GetVertexArrayPointeri_vEXT(vaobj Uint, index Uint, pname Enum, param *Pointer)  {
+func GetVertexArrayPointeri_vEXT(vaobj Uint, index Uint, pname Enum, param *Pointer) {
 	C.goglGetVertexArrayPointeri_vEXT((C.GLuint)(vaobj), (C.GLuint)(index), (C.GLenum)(pname), (*unsafe.Pointer)(param))
 }
+
 // EXT_draw_buffers2
 
-func ColorMaskIndexedEXT(index Uint, r Boolean, g Boolean, b Boolean, a Boolean)  {
+func ColorMaskIndexedEXT(index Uint, r Boolean, g Boolean, b Boolean, a Boolean) {
 	C.goglColorMaskIndexedEXT((C.GLuint)(index), (C.GLboolean)(r), (C.GLboolean)(g), (C.GLboolean)(b), (C.GLboolean)(a))
 }
-func GetBooleanIndexedvEXT(target Enum, index Uint, data *Boolean)  {
+func GetBooleanIndexedvEXT(target Enum, index Uint, data *Boolean) {
 	C.goglGetBooleanIndexedvEXT((C.GLenum)(target), (C.GLuint)(index), (*C.GLboolean)(data))
 }
-func GetIntegerIndexedvEXT(target Enum, index Uint, data *Int)  {
+func GetIntegerIndexedvEXT(target Enum, index Uint, data *Int) {
 	C.goglGetIntegerIndexedvEXT((C.GLenum)(target), (C.GLuint)(index), (*C.GLint)(data))
 }
-func EnableIndexedEXT(target Enum, index Uint)  {
+func EnableIndexedEXT(target Enum, index Uint) {
 	C.goglEnableIndexedEXT((C.GLenum)(target), (C.GLuint)(index))
 }
-func DisableIndexedEXT(target Enum, index Uint)  {
+func DisableIndexedEXT(target Enum, index Uint) {
 	C.goglDisableIndexedEXT((C.GLenum)(target), (C.GLuint)(index))
 }
 func IsEnabledIndexedEXT(target Enum, index Uint) Boolean {
 	return (Boolean)(C.goglIsEnabledIndexedEXT((C.GLenum)(target), (C.GLuint)(index)))
 }
+
 // EXT_draw_instanced
 
-func DrawArraysInstancedEXT(mode Enum, start Int, count Sizei, primcount Sizei)  {
+func DrawArraysInstancedEXT(mode Enum, start Int, count Sizei, primcount Sizei) {
 	C.goglDrawArraysInstancedEXT((C.GLenum)(mode), (C.GLint)(start), (C.GLsizei)(count), (C.GLsizei)(primcount))
 }
-func DrawElementsInstancedEXT(mode Enum, count Sizei, type_ Enum, indices Pointer, primcount Sizei)  {
+func DrawElementsInstancedEXT(mode Enum, count Sizei, type_ Enum, indices Pointer, primcount Sizei) {
 	C.goglDrawElementsInstancedEXT((C.GLenum)(mode), (C.GLsizei)(count), (C.GLenum)(type_), (unsafe.Pointer)(indices), (C.GLsizei)(primcount))
 }
+
 // EXT_draw_range_elements
 
-func DrawRangeElementsEXT(mode Enum, start Uint, end Uint, count Sizei, type_ Enum, indices Pointer)  {
+func DrawRangeElementsEXT(mode Enum, start Uint, end Uint, count Sizei, type_ Enum, indices Pointer) {
 	C.goglDrawRangeElementsEXT((C.GLenum)(mode), (C.GLuint)(start), (C.GLuint)(end), (C.GLsizei)(count), (C.GLenum)(type_), (unsafe.Pointer)(indices))
 }
+
 // EXT_fog_coord
 
-func FogCoordfEXT(coord Float)  {
+func FogCoordfEXT(coord Float) {
 	C.goglFogCoordfEXT((C.GLfloat)(coord))
 }
-func FogCoordfvEXT(coord *Float)  {
+func FogCoordfvEXT(coord *Float) {
 	C.goglFogCoordfvEXT((*C.GLfloat)(coord))
 }
-func FogCoorddEXT(coord Double)  {
+func FogCoorddEXT(coord Double) {
 	C.goglFogCoorddEXT((C.GLdouble)(coord))
 }
-func FogCoorddvEXT(coord *Double)  {
+func FogCoorddvEXT(coord *Double) {
 	C.goglFogCoorddvEXT((*C.GLdouble)(coord))
 }
-func FogCoordPointerEXT(type_ Enum, stride Sizei, pointer Pointer)  {
+func FogCoordPointerEXT(type_ Enum, stride Sizei, pointer Pointer) {
 	C.goglFogCoordPointerEXT((C.GLenum)(type_), (C.GLsizei)(stride), (unsafe.Pointer)(pointer))
 }
+
 // EXT_framebuffer_blit
 
-func BlitFramebufferEXT(srcX0 Int, srcY0 Int, srcX1 Int, srcY1 Int, dstX0 Int, dstY0 Int, dstX1 Int, dstY1 Int, mask Bitfield, filter Enum)  {
+func BlitFramebufferEXT(srcX0 Int, srcY0 Int, srcX1 Int, srcY1 Int, dstX0 Int, dstY0 Int, dstX1 Int, dstY1 Int, mask Bitfield, filter Enum) {
 	C.goglBlitFramebufferEXT((C.GLint)(srcX0), (C.GLint)(srcY0), (C.GLint)(srcX1), (C.GLint)(srcY1), (C.GLint)(dstX0), (C.GLint)(dstY0), (C.GLint)(dstX1), (C.GLint)(dstY1), (C.GLbitfield)(mask), (C.GLenum)(filter))
 }
+
 // EXT_framebuffer_multisample
 
-func RenderbufferStorageMultisampleEXT(target Enum, samples Sizei, internalformat Enum, width Sizei, height Sizei)  {
+func RenderbufferStorageMultisampleEXT(target Enum, samples Sizei, internalformat Enum, width Sizei, height Sizei) {
 	C.goglRenderbufferStorageMultisampleEXT((C.GLenum)(target), (C.GLsizei)(samples), (C.GLenum)(internalformat), (C.GLsizei)(width), (C.GLsizei)(height))
 }
+
 // EXT_framebuffer_multisample_blit_scaled
 
 // EXT_framebuffer_object
@@ -5727,179 +5825,189 @@ func RenderbufferStorageMultisampleEXT(target Enum, samples Sizei, internalforma
 func IsRenderbufferEXT(renderbuffer Uint) Boolean {
 	return (Boolean)(C.goglIsRenderbufferEXT((C.GLuint)(renderbuffer)))
 }
-func BindRenderbufferEXT(target Enum, renderbuffer Uint)  {
+func BindRenderbufferEXT(target Enum, renderbuffer Uint) {
 	C.goglBindRenderbufferEXT((C.GLenum)(target), (C.GLuint)(renderbuffer))
 }
-func DeleteRenderbuffersEXT(n Sizei, renderbuffers *Uint)  {
+func DeleteRenderbuffersEXT(n Sizei, renderbuffers *Uint) {
 	C.goglDeleteRenderbuffersEXT((C.GLsizei)(n), (*C.GLuint)(renderbuffers))
 }
-func GenRenderbuffersEXT(n Sizei, renderbuffers *Uint)  {
+func GenRenderbuffersEXT(n Sizei, renderbuffers *Uint) {
 	C.goglGenRenderbuffersEXT((C.GLsizei)(n), (*C.GLuint)(renderbuffers))
 }
-func RenderbufferStorageEXT(target Enum, internalformat Enum, width Sizei, height Sizei)  {
+func RenderbufferStorageEXT(target Enum, internalformat Enum, width Sizei, height Sizei) {
 	C.goglRenderbufferStorageEXT((C.GLenum)(target), (C.GLenum)(internalformat), (C.GLsizei)(width), (C.GLsizei)(height))
 }
-func GetRenderbufferParameterivEXT(target Enum, pname Enum, params *Int)  {
+func GetRenderbufferParameterivEXT(target Enum, pname Enum, params *Int) {
 	C.goglGetRenderbufferParameterivEXT((C.GLenum)(target), (C.GLenum)(pname), (*C.GLint)(params))
 }
 func IsFramebufferEXT(framebuffer Uint) Boolean {
 	return (Boolean)(C.goglIsFramebufferEXT((C.GLuint)(framebuffer)))
 }
-func BindFramebufferEXT(target Enum, framebuffer Uint)  {
+func BindFramebufferEXT(target Enum, framebuffer Uint) {
 	C.goglBindFramebufferEXT((C.GLenum)(target), (C.GLuint)(framebuffer))
 }
-func DeleteFramebuffersEXT(n Sizei, framebuffers *Uint)  {
+func DeleteFramebuffersEXT(n Sizei, framebuffers *Uint) {
 	C.goglDeleteFramebuffersEXT((C.GLsizei)(n), (*C.GLuint)(framebuffers))
 }
-func GenFramebuffersEXT(n Sizei, framebuffers *Uint)  {
+func GenFramebuffersEXT(n Sizei, framebuffers *Uint) {
 	C.goglGenFramebuffersEXT((C.GLsizei)(n), (*C.GLuint)(framebuffers))
 }
 func CheckFramebufferStatusEXT(target Enum) Enum {
 	return (Enum)(C.goglCheckFramebufferStatusEXT((C.GLenum)(target)))
 }
-func FramebufferTexture1DEXT(target Enum, attachment Enum, textarget Enum, texture Uint, level Int)  {
+func FramebufferTexture1DEXT(target Enum, attachment Enum, textarget Enum, texture Uint, level Int) {
 	C.goglFramebufferTexture1DEXT((C.GLenum)(target), (C.GLenum)(attachment), (C.GLenum)(textarget), (C.GLuint)(texture), (C.GLint)(level))
 }
-func FramebufferTexture2DEXT(target Enum, attachment Enum, textarget Enum, texture Uint, level Int)  {
+func FramebufferTexture2DEXT(target Enum, attachment Enum, textarget Enum, texture Uint, level Int) {
 	C.goglFramebufferTexture2DEXT((C.GLenum)(target), (C.GLenum)(attachment), (C.GLenum)(textarget), (C.GLuint)(texture), (C.GLint)(level))
 }
-func FramebufferTexture3DEXT(target Enum, attachment Enum, textarget Enum, texture Uint, level Int, zoffset Int)  {
+func FramebufferTexture3DEXT(target Enum, attachment Enum, textarget Enum, texture Uint, level Int, zoffset Int) {
 	C.goglFramebufferTexture3DEXT((C.GLenum)(target), (C.GLenum)(attachment), (C.GLenum)(textarget), (C.GLuint)(texture), (C.GLint)(level), (C.GLint)(zoffset))
 }
-func FramebufferRenderbufferEXT(target Enum, attachment Enum, renderbuffertarget Enum, renderbuffer Uint)  {
+func FramebufferRenderbufferEXT(target Enum, attachment Enum, renderbuffertarget Enum, renderbuffer Uint) {
 	C.goglFramebufferRenderbufferEXT((C.GLenum)(target), (C.GLenum)(attachment), (C.GLenum)(renderbuffertarget), (C.GLuint)(renderbuffer))
 }
-func GetFramebufferAttachmentParameterivEXT(target Enum, attachment Enum, pname Enum, params *Int)  {
+func GetFramebufferAttachmentParameterivEXT(target Enum, attachment Enum, pname Enum, params *Int) {
 	C.goglGetFramebufferAttachmentParameterivEXT((C.GLenum)(target), (C.GLenum)(attachment), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GenerateMipmapEXT(target Enum)  {
+func GenerateMipmapEXT(target Enum) {
 	C.goglGenerateMipmapEXT((C.GLenum)(target))
 }
+
 // EXT_framebuffer_sRGB
 
 // EXT_geometry_shader4
 
-func ProgramParameteriEXT(program Uint, pname Enum, value Int)  {
+func ProgramParameteriEXT(program Uint, pname Enum, value Int) {
 	C.goglProgramParameteriEXT((C.GLuint)(program), (C.GLenum)(pname), (C.GLint)(value))
 }
+
 // EXT_gpu_program_parameters
 
-func ProgramEnvParameters4fvEXT(target Enum, index Uint, count Sizei, params *Float)  {
+func ProgramEnvParameters4fvEXT(target Enum, index Uint, count Sizei, params *Float) {
 	C.goglProgramEnvParameters4fvEXT((C.GLenum)(target), (C.GLuint)(index), (C.GLsizei)(count), (*C.GLfloat)(params))
 }
-func ProgramLocalParameters4fvEXT(target Enum, index Uint, count Sizei, params *Float)  {
+func ProgramLocalParameters4fvEXT(target Enum, index Uint, count Sizei, params *Float) {
 	C.goglProgramLocalParameters4fvEXT((C.GLenum)(target), (C.GLuint)(index), (C.GLsizei)(count), (*C.GLfloat)(params))
 }
+
 // EXT_gpu_shader4
 
-func GetUniformuivEXT(program Uint, location Int, params *Uint)  {
+func GetUniformuivEXT(program Uint, location Int, params *Uint) {
 	C.goglGetUniformuivEXT((C.GLuint)(program), (C.GLint)(location), (*C.GLuint)(params))
 }
-func BindFragDataLocationEXT(program Uint, color Uint, name *Char)  {
+func BindFragDataLocationEXT(program Uint, color Uint, name *Char) {
 	C.goglBindFragDataLocationEXT((C.GLuint)(program), (C.GLuint)(color), (*C.GLchar)(name))
 }
 func GetFragDataLocationEXT(program Uint, name *Char) Int {
 	return (Int)(C.goglGetFragDataLocationEXT((C.GLuint)(program), (*C.GLchar)(name)))
 }
-func Uniform1uiEXT(location Int, v0 Uint)  {
+func Uniform1uiEXT(location Int, v0 Uint) {
 	C.goglUniform1uiEXT((C.GLint)(location), (C.GLuint)(v0))
 }
-func Uniform2uiEXT(location Int, v0 Uint, v1 Uint)  {
+func Uniform2uiEXT(location Int, v0 Uint, v1 Uint) {
 	C.goglUniform2uiEXT((C.GLint)(location), (C.GLuint)(v0), (C.GLuint)(v1))
 }
-func Uniform3uiEXT(location Int, v0 Uint, v1 Uint, v2 Uint)  {
+func Uniform3uiEXT(location Int, v0 Uint, v1 Uint, v2 Uint) {
 	C.goglUniform3uiEXT((C.GLint)(location), (C.GLuint)(v0), (C.GLuint)(v1), (C.GLuint)(v2))
 }
-func Uniform4uiEXT(location Int, v0 Uint, v1 Uint, v2 Uint, v3 Uint)  {
+func Uniform4uiEXT(location Int, v0 Uint, v1 Uint, v2 Uint, v3 Uint) {
 	C.goglUniform4uiEXT((C.GLint)(location), (C.GLuint)(v0), (C.GLuint)(v1), (C.GLuint)(v2), (C.GLuint)(v3))
 }
-func Uniform1uivEXT(location Int, count Sizei, value *Uint)  {
+func Uniform1uivEXT(location Int, count Sizei, value *Uint) {
 	C.goglUniform1uivEXT((C.GLint)(location), (C.GLsizei)(count), (*C.GLuint)(value))
 }
-func Uniform2uivEXT(location Int, count Sizei, value *Uint)  {
+func Uniform2uivEXT(location Int, count Sizei, value *Uint) {
 	C.goglUniform2uivEXT((C.GLint)(location), (C.GLsizei)(count), (*C.GLuint)(value))
 }
-func Uniform3uivEXT(location Int, count Sizei, value *Uint)  {
+func Uniform3uivEXT(location Int, count Sizei, value *Uint) {
 	C.goglUniform3uivEXT((C.GLint)(location), (C.GLsizei)(count), (*C.GLuint)(value))
 }
-func Uniform4uivEXT(location Int, count Sizei, value *Uint)  {
+func Uniform4uivEXT(location Int, count Sizei, value *Uint) {
 	C.goglUniform4uivEXT((C.GLint)(location), (C.GLsizei)(count), (*C.GLuint)(value))
 }
+
 // EXT_histogram
 
-func GetHistogramEXT(target Enum, reset Boolean, format Enum, type_ Enum, values Pointer)  {
+func GetHistogramEXT(target Enum, reset Boolean, format Enum, type_ Enum, values Pointer) {
 	C.goglGetHistogramEXT((C.GLenum)(target), (C.GLboolean)(reset), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(values))
 }
-func GetHistogramParameterfvEXT(target Enum, pname Enum, params *Float)  {
+func GetHistogramParameterfvEXT(target Enum, pname Enum, params *Float) {
 	C.goglGetHistogramParameterfvEXT((C.GLenum)(target), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func GetHistogramParameterivEXT(target Enum, pname Enum, params *Int)  {
+func GetHistogramParameterivEXT(target Enum, pname Enum, params *Int) {
 	C.goglGetHistogramParameterivEXT((C.GLenum)(target), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetMinmaxEXT(target Enum, reset Boolean, format Enum, type_ Enum, values Pointer)  {
+func GetMinmaxEXT(target Enum, reset Boolean, format Enum, type_ Enum, values Pointer) {
 	C.goglGetMinmaxEXT((C.GLenum)(target), (C.GLboolean)(reset), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(values))
 }
-func GetMinmaxParameterfvEXT(target Enum, pname Enum, params *Float)  {
+func GetMinmaxParameterfvEXT(target Enum, pname Enum, params *Float) {
 	C.goglGetMinmaxParameterfvEXT((C.GLenum)(target), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func GetMinmaxParameterivEXT(target Enum, pname Enum, params *Int)  {
+func GetMinmaxParameterivEXT(target Enum, pname Enum, params *Int) {
 	C.goglGetMinmaxParameterivEXT((C.GLenum)(target), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func HistogramEXT(target Enum, width Sizei, internalformat Enum, sink Boolean)  {
+func HistogramEXT(target Enum, width Sizei, internalformat Enum, sink Boolean) {
 	C.goglHistogramEXT((C.GLenum)(target), (C.GLsizei)(width), (C.GLenum)(internalformat), (C.GLboolean)(sink))
 }
-func MinmaxEXT(target Enum, internalformat Enum, sink Boolean)  {
+func MinmaxEXT(target Enum, internalformat Enum, sink Boolean) {
 	C.goglMinmaxEXT((C.GLenum)(target), (C.GLenum)(internalformat), (C.GLboolean)(sink))
 }
-func ResetHistogramEXT(target Enum)  {
+func ResetHistogramEXT(target Enum) {
 	C.goglResetHistogramEXT((C.GLenum)(target))
 }
-func ResetMinmaxEXT(target Enum)  {
+func ResetMinmaxEXT(target Enum) {
 	C.goglResetMinmaxEXT((C.GLenum)(target))
 }
+
 // EXT_index_array_formats
 
 // EXT_index_func
 
-func IndexFuncEXT(func_ Enum, ref Clampf)  {
+func IndexFuncEXT(func_ Enum, ref Clampf) {
 	C.goglIndexFuncEXT((C.GLenum)(func_), (C.GLclampf)(ref))
 }
+
 // EXT_index_material
 
-func IndexMaterialEXT(face Enum, mode Enum)  {
+func IndexMaterialEXT(face Enum, mode Enum) {
 	C.goglIndexMaterialEXT((C.GLenum)(face), (C.GLenum)(mode))
 }
+
 // EXT_index_texture
 
 // EXT_light_texture
 
-func ApplyTextureEXT(mode Enum)  {
+func ApplyTextureEXT(mode Enum) {
 	C.goglApplyTextureEXT((C.GLenum)(mode))
 }
-func TextureLightEXT(pname Enum)  {
+func TextureLightEXT(pname Enum) {
 	C.goglTextureLightEXT((C.GLenum)(pname))
 }
-func TextureMaterialEXT(face Enum, mode Enum)  {
+func TextureMaterialEXT(face Enum, mode Enum) {
 	C.goglTextureMaterialEXT((C.GLenum)(face), (C.GLenum)(mode))
 }
+
 // EXT_misc_attribute
 
 // EXT_multi_draw_arrays
 
-func MultiDrawArraysEXT(mode Enum, first *Int, count *Sizei, primcount Sizei)  {
+func MultiDrawArraysEXT(mode Enum, first *Int, count *Sizei, primcount Sizei) {
 	C.goglMultiDrawArraysEXT((C.GLenum)(mode), (*C.GLint)(first), (*C.GLsizei)(count), (C.GLsizei)(primcount))
 }
-func MultiDrawElementsEXT(mode Enum, count *Sizei, type_ Enum, indices *Pointer, primcount Sizei)  {
+func MultiDrawElementsEXT(mode Enum, count *Sizei, type_ Enum, indices *Pointer, primcount Sizei) {
 	C.goglMultiDrawElementsEXT((C.GLenum)(mode), (*C.GLsizei)(count), (C.GLenum)(type_), (*unsafe.Pointer)(indices), (C.GLsizei)(primcount))
 }
+
 // EXT_multisample
 
-func SampleMaskEXT(value Clampf, invert Boolean)  {
+func SampleMaskEXT(value Clampf, invert Boolean) {
 	C.goglSampleMaskEXT((C.GLclampf)(value), (C.GLboolean)(invert))
 }
-func SamplePatternEXT(pattern Enum)  {
+func SamplePatternEXT(pattern Enum) {
 	C.goglSamplePatternEXT((C.GLenum)(pattern))
 }
+
 // EXT_packed_depth_stencil
 
 // EXT_packed_float
@@ -5908,177 +6016,190 @@ func SamplePatternEXT(pattern Enum)  {
 
 // EXT_paletted_texture
 
-func ColorTableEXT(target Enum, internalFormat Enum, width Sizei, format Enum, type_ Enum, table Pointer)  {
+func ColorTableEXT(target Enum, internalFormat Enum, width Sizei, format Enum, type_ Enum, table Pointer) {
 	C.goglColorTableEXT((C.GLenum)(target), (C.GLenum)(internalFormat), (C.GLsizei)(width), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(table))
 }
-func GetColorTableEXT(target Enum, format Enum, type_ Enum, data Pointer)  {
+func GetColorTableEXT(target Enum, format Enum, type_ Enum, data Pointer) {
 	C.goglGetColorTableEXT((C.GLenum)(target), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(data))
 }
-func GetColorTableParameterivEXT(target Enum, pname Enum, params *Int)  {
+func GetColorTableParameterivEXT(target Enum, pname Enum, params *Int) {
 	C.goglGetColorTableParameterivEXT((C.GLenum)(target), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetColorTableParameterfvEXT(target Enum, pname Enum, params *Float)  {
+func GetColorTableParameterfvEXT(target Enum, pname Enum, params *Float) {
 	C.goglGetColorTableParameterfvEXT((C.GLenum)(target), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
+
 // EXT_pixel_buffer_object
 
 // EXT_pixel_transform
 
-func PixelTransformParameteriEXT(target Enum, pname Enum, param Int)  {
+func PixelTransformParameteriEXT(target Enum, pname Enum, param Int) {
 	C.goglPixelTransformParameteriEXT((C.GLenum)(target), (C.GLenum)(pname), (C.GLint)(param))
 }
-func PixelTransformParameterfEXT(target Enum, pname Enum, param Float)  {
+func PixelTransformParameterfEXT(target Enum, pname Enum, param Float) {
 	C.goglPixelTransformParameterfEXT((C.GLenum)(target), (C.GLenum)(pname), (C.GLfloat)(param))
 }
-func PixelTransformParameterivEXT(target Enum, pname Enum, params *Int)  {
+func PixelTransformParameterivEXT(target Enum, pname Enum, params *Int) {
 	C.goglPixelTransformParameterivEXT((C.GLenum)(target), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func PixelTransformParameterfvEXT(target Enum, pname Enum, params *Float)  {
+func PixelTransformParameterfvEXT(target Enum, pname Enum, params *Float) {
 	C.goglPixelTransformParameterfvEXT((C.GLenum)(target), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
-func GetPixelTransformParameterivEXT(target Enum, pname Enum, params *Int)  {
+func GetPixelTransformParameterivEXT(target Enum, pname Enum, params *Int) {
 	C.goglGetPixelTransformParameterivEXT((C.GLenum)(target), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetPixelTransformParameterfvEXT(target Enum, pname Enum, params *Float)  {
+func GetPixelTransformParameterfvEXT(target Enum, pname Enum, params *Float) {
 	C.goglGetPixelTransformParameterfvEXT((C.GLenum)(target), (C.GLenum)(pname), (*C.GLfloat)(params))
 }
+
 // EXT_pixel_transform_color_table
 
 // EXT_point_parameters
 
-func PointParameterfEXT(pname Enum, param Float)  {
+func PointParameterfEXT(pname Enum, param Float) {
 	C.goglPointParameterfEXT((C.GLenum)(pname), (C.GLfloat)(param))
 }
-func PointParameterfvEXT(pname Enum, params *Float)  {
+func PointParameterfvEXT(pname Enum, params *Float) {
 	C.goglPointParameterfvEXT((C.GLenum)(pname), (*C.GLfloat)(params))
 }
+
 // EXT_polygon_offset
 
-func PolygonOffsetEXT(factor Float, bias Float)  {
+func PolygonOffsetEXT(factor Float, bias Float) {
 	C.goglPolygonOffsetEXT((C.GLfloat)(factor), (C.GLfloat)(bias))
 }
+
 // EXT_provoking_vertex
 
-func ProvokingVertexEXT(mode Enum)  {
+func ProvokingVertexEXT(mode Enum) {
 	C.goglProvokingVertexEXT((C.GLenum)(mode))
 }
+
 // EXT_rescale_normal
 
 // EXT_secondary_color
 
-func SecondaryColor3bEXT(red Byte, green Byte, blue Byte)  {
+func SecondaryColor3bEXT(red Byte, green Byte, blue Byte) {
 	C.goglSecondaryColor3bEXT((C.GLbyte)(red), (C.GLbyte)(green), (C.GLbyte)(blue))
 }
-func SecondaryColor3bvEXT(v *Byte)  {
+func SecondaryColor3bvEXT(v *Byte) {
 	C.goglSecondaryColor3bvEXT((*C.GLbyte)(v))
 }
-func SecondaryColor3dEXT(red Double, green Double, blue Double)  {
+func SecondaryColor3dEXT(red Double, green Double, blue Double) {
 	C.goglSecondaryColor3dEXT((C.GLdouble)(red), (C.GLdouble)(green), (C.GLdouble)(blue))
 }
-func SecondaryColor3dvEXT(v *Double)  {
+func SecondaryColor3dvEXT(v *Double) {
 	C.goglSecondaryColor3dvEXT((*C.GLdouble)(v))
 }
-func SecondaryColor3fEXT(red Float, green Float, blue Float)  {
+func SecondaryColor3fEXT(red Float, green Float, blue Float) {
 	C.goglSecondaryColor3fEXT((C.GLfloat)(red), (C.GLfloat)(green), (C.GLfloat)(blue))
 }
-func SecondaryColor3fvEXT(v *Float)  {
+func SecondaryColor3fvEXT(v *Float) {
 	C.goglSecondaryColor3fvEXT((*C.GLfloat)(v))
 }
-func SecondaryColor3iEXT(red Int, green Int, blue Int)  {
+func SecondaryColor3iEXT(red Int, green Int, blue Int) {
 	C.goglSecondaryColor3iEXT((C.GLint)(red), (C.GLint)(green), (C.GLint)(blue))
 }
-func SecondaryColor3ivEXT(v *Int)  {
+func SecondaryColor3ivEXT(v *Int) {
 	C.goglSecondaryColor3ivEXT((*C.GLint)(v))
 }
-func SecondaryColor3sEXT(red Short, green Short, blue Short)  {
+func SecondaryColor3sEXT(red Short, green Short, blue Short) {
 	C.goglSecondaryColor3sEXT((C.GLshort)(red), (C.GLshort)(green), (C.GLshort)(blue))
 }
-func SecondaryColor3svEXT(v *Short)  {
+func SecondaryColor3svEXT(v *Short) {
 	C.goglSecondaryColor3svEXT((*C.GLshort)(v))
 }
-func SecondaryColor3ubEXT(red Ubyte, green Ubyte, blue Ubyte)  {
+func SecondaryColor3ubEXT(red Ubyte, green Ubyte, blue Ubyte) {
 	C.goglSecondaryColor3ubEXT((C.GLubyte)(red), (C.GLubyte)(green), (C.GLubyte)(blue))
 }
-func SecondaryColor3ubvEXT(v *Ubyte)  {
+func SecondaryColor3ubvEXT(v *Ubyte) {
 	C.goglSecondaryColor3ubvEXT((*C.GLubyte)(v))
 }
-func SecondaryColor3uiEXT(red Uint, green Uint, blue Uint)  {
+func SecondaryColor3uiEXT(red Uint, green Uint, blue Uint) {
 	C.goglSecondaryColor3uiEXT((C.GLuint)(red), (C.GLuint)(green), (C.GLuint)(blue))
 }
-func SecondaryColor3uivEXT(v *Uint)  {
+func SecondaryColor3uivEXT(v *Uint) {
 	C.goglSecondaryColor3uivEXT((*C.GLuint)(v))
 }
-func SecondaryColor3usEXT(red Ushort, green Ushort, blue Ushort)  {
+func SecondaryColor3usEXT(red Ushort, green Ushort, blue Ushort) {
 	C.goglSecondaryColor3usEXT((C.GLushort)(red), (C.GLushort)(green), (C.GLushort)(blue))
 }
-func SecondaryColor3usvEXT(v *Ushort)  {
+func SecondaryColor3usvEXT(v *Ushort) {
 	C.goglSecondaryColor3usvEXT((*C.GLushort)(v))
 }
-func SecondaryColorPointerEXT(size Int, type_ Enum, stride Sizei, pointer Pointer)  {
+func SecondaryColorPointerEXT(size Int, type_ Enum, stride Sizei, pointer Pointer) {
 	C.goglSecondaryColorPointerEXT((C.GLint)(size), (C.GLenum)(type_), (C.GLsizei)(stride), (unsafe.Pointer)(pointer))
 }
+
 // EXT_separate_shader_objects
 
-func UseShaderProgramEXT(type_ Enum, program Uint)  {
+func UseShaderProgramEXT(type_ Enum, program Uint) {
 	C.goglUseShaderProgramEXT((C.GLenum)(type_), (C.GLuint)(program))
 }
-func ActiveProgramEXT(program Uint)  {
+func ActiveProgramEXT(program Uint) {
 	C.goglActiveProgramEXT((C.GLuint)(program))
 }
 func CreateShaderProgramEXT(type_ Enum, string_ *Char) Uint {
 	return (Uint)(C.goglCreateShaderProgramEXT((C.GLenum)(type_), (*C.GLchar)(string_)))
 }
+
 // EXT_separate_specular_color
 
 // EXT_shader_image_load_store
 
-func BindImageTextureEXT(index Uint, texture Uint, level Int, layered Boolean, layer Int, access Enum, format Int)  {
+func BindImageTextureEXT(index Uint, texture Uint, level Int, layered Boolean, layer Int, access Enum, format Int) {
 	C.goglBindImageTextureEXT((C.GLuint)(index), (C.GLuint)(texture), (C.GLint)(level), (C.GLboolean)(layered), (C.GLint)(layer), (C.GLenum)(access), (C.GLint)(format))
 }
-func MemoryBarrierEXT(barriers Bitfield)  {
+func MemoryBarrierEXT(barriers Bitfield) {
 	C.goglMemoryBarrierEXT((C.GLbitfield)(barriers))
 }
+
 // EXT_shadow_funcs
 
 // EXT_shared_texture_palette
 
 // EXT_stencil_clear_tag
 
-func StencilClearTagEXT(stencilTagBits Sizei, stencilClearTag Uint)  {
+func StencilClearTagEXT(stencilTagBits Sizei, stencilClearTag Uint) {
 	C.goglStencilClearTagEXT((C.GLsizei)(stencilTagBits), (C.GLuint)(stencilClearTag))
 }
+
 // EXT_stencil_two_side
 
-func ActiveStencilFaceEXT(face Enum)  {
+func ActiveStencilFaceEXT(face Enum) {
 	C.goglActiveStencilFaceEXT((C.GLenum)(face))
 }
+
 // EXT_stencil_wrap
 
 // EXT_subtexture
 
-func TexSubImage1DEXT(target Enum, level Int, xoffset Int, width Sizei, format Enum, type_ Enum, pixels Pointer)  {
+func TexSubImage1DEXT(target Enum, level Int, xoffset Int, width Sizei, format Enum, type_ Enum, pixels Pointer) {
 	C.goglTexSubImage1DEXT((C.GLenum)(target), (C.GLint)(level), (C.GLint)(xoffset), (C.GLsizei)(width), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(pixels))
 }
-func TexSubImage2DEXT(target Enum, level Int, xoffset Int, yoffset Int, width Sizei, height Sizei, format Enum, type_ Enum, pixels Pointer)  {
+func TexSubImage2DEXT(target Enum, level Int, xoffset Int, yoffset Int, width Sizei, height Sizei, format Enum, type_ Enum, pixels Pointer) {
 	C.goglTexSubImage2DEXT((C.GLenum)(target), (C.GLint)(level), (C.GLint)(xoffset), (C.GLint)(yoffset), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(pixels))
 }
+
 // EXT_texture
 
 // EXT_texture3D
 
-func TexImage3DEXT(target Enum, level Int, internalformat Enum, width Sizei, height Sizei, depth Sizei, border Int, format Enum, type_ Enum, pixels Pointer)  {
+func TexImage3DEXT(target Enum, level Int, internalformat Enum, width Sizei, height Sizei, depth Sizei, border Int, format Enum, type_ Enum, pixels Pointer) {
 	C.goglTexImage3DEXT((C.GLenum)(target), (C.GLint)(level), (C.GLenum)(internalformat), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLsizei)(depth), (C.GLint)(border), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(pixels))
 }
-func TexSubImage3DEXT(target Enum, level Int, xoffset Int, yoffset Int, zoffset Int, width Sizei, height Sizei, depth Sizei, format Enum, type_ Enum, pixels Pointer)  {
+func TexSubImage3DEXT(target Enum, level Int, xoffset Int, yoffset Int, zoffset Int, width Sizei, height Sizei, depth Sizei, format Enum, type_ Enum, pixels Pointer) {
 	C.goglTexSubImage3DEXT((C.GLenum)(target), (C.GLint)(level), (C.GLint)(xoffset), (C.GLint)(yoffset), (C.GLint)(zoffset), (C.GLsizei)(width), (C.GLsizei)(height), (C.GLsizei)(depth), (C.GLenum)(format), (C.GLenum)(type_), (unsafe.Pointer)(pixels))
 }
+
 // EXT_texture_array
 
 // EXT_texture_buffer_object
 
-func TexBufferEXT(target Enum, internalformat Enum, buffer Uint)  {
+func TexBufferEXT(target Enum, internalformat Enum, buffer Uint) {
 	C.goglTexBufferEXT((C.GLenum)(target), (C.GLenum)(internalformat), (C.GLuint)(buffer))
 }
+
 // EXT_texture_compression_latc
 
 // EXT_texture_compression_rgtc
@@ -6093,24 +6214,25 @@ func TexBufferEXT(target Enum, internalformat Enum, buffer Uint)  {
 
 // EXT_texture_integer
 
-func TexParameterIivEXT(target Enum, pname Enum, params *Int)  {
+func TexParameterIivEXT(target Enum, pname Enum, params *Int) {
 	C.goglTexParameterIivEXT((C.GLenum)(target), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func TexParameterIuivEXT(target Enum, pname Enum, params *Uint)  {
+func TexParameterIuivEXT(target Enum, pname Enum, params *Uint) {
 	C.goglTexParameterIuivEXT((C.GLenum)(target), (C.GLenum)(pname), (*C.GLuint)(params))
 }
-func GetTexParameterIivEXT(target Enum, pname Enum, params *Int)  {
+func GetTexParameterIivEXT(target Enum, pname Enum, params *Int) {
 	C.goglGetTexParameterIivEXT((C.GLenum)(target), (C.GLenum)(pname), (*C.GLint)(params))
 }
-func GetTexParameterIuivEXT(target Enum, pname Enum, params *Uint)  {
+func GetTexParameterIuivEXT(target Enum, pname Enum, params *Uint) {
 	C.goglGetTexParameterIuivEXT((C.GLenum)(target), (C.GLenum)(pname), (*C.GLuint)(params))
 }
-func ClearColorIiEXT(red Int, green Int, blue Int, alpha Int)  {
+func ClearColorIiEXT(red Int, green Int, blue Int, alpha Int) {
 	C.goglClearColorIiEXT((C.GLint)(red), (C.GLint)(green), (C.GLint)(blue), (C.GLint)(alpha))
 }
-func ClearColorIuiEXT(red Uint, green Uint, blue Uint, alpha Uint)  {
+func ClearColorIuiEXT(red Uint, green Uint, blue Uint, alpha Uint) {
 	C.goglClearColorIuiEXT((C.GLuint)(red), (C.GLuint)(green), (C.GLuint)(blue), (C.GLuint)(alpha))
 }
+
 // EXT_texture_lod_bias
 
 // EXT_texture_mirror_clamp
@@ -6120,26 +6242,28 @@ func ClearColorIuiEXT(red Uint, green Uint, blue Uint, alpha Uint)  {
 func AreTexturesResidentEXT(n Sizei, textures *Uint, residences *Boolean) Boolean {
 	return (Boolean)(C.goglAreTexturesResidentEXT((C.GLsizei)(n), (*C.GLuint)(textures), (*C.GLboolean)(residences)))
 }
-func BindTextureEXT(target Enum, texture Uint)  {
+func BindTextureEXT(target Enum, texture Uint) {
 	C.goglBindTextureEXT((C.GLenum)(target), (C.GLuint)(texture))
 }
-func DeleteTexturesEXT(n Sizei, textures *Uint)  {
+func DeleteTexturesEXT(n Sizei, textures *Uint) {
 	C.goglDeleteTexturesEXT((C.GLsizei)(n), (*C.GLuint)(textures))
 }
-func GenTexturesEXT(n Sizei, textures *Uint)  {
+func GenTexturesEXT(n Sizei, textures *Uint) {
 	C.goglGenTexturesEXT((C.GLsizei)(n), (*C.GLuint)(textures))
 }
 func IsTextureEXT(texture Uint) Boolean {
 	return (Boolean)(C.goglIsTextureEXT((C.GLuint)(texture)))
 }
-func PrioritizeTexturesEXT(n Sizei, textures *Uint, priorities *Clampf)  {
+func PrioritizeTexturesEXT(n Sizei, textures *Uint, priorities *Clampf) {
 	C.goglPrioritizeTexturesEXT((C.GLsizei)(n), (*C.GLuint)(textures), (*C.GLclampf)(priorities))
 }
+
 // EXT_texture_perturb_normal
 
-func TextureNormalEXT(mode Enum)  {
+func TextureNormalEXT(mode Enum) {
 	C.goglTextureNormalEXT((C.GLenum)(mode))
 }
+
 // EXT_texture_sRGB
 
 // EXT_texture_sRGB_decode
@@ -6152,179 +6276,183 @@ func TextureNormalEXT(mode Enum)  {
 
 // EXT_timer_query
 
-func GetQueryObjecti64vEXT(id Uint, pname Enum, params *Int64)  {
+func GetQueryObjecti64vEXT(id Uint, pname Enum, params *Int64) {
 	C.goglGetQueryObjecti64vEXT((C.GLuint)(id), (C.GLenum)(pname), (*C.GLint64EXT)(params))
 }
-func GetQueryObjectui64vEXT(id Uint, pname Enum, params *Uint64)  {
+func GetQueryObjectui64vEXT(id Uint, pname Enum, params *Uint64) {
 	C.goglGetQueryObjectui64vEXT((C.GLuint)(id), (C.GLenum)(pname), (*C.GLuint64EXT)(params))
 }
+
 // EXT_transform_feedback
 
-func BeginTransformFeedbackEXT(primitiveMode Enum)  {
+func BeginTransformFeedbackEXT(primitiveMode Enum) {
 	C.goglBeginTransformFeedbackEXT((C.GLenum)(primitiveMode))
 }
-func EndTransformFeedbackEXT()  {
+func EndTransformFeedbackEXT() {
 	C.goglEndTransformFeedbackEXT()
 }
-func BindBufferRangeEXT(target Enum, index Uint, buffer Uint, offset Intptr, size Sizeiptr)  {
+func BindBufferRangeEXT(target Enum, index Uint, buffer Uint, offset Intptr, size Sizeiptr) {
 	C.goglBindBufferRangeEXT((C.GLenum)(target), (C.GLuint)(index), (C.GLuint)(buffer), (C.GLintptr)(offset), (C.GLsizeiptr)(size))
 }
-func BindBufferOffsetEXT(target Enum, index Uint, buffer Uint, offset Intptr)  {
+func BindBufferOffsetEXT(target Enum, index Uint, buffer Uint, offset Intptr) {
 	C.goglBindBufferOffsetEXT((C.GLenum)(target), (C.GLuint)(index), (C.GLuint)(buffer), (C.GLintptr)(offset))
 }
-func BindBufferBaseEXT(target Enum, index Uint, buffer Uint)  {
+func BindBufferBaseEXT(target Enum, index Uint, buffer Uint) {
 	C.goglBindBufferBaseEXT((C.GLenum)(target), (C.GLuint)(index), (C.GLuint)(buffer))
 }
-func TransformFeedbackVaryingsEXT(program Uint, count Sizei, varyings **Char, bufferMode Enum)  {
+func TransformFeedbackVaryingsEXT(program Uint, count Sizei, varyings **Char, bufferMode Enum) {
 	C.goglTransformFeedbackVaryingsEXT((C.GLuint)(program), (C.GLsizei)(count), (**C.GLchar)(unsafe.Pointer(varyings)), (C.GLenum)(bufferMode))
 }
-func GetTransformFeedbackVaryingEXT(program Uint, index Uint, bufSize Sizei, length *Sizei, size *Sizei, type_ *Enum, name *Char)  {
+func GetTransformFeedbackVaryingEXT(program Uint, index Uint, bufSize Sizei, length *Sizei, size *Sizei, type_ *Enum, name *Char) {
 	C.goglGetTransformFeedbackVaryingEXT((C.GLuint)(program), (C.GLuint)(index), (C.GLsizei)(bufSize), (*C.GLsizei)(length), (*C.GLsizei)(size), (*C.GLenum)(type_), (*C.GLchar)(name))
 }
+
 // EXT_vertex_array
 
-func ArrayElementEXT(i Int)  {
+func ArrayElementEXT(i Int) {
 	C.goglArrayElementEXT((C.GLint)(i))
 }
-func ColorPointerEXT(size Int, type_ Enum, stride Sizei, count Sizei, pointer Pointer)  {
+func ColorPointerEXT(size Int, type_ Enum, stride Sizei, count Sizei, pointer Pointer) {
 	C.goglColorPointerEXT((C.GLint)(size), (C.GLenum)(type_), (C.GLsizei)(stride), (C.GLsizei)(count), (unsafe.Pointer)(pointer))
 }
-func DrawArraysEXT(mode Enum, first Int, count Sizei)  {
+func DrawArraysEXT(mode Enum, first Int, count Sizei) {
 	C.goglDrawArraysEXT((C.GLenum)(mode), (C.GLint)(first), (C.GLsizei)(count))
 }
-func EdgeFlagPointerEXT(stride Sizei, count Sizei, pointer *Boolean)  {
+func EdgeFlagPointerEXT(stride Sizei, count Sizei, pointer *Boolean) {
 	C.goglEdgeFlagPointerEXT((C.GLsizei)(stride), (C.GLsizei)(count), (*C.GLboolean)(pointer))
 }
-func GetPointervEXT(pname Enum, params *Pointer)  {
+func GetPointervEXT(pname Enum, params *Pointer) {
 	C.goglGetPointervEXT((C.GLenum)(pname), (*unsafe.Pointer)(params))
 }
-func IndexPointerEXT(type_ Enum, stride Sizei, count Sizei, pointer Pointer)  {
+func IndexPointerEXT(type_ Enum, stride Sizei, count Sizei, pointer Pointer) {
 	C.goglIndexPointerEXT((C.GLenum)(type_), (C.GLsizei)(stride), (C.GLsizei)(count), (unsafe.Pointer)(pointer))
 }
-func NormalPointerEXT(type_ Enum, stride Sizei, count Sizei, pointer Pointer)  {
+func NormalPointerEXT(type_ Enum, stride Sizei, count Sizei, pointer Pointer) {
 	C.goglNormalPointerEXT((C.GLenum)(type_), (C.GLsizei)(stride), (C.GLsizei)(count), (unsafe.Pointer)(pointer))
 }
-func TexCoordPointerEXT(size Int, type_ Enum, stride Sizei, count Sizei, pointer Pointer)  {
+func TexCoordPointerEXT(size Int, type_ Enum, stride Sizei, count Sizei, pointer Pointer) {
 	C.goglTexCoordPointerEXT((C.GLint)(size), (C.GLenum)(type_), (C.GLsizei)(stride), (C.GLsizei)(count), (unsafe.Pointer)(pointer))
 }
-func VertexPointerEXT(size Int, type_ Enum, stride Sizei, count Sizei, pointer Pointer)  {
+func VertexPointerEXT(size Int, type_ Enum, stride Sizei, count Sizei, pointer Pointer) {
 	C.goglVertexPointerEXT((C.GLint)(size), (C.GLenum)(type_), (C.GLsizei)(stride), (C.GLsizei)(count), (unsafe.Pointer)(pointer))
 }
+
 // EXT_vertex_array_bgra
 
 // EXT_vertex_attrib_64bit
 
-func VertexAttribL1dEXT(index Uint, x Double)  {
+func VertexAttribL1dEXT(index Uint, x Double) {
 	C.goglVertexAttribL1dEXT((C.GLuint)(index), (C.GLdouble)(x))
 }
-func VertexAttribL2dEXT(index Uint, x Double, y Double)  {
+func VertexAttribL2dEXT(index Uint, x Double, y Double) {
 	C.goglVertexAttribL2dEXT((C.GLuint)(index), (C.GLdouble)(x), (C.GLdouble)(y))
 }
-func VertexAttribL3dEXT(index Uint, x Double, y Double, z Double)  {
+func VertexAttribL3dEXT(index Uint, x Double, y Double, z Double) {
 	C.goglVertexAttribL3dEXT((C.GLuint)(index), (C.GLdouble)(x), (C.GLdouble)(y), (C.GLdouble)(z))
 }
-func VertexAttribL4dEXT(index Uint, x Double, y Double, z Double, w Double)  {
+func VertexAttribL4dEXT(index Uint, x Double, y Double, z Double, w Double) {
 	C.goglVertexAttribL4dEXT((C.GLuint)(index), (C.GLdouble)(x), (C.GLdouble)(y), (C.GLdouble)(z), (C.GLdouble)(w))
 }
-func VertexAttribL1dvEXT(index Uint, v *Double)  {
+func VertexAttribL1dvEXT(index Uint, v *Double) {
 	C.goglVertexAttribL1dvEXT((C.GLuint)(index), (*C.GLdouble)(v))
 }
-func VertexAttribL2dvEXT(index Uint, v *Double)  {
+func VertexAttribL2dvEXT(index Uint, v *Double) {
 	C.goglVertexAttribL2dvEXT((C.GLuint)(index), (*C.GLdouble)(v))
 }
-func VertexAttribL3dvEXT(index Uint, v *Double)  {
+func VertexAttribL3dvEXT(index Uint, v *Double) {
 	C.goglVertexAttribL3dvEXT((C.GLuint)(index), (*C.GLdouble)(v))
 }
-func VertexAttribL4dvEXT(index Uint, v *Double)  {
+func VertexAttribL4dvEXT(index Uint, v *Double) {
 	C.goglVertexAttribL4dvEXT((C.GLuint)(index), (*C.GLdouble)(v))
 }
-func VertexAttribLPointerEXT(index Uint, size Int, type_ Enum, stride Sizei, pointer Pointer)  {
+func VertexAttribLPointerEXT(index Uint, size Int, type_ Enum, stride Sizei, pointer Pointer) {
 	C.goglVertexAttribLPointerEXT((C.GLuint)(index), (C.GLint)(size), (C.GLenum)(type_), (C.GLsizei)(stride), (unsafe.Pointer)(pointer))
 }
-func GetVertexAttribLdvEXT(index Uint, pname Enum, params *Double)  {
+func GetVertexAttribLdvEXT(index Uint, pname Enum, params *Double) {
 	C.goglGetVertexAttribLdvEXT((C.GLuint)(index), (C.GLenum)(pname), (*C.GLdouble)(params))
 }
-func VertexArrayVertexAttribLOffsetEXT(vaobj Uint, buffer Uint, index Uint, size Int, type_ Enum, stride Sizei, offset Intptr)  {
+func VertexArrayVertexAttribLOffsetEXT(vaobj Uint, buffer Uint, index Uint, size Int, type_ Enum, stride Sizei, offset Intptr) {
 	C.goglVertexArrayVertexAttribLOffsetEXT((C.GLuint)(vaobj), (C.GLuint)(buffer), (C.GLuint)(index), (C.GLint)(size), (C.GLenum)(type_), (C.GLsizei)(stride), (C.GLintptr)(offset))
 }
+
 // EXT_vertex_shader
 
-func BeginVertexShaderEXT()  {
+func BeginVertexShaderEXT() {
 	C.goglBeginVertexShaderEXT()
 }
-func EndVertexShaderEXT()  {
+func EndVertexShaderEXT() {
 	C.goglEndVertexShaderEXT()
 }
-func BindVertexShaderEXT(id Uint)  {
+func BindVertexShaderEXT(id Uint) {
 	C.goglBindVertexShaderEXT((C.GLuint)(id))
 }
 func GenVertexShadersEXT(range_ Uint) Uint {
 	return (Uint)(C.goglGenVertexShadersEXT((C.GLuint)(range_)))
 }
-func DeleteVertexShaderEXT(id Uint)  {
+func DeleteVertexShaderEXT(id Uint) {
 	C.goglDeleteVertexShaderEXT((C.GLuint)(id))
 }
-func ShaderOp1EXT(op Enum, res Uint, arg1 Uint)  {
+func ShaderOp1EXT(op Enum, res Uint, arg1 Uint) {
 	C.goglShaderOp1EXT((C.GLenum)(op), (C.GLuint)(res), (C.GLuint)(arg1))
 }
-func ShaderOp2EXT(op Enum, res Uint, arg1 Uint, arg2 Uint)  {
+func ShaderOp2EXT(op Enum, res Uint, arg1 Uint, arg2 Uint) {
 	C.goglShaderOp2EXT((C.GLenum)(op), (C.GLuint)(res), (C.GLuint)(arg1), (C.GLuint)(arg2))
 }
-func ShaderOp3EXT(op Enum, res Uint, arg1 Uint, arg2 Uint, arg3 Uint)  {
+func ShaderOp3EXT(op Enum, res Uint, arg1 Uint, arg2 Uint, arg3 Uint) {
 	C.goglShaderOp3EXT((C.GLenum)(op), (C.GLuint)(res), (C.GLuint)(arg1), (C.GLuint)(arg2), (C.GLuint)(arg3))
 }
-func SwizzleEXT(res Uint, in Uint, outX Enum, outY Enum, outZ Enum, outW Enum)  {
+func SwizzleEXT(res Uint, in Uint, outX Enum, outY Enum, outZ Enum, outW Enum) {
 	C.goglSwizzleEXT((C.GLuint)(res), (C.GLuint)(in), (C.GLenum)(outX), (C.GLenum)(outY), (C.GLenum)(outZ), (C.GLenum)(outW))
 }
-func WriteMaskEXT(res Uint, in Uint, outX Enum, outY Enum, outZ Enum, outW Enum)  {
+func WriteMaskEXT(res Uint, in Uint, outX Enum, outY Enum, outZ Enum, outW Enum) {
 	C.goglWriteMaskEXT((C.GLuint)(res), (C.GLuint)(in), (C.GLenum)(outX), (C.GLenum)(outY), (C.GLenum)(outZ), (C.GLenum)(outW))
 }
-func InsertComponentEXT(res Uint, src Uint, num Uint)  {
+func InsertComponentEXT(res Uint, src Uint, num Uint) {
 	C.goglInsertComponentEXT((C.GLuint)(res), (C.GLuint)(src), (C.GLuint)(num))
 }
-func ExtractComponentEXT(res Uint, src Uint, num Uint)  {
+func ExtractComponentEXT(res Uint, src Uint, num Uint) {
 	C.goglExtractComponentEXT((C.GLuint)(res), (C.GLuint)(src), (C.GLuint)(num))
 }
 func GenSymbolsEXT(datatype Enum, storagetype Enum, range_ Enum, components Uint) Uint {
 	return (Uint)(C.goglGenSymbolsEXT((C.GLenum)(datatype), (C.GLenum)(storagetype), (C.GLenum)(range_), (C.GLuint)(components)))
 }
-func SetInvariantEXT(id Uint, type_ Enum, addr Pointer)  {
+func SetInvariantEXT(id Uint, type_ Enum, addr Pointer) {
 	C.goglSetInvariantEXT((C.GLuint)(id), (C.GLenum)(type_), (unsafe.Pointer)(addr))
 }
-func SetLocalConstantEXT(id Uint, type_ Enum, addr Pointer)  {
+func SetLocalConstantEXT(id Uint, type_ Enum, addr Pointer) {
 	C.goglSetLocalConstantEXT((C.GLuint)(id), (C.GLenum)(type_), (unsafe.Pointer)(addr))
 }
-func VariantbvEXT(id Uint, addr *Byte)  {
+func VariantbvEXT(id Uint, addr *Byte) {
 	C.goglVariantbvEXT((C.GLuint)(id), (*C.GLbyte)(addr))
 }
-func VariantsvEXT(id Uint, addr *Short)  {
+func VariantsvEXT(id Uint, addr *Short) {
 	C.goglVariantsvEXT((C.GLuint)(id), (*C.GLshort)(addr))
 }
-func VariantivEXT(id Uint, addr *Int)  {
+func VariantivEXT(id Uint, addr *Int) {
 	C.goglVariantivEXT((C.GLuint)(id), (*C.GLint)(addr))
 }
-func VariantfvEXT(id Uint, addr *Float)  {
+func VariantfvEXT(id Uint, addr *Float) {
 	C.goglVariantfvEXT((C.GLuint)(id), (*C.GLfloat)(addr))
 }
-func VariantdvEXT(id Uint, addr *Double)  {
+func VariantdvEXT(id Uint, addr *Double) {
 	C.goglVariantdvEXT((C.GLuint)(id), (*C.GLdouble)(addr))
 }
-func VariantubvEXT(id Uint, addr *Ubyte)  {
+func VariantubvEXT(id Uint, addr *Ubyte) {
 	C.goglVariantubvEXT((C.GLuint)(id), (*C.GLubyte)(addr))
 }
-func VariantusvEXT(id Uint, addr *Ushort)  {
+func VariantusvEXT(id Uint, addr *Ushort) {
 	C.goglVariantusvEXT((C.GLuint)(id), (*C.GLushort)(addr))
 }
-func VariantuivEXT(id Uint, addr *Uint)  {
+func VariantuivEXT(id Uint, addr *Uint) {
 	C.goglVariantuivEXT((C.GLuint)(id), (*C.GLuint)(addr))
 }
-func VariantPointerEXT(id Uint, type_ Enum, stride Uint, addr Pointer)  {
+func VariantPointerEXT(id Uint, type_ Enum, stride Uint, addr Pointer) {
 	C.goglVariantPointerEXT((C.GLuint)(id), (C.GLenum)(type_), (C.GLuint)(stride), (unsafe.Pointer)(addr))
 }
-func EnableVariantClientStateEXT(id Uint)  {
+func EnableVariantClientStateEXT(id Uint) {
 	C.goglEnableVariantClientStateEXT((C.GLuint)(id))
 }
-func DisableVariantClientStateEXT(id Uint)  {
+func DisableVariantClientStateEXT(id Uint) {
 	C.goglDisableVariantClientStateEXT((C.GLuint)(id))
 }
 func BindLightParameterEXT(light Enum, value Enum) Uint {
@@ -6345,47 +6473,49 @@ func BindParameterEXT(value Enum) Uint {
 func IsVariantEnabledEXT(id Uint, cap Enum) Boolean {
 	return (Boolean)(C.goglIsVariantEnabledEXT((C.GLuint)(id), (C.GLenum)(cap)))
 }
-func GetVariantBooleanvEXT(id Uint, value Enum, data *Boolean)  {
+func GetVariantBooleanvEXT(id Uint, value Enum, data *Boolean) {
 	C.goglGetVariantBooleanvEXT((C.GLuint)(id), (C.GLenum)(value), (*C.GLboolean)(data))
 }
-func GetVariantIntegervEXT(id Uint, value Enum, data *Int)  {
+func GetVariantIntegervEXT(id Uint, value Enum, data *Int) {
 	C.goglGetVariantIntegervEXT((C.GLuint)(id), (C.GLenum)(value), (*C.GLint)(data))
 }
-func GetVariantFloatvEXT(id Uint, value Enum, data *Float)  {
+func GetVariantFloatvEXT(id Uint, value Enum, data *Float) {
 	C.goglGetVariantFloatvEXT((C.GLuint)(id), (C.GLenum)(value), (*C.GLfloat)(data))
 }
-func GetVariantPointervEXT(id Uint, value Enum, data *Pointer)  {
+func GetVariantPointervEXT(id Uint, value Enum, data *Pointer) {
 	C.goglGetVariantPointervEXT((C.GLuint)(id), (C.GLenum)(value), (*unsafe.Pointer)(data))
 }
-func GetInvariantBooleanvEXT(id Uint, value Enum, data *Boolean)  {
+func GetInvariantBooleanvEXT(id Uint, value Enum, data *Boolean) {
 	C.goglGetInvariantBooleanvEXT((C.GLuint)(id), (C.GLenum)(value), (*C.GLboolean)(data))
 }
-func GetInvariantIntegervEXT(id Uint, value Enum, data *Int)  {
+func GetInvariantIntegervEXT(id Uint, value Enum, data *Int) {
 	C.goglGetInvariantIntegervEXT((C.GLuint)(id), (C.GLenum)(value), (*C.GLint)(data))
 }
-func GetInvariantFloatvEXT(id Uint, value Enum, data *Float)  {
+func GetInvariantFloatvEXT(id Uint, value Enum, data *Float) {
 	C.goglGetInvariantFloatvEXT((C.GLuint)(id), (C.GLenum)(value), (*C.GLfloat)(data))
 }
-func GetLocalConstantBooleanvEXT(id Uint, value Enum, data *Boolean)  {
+func GetLocalConstantBooleanvEXT(id Uint, value Enum, data *Boolean) {
 	C.goglGetLocalConstantBooleanvEXT((C.GLuint)(id), (C.GLenum)(value), (*C.GLboolean)(data))
 }
-func GetLocalConstantIntegervEXT(id Uint, value Enum, data *Int)  {
+func GetLocalConstantIntegervEXT(id Uint, value Enum, data *Int) {
 	C.goglGetLocalConstantIntegervEXT((C.GLuint)(id), (C.GLenum)(value), (*C.GLint)(data))
 }
-func GetLocalConstantFloatvEXT(id Uint, value Enum, data *Float)  {
+func GetLocalConstantFloatvEXT(id Uint, value Enum, data *Float) {
 	C.goglGetLocalConstantFloatvEXT((C.GLuint)(id), (C.GLenum)(value), (*C.GLfloat)(data))
 }
+
 // EXT_vertex_weighting
 
-func VertexWeightfEXT(weight Float)  {
+func VertexWeightfEXT(weight Float) {
 	C.goglVertexWeightfEXT((C.GLfloat)(weight))
 }
-func VertexWeightfvEXT(weight *Float)  {
+func VertexWeightfvEXT(weight *Float) {
 	C.goglVertexWeightfvEXT((*C.GLfloat)(weight))
 }
-func VertexWeightPointerEXT(size Int, type_ Enum, stride Sizei, pointer Pointer)  {
+func VertexWeightPointerEXT(size Int, type_ Enum, stride Sizei, pointer Pointer) {
 	C.goglVertexWeightPointerEXT((C.GLint)(size), (C.GLenum)(type_), (C.GLsizei)(stride), (unsafe.Pointer)(pointer))
 }
+
 // EXT_x11_sync_object
 
 func ImportSyncEXT(external_sync_type Enum, external_sync Intptr, flags Bitfield) Sync {
@@ -7021,4 +7151,5 @@ func InitExtX11SyncObject() error {
 	}
 	return nil
 }
+
 // EOF

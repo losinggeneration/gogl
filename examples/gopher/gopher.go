@@ -4,12 +4,13 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	gl "github.com/chsc/gogl/gl21"
-	"github.com/jteeuwen/glfw"
 	"image"
 	"image/png"
 	"io"
 	"os"
+
+	gl "github.com/chsc/gogl/gl21"
+	"github.com/jteeuwen/glfw"
 )
 
 const (
@@ -19,11 +20,11 @@ const (
 )
 
 var (
-	texture     gl.Uint
-	rotx, roty  gl.Float
-	ambient     []gl.Float  = []gl.Float{0.5, 0.5, 0.5, 1}
-	diffuse     []gl.Float  = []gl.Float{1, 1, 1, 1}
-	lightpos    []gl.Float  = []gl.Float{-5, 5, 10, 0}
+	texture    gl.Uint
+	rotx, roty gl.Float
+	ambient    []gl.Float = []gl.Float{0.5, 0.5, 0.5, 1}
+	diffuse    []gl.Float = []gl.Float{1, 1, 1, 1}
+	lightpos   []gl.Float = []gl.Float{-5, 5, 10, 0}
 )
 
 func main() {
@@ -78,12 +79,12 @@ func createTexture(r io.Reader) (textureId gl.Uint, err error) {
 
 	// flip image: first pixel is lower left corner
 	imgWidth, imgHeight := img.Bounds().Dx(), img.Bounds().Dy()
-	data := make([]byte, imgWidth * imgHeight * 4)
+	data := make([]byte, imgWidth*imgHeight*4)
 	lineLen := imgWidth * 4
-	dest := len(data)-lineLen
-	for src := 0; src < len(rgbaImg.Pix); src+=rgbaImg.Stride {
+	dest := len(data) - lineLen
+	for src := 0; src < len(rgbaImg.Pix); src += rgbaImg.Stride {
 		copy(data[dest:dest+lineLen], rgbaImg.Pix[src:src+rgbaImg.Stride])
-		dest-=lineLen
+		dest -= lineLen
 	}
 	gl.TexImage2D(gl.TEXTURE_2D, 0, 4, gl.Sizei(imgWidth), gl.Sizei(imgHeight), 0, gl.RGBA, gl.UNSIGNED_BYTE, gl.Pointer(&data[0]))
 
